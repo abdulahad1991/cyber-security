@@ -40,7 +40,7 @@ jobs:
 
       - name: Commit and push data to dev
         run: |
-          git add data/
+          git add -f data/
           git diff --staged --quiet && { echo "No data changes to commit"; exit 0; }
           git commit -m "chore: static scrape $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push origin dev
