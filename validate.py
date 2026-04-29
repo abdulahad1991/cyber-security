@@ -15,7 +15,7 @@ REQUIRED_CATEGORIES = [
 ]
 
 LIVE_MINIMUMS = {
-    "threat_intel": 50,
+    "threat_intel": 200,
     "vulnerabilities": 100,
 }
 

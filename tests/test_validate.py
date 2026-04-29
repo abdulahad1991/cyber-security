@@ -20,7 +20,7 @@ def _make_source(name, entries=None, error=None):
     return s
 
 
-def _write_full_valid_set(d, vulns=150, threat=60):
+def _write_full_valid_set(d, vulns=150, threat=250):
     cats = {
         "risk_compliance": {"category": "risk_compliance", "last_updated": "2026-01-01T00:00:00+00:00",
                              "sources": [_make_source("NIST")]},

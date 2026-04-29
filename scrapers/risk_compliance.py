@@ -4,7 +4,7 @@ from scrapers.base import fetch, html_to_text, extract_sections
 
 NIST_URL = "https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final"
 PCI_URL = "https://www.pcisecuritystandards.org/document_library/"
-ISO_URL = "https://www.iso27001security.com/html/iso27001.html"
+ISO_URL = "https://www.iso27001security.com/html/27001.html"
 CIS_URL = "https://www.cisecurity.org/benchmark/"
 
 
