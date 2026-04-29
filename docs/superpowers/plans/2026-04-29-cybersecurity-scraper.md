@@ -1832,8 +1832,8 @@ jobs:
       - name: Merge dev into main (validation passed)
         if: steps.validate.outputs.passed == 'true'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "abdulahad1991"
+          git config user.email "abdulahad1991@gmail.com"
           git fetch origin main
           git checkout main
           git merge dev --no-edit
