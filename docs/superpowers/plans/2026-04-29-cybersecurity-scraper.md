@@ -96,7 +96,7 @@ Create `data/.gitkeep` — empty file.
 
 - [ ] **Step 5: Install dev dependencies**
 
-Run: `pip install -r requirements.txt -r requirements-dev.txt`
+Run: `pip3 install -r requirements.txt -r requirements-dev.txt`
 Expected: packages install without error
 
 - [ ] **Step 6: Commit**
@@ -1695,10 +1695,10 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip3 install -r requirements.txt
 
       - name: Run live scrapers
-        run: python runner.py --mode live
+        run: python3 runner.py --mode live
 
       - name: Commit and push data to dev
         run: |
@@ -1760,10 +1760,10 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip3 install -r requirements.txt
 
       - name: Run static scrapers
-        run: python runner.py --mode static
+        run: python3 runner.py --mode static
 
       - name: Commit and push data to dev
         run: |
@@ -1819,14 +1819,14 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip3 install -r requirements.txt
 
       - name: Run validation
         id: validate
         run: |
-          python validate.py > validation_result.json || true
+          python3 validate.py > validation_result.json || true
           cat validation_result.json
-          PASSED=$(python -c "import json; d=json.load(open('validation_result.json')); print(str(d['passed']).lower())")
+          PASSED=$(python3 -c "import json; d=json.load(open('validation_result.json')); print(str(d['passed']).lower())")
           echo "passed=$PASSED" >> $GITHUB_OUTPUT
 
       - name: Merge dev into main (validation passed)
@@ -1845,7 +1845,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          SUMMARY=$(python -c "
+          SUMMARY=$(python3 -c "
           import json
           with open('validation_result.json') as f:
               r = json.load(f)
@@ -1919,7 +1919,7 @@ Wait for both to complete. Then go to Actions → "Validate and Promote to Main"
 
 Run:
 ```bash
-curl -s https://abdulahad1991.github.io/cyber-security/data/manifest.json | python -m json.tool
+curl -s https://abdulahad1991.github.io/cyber-security/data/manifest.json | python3 -m json.tool
 ```
 
 Expected: JSON with `updated_at`, `mode`, and `categories` keys
@@ -1927,7 +1927,7 @@ Expected: JSON with `updated_at`, `mode`, and `categories` keys
 - [ ] **Step 6: Verify individual category files**
 
 ```bash
-curl -s https://abdulahad1991.github.io/cyber-security/data/vulnerabilities.json | python -c "
+curl -s https://abdulahad1991.github.io/cyber-security/data/vulnerabilities.json | python3 -c "
 import json, sys
 d = json.load(sys.stdin)
 print('Category:', d['category'])
