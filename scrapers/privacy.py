@@ -3,10 +3,7 @@ from datetime import datetime, timezone
 from scrapers.base import fetch, html_to_text, extract_sections
 
 GDPR_URL = "https://gdpr-info.eu/"
-ICO_URL = (
-    "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/"
-    "accountability-and-governance/guide-to-data-protection-impact-assessments-dpias/"
-)
+ICO_URL = "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/"
 CCPA_URL = "https://oag.ca.gov/privacy/ccpa"
 ENFORCEMENT_URL = "https://www.enforcementtracker.com/"
 
