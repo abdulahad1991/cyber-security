@@ -1,0 +1,74 @@
+name: Validate and Promote to Main
+
+on:
+  push:
+    branches:
+      - dev
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  validate-and-promote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout dev
+        uses: actions/checkout@v4
+        with:
+          ref: dev
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip3 install -r requirements.txt
+
+      - name: Run validation
+        id: validate
+        run: |
+          python3 validate.py > validation_result.json || true
+          cat validation_result.json
+          PASSED=$(python3 -c "import json; d=json.load(open('validation_result.json')); print(str(d['passed']).lower())")
+          echo "passed=$PASSED" >> $GITHUB_OUTPUT
+
+      - name: Merge dev into main (validation passed)
+        if: steps.validate.outputs.passed == 'true'
+        run: |
+          git config user.name "abdulahad1991"
+          git config user.email "abdulahad1991@gmail.com"
+          git fetch origin main
+          git checkout main
+          git merge dev --no-edit
+          git push origin main
+          echo "Promoted dev → main successfully"
+
+      - name: Open PR for manual review (validation failed)
+        if: steps.validate.outputs.passed == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          SUMMARY=$(python3 -c "
+          import json
+          with open('validation_result.json') as f:
+              r = json.load(f)
+          lines = [r['summary']]
+          lines += ['- ERROR: ' + e for e in r['errors']]
+          lines += ['- WARN: ' + w for w in r['warnings']]
+          print('\n'.join(lines))
+          ")
+          gh pr create \
+            --base main \
+            --head dev \
+            --title "Data update (validation failed — manual review needed)" \
+            --body "## Validation Failed
+
+          ${SUMMARY}
+
+          Please review the errors above before merging." \
+            2>/dev/null || echo "PR already exists — skipping creation"
