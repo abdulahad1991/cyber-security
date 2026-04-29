@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 
-from scrapers.base import fetch, html_to_text, extract_sections
+from scrapers.base import fetch, html_to_text, extract_sections_auto
 
 GDPR_URL = "https://gdpr-info.eu/"
 ICO_URL = "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/"
@@ -11,7 +11,7 @@ ENFORCEMENT_URL = "https://www.enforcementtracker.com/"
 def _scrape_source(name: str, url: str, description: str) -> dict:
     try:
         resp = fetch(url)
-        sections = extract_sections(resp.text, "h2")
+        sections = extract_sections_auto(resp.text)
         summary = html_to_text(resp.text)[:3000]
         return {
             "name": name,

@@ -47,6 +47,14 @@ def extract_sections(html: str, heading_tag: str = "h2") -> list[dict]:
     return sections
 
 
+def extract_sections_auto(html: str) -> list[dict]:
+    for tag in ("h2", "h3", "h4"):
+        sections = extract_sections(html, tag)
+        if sections:
+            return sections
+    return []
+
+
 def write_json(category: str, data: dict[str, Any]) -> str:
     os.makedirs(DATA_DIR, exist_ok=True)
     path = os.path.join(DATA_DIR, f"{category}.json")

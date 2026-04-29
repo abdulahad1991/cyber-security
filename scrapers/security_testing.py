@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 
-from scrapers.base import fetch, html_to_text, extract_sections
+from scrapers.base import fetch, html_to_text, extract_sections_auto
 
 SSL_LABS_URL = "https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs.md"
 SEC_HEADERS_URL = "https://securityheaders.com/"
@@ -10,7 +10,7 @@ HSTS_URL = "https://hstspreload.org/"
 def _scrape_source(name: str, url: str, description: str) -> dict:
     try:
         resp = fetch(url)
-        sections = extract_sections(resp.text, "h2")
+        sections = extract_sections_auto(resp.text)
         summary = html_to_text(resp.text)[:3000]
         return {
             "name": name,

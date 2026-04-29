@@ -67,6 +67,32 @@ def test_extract_sections_stops_at_next_heading():
     assert "Para B" not in sections[0]["content"]
 
 
+def test_extract_sections_auto_returns_h2_when_present():
+    html = "<html><body><h2>A</h2><p>Content A</p></body></html>"
+    sections = base.extract_sections_auto(html)
+    assert sections[0]["title"] == "A"
+    assert "Content A" in sections[0]["content"]
+
+
+def test_extract_sections_auto_falls_back_to_h3():
+    html = "<html><body><h3>B</h3><p>Content B</p></body></html>"
+    sections = base.extract_sections_auto(html)
+    assert sections[0]["title"] == "B"
+    assert "Content B" in sections[0]["content"]
+
+
+def test_extract_sections_auto_falls_back_to_h4():
+    html = "<html><body><h4>C</h4><p>Content C</p></body></html>"
+    sections = base.extract_sections_auto(html)
+    assert sections[0]["title"] == "C"
+
+
+def test_extract_sections_auto_returns_empty_when_no_headings():
+    html = "<html><body><p>No headings here</p></body></html>"
+    sections = base.extract_sections_auto(html)
+    assert sections == []
+
+
 def test_write_json_creates_file_with_correct_content():
     data = {"category": "test", "sources": []}
     with tempfile.TemporaryDirectory() as tmpdir:

@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 
-from scrapers.base import fetch, html_to_text, extract_sections
+from scrapers.base import fetch, html_to_text, extract_sections_auto
 
 NIST_URL = "https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final"
 PCI_URL = "https://www.pcisecuritystandards.org/document_library/"
@@ -11,7 +11,7 @@ CIS_URL = "https://www.cisecurity.org/benchmark/"
 def _scrape_source(name: str, url: str, description: str) -> dict:
     try:
         resp = fetch(url)
-        sections = extract_sections(resp.text, "h2")
+        sections = extract_sections_auto(resp.text)
         summary = html_to_text(resp.text)[:3000]
         return {
             "name": name,

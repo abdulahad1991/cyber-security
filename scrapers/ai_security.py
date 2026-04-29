@@ -1,7 +1,7 @@
 import yaml
 from datetime import datetime, timezone
 
-from scrapers.base import fetch, html_to_text, extract_sections
+from scrapers.base import fetch, html_to_text, extract_sections_auto
 
 OWASP_LLM_URL = "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
 MITRE_ATLAS_URL = "https://raw.githubusercontent.com/mitre-atlas/atlas-data/main/dist/ATLAS.yaml"
@@ -11,7 +11,7 @@ NIST_AI_URL = "https://www.nist.gov/itl/ai-risk-management-framework"
 def _scrape_source(name: str, url: str, description: str) -> dict:
     try:
         resp = fetch(url)
-        sections = extract_sections(resp.text, "h2")
+        sections = extract_sections_auto(resp.text)
         summary = html_to_text(resp.text)[:3000]
         return {
             "name": name,
