@@ -1,0 +1,46 @@
+name: Scrape Static Data
+
+on:
+  schedule:
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout dev branch
+        uses: actions/checkout@v4
+        with:
+          ref: dev
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Merge latest main into dev
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git merge origin/main --no-edit --strategy-option=ours
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip3 install -r requirements.txt
+
+      - name: Run static scrapers
+        run: python3 runner.py --mode static
+
+      - name: Commit and push data to dev
+        run: |
+          git add data/
+          git diff --staged --quiet && { echo "No data changes to commit"; exit 0; }
+          git commit -m "chore: static scrape $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push origin dev
