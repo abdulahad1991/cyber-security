@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-05-01T13:42:49.562404+00:00",
+  "last_updated": "2026-05-01T19:21:14.608128+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-31431",
+            "vendor": "Linux",
+            "product": "Kernel",
+            "name": "Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability",
+            "date_added": "2026-05-01",
+            "due_date": "2026-05-15",
+            "description": "Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation."
+          },
           {
             "cve_id": "CVE-2026-41940",
             "vendor": "WebPros",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-03-06",
             "due_date": "2024-03-27",
             "description": "Apple iOS, iPadOS, macOS, tvOS, watchOS, and visionOS kernel contain a memory corruption vulnerability that allows an attacker with arbitrary kernel read and write capability to bypass kernel memory protections."
-          },
-          {
-            "cve_id": "CVE-2024-23296",
-            "vendor": "Apple",
-            "product": "Multiple Products",
-            "name": "Apple Multiple Products Memory Corruption Vulnerability",
-            "date_added": "2024-03-06",
-            "due_date": "2024-03-27",
-            "description": "Apple iOS, iPadOS, macOS, tvOS, and watchOS RTKit contain a memory corruption vulnerability that allows an attacker with arbitrary kernel read and write capability to bypass kernel memory protections."
           }
         ],
-        "total_count": 1586,
-        "last_fetch": "2026-05-01T13:42:49.662307+00:00"
+        "total_count": 1587,
+        "last_fetch": "2026-05-01T19:21:14.710203+00:00"
       }
     }
   ]
