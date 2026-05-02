@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/payfast-macbook/Desktop/Innovation/cyber-security log --oneline -5)",
+      "WebFetch(domain:www.xenntool.com)",
+      "Bash(git *)",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(python3 *)",
+      "Bash(gh api *)",
+      "Bash(gh run *)",
+      "Bash(gh workflow *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://raw.githubusercontent.com/mitre-atlas/atlas-data/main/dist/ATLAS.yaml\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://www.iso27001security.com/html/27001.html\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://urlhaus-api.abuse.ch/v1/urls/recent/limit/50/\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://feodotracker.abuse.ch/downloads/ipblocklist.json\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://urlhaus.abuse.ch/downloads/csv_recent/\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://urlhaus.abuse.ch/downloads/json/\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://threatfox.abuse.ch/export/json/recent/\")",
+      "Bash(curl -s \"https://urlhaus.abuse.ch/downloads/json/\")",
+      "Bash(curl -s \"https://threatfox.abuse.ch/export/json/recent/\")",
+      "Bash(xxd)",
+      "Bash(curl -s \"https://urlhaus.abuse.ch/downloads/csv_recent/\")",
+      "Bash(pip3 install *)"
+    ]
+  }
+}

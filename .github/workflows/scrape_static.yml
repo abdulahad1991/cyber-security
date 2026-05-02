@@ -21,8 +21,8 @@ jobs:
 
       - name: Merge latest main into dev
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "abdulahad1991"
+          git config user.email "abdulahad1991@gmail.com"
           git fetch origin main
           git merge origin/main --no-edit --strategy-option=ours
 
