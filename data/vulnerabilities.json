@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-05-06T14:31:58.756514+00:00",
+  "last_updated": "2026-05-06T19:55:33.193861+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-0300",
+            "vendor": "Palo Alto Networks",
+            "product": "PAN-OS",
+            "name": "Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability",
+            "date_added": "2026-05-06",
+            "due_date": "2026-05-09",
+            "description": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Series and VM-Series firewalls by sending specially crafted packets."
+          },
           {
             "cve_id": "CVE-2026-31431",
             "vendor": "Linux",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-03-07",
             "due_date": "2024-03-28",
             "description": "JetBrains TeamCity contains an authentication bypass vulnerability that allows an attacker to perform admin actions."
-          },
-          {
-            "cve_id": "CVE-2024-23225",
-            "vendor": "Apple",
-            "product": "Multiple Products",
-            "name": "Apple Multiple Products Memory Corruption Vulnerability",
-            "date_added": "2024-03-06",
-            "due_date": "2024-03-27",
-            "description": "Apple iOS, iPadOS, macOS, tvOS, watchOS, and visionOS kernel contain a memory corruption vulnerability that allows an attacker with arbitrary kernel read and write capability to bypass kernel memory protections."
           }
         ],
-        "total_count": 1587,
-        "last_fetch": "2026-05-06T14:31:58.896283+00:00"
+        "total_count": 1588,
+        "last_fetch": "2026-05-06T19:55:33.473126+00:00"
       }
     }
   ]
