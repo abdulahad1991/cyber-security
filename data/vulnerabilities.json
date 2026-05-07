@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-05-07T14:34:31.375313+00:00",
+  "last_updated": "2026-05-07T19:49:05.040553+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-6973",
+            "vendor": "Ivanti",
+            "product": "Endpoint Manager Mobile (EPMM)",
+            "name": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
+            "date_added": "2026-05-07",
+            "due_date": "2026-05-10",
+            "description": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution."
+          },
           {
             "cve_id": "CVE-2026-0300",
             "vendor": "Palo Alto Networks",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-03-25",
             "due_date": "2024-04-15",
             "description": "Fortinet FortiClient EMS contains a SQL injection vulnerability that allows an unauthenticated attacker to execute commands as SYSTEM via specifically crafted requests."
-          },
-          {
-            "cve_id": "CVE-2024-27198",
-            "vendor": "JetBrains",
-            "product": "TeamCity",
-            "name": "JetBrains TeamCity Authentication Bypass Vulnerability",
-            "date_added": "2024-03-07",
-            "due_date": "2024-03-28",
-            "description": "JetBrains TeamCity contains an authentication bypass vulnerability that allows an attacker to perform admin actions."
           }
         ],
-        "total_count": 1588,
-        "last_fetch": "2026-05-07T14:34:31.596931+00:00"
+        "total_count": 1589,
+        "last_fetch": "2026-05-07T19:49:05.207657+00:00"
       }
     }
   ]

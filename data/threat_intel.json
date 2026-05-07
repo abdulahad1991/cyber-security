@@ -1,6 +1,6 @@
 {
   "category": "threat_intel",
-  "last_updated": "2026-05-07T14:34:31.605885+00:00",
+  "last_updated": "2026-05-07T19:49:05.215393+00:00",
   "sources": [
     {
       "name": "OpenPhish Community Feed",
@@ -211,7 +211,7 @@
           "https://netflix-clone-topaz-kappa.vercel.app/"
         ],
         "total_count": 300,
-        "last_fetch": "2026-05-07T14:34:32.292159+00:00"
+        "last_fetch": "2026-05-07T19:49:05.749991+00:00"
       }
     },
     {
@@ -239,7 +239,7 @@
           }
         ],
         "summary": "APWG Report Smishing Text About APWG Report Phishing Emails © 2026 Anti-Phishing Working Group, Inc © 2026 Anti-Phishing Working Group, Inc Resources Phishing Activity Trends Reports The APWG Phishing Activity Trends Report analyzes phishing attacks reported to the APWG by its member companies, its Global Research Partners, through the organization’s website at http://wp.apwg.org, and by e-mail submissions to reportphishing@antiphishing.org. APWG also measures the evolution, proliferation, and propagation of crimeware by drawing from the research of our member companies. VIEW REPORTS eCrime Research Papers The Symposium on Electronic Crime Research is an annual event hosted by the APWG. The event’s continuing goal is to promote cybercrime research by providing a means for researchers to publish their work. The program has published over 120 papers specifically focused on fraud and crime in the cyber world. VIEW PAPERS ON OUR RESEARCH SITE Global Phishing Survey Phishers are criminal, but they do make rational decisions about how to go about their work. They’re in it for the money, and they work to make their schemes as productive as possible while evading detection. To combat phishing we need to know what the phishers are doing, and how. Where is the phishing taking place? What companies are most vulnerable? Were the slew of new top-level domains a bonanza for phishers? By analyzing the phishing the authors have some answers, and those answers may surprise you. This report seeks to understand trends and their significance by quantifying the scope of the global phishing problem. Specifically, these reports examines all the phishing attacks detected over specific time intervals. VIEW REPORTS",
-        "last_fetch": "2026-05-07T14:34:37.331424+00:00"
+        "last_fetch": "2026-05-07T19:49:06.562638+00:00"
       }
     },
     {
@@ -250,10 +250,594 @@
         "description": "abuse.ch URLhaus feed of recently reported malware distribution URLs",
         "entries": [
           {
+            "id": "3841411",
+            "dateadded": "2026-05-07 19:43:10",
+            "url": "http://180.157.252.30:44116/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,Mozi"
+          },
+          {
+            "id": "3841410",
+            "dateadded": "2026-05-07 19:40:18",
+            "url": "http://182.127.110.97:45835/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841409",
+            "dateadded": "2026-05-07 19:37:09",
+            "url": "http://221.202.71.61:33496/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841408",
+            "dateadded": "2026-05-07 19:34:23",
+            "url": "http://221.199.194.244:37879/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,Mozi"
+          },
+          {
+            "id": "3841407",
+            "dateadded": "2026-05-07 19:30:25",
+            "url": "http://123.9.244.152:60202/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841406",
+            "dateadded": "2026-05-07 19:29:07",
+            "url": "https://tatyixqn.dunkpo1ytechnic.digital/?ublib=PAztJFEsGIHyZIHo",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClearFake"
+          },
+          {
+            "id": "3841405",
+            "dateadded": "2026-05-07 19:27:21",
+            "url": "http://27.207.189.51:54117/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841404",
+            "dateadded": "2026-05-07 19:20:22",
+            "url": "http://110.37.45.161:48516/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3841403",
+            "dateadded": "2026-05-07 19:12:07",
+            "url": "http://222.141.120.27:52174/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3841402",
+            "dateadded": "2026-05-07 19:10:23",
+            "url": "http://39.74.50.75:40629/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841401",
+            "dateadded": "2026-05-07 19:07:06",
+            "url": "http://222.141.120.27:52174/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3841400",
+            "dateadded": "2026-05-07 19:04:17",
+            "url": "http://45.156.87.157/arm7",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "45-156-87-157,elf,mirai,ua-wget"
+          },
+          {
+            "id": "3841399",
+            "dateadded": "2026-05-07 18:57:15",
+            "url": "http://105.184.102.244:54739/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3841397",
+            "dateadded": "2026-05-07 18:57:14",
+            "url": "http://110.37.45.161:48516/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3841398",
+            "dateadded": "2026-05-07 18:57:14",
+            "url": "http://39.74.50.75:40629/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841396",
+            "dateadded": "2026-05-07 18:47:07",
+            "url": "http://115.48.151.202:57233/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3841395",
+            "dateadded": "2026-05-07 18:42:08",
+            "url": "http://115.56.113.31:50711/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3841394",
+            "dateadded": "2026-05-07 18:39:21",
+            "url": "http://110.37.111.178:33259/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3841393",
+            "dateadded": "2026-05-07 18:37:35",
+            "url": "http://119.115.37.17:54880/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841392",
+            "dateadded": "2026-05-07 18:25:29",
+            "url": "https://raw.githubusercontent.com/solid-23/ki/refs/heads/main/boagniF.txt",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "254fce8d9c8b6dea2b15bd016dae84bb3b3ec8ef9972f1bffdfabd3af004,remcos"
+          },
+          {
+            "id": "3841391",
+            "dateadded": "2026-05-07 18:22:35",
+            "url": "http://118.232.137.101:52359/i",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3841390",
+            "dateadded": "2026-05-07 18:22:12",
+            "url": "http://mivventi.com/adminreport/service.txt",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "791651d9ca0de1f77082de5a724fd0054b3daa5ff160a6eaf6e69a192588,remcos"
+          },
+          {
+            "id": "3841389",
+            "dateadded": "2026-05-07 18:20:08",
+            "url": "https://yaso.su/raw/uy3rCXFK",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "f3f3ff3f0964ca6e8c550940145fae49e6b4135523e309400513d8cbb969,remcos"
+          },
+          {
+            "id": "3841388",
+            "dateadded": "2026-05-07 18:17:22",
+            "url": "http://175.164.117.86:33965/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841387",
+            "dateadded": "2026-05-07 18:17:08",
+            "url": "http://115.48.151.202:57233/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3841386",
+            "dateadded": "2026-05-07 18:11:20",
+            "url": "http://110.37.111.178:33259/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3841385",
+            "dateadded": "2026-05-07 18:07:08",
+            "url": "http://182.127.109.171:50450/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3841384",
+            "dateadded": "2026-05-07 18:04:23",
+            "url": "http://110.37.38.88:47292/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3841383",
+            "dateadded": "2026-05-07 18:02:07",
+            "url": "http://118.232.137.101:52359/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3841382",
+            "dateadded": "2026-05-07 18:02:06",
+            "url": "http://110.37.26.106:56461/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3841381",
+            "dateadded": "2026-05-07 17:52:15",
+            "url": "http://27.215.180.95:54188/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841380",
+            "dateadded": "2026-05-07 17:51:26",
+            "url": "http://123.188.223.242:60361/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841379",
+            "dateadded": "2026-05-07 17:50:24",
+            "url": "http://175.164.117.86:33965/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841378",
+            "dateadded": "2026-05-07 17:40:20",
+            "url": "http://42.176.246.128:58181/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841377",
+            "dateadded": "2026-05-07 17:28:22",
+            "url": "http://182.191.69.89:40817/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841376",
+            "dateadded": "2026-05-07 17:24:16",
+            "url": "http://119.118.230.35:56063/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841375",
+            "dateadded": "2026-05-07 17:22:09",
+            "url": "http://182.112.14.174:41231/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3841374",
+            "dateadded": "2026-05-07 17:22:08",
+            "url": "http://110.36.64.245:52926/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3841373",
+            "dateadded": "2026-05-07 17:21:15",
+            "url": "http://112.248.80.100:42333/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841372",
+            "dateadded": "2026-05-07 17:16:16",
+            "url": "http://222.185.133.5:33959/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3841371",
+            "dateadded": "2026-05-07 17:07:17",
+            "url": "http://42.176.246.128:58181/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841370",
+            "dateadded": "2026-05-07 17:07:12",
+            "url": "http://110.37.26.106:56461/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3841369",
+            "dateadded": "2026-05-07 16:59:16",
+            "url": "http://115.55.225.224:52639/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841368",
+            "dateadded": "2026-05-07 16:56:12",
+            "url": "http://61.53.111.164:44049/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841367",
+            "dateadded": "2026-05-07 16:55:11",
+            "url": "https://lapwop.pw/D&H/img_092510.png",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "11ed7be675889b8d19b2e8f44bb33d6733a9de2e092102b1e8c1f28469d6,RemcosRAT"
+          },
+          {
+            "id": "3841366",
+            "dateadded": "2026-05-07 16:50:12",
+            "url": "https://planbay.represent-skittish.lat/kl0n-green-excel-yy3775-get65/gett3.verification",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClearFake,SnappyClient"
+          },
+          {
+            "id": "3841365",
+            "dateadded": "2026-05-07 16:35:11",
+            "url": "http://tina.gautengsound.co.za/co.js",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "8eca755b90ce60a452f0c94a522b120601a8c2baddf939531f72db0f93a9,df3d5ee897b28da580030a4776d2aec2d4d9b05667c6e1995fef8c41a5cd,huge-file,lnk"
+          },
+          {
+            "id": "3841364",
+            "dateadded": "2026-05-07 16:32:08",
+            "url": "http://117.81.38.169:60486/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3841363",
+            "dateadded": "2026-05-07 16:31:23",
+            "url": "http://218.16.164.199:55697/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3841362",
+            "dateadded": "2026-05-07 16:31:21",
+            "url": "http://123.5.115.15:52001/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841361",
+            "dateadded": "2026-05-07 16:18:17",
+            "url": "http://222.127.226.53:42955/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3841360",
+            "dateadded": "2026-05-07 16:17:08",
+            "url": "http://175.150.205.244:40944/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3841359",
+            "dateadded": "2026-05-07 16:12:16",
+            "url": "http://94.156.152.18/sh4",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3841358",
+            "dateadded": "2026-05-07 16:11:17",
+            "url": "http://94.156.152.18/ppc",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3841353",
+            "dateadded": "2026-05-07 16:11:16",
+            "url": "http://176.65.139.144/HideChaotic/ub8ehJSePAfc9FYqZIT6.mips64",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3841354",
+            "dateadded": "2026-05-07 16:11:16",
+            "url": "http://176.65.139.144/HideChaotic/ub8ehJSePAfc9FYqZIT6.sparc",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3841355",
+            "dateadded": "2026-05-07 16:11:16",
+            "url": "http://89.32.41.16/bins/pm68k",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3841356",
+            "dateadded": "2026-05-07 16:11:16",
+            "url": "http://94.156.152.18/i686",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3841357",
+            "dateadded": "2026-05-07 16:11:16",
+            "url": "http://94.156.152.18/m68k",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3841352",
+            "dateadded": "2026-05-07 16:02:20",
+            "url": "http://171.125.42.251:48861/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3841351",
+            "dateadded": "2026-05-07 15:57:18",
+            "url": "http://39.81.233.133:58516/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841350",
+            "dateadded": "2026-05-07 15:42:09",
+            "url": "http://218.21.123.205:35103/i",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3841349",
+            "dateadded": "2026-05-07 15:32:12",
+            "url": "http://39.81.233.133:58516/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841348",
+            "dateadded": "2026-05-07 15:12:10",
+            "url": "http://218.21.123.205:35103/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3841347",
+            "dateadded": "2026-05-07 15:05:10",
+            "url": "http://85.95.191.148:43123/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841346",
+            "dateadded": "2026-05-07 14:52:06",
+            "url": "http://95.165.187.102:46295/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3841345",
+            "dateadded": "2026-05-07 14:40:14",
+            "url": "http://118.34.109.121:38055/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841344",
+            "dateadded": "2026-05-07 14:40:13",
+            "url": "http://182.116.81.160:40257/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841343",
+            "dateadded": "2026-05-07 14:36:23",
+            "url": "http://182.116.81.160:40257/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841342",
+            "dateadded": "2026-05-07 14:35:14",
+            "url": "http://123.14.182.151:38735/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3841341",
+            "dateadded": "2026-05-07 14:33:09",
+            "url": "http://140.233.190.47/1.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "140-233-190-47,sh,ua-wget"
+          },
+          {
+            "id": "3841340",
+            "dateadded": "2026-05-07 14:32:15",
+            "url": "http://94.156.152.18/adb.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "94-156-152-18,sh,ua-wget"
+          },
+          {
+            "id": "3841339",
+            "dateadded": "2026-05-07 14:32:14",
+            "url": "http://94.156.152.18/a.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "94-156-152-18,sh,ua-wget"
+          },
+          {
             "id": "3841338",
             "dateadded": "2026-05-07 14:11:12",
             "url": "https://unhoq4.arch-vivarium.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -269,7 +853,7 @@
             "id": "3841336",
             "dateadded": "2026-05-07 14:09:08",
             "url": "https://lettercinema.vexon6ar.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -277,15 +861,15 @@
             "id": "3841335",
             "dateadded": "2026-05-07 14:04:20",
             "url": "https://genesun.arch-vivarium.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "ClearFake"
+            "tags": "ClearFake,SnappyClient"
           },
           {
             "id": "3841334",
             "dateadded": "2026-05-07 14:03:07",
             "url": "https://parcboo.vexon6ar.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -317,7 +901,7 @@
             "id": "3841330",
             "dateadded": "2026-05-07 13:58:07",
             "url": "https://cwpjb6yk.arch-vivarium.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -325,7 +909,7 @@
             "id": "3841329",
             "dateadded": "2026-05-07 13:55:10",
             "url": "https://rapid-forge.vexon6ar.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -333,7 +917,7 @@
             "id": "3841328",
             "dateadded": "2026-05-07 13:54:11",
             "url": "http://110.36.26.86:40091/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -341,7 +925,7 @@
             "id": "3841327",
             "dateadded": "2026-05-07 13:52:10",
             "url": "https://neuralcra.arch-vivarium.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -357,7 +941,7 @@
             "id": "3841325",
             "dateadded": "2026-05-07 13:50:13",
             "url": "https://moledynam.vexon6ar.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -365,7 +949,7 @@
             "id": "3841324",
             "dateadded": "2026-05-07 13:47:13",
             "url": "https://onpyo.vexon6ar.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -381,7 +965,7 @@
             "id": "3841322",
             "dateadded": "2026-05-07 13:45:09",
             "url": "https://dawn3-spool.fixionmunici9al.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -389,7 +973,7 @@
             "id": "3841321",
             "dateadded": "2026-05-07 13:37:08",
             "url": "https://xs2f.fixionmunici9al.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -405,7 +989,7 @@
             "id": "3841319",
             "dateadded": "2026-05-07 13:35:14",
             "url": "https://xwpw.vexon6ar.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -421,7 +1005,7 @@
             "id": "3841317",
             "dateadded": "2026-05-07 13:31:15",
             "url": "https://1ce6-route.fixionmunici9al.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -437,7 +1021,7 @@
             "id": "3841315",
             "dateadded": "2026-05-07 13:29:09",
             "url": "https://thre-thic.pav1mirex.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -445,9 +1029,9 @@
             "id": "3841314",
             "dateadded": "2026-05-07 13:24:22",
             "url": "https://18nnbu.fixionmunici9al.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "ClearFake"
+            "tags": "ClearFake,SnappyClient"
           },
           {
             "id": "3841313",
@@ -461,7 +1045,7 @@
             "id": "3841312",
             "dateadded": "2026-05-07 13:22:15",
             "url": "https://listenermacro.pav1mirex.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -469,7 +1053,7 @@
             "id": "3841311",
             "dateadded": "2026-05-07 13:18:09",
             "url": "https://1llume-sync.fixionmunici9al.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -485,7 +1069,7 @@
             "id": "3841309",
             "dateadded": "2026-05-07 13:16:17",
             "url": "https://hvr071.pav1mirex.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -517,7 +1101,7 @@
             "id": "3841305",
             "dateadded": "2026-05-07 13:10:16",
             "url": "https://birc6-trail.fixionmunici9al.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -525,7 +1109,7 @@
             "id": "3841304",
             "dateadded": "2026-05-07 13:09:14",
             "url": "https://launch-point.pav1mirex.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -533,15 +1117,15 @@
             "id": "3841303",
             "dateadded": "2026-05-07 13:05:25",
             "url": "https://solarvine.pav1mirex.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "ClearFake"
+            "tags": "ClearFake,SnappyClient"
           },
           {
             "id": "3841302",
             "dateadded": "2026-05-07 13:04:14",
             "url": "https://supplyvau.fixionmunici9al.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -549,7 +1133,7 @@
             "id": "3841301",
             "dateadded": "2026-05-07 13:01:15",
             "url": "https://shellengi.pastor-publicist.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -565,9 +1149,9 @@
             "id": "3841299",
             "dateadded": "2026-05-07 12:54:24",
             "url": "https://h1ll-switch.pav1mirex.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "ClearFake"
+            "tags": "ClearFake,SnappyClient"
           },
           {
             "id": "3841298",
@@ -581,9 +1165,9 @@
             "id": "3841297",
             "dateadded": "2026-05-07 12:49:27",
             "url": "https://casual-hinge.pastor-publicist.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "ClearFake"
+            "tags": "ClearFake,SnappyClient"
           },
           {
             "id": "3841296",
@@ -597,7 +1181,7 @@
             "id": "3841295",
             "dateadded": "2026-05-07 12:47:11",
             "url": "https://irngvd.pav1mirex.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -621,7 +1205,7 @@
             "id": "3841292",
             "dateadded": "2026-05-07 12:43:17",
             "url": "https://rgd2.pastor-publicist.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -629,15 +1213,15 @@
             "id": "3841291",
             "dateadded": "2026-05-07 12:40:28",
             "url": "https://a3vrjnwj.xamir9el.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "ClearFake"
+            "tags": "ClearFake,SnappyClient"
           },
           {
             "id": "3841290",
             "dateadded": "2026-05-07 12:36:14",
             "url": "https://talmark5ix.pastor-publicist.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -645,7 +1229,7 @@
             "id": "3841289",
             "dateadded": "2026-05-07 12:35:11",
             "url": "https://image-mesh.xamir9el.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -653,15 +1237,15 @@
             "id": "3841288",
             "dateadded": "2026-05-07 12:30:28",
             "url": "https://4mnyykj.pastor-publicist.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "ClearFake"
+            "tags": "ClearFake,SnappyClient"
           },
           {
             "id": "3841287",
             "dateadded": "2026-05-07 12:29:23",
             "url": "http://110.36.13.229:41976/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -669,7 +1253,7 @@
             "id": "3841286",
             "dateadded": "2026-05-07 12:29:13",
             "url": "https://jizeeb.xamir9el.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -677,7 +1261,7 @@
             "id": "3841285",
             "dateadded": "2026-05-07 12:28:25",
             "url": "http://221.200.20.93:49872/i",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -693,7 +1277,7 @@
             "id": "3841283",
             "dateadded": "2026-05-07 12:23:14",
             "url": "https://1oc44-span.pastor-publicist.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -701,7 +1285,7 @@
             "id": "3841282",
             "dateadded": "2026-05-07 12:21:08",
             "url": "https://1oc4l-node.xamir9el.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -717,7 +1301,7 @@
             "id": "3841280",
             "dateadded": "2026-05-07 12:17:13",
             "url": "https://shore-leaf.pastor-publicist.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -733,7 +1317,7 @@
             "id": "3841278",
             "dateadded": "2026-05-07 12:14:10",
             "url": "https://dynmesh5et.xamir9el.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -741,7 +1325,7 @@
             "id": "3841277",
             "dateadded": "2026-05-07 12:10:15",
             "url": "https://wg1wa8.xamir9el.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -749,7 +1333,7 @@
             "id": "3841276",
             "dateadded": "2026-05-07 12:09:20",
             "url": "http://123.148.230.242:43983/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -757,15 +1341,15 @@
             "id": "3841275",
             "dateadded": "2026-05-07 12:06:25",
             "url": "https://mixblo.xamir9el.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "ClearFake"
+            "tags": "ClearFake,SnappyClient"
           },
           {
             "id": "3841274",
             "dateadded": "2026-05-07 12:03:15",
             "url": "https://true.fastexitnow.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -773,7 +1357,7 @@
             "id": "3841273",
             "dateadded": "2026-05-07 12:03:14",
             "url": "https://outerlaunch.tavro4xel.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -781,7 +1365,7 @@
             "id": "3841272",
             "dateadded": "2026-05-07 12:01:22",
             "url": "http://110.36.13.229:41976/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -797,7 +1381,7 @@
             "id": "3841270",
             "dateadded": "2026-05-07 11:52:16",
             "url": "https://un1o-loop.tavro4xel.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -805,7 +1389,7 @@
             "id": "3841269",
             "dateadded": "2026-05-07 11:48:11",
             "url": "https://asts.datarunkey.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -813,7 +1397,7 @@
             "id": "3841268",
             "dateadded": "2026-05-07 11:46:26",
             "url": "http://110.36.95.246:39704/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -821,7 +1405,7 @@
             "id": "3841267",
             "dateadded": "2026-05-07 11:46:14",
             "url": "https://sketchbasic.tavro4xel.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -829,7 +1413,7 @@
             "id": "3841266",
             "dateadded": "2026-05-07 11:42:16",
             "url": "https://abh.openlinksys.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -853,7 +1437,7 @@
             "id": "3841263",
             "dateadded": "2026-05-07 11:40:10",
             "url": "https://5107vvgb.tavro4xel.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -933,7 +1517,7 @@
             "id": "3841253",
             "dateadded": "2026-05-07 11:17:06",
             "url": "http://115.49.78.11:49499/i",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "None"
           },
@@ -957,7 +1541,7 @@
             "id": "3841250",
             "dateadded": "2026-05-07 11:08:28",
             "url": "https://gitlabh.openlinksys.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -989,7 +1573,7 @@
             "id": "3841246",
             "dateadded": "2026-05-07 11:00:23",
             "url": "http://123.5.115.15:52001/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1045,7 +1629,7 @@
             "id": "3841239",
             "dateadded": "2026-05-07 10:46:49",
             "url": "https://pipelin-reach.7zorelax.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -1069,7 +1653,7 @@
             "id": "3841236",
             "dateadded": "2026-05-07 10:41:16",
             "url": "http://123.8.3.36:58837/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1077,7 +1661,7 @@
             "id": "3841235",
             "dateadded": "2026-05-07 10:40:28",
             "url": "https://jwosviuw.7zorelax.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -1101,7 +1685,7 @@
             "id": "3841233",
             "dateadded": "2026-05-07 10:35:21",
             "url": "https://webdocs.openlinksys.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -1133,7 +1717,7 @@
             "id": "3841228",
             "dateadded": "2026-05-07 10:28:11",
             "url": "http://110.36.77.35:50284/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1149,7 +1733,7 @@
             "id": "3841225",
             "dateadded": "2026-05-07 10:27:07",
             "url": "http://119.115.119.45:53741/i",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "None"
           },
@@ -1173,7 +1757,7 @@
             "id": "3841223",
             "dateadded": "2026-05-07 10:20:54",
             "url": "https://netmans.datarunkey.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -1221,7 +1805,7 @@
             "id": "3841217",
             "dateadded": "2026-05-07 10:07:33",
             "url": "http://85.130.235.5:44625/i",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "None"
           },
@@ -1245,7 +1829,7 @@
             "id": "3841214",
             "dateadded": "2026-05-07 10:00:23",
             "url": "https://vmlists.datarunkey.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -1309,7 +1893,7 @@
             "id": "3841206",
             "dateadded": "2026-05-07 09:44:20",
             "url": "https://fmnnyp.qen2virex.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -1429,7 +2013,7 @@
             "id": "3841191",
             "dateadded": "2026-05-07 09:17:19",
             "url": "http://42.232.230.42:45154/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "None"
           },
@@ -1437,7 +2021,7 @@
             "id": "3841190",
             "dateadded": "2026-05-07 09:13:22",
             "url": "https://ultra-narr0.mav8loren.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -1445,7 +2029,7 @@
             "id": "3841189",
             "dateadded": "2026-05-07 09:13:11",
             "url": "http://110.37.78.216:53423/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -1453,7 +2037,7 @@
             "id": "3841188",
             "dateadded": "2026-05-07 09:07:27",
             "url": "http://59.180.160.78:44053/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "Mozi"
           },
@@ -1461,7 +2045,7 @@
             "id": "3841187",
             "dateadded": "2026-05-07 09:07:20",
             "url": "https://envsets.linkdevbase.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -1469,7 +2053,7 @@
             "id": "3841186",
             "dateadded": "2026-05-07 09:07:16",
             "url": "http://182.241.176.6:44688/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -1493,7 +2077,7 @@
             "id": "3841183",
             "dateadded": "2026-05-07 09:00:10",
             "url": "http://110.36.77.35:50284/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1557,7 +2141,7 @@
             "id": "3841175",
             "dateadded": "2026-05-07 08:38:20",
             "url": "http://110.37.78.216:53423/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -1669,9 +2253,9 @@
             "id": "3841161",
             "dateadded": "2026-05-07 08:07:20",
             "url": "https://pwrlogs.fastexitnow.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "ClearFake"
+            "tags": "ClearFake,SnappyClient"
           },
           {
             "id": "3841160",
@@ -1733,7 +2317,7 @@
             "id": "3841153",
             "dateadded": "2026-05-07 07:55:27",
             "url": "https://extnets.fastexitnow.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -1797,7 +2381,7 @@
             "id": "3841145",
             "dateadded": "2026-05-07 07:37:07",
             "url": "http://113.231.205.50:46567/bin.sh",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "None"
           },
@@ -1821,7 +2405,7 @@
             "id": "3841142",
             "dateadded": "2026-05-07 07:32:22",
             "url": "https://uidmaps.cloudtaskgo.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -1885,7 +2469,7 @@
             "id": "3841135",
             "dateadded": "2026-05-07 07:22:07",
             "url": "http://115.58.161.221:54538/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "Mozi"
           },
@@ -1893,7 +2477,7 @@
             "id": "3841133",
             "dateadded": "2026-05-07 07:22:06",
             "url": "http://110.37.59.217:39318/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "Mozi"
           },
@@ -1941,7 +2525,7 @@
             "id": "3841127",
             "dateadded": "2026-05-07 07:10:26",
             "url": "https://netmans.chemistry5till.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
           },
@@ -2013,9 +2597,9 @@
             "id": "3841118",
             "dateadded": "2026-05-07 06:50:27",
             "url": "https://osbases.srvappsite.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "ClearFake"
+            "tags": "ClearFake,SnappyClient"
           },
           {
             "id": "3841117",
@@ -2064,594 +2648,10 @@
             "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841111",
-            "dateadded": "2026-05-07 06:29:13",
-            "url": "https://dbinsts.srvappsite.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841110",
-            "dateadded": "2026-05-07 06:25:15",
-            "url": "https://proxyss.smell-chat.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841109",
-            "dateadded": "2026-05-07 06:22:25",
-            "url": "http://skyvpns.srvappsite.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake"
-          },
-          {
-            "id": "3841108",
-            "dateadded": "2026-05-07 06:22:09",
-            "url": "http://112.98.97.168:34651/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3841107",
-            "dateadded": "2026-05-07 06:22:08",
-            "url": "https://skyvpns.srvappsite.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841106",
-            "dateadded": "2026-05-07 06:17:25",
-            "url": "http://lanhops.smell-chat.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake"
-          },
-          {
-            "id": "3841105",
-            "dateadded": "2026-05-07 06:17:12",
-            "url": "https://lanhops.smell-chat.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841104",
-            "dateadded": "2026-05-07 06:15:26",
-            "url": "https://cmdsets.srvappsite.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841103",
-            "dateadded": "2026-05-07 06:15:21",
-            "url": "http://125.47.84.105:56307/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841102",
-            "dateadded": "2026-05-07 06:07:25",
-            "url": "http://tmpdirs.boxvpslog.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake"
-          },
-          {
-            "id": "3841101",
-            "dateadded": "2026-05-07 06:07:13",
-            "url": "https://tmpdirs.boxvpslog.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841100",
-            "dateadded": "2026-05-07 06:06:26",
-            "url": "http://subclis.smell-chat.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake"
-          },
-          {
-            "id": "3841099",
-            "dateadded": "2026-05-07 06:06:19",
-            "url": "http://219.157.221.146:47335/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841098",
-            "dateadded": "2026-05-07 06:06:14",
-            "url": "https://subclis.smell-chat.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841097",
-            "dateadded": "2026-05-07 06:02:08",
-            "url": "http://123.12.27.139:52889/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3841096",
-            "dateadded": "2026-05-07 06:01:26",
-            "url": "http://125.47.84.105:56307/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841095",
-            "dateadded": "2026-05-07 06:00:09",
-            "url": "https://sshbins.boxvpslog.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841094",
-            "dateadded": "2026-05-07 05:59:12",
-            "url": "https://bitkits.smell-chat.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841093",
-            "dateadded": "2026-05-07 05:56:14",
-            "url": "http://60.162.39.213:52624/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3841092",
-            "dateadded": "2026-05-07 05:55:14",
-            "url": "https://sslkeys.boxvpslog.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841091",
-            "dateadded": "2026-05-07 05:53:11",
-            "url": "https://envsets.smell-chat.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841090",
-            "dateadded": "2026-05-07 05:52:16",
-            "url": "https://getcfgs.boxvpslog.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841089",
-            "dateadded": "2026-05-07 05:48:26",
-            "url": "https://ipnodes.boxvpslog.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841088",
-            "dateadded": "2026-05-07 05:46:25",
-            "url": "https://doclabs.smell-chat.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841087",
-            "dateadded": "2026-05-07 05:43:13",
-            "url": "https://syncits.inhum2ntendency.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841086",
-            "dateadded": "2026-05-07 05:36:15",
-            "url": "http://182.117.105.105:50374/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841085",
-            "dateadded": "2026-05-07 05:36:09",
-            "url": "https://hotfixs.boxvpslog.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841084",
-            "dateadded": "2026-05-07 05:34:09",
-            "url": "http://60.162.39.213:52624/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3841083",
-            "dateadded": "2026-05-07 05:32:10",
-            "url": "https://ioflows.inhum2ntendency.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841082",
-            "dateadded": "2026-05-07 05:29:08",
-            "url": "https://bitfoxs.webbitsync.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841081",
-            "dateadded": "2026-05-07 05:28:21",
-            "url": "https://taskids.inhum2ntendency.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841079",
-            "dateadded": "2026-05-07 05:28:12",
-            "url": "http://219.157.221.146:47335/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841080",
-            "dateadded": "2026-05-07 05:28:12",
-            "url": "http://119.185.240.152:43063/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841078",
-            "dateadded": "2026-05-07 05:28:11",
-            "url": "http://27.215.127.100:58093/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841077",
-            "dateadded": "2026-05-07 05:22:21",
-            "url": "https://topsvcs.webbitsync.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841076",
-            "dateadded": "2026-05-07 05:22:20",
-            "url": "http://180.158.34.199:44054/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3841075",
-            "dateadded": "2026-05-07 05:20:32",
-            "url": "https://comwebs.inhum2ntendency.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841074",
-            "dateadded": "2026-05-07 05:20:22",
-            "url": "http://comwebs.inhum2ntendency.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake"
-          },
-          {
-            "id": "3841073",
-            "dateadded": "2026-05-07 05:15:10",
-            "url": "https://opsmgrs.webbitsync.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841072",
-            "dateadded": "2026-05-07 05:14:23",
-            "url": "http://119.185.240.152:43063/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841071",
-            "dateadded": "2026-05-07 05:13:23",
-            "url": "http://221.14.106.222:51747/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841070",
-            "dateadded": "2026-05-07 05:08:09",
-            "url": "https://refid-xs.inhum2ntendency.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841069",
-            "dateadded": "2026-05-07 05:08:08",
-            "url": "https://cpupros.webbitsync.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841068",
-            "dateadded": "2026-05-07 05:07:06",
-            "url": "http://113.231.246.202:54564/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3841067",
-            "dateadded": "2026-05-07 05:03:10",
-            "url": "https://autboxs.inhum2ntendency.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841066",
-            "dateadded": "2026-05-07 05:02:19",
-            "url": "http://219.155.68.141:56783/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841065",
-            "dateadded": "2026-05-07 05:01:07",
-            "url": "https://vpsruns.webbitsync.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841064",
-            "dateadded": "2026-05-07 04:59:18",
-            "url": "http://60.178.146.78:45208/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3841063",
-            "dateadded": "2026-05-07 04:59:15",
-            "url": "http://110.37.86.55:40326/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3841062",
-            "dateadded": "2026-05-07 04:55:11",
-            "url": "https://dnswebs.webbitsync.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841061",
-            "dateadded": "2026-05-07 04:55:08",
-            "url": "https://domregs.hatched-labile.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841060",
-            "dateadded": "2026-05-07 04:52:09",
-            "url": "https://appboxs.nethubtop.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841059",
-            "dateadded": "2026-05-07 04:48:07",
-            "url": "https://pwrlogs.hatched-labile.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841058",
-            "dateadded": "2026-05-07 04:43:18",
-            "url": "http://221.14.106.222:51747/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841057",
-            "dateadded": "2026-05-07 04:42:10",
-            "url": "https://extnets.hatched-labile.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841056",
-            "dateadded": "2026-05-07 04:41:07",
-            "url": "https://devbits.nethubtop.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841055",
-            "dateadded": "2026-05-07 04:35:11",
-            "url": "https://srvlogs.nethubtop.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841054",
-            "dateadded": "2026-05-07 04:34:08",
-            "url": "https://pkgruns.hatched-labile.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841053",
-            "dateadded": "2026-05-07 04:32:07",
-            "url": "http://113.221.25.118:58167/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3841052",
-            "dateadded": "2026-05-07 04:31:20",
-            "url": "http://110.37.86.55:40326/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3841051",
-            "dateadded": "2026-05-07 04:27:27",
-            "url": "http://78.165.98.56:51999/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841050",
-            "dateadded": "2026-05-07 04:27:19",
-            "url": "http://netapis.nethubtop.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake"
-          },
-          {
-            "id": "3841049",
-            "dateadded": "2026-05-07 04:27:07",
-            "url": "https://netapis.nethubtop.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841048",
-            "dateadded": "2026-05-07 04:27:06",
-            "url": "https://modbuss.hatched-labile.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841047",
-            "dateadded": "2026-05-07 04:26:15",
-            "url": "http://110.37.1.162:59071/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841046",
-            "dateadded": "2026-05-07 04:25:15",
-            "url": "http://175.173.76.110:47076/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841045",
-            "dateadded": "2026-05-07 04:22:07",
-            "url": "http://180.158.34.199:44054/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3841044",
-            "dateadded": "2026-05-07 04:21:08",
-            "url": "https://srcgets.hatched-labile.lat/sh1ne-apps-testsh-zec833-lives7z/put34b.camp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841043",
-            "dateadded": "2026-05-07 04:20:21",
-            "url": "http://webcdnx.nethubtop.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake"
-          },
-          {
-            "id": "3841041",
-            "dateadded": "2026-05-07 04:20:09",
-            "url": "https://webcdnx.nethubtop.lat/draw-msft-cl0ud-acc-trust7934/gettwo.dll",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake,SnappyClient"
-          },
-          {
-            "id": "3841042",
-            "dateadded": "2026-05-07 04:20:09",
-            "url": "http://118.213.177.49:54628/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3841040",
-            "dateadded": "2026-05-07 04:17:07",
-            "url": "http://123.12.193.246:51901/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3841039",
-            "dateadded": "2026-05-07 04:14:20",
-            "url": "http://115.56.149.62:50378/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
           }
         ],
         "total_count": 300,
-        "last_fetch": "2026-05-07T14:34:37.569774+00:00"
+        "last_fetch": "2026-05-07T19:49:06.887671+00:00"
       }
     },
     {
@@ -2662,7 +2662,7 @@
         "description": "abuse.ch ThreatFox recent indicators of compromise (domains, IPs, URLs, hashes)",
         "entries": [],
         "total_count": 0,
-        "last_fetch": "2026-05-07T14:34:37.724729+00:00"
+        "last_fetch": "2026-05-07T19:49:06.962119+00:00"
       }
     },
     {
@@ -2719,7 +2719,7 @@
           }
         ],
         "total_count": 5,
-        "last_fetch": "2026-05-07T14:34:37.888399+00:00"
+        "last_fetch": "2026-05-07T19:49:07.233339+00:00"
       }
     }
   ]
