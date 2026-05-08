@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-05-08T14:05:58.417113+00:00",
+  "last_updated": "2026-05-08T19:39:24.786817+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-42208",
+            "vendor": "BerriAI",
+            "product": "LiteLLM",
+            "name": "BerriAI LiteLLM SQL Injection Vulnerability",
+            "date_added": "2026-05-08",
+            "due_date": "2026-05-11",
+            "description": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorised access to the proxy and the credentials it manages."
+          },
           {
             "cve_id": "CVE-2026-6973",
             "vendor": "Ivanti",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-03-25",
             "due_date": "2024-04-15",
             "description": "Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) contains a code injection vulnerability that allows an unauthenticated user to execute malicious code with limited permissions (nobody)."
-          },
-          {
-            "cve_id": "CVE-2023-48788",
-            "vendor": "Fortinet",
-            "product": "FortiClient EMS",
-            "name": "Fortinet FortiClient EMS SQL Injection Vulnerability",
-            "date_added": "2024-03-25",
-            "due_date": "2024-04-15",
-            "description": "Fortinet FortiClient EMS contains a SQL injection vulnerability that allows an unauthenticated attacker to execute commands as SYSTEM via specifically crafted requests."
           }
         ],
-        "total_count": 1589,
-        "last_fetch": "2026-05-08T14:05:58.586835+00:00"
+        "total_count": 1590,
+        "last_fetch": "2026-05-08T19:39:24.921040+00:00"
       }
     }
   ]
