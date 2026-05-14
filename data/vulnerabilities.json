@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-05-14T14:30:25.220313+00:00",
+  "last_updated": "2026-05-14T19:55:19.708828+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-20182",
+            "vendor": "Cisco",
+            "product": "Catalyst SD-WAN",
+            "name": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+            "date_added": "2026-05-14",
+            "due_date": "2026-05-17",
+            "description": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system."
+          },
           {
             "cve_id": "CVE-2026-42208",
             "vendor": "BerriAI",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-03-25",
             "due_date": "2024-04-15",
             "description": "Nice Linear eMerge E3-Series contains an OS command injection vulnerability that allows an attacker to conduct remote code execution."
-          },
-          {
-            "cve_id": "CVE-2021-44529",
-            "vendor": "Ivanti",
-            "product": "Endpoint Manager Cloud Service Appliance (EPM CSA)",
-            "name": "Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) Code Injection Vulnerability ",
-            "date_added": "2024-03-25",
-            "due_date": "2024-04-15",
-            "description": "Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) contains a code injection vulnerability that allows an unauthenticated user to execute malicious code with limited permissions (nobody)."
           }
         ],
-        "total_count": 1590,
-        "last_fetch": "2026-05-14T14:30:25.534261+00:00"
+        "total_count": 1591,
+        "last_fetch": "2026-05-14T19:55:19.817465+00:00"
       }
     }
   ]
