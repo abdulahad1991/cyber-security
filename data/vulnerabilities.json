@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-05-15T14:23:51.707810+00:00",
+  "last_updated": "2026-05-15T19:47:31.096331+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-42897",
+            "vendor": "Microsoft",
+            "product": "Microsoft",
+            "name": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
+            "date_added": "2026-05-15",
+            "due_date": "2026-05-29",
+            "description": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context."
+          },
           {
             "cve_id": "CVE-2026-20182",
             "vendor": "Cisco",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-03-26",
             "due_date": "2024-04-16",
             "description": "Microsoft SharePoint Server contains a code injection vulnerability that allows an authenticated attacker with Site Owner privileges to execute code remotely."
-          },
-          {
-            "cve_id": "CVE-2019-7256",
-            "vendor": "Nice",
-            "product": "Linear eMerge E3-Series",
-            "name": "Nice Linear eMerge E3-Series OS Command Injection Vulnerability",
-            "date_added": "2024-03-25",
-            "due_date": "2024-04-15",
-            "description": "Nice Linear eMerge E3-Series contains an OS command injection vulnerability that allows an attacker to conduct remote code execution."
           }
         ],
-        "total_count": 1591,
-        "last_fetch": "2026-05-15T14:23:51.780540+00:00"
+        "total_count": 1592,
+        "last_fetch": "2026-05-15T19:47:31.256392+00:00"
       }
     }
   ]
