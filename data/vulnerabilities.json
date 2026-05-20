@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-05-20T15:41:00.990001+00:00",
+  "last_updated": "2026-05-20T20:26:16.107561+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,69 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2008-4250",
+            "vendor": "Microsoft",
+            "product": "Windows",
+            "name": "Microsoft Windows Buffer Overflow Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization."
+          },
+          {
+            "cve_id": "CVE-2009-1537",
+            "vendor": "Microsoft",
+            "product": "DirectX",
+            "name": "Microsoft DirectX NULL Byte Overwrite Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file."
+          },
+          {
+            "cve_id": "CVE-2009-3459",
+            "vendor": "Adobe",
+            "product": "Acrobat and Reader",
+            "name": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption."
+          },
+          {
+            "cve_id": "CVE-2010-0249",
+            "vendor": "Microsoft",
+            "product": "Internet Explorer",
+            "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization."
+          },
+          {
+            "cve_id": "CVE-2010-0806",
+            "vendor": "Microsoft",
+            "product": "Internet Explorer",
+            "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization."
+          },
+          {
+            "cve_id": "CVE-2026-41091",
+            "vendor": "Microsoft",
+            "product": "Defender",
+            "name": "Microsoft Defender Link Following Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally."
+          },
+          {
+            "cve_id": "CVE-2026-45498",
+            "vendor": "Microsoft",
+            "product": "Defender",
+            "name": "Microsoft Defender Denial of Service Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service."
+          },
           {
             "cve_id": "CVE-2026-42897",
             "vendor": "Microsoft",
@@ -4445,73 +4508,10 @@
             "date_added": "2024-04-24",
             "due_date": "2024-05-01",
             "description": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain an infinite loop vulnerability that can lead to remote denial of service condition."
-          },
-          {
-            "cve_id": "CVE-2022-38028",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Print Spooler Privilege Escalation Vulnerability ",
-            "date_added": "2024-04-23",
-            "due_date": "2024-05-14",
-            "description": "Microsoft Windows Print Spooler service contains a privilege escalation vulnerability. An attacker may modify a JavaScript constraints file and execute it with SYSTEM-level permissions."
-          },
-          {
-            "cve_id": "CVE-2024-3400",
-            "vendor": "Palo Alto Networks",
-            "product": "PAN-OS",
-            "name": "Palo Alto Networks PAN-OS Command Injection Vulnerability",
-            "date_added": "2024-04-12",
-            "due_date": "2024-04-19",
-            "description": "Palo Alto Networks PAN-OS GlobalProtect feature contains a command injection vulnerability that allows an unauthenticated attacker to execute commands with root privileges on the firewall."
-          },
-          {
-            "cve_id": "CVE-2024-3273",
-            "vendor": "D-Link",
-            "product": "Multiple NAS Devices",
-            "name": "D-Link Multiple NAS Devices Command Injection Vulnerability",
-            "date_added": "2024-04-11",
-            "due_date": "2024-05-02",
-            "description": "D-Link DNS-320L, DNS-325, DNS-327L, and DNS-340L contain a command injection vulnerability. When combined with CVE-2024-3272, this can lead to remote, unauthorized code execution."
-          },
-          {
-            "cve_id": "CVE-2024-3272",
-            "vendor": "D-Link",
-            "product": "Multiple NAS Devices",
-            "name": "D-Link Multiple NAS Devices Use of Hard-Coded Credentials Vulnerability",
-            "date_added": "2024-04-11",
-            "due_date": "2024-05-02",
-            "description": "D-Link DNS-320L, DNS-325, DNS-327L, and DNS-340L contains a hard-coded credential that allows an attacker to conduct authenticated command injection, leading to remote, unauthorized code execution."
-          },
-          {
-            "cve_id": "CVE-2024-29748",
-            "vendor": "Android",
-            "product": "Pixel",
-            "name": "Android Pixel Privilege Escalation Vulnerability",
-            "date_added": "2024-04-04",
-            "due_date": "2024-04-25",
-            "description": "Android Pixel contains a privilege escalation vulnerability that allows an attacker to interrupt a factory reset triggered by a device admin app."
-          },
-          {
-            "cve_id": "CVE-2024-29745",
-            "vendor": "Android",
-            "product": "Pixel",
-            "name": "Android Pixel Information Disclosure Vulnerability",
-            "date_added": "2024-04-04",
-            "due_date": "2024-04-25",
-            "description": "Android Pixel contains an information disclosure vulnerability in the fastboot firmware used to support unlocking, flashing, and locking affected devices."
-          },
-          {
-            "cve_id": "CVE-2023-24955",
-            "vendor": "Microsoft",
-            "product": "SharePoint Server",
-            "name": "Microsoft SharePoint Server Code Injection Vulnerability",
-            "date_added": "2024-03-26",
-            "due_date": "2024-04-16",
-            "description": "Microsoft SharePoint Server contains a code injection vulnerability that allows an authenticated attacker with Site Owner privileges to execute code remotely."
           }
         ],
-        "total_count": 1592,
-        "last_fetch": "2026-05-20T15:41:01.088598+00:00"
+        "total_count": 1599,
+        "last_fetch": "2026-05-20T20:26:16.262892+00:00"
       }
     }
   ]
