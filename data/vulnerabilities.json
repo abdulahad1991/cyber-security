@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-05-21T15:45:48.147692+00:00",
+  "last_updated": "2026-05-21T20:02:40.306069+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2025-34291",
+            "vendor": "Langflow",
+            "product": "Langflow",
+            "name": "Langflow Origin Validation Error Vulnerability",
+            "date_added": "2026-05-21",
+            "due_date": "2026-06-04",
+            "description": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include credentials and successfully call the refresh endpoint. This could allow the attacker to execute arbitrary code and achieve full system compromise via obtained tokens that permit access to authenticated endpoints."
+          },
+          {
+            "cve_id": "CVE-2026-34926",
+            "vendor": "Trend Micro",
+            "product": "Apex One",
+            "name": "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
+            "date_added": "2026-05-21",
+            "due_date": "2026-06-04",
+            "description": "Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations."
+          },
           {
             "cve_id": "CVE-2008-4250",
             "vendor": "Microsoft",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-04-24",
             "due_date": "2024-05-01",
             "description": "CrushFTP contains an unspecified sandbox escape vulnerability that allows a remote attacker to escape the CrushFTP virtual file system (VFS)."
-          },
-          {
-            "cve_id": "CVE-2024-20359",
-            "vendor": "Cisco",
-            "product": "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)",
-            "name": "Cisco ASA and FTD Privilege Escalation Vulnerability",
-            "date_added": "2024-04-24",
-            "due_date": "2024-05-01",
-            "description": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain a privilege escalation vulnerability that can allow local privilege escalation from Administrator to root."
-          },
-          {
-            "cve_id": "CVE-2024-20353",
-            "vendor": "Cisco",
-            "product": "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)",
-            "name": "Cisco ASA and FTD Denial of Service Vulnerability",
-            "date_added": "2024-04-24",
-            "due_date": "2024-05-01",
-            "description": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain an infinite loop vulnerability that can lead to remote denial of service condition."
           }
         ],
-        "total_count": 1599,
-        "last_fetch": "2026-05-21T15:45:48.333688+00:00"
+        "total_count": 1601,
+        "last_fetch": "2026-05-21T20:02:40.423772+00:00"
       }
     }
   ]
