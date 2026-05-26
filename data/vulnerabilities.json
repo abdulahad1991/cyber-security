@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-05-26T15:57:27.063631+00:00",
+  "last_updated": "2026-05-26T20:21:10.591197+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-48172",
+            "vendor": "LiteSpeed",
+            "product": "cPanel Plugin",
+            "name": "LiteSpeed cPanel Plugin Privilege Escalation Vulnerability",
+            "date_added": "2026-05-26",
+            "due_date": "2026-05-29",
+            "description": "LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with root privileges."
+          },
           {
             "cve_id": "CVE-2026-9082",
             "vendor": "Drupal",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-05-01",
             "due_date": "2024-05-22",
             "description": "GitLab Community and Enterprise Editions contain an improper access control vulnerability. This allows an attacker to trigger password reset emails to be sent to an unverified email address to ultimately facilitate an account takeover."
-          },
-          {
-            "cve_id": "CVE-2024-29988",
-            "vendor": "Microsoft",
-            "product": "SmartScreen Prompt",
-            "name": "Microsoft SmartScreen Prompt Security Feature Bypass Vulnerability",
-            "date_added": "2024-04-30",
-            "due_date": "2024-05-21",
-            "description": "Microsoft SmartScreen Prompt contains a security feature bypass vulnerability that allows an attacker to bypass the Mark of the Web (MotW) feature. This vulnerability can be chained with CVE-2023-38831 and CVE-2024-21412 to execute a malicious file."
           }
         ],
-        "total_count": 1602,
-        "last_fetch": "2026-05-26T15:57:27.180263+00:00"
+        "total_count": 1603,
+        "last_fetch": "2026-05-26T20:21:10.762773+00:00"
       }
     }
   ]
