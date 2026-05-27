@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-05-27T16:01:26.764024+00:00",
+  "last_updated": "2026-05-27T20:25:57.534416+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,33 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-48027",
+            "vendor": "Nx",
+            "product": "Nx Console",
+            "name": "Nx Console Embedded Malicious Code Vulnerability",
+            "date_added": "2026-05-27",
+            "due_date": "2026-06-10",
+            "description": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory."
+          },
+          {
+            "cve_id": "CVE-2026-45321",
+            "vendor": "TanStack",
+            "product": "TanStack",
+            "name": "TanStack Unspecified Vulnerability",
+            "date_added": "2026-05-27",
+            "due_date": "2026-06-10",
+            "description": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity."
+          },
+          {
+            "cve_id": "CVE-2026-8398",
+            "vendor": "Daemon",
+            "product": "Daemon Tools Lite",
+            "name": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
+            "date_added": "2026-05-27",
+            "due_date": "2026-05-30",
+            "description": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability."
+          },
           {
             "cve_id": "CVE-2026-48172",
             "vendor": "LiteSpeed",
@@ -4481,37 +4508,10 @@
             "date_added": "2024-05-14",
             "due_date": "2024-06-04",
             "description": "Microsoft Windows MSHTML Platform contains an unspecified vulnerability that allows for a security feature bypass."
-          },
-          {
-            "cve_id": "CVE-2024-30051",
-            "vendor": "Microsoft",
-            "product": "DWM Core Library",
-            "name": " Microsoft DWM Core Library Privilege Escalation Vulnerability",
-            "date_added": "2024-05-14",
-            "due_date": "2024-06-04",
-            "description": "Microsoft DWM Core Library contains a privilege escalation vulnerability that allows an attacker to gain SYSTEM privileges."
-          },
-          {
-            "cve_id": "CVE-2024-4671",
-            "vendor": "Google",
-            "product": "Chromium",
-            "name": "Google Chromium Visuals Use-After-Free Vulnerability",
-            "date_added": "2024-05-13",
-            "due_date": "2024-06-03",
-            "description": "Google Chromium Visuals contains a use-after-free vulnerability that allows a remote attacker to exploit heap corruption via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
-          },
-          {
-            "cve_id": "CVE-2023-7028",
-            "vendor": "GitLab",
-            "product": "GitLab CE/EE",
-            "name": "GitLab Community and Enterprise Editions Improper Access Control Vulnerability",
-            "date_added": "2024-05-01",
-            "due_date": "2024-05-22",
-            "description": "GitLab Community and Enterprise Editions contain an improper access control vulnerability. This allows an attacker to trigger password reset emails to be sent to an unverified email address to ultimately facilitate an account takeover."
           }
         ],
-        "total_count": 1603,
-        "last_fetch": "2026-05-27T16:01:26.945371+00:00"
+        "total_count": 1606,
+        "last_fetch": "2026-05-27T20:25:57.832109+00:00"
       }
     }
   ]
