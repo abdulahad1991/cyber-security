@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-05-29T15:58:23.365437+00:00",
+  "last_updated": "2026-05-29T20:34:16.830550+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-0257",
+            "vendor": "Palo Alto Networks",
+            "product": "PAN-OS",
+            "name": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
+            "date_added": "2026-05-29",
+            "due_date": "2026-06-01",
+            "description": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection."
+          },
           {
             "cve_id": "CVE-2026-48027",
             "vendor": "Nx",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-05-16",
             "due_date": "2024-06-06",
             "description": "D-Link DIR-600 routers contain a cross-site request forgery (CSRF) vulnerability that allows an attacker to change router configurations by hijacking an existing administrator session."
-          },
-          {
-            "cve_id": "CVE-2024-30040",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows MSHTML Platform Security Feature Bypass Vulnerability",
-            "date_added": "2024-05-14",
-            "due_date": "2024-06-04",
-            "description": "Microsoft Windows MSHTML Platform contains an unspecified vulnerability that allows for a security feature bypass."
           }
         ],
-        "total_count": 1606,
-        "last_fetch": "2026-05-29T15:58:23.521686+00:00"
+        "total_count": 1607,
+        "last_fetch": "2026-05-29T20:34:16.943383+00:00"
       }
     }
   ]
