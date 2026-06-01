@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-06-01T11:49:05.311299+00:00",
+  "last_updated": "2026-06-01T17:55:13.066668+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2024-21182",
+            "vendor": "Oracle",
+            "product": "WebLogic Server",
+            "name": "Oracle WebLogic Server Unspecified Vulnerability",
+            "date_added": "2026-06-01",
+            "due_date": "2026-06-04",
+            "description": "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data."
+          },
           {
             "cve_id": "CVE-2026-0257",
             "vendor": "Palo Alto Networks",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-05-16",
             "due_date": "2024-06-06",
             "description": "D-Link DIR-605 routers contain an information disclosure vulnerability that allows attackers to obtain a username and password by forging a post request to the /getcfg.php page. "
-          },
-          {
-            "cve_id": "CVE-2014-100005",
-            "vendor": "D-Link",
-            "product": "DIR-600 Router",
-            "name": "D-Link DIR-600 Router Cross-Site Request Forgery (CSRF) Vulnerability",
-            "date_added": "2024-05-16",
-            "due_date": "2024-06-06",
-            "description": "D-Link DIR-600 routers contain a cross-site request forgery (CSRF) vulnerability that allows an attacker to change router configurations by hijacking an existing administrator session."
           }
         ],
-        "total_count": 1607,
-        "last_fetch": "2026-06-01T11:49:05.399283+00:00"
+        "total_count": 1608,
+        "last_fetch": "2026-06-01T17:55:13.222159+00:00"
       }
     }
   ]
