@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-06-02T16:46:53.246548+00:00",
+  "last_updated": "2026-06-02T21:17:37.053813+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2022-0492",
+            "vendor": "Linux",
+            "product": "Kernel",
+            "name": "Linux Kernel Improper Authentication Vulnerability",
+            "date_added": "2026-06-02",
+            "due_date": "2026-06-05",
+            "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature."
+          },
+          {
+            "cve_id": "CVE-2025-48595",
+            "vendor": "Android",
+            "product": "Framework",
+            "name": "Android Framework Integer Overflow Vulnerability",
+            "date_added": "2026-06-02",
+            "due_date": "2026-06-05",
+            "description": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation."
+          },
           {
             "cve_id": "CVE-2024-21182",
             "vendor": "Oracle",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-05-20",
             "due_date": "2024-06-10",
             "description": "NextGen Healthcare Mirth Connect contains a deserialization of untrusted data vulnerability that allows for unauthenticated remote code execution via a specially crafted request."
-          },
-          {
-            "cve_id": "CVE-2024-4761",
-            "vendor": "Google",
-            "product": "Chromium V8",
-            "name": "Google Chromium V8 Out-of-Bounds Memory Write Vulnerability",
-            "date_added": "2024-05-16",
-            "due_date": "2024-06-06",
-            "description": "Google Chromium V8 Engine contains an unspecified out-of-bounds memory write vulnerability via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera. "
-          },
-          {
-            "cve_id": "CVE-2021-40655",
-            "vendor": "D-Link",
-            "product": "DIR-605 Router",
-            "name": "D-Link DIR-605 Router Information Disclosure Vulnerability",
-            "date_added": "2024-05-16",
-            "due_date": "2024-06-06",
-            "description": "D-Link DIR-605 routers contain an information disclosure vulnerability that allows attackers to obtain a username and password by forging a post request to the /getcfg.php page. "
           }
         ],
-        "total_count": 1608,
-        "last_fetch": "2026-06-02T16:46:53.329181+00:00"
+        "total_count": 1610,
+        "last_fetch": "2026-06-02T21:17:37.151111+00:00"
       }
     }
   ]
