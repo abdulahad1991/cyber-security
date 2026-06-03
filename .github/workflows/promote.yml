@@ -1,9 +1,16 @@
 name: Validate and Promote to Main
 
 on:
+  # NOTE: push from scrape workflows uses GITHUB_TOKEN, which does NOT trigger
+  # this push event (GitHub anti-recursion rule). The schedule below is what
+  # actually keeps main promoted. The push trigger only fires on manual/PAT pushes.
   push:
     branches:
       - dev
+  schedule:
+    # 30 min after each 6-hourly live scrape (scrape_live runs at 0 */6)
+    - cron: '30 */6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
