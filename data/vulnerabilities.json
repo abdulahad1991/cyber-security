@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-06-03T17:03:03.831761+00:00",
+  "last_updated": "2026-06-03T21:23:27.172844+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-45247",
+            "vendor": "Mirasvit",
+            "product": "Mirasvit Full Page Cache Warmer",
+            "name": "Mirasvit Full Page Cache Warmer Deserialization of Untrusted Data Vulnerability",
+            "date_added": "2026-06-03",
+            "due_date": "2026-06-06",
+            "description": "Mirasvit Full Page Cache Warmer contains a deserialization of untrusted data vulnerability that could allow unauthenticated attackers to achieve remote code execution by supplying a crafted serialized PHP object in the CacheWarmer cookie."
+          },
           {
             "cve_id": "CVE-2022-0492",
             "vendor": "Linux",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-05-20",
             "due_date": "2024-06-10",
             "description": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute code via a crafted HTML page."
-          },
-          {
-            "cve_id": "CVE-2023-43208",
-            "vendor": "NextGen Healthcare",
-            "product": "Mirth Connect",
-            "name": "NextGen Healthcare Mirth Connect Deserialization of Untrusted Data Vulnerability",
-            "date_added": "2024-05-20",
-            "due_date": "2024-06-10",
-            "description": "NextGen Healthcare Mirth Connect contains a deserialization of untrusted data vulnerability that allows for unauthenticated remote code execution via a specially crafted request."
           }
         ],
-        "total_count": 1610,
-        "last_fetch": "2026-06-03T17:03:03.953292+00:00"
+        "total_count": 1611,
+        "last_fetch": "2026-06-03T21:23:27.274339+00:00"
       }
     }
   ]
