@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-05-02T03:33:37.534031+00:00",
+  "last_updated": "2026-06-03T17:03:03.831761+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,213 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2022-0492",
+            "vendor": "Linux",
+            "product": "Kernel",
+            "name": "Linux Kernel Improper Authentication Vulnerability",
+            "date_added": "2026-06-02",
+            "due_date": "2026-06-05",
+            "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature."
+          },
+          {
+            "cve_id": "CVE-2025-48595",
+            "vendor": "Android",
+            "product": "Framework",
+            "name": "Android Framework Integer Overflow Vulnerability",
+            "date_added": "2026-06-02",
+            "due_date": "2026-06-05",
+            "description": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation."
+          },
+          {
+            "cve_id": "CVE-2024-21182",
+            "vendor": "Oracle",
+            "product": "WebLogic Server",
+            "name": "Oracle WebLogic Server Unspecified Vulnerability",
+            "date_added": "2026-06-01",
+            "due_date": "2026-06-04",
+            "description": "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data."
+          },
+          {
+            "cve_id": "CVE-2026-0257",
+            "vendor": "Palo Alto Networks",
+            "product": "PAN-OS",
+            "name": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
+            "date_added": "2026-05-29",
+            "due_date": "2026-06-01",
+            "description": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection."
+          },
+          {
+            "cve_id": "CVE-2026-48027",
+            "vendor": "Nx",
+            "product": "Nx Console",
+            "name": "Nx Console Embedded Malicious Code Vulnerability",
+            "date_added": "2026-05-27",
+            "due_date": "2026-06-10",
+            "description": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory."
+          },
+          {
+            "cve_id": "CVE-2026-45321",
+            "vendor": "TanStack",
+            "product": "TanStack",
+            "name": "TanStack Unspecified Vulnerability",
+            "date_added": "2026-05-27",
+            "due_date": "2026-06-10",
+            "description": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity."
+          },
+          {
+            "cve_id": "CVE-2026-8398",
+            "vendor": "Daemon",
+            "product": "Daemon Tools Lite",
+            "name": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
+            "date_added": "2026-05-27",
+            "due_date": "2026-05-30",
+            "description": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability."
+          },
+          {
+            "cve_id": "CVE-2026-48172",
+            "vendor": "LiteSpeed",
+            "product": "cPanel Plugin",
+            "name": "LiteSpeed cPanel Plugin Privilege Escalation Vulnerability",
+            "date_added": "2026-05-26",
+            "due_date": "2026-05-29",
+            "description": "LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with root privileges."
+          },
+          {
+            "cve_id": "CVE-2026-9082",
+            "vendor": "Drupal",
+            "product": "Core",
+            "name": "Drupal Core SQL Injection Vulnerability",
+            "date_added": "2026-05-22",
+            "due_date": "2026-05-27",
+            "description": "Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API."
+          },
+          {
+            "cve_id": "CVE-2025-34291",
+            "vendor": "Langflow",
+            "product": "Langflow",
+            "name": "Langflow Origin Validation Error Vulnerability",
+            "date_added": "2026-05-21",
+            "due_date": "2026-06-04",
+            "description": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include credentials and successfully call the refresh endpoint. This could allow the attacker to execute arbitrary code and achieve full system compromise via obtained tokens that permit access to authenticated endpoints."
+          },
+          {
+            "cve_id": "CVE-2026-34926",
+            "vendor": "Trend Micro",
+            "product": "Apex One",
+            "name": "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
+            "date_added": "2026-05-21",
+            "due_date": "2026-06-04",
+            "description": "Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations."
+          },
+          {
+            "cve_id": "CVE-2008-4250",
+            "vendor": "Microsoft",
+            "product": "Windows",
+            "name": "Microsoft Windows Buffer Overflow Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization."
+          },
+          {
+            "cve_id": "CVE-2009-1537",
+            "vendor": "Microsoft",
+            "product": "DirectX",
+            "name": "Microsoft DirectX NULL Byte Overwrite Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file."
+          },
+          {
+            "cve_id": "CVE-2009-3459",
+            "vendor": "Adobe",
+            "product": "Acrobat and Reader",
+            "name": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption."
+          },
+          {
+            "cve_id": "CVE-2010-0249",
+            "vendor": "Microsoft",
+            "product": "Internet Explorer",
+            "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization."
+          },
+          {
+            "cve_id": "CVE-2010-0806",
+            "vendor": "Microsoft",
+            "product": "Internet Explorer",
+            "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization."
+          },
+          {
+            "cve_id": "CVE-2026-41091",
+            "vendor": "Microsoft",
+            "product": "Defender",
+            "name": "Microsoft Defender Link Following Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally."
+          },
+          {
+            "cve_id": "CVE-2026-45498",
+            "vendor": "Microsoft",
+            "product": "Defender",
+            "name": "Microsoft Defender Denial of Service Vulnerability",
+            "date_added": "2026-05-20",
+            "due_date": "2026-06-03",
+            "description": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service."
+          },
+          {
+            "cve_id": "CVE-2026-42897",
+            "vendor": "Microsoft",
+            "product": "Microsoft",
+            "name": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
+            "date_added": "2026-05-15",
+            "due_date": "2026-05-29",
+            "description": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context."
+          },
+          {
+            "cve_id": "CVE-2026-20182",
+            "vendor": "Cisco",
+            "product": "Catalyst SD-WAN",
+            "name": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+            "date_added": "2026-05-14",
+            "due_date": "2026-05-17",
+            "description": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system."
+          },
+          {
+            "cve_id": "CVE-2026-42208",
+            "vendor": "BerriAI",
+            "product": "LiteLLM",
+            "name": "BerriAI LiteLLM SQL Injection Vulnerability",
+            "date_added": "2026-05-08",
+            "due_date": "2026-05-11",
+            "description": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages."
+          },
+          {
+            "cve_id": "CVE-2026-6973",
+            "vendor": "Ivanti",
+            "product": "Endpoint Manager Mobile (EPMM)",
+            "name": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
+            "date_added": "2026-05-07",
+            "due_date": "2026-05-10",
+            "description": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution."
+          },
+          {
+            "cve_id": "CVE-2026-0300",
+            "vendor": "Palo Alto Networks",
+            "product": "PAN-OS",
+            "name": "Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability",
+            "date_added": "2026-05-06",
+            "due_date": "2026-05-09",
+            "description": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Series and VM-Series firewalls by sending specially crafted packets."
+          },
           {
             "cve_id": "CVE-2026-31431",
             "vendor": "Linux",
@@ -4301,217 +4508,10 @@
             "date_added": "2024-05-20",
             "due_date": "2024-06-10",
             "description": "NextGen Healthcare Mirth Connect contains a deserialization of untrusted data vulnerability that allows for unauthenticated remote code execution via a specially crafted request."
-          },
-          {
-            "cve_id": "CVE-2024-4761",
-            "vendor": "Google",
-            "product": "Chromium V8",
-            "name": "Google Chromium V8 Out-of-Bounds Memory Write Vulnerability",
-            "date_added": "2024-05-16",
-            "due_date": "2024-06-06",
-            "description": "Google Chromium V8 Engine contains an unspecified out-of-bounds memory write vulnerability via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera. "
-          },
-          {
-            "cve_id": "CVE-2021-40655",
-            "vendor": "D-Link",
-            "product": "DIR-605 Router",
-            "name": "D-Link DIR-605 Router Information Disclosure Vulnerability",
-            "date_added": "2024-05-16",
-            "due_date": "2024-06-06",
-            "description": "D-Link DIR-605 routers contain an information disclosure vulnerability that allows attackers to obtain a username and password by forging a post request to the /getcfg.php page. "
-          },
-          {
-            "cve_id": "CVE-2014-100005",
-            "vendor": "D-Link",
-            "product": "DIR-600 Router",
-            "name": "D-Link DIR-600 Router Cross-Site Request Forgery (CSRF) Vulnerability",
-            "date_added": "2024-05-16",
-            "due_date": "2024-06-06",
-            "description": "D-Link DIR-600 routers contain a cross-site request forgery (CSRF) vulnerability that allows an attacker to change router configurations by hijacking an existing administrator session."
-          },
-          {
-            "cve_id": "CVE-2024-30040",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows MSHTML Platform Security Feature Bypass Vulnerability",
-            "date_added": "2024-05-14",
-            "due_date": "2024-06-04",
-            "description": "Microsoft Windows MSHTML Platform contains an unspecified vulnerability that allows for a security feature bypass."
-          },
-          {
-            "cve_id": "CVE-2024-30051",
-            "vendor": "Microsoft",
-            "product": "DWM Core Library",
-            "name": " Microsoft DWM Core Library Privilege Escalation Vulnerability",
-            "date_added": "2024-05-14",
-            "due_date": "2024-06-04",
-            "description": "Microsoft DWM Core Library contains a privilege escalation vulnerability that allows an attacker to gain SYSTEM privileges."
-          },
-          {
-            "cve_id": "CVE-2024-4671",
-            "vendor": "Google",
-            "product": "Chromium",
-            "name": "Google Chromium Visuals Use-After-Free Vulnerability",
-            "date_added": "2024-05-13",
-            "due_date": "2024-06-03",
-            "description": "Google Chromium Visuals contains a use-after-free vulnerability that allows a remote attacker to exploit heap corruption via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
-          },
-          {
-            "cve_id": "CVE-2023-7028",
-            "vendor": "GitLab",
-            "product": "GitLab CE/EE",
-            "name": "GitLab Community and Enterprise Editions Improper Access Control Vulnerability",
-            "date_added": "2024-05-01",
-            "due_date": "2024-05-22",
-            "description": "GitLab Community and Enterprise Editions contain an improper access control vulnerability. This allows an attacker to trigger password reset emails to be sent to an unverified email address to ultimately facilitate an account takeover."
-          },
-          {
-            "cve_id": "CVE-2024-29988",
-            "vendor": "Microsoft",
-            "product": "SmartScreen Prompt",
-            "name": "Microsoft SmartScreen Prompt Security Feature Bypass Vulnerability",
-            "date_added": "2024-04-30",
-            "due_date": "2024-05-21",
-            "description": "Microsoft SmartScreen Prompt contains a security feature bypass vulnerability that allows an attacker to bypass the Mark of the Web (MotW) feature. This vulnerability can be chained with CVE-2023-38831 and CVE-2024-21412 to execute a malicious file."
-          },
-          {
-            "cve_id": "CVE-2024-4040",
-            "vendor": "CrushFTP",
-            "product": "CrushFTP",
-            "name": "CrushFTP VFS Sandbox Escape Vulnerability",
-            "date_added": "2024-04-24",
-            "due_date": "2024-05-01",
-            "description": "CrushFTP contains an unspecified sandbox escape vulnerability that allows a remote attacker to escape the CrushFTP virtual file system (VFS)."
-          },
-          {
-            "cve_id": "CVE-2024-20359",
-            "vendor": "Cisco",
-            "product": "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)",
-            "name": "Cisco ASA and FTD Privilege Escalation Vulnerability",
-            "date_added": "2024-04-24",
-            "due_date": "2024-05-01",
-            "description": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain a privilege escalation vulnerability that can allow local privilege escalation from Administrator to root."
-          },
-          {
-            "cve_id": "CVE-2024-20353",
-            "vendor": "Cisco",
-            "product": "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)",
-            "name": "Cisco ASA and FTD Denial of Service Vulnerability",
-            "date_added": "2024-04-24",
-            "due_date": "2024-05-01",
-            "description": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain an infinite loop vulnerability that can lead to remote denial of service condition."
-          },
-          {
-            "cve_id": "CVE-2022-38028",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Print Spooler Privilege Escalation Vulnerability ",
-            "date_added": "2024-04-23",
-            "due_date": "2024-05-14",
-            "description": "Microsoft Windows Print Spooler service contains a privilege escalation vulnerability. An attacker may modify a JavaScript constraints file and execute it with SYSTEM-level permissions."
-          },
-          {
-            "cve_id": "CVE-2024-3400",
-            "vendor": "Palo Alto Networks",
-            "product": "PAN-OS",
-            "name": "Palo Alto Networks PAN-OS Command Injection Vulnerability",
-            "date_added": "2024-04-12",
-            "due_date": "2024-04-19",
-            "description": "Palo Alto Networks PAN-OS GlobalProtect feature contains a command injection vulnerability that allows an unauthenticated attacker to execute commands with root privileges on the firewall."
-          },
-          {
-            "cve_id": "CVE-2024-3273",
-            "vendor": "D-Link",
-            "product": "Multiple NAS Devices",
-            "name": "D-Link Multiple NAS Devices Command Injection Vulnerability",
-            "date_added": "2024-04-11",
-            "due_date": "2024-05-02",
-            "description": "D-Link DNS-320L, DNS-325, DNS-327L, and DNS-340L contain a command injection vulnerability. When combined with CVE-2024-3272, this can lead to remote, unauthorized code execution."
-          },
-          {
-            "cve_id": "CVE-2024-3272",
-            "vendor": "D-Link",
-            "product": "Multiple NAS Devices",
-            "name": "D-Link Multiple NAS Devices Use of Hard-Coded Credentials Vulnerability",
-            "date_added": "2024-04-11",
-            "due_date": "2024-05-02",
-            "description": "D-Link DNS-320L, DNS-325, DNS-327L, and DNS-340L contains a hard-coded credential that allows an attacker to conduct authenticated command injection, leading to remote, unauthorized code execution."
-          },
-          {
-            "cve_id": "CVE-2024-29748",
-            "vendor": "Android",
-            "product": "Pixel",
-            "name": "Android Pixel Privilege Escalation Vulnerability",
-            "date_added": "2024-04-04",
-            "due_date": "2024-04-25",
-            "description": "Android Pixel contains a privilege escalation vulnerability that allows an attacker to interrupt a factory reset triggered by a device admin app."
-          },
-          {
-            "cve_id": "CVE-2024-29745",
-            "vendor": "Android",
-            "product": "Pixel",
-            "name": "Android Pixel Information Disclosure Vulnerability",
-            "date_added": "2024-04-04",
-            "due_date": "2024-04-25",
-            "description": "Android Pixel contains an information disclosure vulnerability in the fastboot firmware used to support unlocking, flashing, and locking affected devices."
-          },
-          {
-            "cve_id": "CVE-2023-24955",
-            "vendor": "Microsoft",
-            "product": "SharePoint Server",
-            "name": "Microsoft SharePoint Server Code Injection Vulnerability",
-            "date_added": "2024-03-26",
-            "due_date": "2024-04-16",
-            "description": "Microsoft SharePoint Server contains a code injection vulnerability that allows an authenticated attacker with Site Owner privileges to execute code remotely."
-          },
-          {
-            "cve_id": "CVE-2019-7256",
-            "vendor": "Nice",
-            "product": "Linear eMerge E3-Series",
-            "name": "Nice Linear eMerge E3-Series OS Command Injection Vulnerability",
-            "date_added": "2024-03-25",
-            "due_date": "2024-04-15",
-            "description": "Nice Linear eMerge E3-Series contains an OS command injection vulnerability that allows an attacker to conduct remote code execution."
-          },
-          {
-            "cve_id": "CVE-2021-44529",
-            "vendor": "Ivanti",
-            "product": "Endpoint Manager Cloud Service Appliance (EPM CSA)",
-            "name": "Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) Code Injection Vulnerability ",
-            "date_added": "2024-03-25",
-            "due_date": "2024-04-15",
-            "description": "Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) contains a code injection vulnerability that allows an unauthenticated user to execute malicious code with limited permissions (nobody)."
-          },
-          {
-            "cve_id": "CVE-2023-48788",
-            "vendor": "Fortinet",
-            "product": "FortiClient EMS",
-            "name": "Fortinet FortiClient EMS SQL Injection Vulnerability",
-            "date_added": "2024-03-25",
-            "due_date": "2024-04-15",
-            "description": "Fortinet FortiClient EMS contains a SQL injection vulnerability that allows an unauthenticated attacker to execute commands as SYSTEM via specifically crafted requests."
-          },
-          {
-            "cve_id": "CVE-2024-27198",
-            "vendor": "JetBrains",
-            "product": "TeamCity",
-            "name": "JetBrains TeamCity Authentication Bypass Vulnerability",
-            "date_added": "2024-03-07",
-            "due_date": "2024-03-28",
-            "description": "JetBrains TeamCity contains an authentication bypass vulnerability that allows an attacker to perform admin actions."
-          },
-          {
-            "cve_id": "CVE-2024-23225",
-            "vendor": "Apple",
-            "product": "Multiple Products",
-            "name": "Apple Multiple Products Memory Corruption Vulnerability",
-            "date_added": "2024-03-06",
-            "due_date": "2024-03-27",
-            "description": "Apple iOS, iPadOS, macOS, tvOS, watchOS, and visionOS kernel contain a memory corruption vulnerability that allows an attacker with arbitrary kernel read and write capability to bypass kernel memory protections."
           }
         ],
-        "total_count": 1587,
-        "last_fetch": "2026-05-02T03:33:37.736182+00:00"
+        "total_count": 1610,
+        "last_fetch": "2026-06-03T17:03:03.953292+00:00"
       }
     }
   ]
