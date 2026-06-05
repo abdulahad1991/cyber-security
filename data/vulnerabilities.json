@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-06-05T15:19:22.541483+00:00",
+  "last_updated": "2026-06-05T20:05:55.433531+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-28318",
+            "vendor": "SolarWinds",
+            "product": "Serv-U",
+            "name": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
+            "date_added": "2026-06-05",
+            "due_date": "2026-06-19",
+            "description": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication."
+          },
           {
             "cve_id": "CVE-2026-45247",
             "vendor": "Mirasvit",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-05-23",
             "due_date": "2024-06-13",
             "description": "Apache Flink contains an improper access control vulnerability that allows an attacker to read any file on the local filesystem of the JobManager through its REST interface."
-          },
-          {
-            "cve_id": "CVE-2024-4947",
-            "vendor": "Google",
-            "product": "Chromium V8",
-            "name": "Google Chromium V8 Type Confusion Vulnerability",
-            "date_added": "2024-05-20",
-            "due_date": "2024-06-10",
-            "description": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute code via a crafted HTML page."
           }
         ],
-        "total_count": 1611,
-        "last_fetch": "2026-06-05T15:19:22.748567+00:00"
+        "total_count": 1612,
+        "last_fetch": "2026-06-05T20:05:55.584351+00:00"
       }
     }
   ]
