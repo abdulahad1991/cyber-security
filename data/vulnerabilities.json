@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-06-09T15:19:29.417078+00:00",
+  "last_updated": "2026-06-09T20:14:52.253738+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,33 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-11645",
+            "vendor": "Google",
+            "product": "Chromium V8",
+            "name": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
+            "date_added": "2026-06-09",
+            "due_date": "2026-06-23",
+            "description": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
+          },
+          {
+            "cve_id": "CVE-2026-7473",
+            "vendor": "Arista",
+            "product": "Extensible Operating System",
+            "name": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
+            "date_added": "2026-06-09",
+            "due_date": "2026-06-23",
+            "description": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsulation IP."
+          },
+          {
+            "cve_id": "CVE-2026-20245",
+            "vendor": "Cisco",
+            "product": "Catalyst SD-WAN Manager",
+            "name": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
+            "date_added": "2026-06-09",
+            "due_date": "2026-06-23",
+            "description": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system."
+          },
           {
             "cve_id": "CVE-2026-42271",
             "vendor": "BerriAI",
@@ -4481,37 +4508,10 @@
             "date_added": "2024-06-03",
             "due_date": "2024-06-24",
             "description": "Oracle WebLogic Server, a product within the Fusion Middleware suite, contains an OS command injection vulnerability that allows an attacker to execute arbitrary code via a specially crafted HTTP request that includes a malicious XML document."
-          },
-          {
-            "cve_id": "CVE-2024-1086",
-            "vendor": "Linux",
-            "product": "Kernel",
-            "name": "Linux Kernel Use-After-Free Vulnerability",
-            "date_added": "2024-05-30",
-            "due_date": "2024-06-20",
-            "description": "Linux kernel contains a use-after-free vulnerability in the netfilter: nf_tables component that allows an attacker to achieve local privilege escalation."
-          },
-          {
-            "cve_id": "CVE-2024-24919",
-            "vendor": "Check Point",
-            "product": "Quantum Security Gateways",
-            "name": "Check Point Quantum Security Gateways Information Disclosure Vulnerability",
-            "date_added": "2024-05-30",
-            "due_date": "2024-06-20",
-            "description": "Check Point Quantum Security Gateways contain an unspecified information disclosure vulnerability. The vulnerability potentially allows an attacker to access information on Gateways connected to the internet, with IPSec VPN, Remote Access VPN or Mobile Access enabled. This issue affects several product lines from Check Point, including CloudGuard Network, Quantum Scalable Chassis, Quantum Security Gateways, and Quantum Spark Appliances."
-          },
-          {
-            "cve_id": "CVE-2024-4978",
-            "vendor": "Justice AV Solutions",
-            "product": "Viewer ",
-            "name": "Justice AV Solutions (JAVS) Viewer Installer Embedded Malicious Code Vulnerability",
-            "date_added": "2024-05-29",
-            "due_date": "2024-06-19",
-            "description": "Justice AV Solutions (JAVS) Viewer installer contains a malicious version of ffmpeg.exe, named fffmpeg.exe (SHA256: 421a4ad2615941b177b6ec4ab5e239c14e62af2ab07c6df1741e2a62223223c4). When run, this creates a backdoor connection to a malicious C2 server."
           }
         ],
-        "total_count": 1614,
-        "last_fetch": "2026-06-09T15:19:29.574907+00:00"
+        "total_count": 1617,
+        "last_fetch": "2026-06-09T20:14:52.337702+00:00"
       }
     }
   ]
