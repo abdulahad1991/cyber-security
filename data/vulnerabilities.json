@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-06-11T16:14:30.704902+00:00",
+  "last_updated": "2026-06-11T20:29:18.820603+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-10520",
+            "vendor": "Ivanti",
+            "product": "Sentry",
+            "name": "Ivanti Sentry OS Command Injection Vulnerability",
+            "date_added": "2026-06-11",
+            "due_date": "2026-06-14",
+            "description": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases where the Sentry appliance is in an unmanaged state with its endpoints externally reachable. The use of mTLS with EPMM or restricted HTTPS access through Neurons for MDM makes interfaces inaccessible to external actors."
+          },
           {
             "cve_id": "CVE-2026-11645",
             "vendor": "Google",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-06-12",
             "due_date": "2024-07-03",
             "description": "Arm Bifrost and Valhall GPU kernel drivers contain a use-after-free vulnerability that allows a local, non-privileged user to make improper GPU memory processing operations to gain access to already freed memory."
-          },
-          {
-            "cve_id": "CVE-2017-3506",
-            "vendor": "Oracle",
-            "product": "WebLogic Server",
-            "name": "Oracle WebLogic Server OS Command Injection Vulnerability",
-            "date_added": "2024-06-03",
-            "due_date": "2024-06-24",
-            "description": "Oracle WebLogic Server, a product within the Fusion Middleware suite, contains an OS command injection vulnerability that allows an attacker to execute arbitrary code via a specially crafted HTTP request that includes a malicious XML document."
           }
         ],
-        "total_count": 1617,
-        "last_fetch": "2026-06-11T16:14:30.977326+00:00"
+        "total_count": 1618,
+        "last_fetch": "2026-06-11T20:29:19.063195+00:00"
       }
     }
   ]
