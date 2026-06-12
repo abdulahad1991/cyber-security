@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-06-12T15:30:48.483553+00:00",
+  "last_updated": "2026-06-12T20:19:43.072108+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-35273",
+            "vendor": "Oracle",
+            "product": " PeopleSoft Enterprise PeopleTools",
+            "name": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
+            "date_added": "2026-06-12",
+            "due_date": "2026-06-15",
+            "description": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools."
+          },
           {
             "cve_id": "CVE-2026-10520",
             "vendor": "Ivanti",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-06-12",
             "due_date": "2024-07-03",
             "description": "PHP, specifically Windows-based PHP used in CGI mode, contains an OS command injection vulnerability that allows for arbitrary code execution. This vulnerability is a patch bypass for CVE-2012-1823."
-          },
-          {
-            "cve_id": "CVE-2024-4610",
-            "vendor": "Arm",
-            "product": "Mali GPU Kernel Driver",
-            "name": "Arm Mali GPU Kernel Driver Use-After-Free Vulnerability",
-            "date_added": "2024-06-12",
-            "due_date": "2024-07-03",
-            "description": "Arm Bifrost and Valhall GPU kernel drivers contain a use-after-free vulnerability that allows a local, non-privileged user to make improper GPU memory processing operations to gain access to already freed memory."
           }
         ],
-        "total_count": 1618,
-        "last_fetch": "2026-06-12T15:30:48.619543+00:00"
+        "total_count": 1619,
+        "last_fetch": "2026-06-12T20:19:43.403304+00:00"
       }
     }
   ]
