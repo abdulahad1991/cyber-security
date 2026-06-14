@@ -1,6 +1,6 @@
 {
   "category": "security_testing",
-  "last_updated": "2026-06-07T06:22:34.398630+00:00",
+  "last_updated": "2026-06-14T06:38:23.745298+00:00",
   "sources": [
     {
       "name": "Qualys SSL Labs API Docs",
@@ -46,8 +46,8 @@
             "content": "© 2026 GitHub, Inc. Footer navigation Terms Privacy Security Status Community Docs Contact Manage cookies Do not share my personal information"
           }
         ],
-        "summary": "ssllabs-scan/ssllabs-api-docs.md at master · ssllabs/ssllabs-scan · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert ssllabs / ssllabs-scan Public Notifications You must be signed in to change notification settings Fork 251 Star 1.8k Files Expand file tree master / ssllabs-api-docs.md Copy path Blame More file actions Blame More file actions Latest commit History History History 4 lines (2 loc) · 126 Bytes master / ssllabs-api-docs.md Top File metadata and controls Preview Code Blame 4 lines (2 loc) · 126 Bytes Raw Copy raw file Download raw file Edit and raw actions The documentation for the SSL Labs API v4: https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v4.md You can’t perform that action at this time.",
-        "last_fetch": "2026-06-07T06:22:34.879943+00:00"
+        "summary": "ssllabs-scan/ssllabs-api-docs.md at master · ssllabs/ssllabs-scan · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert ssllabs / ssllabs-scan Public Notifications You must be signed in to change notification settings Fork 251 Star 1.8k Files Expand file tree master / ssllabs-api-docs.md Copy path Blame More file actions Blame More file actions Latest commit History History History 4 lines (2 loc) · 126 Bytes master / ssllabs-api-docs.md Copy path Top File metadata and controls Preview Code Blame 4 lines (2 loc) · 126 Bytes Raw Copy raw file Download raw file Edit and raw actions The documentation for the SSL Labs API v4: https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v4.md You can’t perform that action at this time.",
+        "last_fetch": "2026-06-14T06:38:24.144962+00:00"
       }
     },
     {
@@ -62,8 +62,8 @@
             "content": "Hide results Follow redirects"
           }
         ],
-        "summary": "Analyse your HTTP response headers Grand Totals A+ 8,700,521 A 40,765,765 B 19,168,036 C 18,659,222 D 52,125,936 E 9,627,654 F 165,509,513 R 60,599,786 Total 375,156,433 Recent Scans seo-tip.com F takes.homes F socialboostexchang... E wants.cfd F blinks.monster F www.maxsoft.com.au A blinks.sbs F knows.sbs F knows.monster F Hall of Fame www.maxsoft.com.au A sinakhabar.ir A fated.org A+ www.cybermindspace... A wegrix.dev A ciespal.org A ecqta.com A+ iocb.ictmumbai.edu... A sl.maxsoft.com.au A Hall of Shame seo-tip.com F takes.homes F knows.sbs F knows.monster F newztalkies.org F takes.sbs F seol.store F blinks.monster F wants.cfd F A snyk.io project - CC-BY-SA 4.0 Powered by Snyk Twitter Facebook Email",
-        "last_fetch": "2026-06-07T06:22:35.213881+00:00"
+        "summary": "Analyse your HTTP response headers Grand Totals A+ 8,725,854 A 40,848,133 B 19,192,725 C 18,676,810 D 52,240,894 E 9,630,472 F 166,011,865 R 60,942,563 Total 376,269,316 Recent Scans mry.uk.com D missavws.top F lithhof.org F missav-123.top F www.repairmywindow... B www.detik.com A marie-godard.com F muabannhadat.tv A egyptwithahmed.com A Hall of Fame www.detik.com A muabannhadat.tv A egyptwithahmed.com A apis.plaxweb.com A fated.org A+ web-portal.corderi... A+ nexolumicrm.app.br A+ gerstore.dpsbahadu... A mitsuki-hub.ru A+ Hall of Shame missavws.top F lithhof.org F marie-godard.com F jobportal.vulnapp.... F pr-cy.su F missav-123.top F ios123vip.com F 07devpagerp.com.br F vgp.bivwak.com F A snyk.io project - CC-BY-SA 4.0 Powered by Snyk Twitter Facebook Email",
+        "last_fetch": "2026-06-14T06:38:24.384592+00:00"
       }
     },
     {
@@ -127,7 +127,7 @@
           }
         ],
         "summary": "HSTS Preload List Submission On GitHub HTTP Strict Transport Security (HSTS) HTTP Strict Transport Security (HSTS) is a mechanism for websites to instruct web browsers that the site should only be accessed over HTTPS. This mechanism works by sites sending a Strict-Transport-Security HTTP response header containing the site's policy. HSTS is supported by most major browsers . For more details on HSTS, see RFC 6797 . Benefits of HSTS When a web browser enforces a domain's HSTS policy, it will upgrade all http:// URLs for that domain to HTTPS. If the policy also sets includeSubDomains , it will do this for all subdomains as well. A site that enables HSTS helps protect its users from the following attacks done by an on-path attacker: Browsing history leaks : If a user clicks on an HTTP link to a site, an on-path network observer can see that URL. If the site has an HSTS policy that is enforced, the browser upgrades that URL to HTTPS and the path is not visible to the network observer. Protocol downgrades : If a site redirects from HTTP to HTTPS, an on-path network attacker can intercept and re-write the redirect to keep the browser using plaintext HTTP. Cookie hijacking : On HTTP requests, an on-path network attacker can see and modify cookies. Even if the site redirects to HTTPS, the on-path attacker can inject cookies into the redirect response. Deployment Recommendations If your site is committed to HTTPS and you want browsers to enforce that your page is loaded only over HTTPS, we suggest the following steps to enable HSTS: Examine all subdomains (and nested subdomains) of your site and make sure that they work properly over HTTPS. Note: This also includes internal subdomains that are not publicly accessible. Add the Strict-Transport-Security header to all HTTPS responses and ramp up the max-age in stages, using the following header values: 5 minutes: max-age=300; includeSubDomains 1 week: max-age=604800; includeSubDomains 1 month: max-age=2592000; includeSubDomains During each stage, check for broken pages and monitor your site's metrics (e.g. traffic, revenue). Fix any problems that come up and then wait the full max-age of the stage before you move on. For example, wait a month in the last stage. If you have a group of employees or users who can beta test the deployment, consider trying the first few ramp-up stages on those users. Then make sure to go through all stages for all users, starting over from the beginning. Consult the Mozilla Web Security guidelines and the Google Web Fundamentals pages on security for more concrete advice about HTTPS deployment. Preloading HSTS Since sites tell the browser that they support HSTS when the browser visits, the browser cannot know a site's HSTS policy before the user has visited the site for the first time. As a result, the browser can not require HTTPS until after the first time it has connected to the site, possibly leaving the user unprotected. After this first load, the web browser has the site's ",
-        "last_fetch": "2026-06-07T06:22:35.572888+00:00"
+        "last_fetch": "2026-06-14T06:38:24.771344+00:00"
       }
     }
   ]
