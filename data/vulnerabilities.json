@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-06-18T15:41:26.043914+00:00",
+  "last_updated": "2026-06-18T20:33:47.478761+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-20253",
+            "vendor": "Splunk",
+            "product": "Enterprise",
+            "name": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+            "date_added": "2026-06-18",
+            "due_date": "2026-06-21",
+            "description": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint."
+          },
           {
             "cve_id": "CVE-2026-48907",
             "vendor": "Widget Factory",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-06-26",
             "due_date": "2024-07-17",
             "description": "OSGeo GeoServer JAI-EXT contains a code injection vulnerability that, when programs use jt-jiffle and allow Jiffle script to be provided via network request, could allow remote code execution."
-          },
-          {
-            "cve_id": "CVE-2024-4358",
-            "vendor": "Progress",
-            "product": "Telerik Report Server",
-            "name": "Progress Telerik Report Server Authentication Bypass by Spoofing Vulnerability",
-            "date_added": "2024-06-13",
-            "due_date": "2024-07-04",
-            "description": "Progress Telerik Report Server contains an authorization bypass by spoofing vulnerability that allows an attacker to obtain unauthorized access."
           }
         ],
-        "total_count": 1622,
-        "last_fetch": "2026-06-18T15:41:26.149852+00:00"
+        "total_count": 1623,
+        "last_fetch": "2026-06-18T20:33:47.600646+00:00"
       }
     }
   ]
