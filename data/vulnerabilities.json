@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-06-25T14:45:46.205391+00:00",
+  "last_updated": "2026-06-25T20:11:12.871747+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-12569",
+            "vendor": "PTC",
+            "product": "Windchill and FlexPLM",
+            "name": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+            "date_added": "2026-06-25",
+            "due_date": "2026-06-28",
+            "description": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network."
+          },
+          {
+            "cve_id": "CVE-2026-20230",
+            "vendor": "Cisco",
+            "product": "Unified Communications Manager",
+            "name": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+            "date_added": "2026-06-25",
+            "due_date": "2026-06-28",
+            "description": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote attacker to write files to the underlying operating system that could be used later to elevate to root."
+          },
           {
             "cve_id": "CVE-2025-67038",
             "vendor": "Lantronix",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-07-09",
             "due_date": "2024-07-30",
             "description": "Rejetto HTTP File Server contains an improper neutralization of special elements used in a template engine vulnerability. This allows a remote, unauthenticated attacker to execute commands on the affected system by sending a specially crafted HTTP request."
-          },
-          {
-            "cve_id": "CVE-2024-38080",
-            "vendor": "Microsoft",
-            "product": "Windows ",
-            "name": "Microsoft Windows Hyper-V Privilege Escalation Vulnerability",
-            "date_added": "2024-07-09",
-            "due_date": "2024-07-30",
-            "description": "Microsoft Windows Hyper-V contains a privilege escalation vulnerability that allows a local attacker with user permissions to gain SYSTEM privileges."
-          },
-          {
-            "cve_id": "CVE-2024-38112",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows MSHTML Platform Spoofing Vulnerability",
-            "date_added": "2024-07-09",
-            "due_date": "2024-07-30",
-            "description": "Microsoft Windows MSHTML Platform contains a spoofing vulnerability that has a high impact to confidentiality, integrity, and availability."
           }
         ],
-        "total_count": 1627,
-        "last_fetch": "2026-06-25T14:45:46.341882+00:00"
+        "total_count": 1629,
+        "last_fetch": "2026-06-25T20:11:12.949694+00:00"
       }
     }
   ]

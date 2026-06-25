@@ -1,6 +1,6 @@
 {
   "category": "threat_intel",
-  "last_updated": "2026-06-25T14:45:46.350595+00:00",
+  "last_updated": "2026-06-25T20:11:12.958195+00:00",
   "sources": [
     {
       "name": "OpenPhish Community Feed",
@@ -211,7 +211,7 @@
           "https://gov.parking-fine.top/com/"
         ],
         "total_count": 300,
-        "last_fetch": "2026-06-25T14:45:46.898378+00:00"
+        "last_fetch": "2026-06-25T20:11:13.446306+00:00"
       }
     },
     {
@@ -239,7 +239,7 @@
           }
         ],
         "summary": "APWG Report Smishing Text About APWG Report Phishing Emails © 2026 Anti-Phishing Working Group, Inc © 2026 Anti-Phishing Working Group, Inc Resources Phishing Activity Trends Reports The APWG Phishing Activity Trends Report analyzes phishing attacks reported to the APWG by its member companies, its Global Research Partners, through the organization’s website at http://wp.apwg.org, and by e-mail submissions to reportphishing@antiphishing.org. APWG also measures the evolution, proliferation, and propagation of crimeware by drawing from the research of our member companies. VIEW REPORTS eCrime Research Papers The Symposium on Electronic Crime Research is an annual event hosted by the APWG. The event’s continuing goal is to promote cybercrime research by providing a means for researchers to publish their work. The program has published over 120 papers specifically focused on fraud and crime in the cyber world. VIEW PAPERS ON OUR RESEARCH SITE Global Phishing Survey Phishers are criminal, but they do make rational decisions about how to go about their work. They’re in it for the money, and they work to make their schemes as productive as possible while evading detection. To combat phishing we need to know what the phishers are doing, and how. Where is the phishing taking place? What companies are most vulnerable? Were the slew of new top-level domains a bonanza for phishers? By analyzing the phishing the authors have some answers, and those answers may surprise you. This report seeks to understand trends and their significance by quantifying the scope of the global phishing problem. Specifically, these reports examines all the phishing attacks detected over specific time intervals. VIEW REPORTS",
-        "last_fetch": "2026-06-25T14:45:47.918741+00:00"
+        "last_fetch": "2026-06-25T20:11:15.945189+00:00"
       }
     },
     {
@@ -250,12 +250,740 @@
         "description": "abuse.ch URLhaus feed of recently reported malware distribution URLs",
         "entries": [
           {
-            "id": "3875993",
-            "dateadded": "2026-06-25 14:39:58",
-            "url": "http://server-830796.thatserver.com/pFdY",
+            "id": "3876086",
+            "dateadded": "2026-06-25 19:54:21",
+            "url": "http://42.55.31.123:38986/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876085",
+            "dateadded": "2026-06-25 19:49:27",
+            "url": "http://125.44.46.116:38648/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876084",
+            "dateadded": "2026-06-25 19:31:09",
+            "url": "http://125.41.222.181:42305/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876083",
+            "dateadded": "2026-06-25 19:12:08",
+            "url": "http://125.41.222.181:42305/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876074",
+            "dateadded": "2026-06-25 19:09:28",
+            "url": "http://51.158.248.122/meerkat.mips",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876075",
+            "dateadded": "2026-06-25 19:09:28",
+            "url": "http://51.158.248.122/meerkat.mpsl",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876076",
+            "dateadded": "2026-06-25 19:09:28",
+            "url": "http://51.158.248.122/meerkat.ppc",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876077",
+            "dateadded": "2026-06-25 19:09:28",
+            "url": "http://51.158.248.122/meerkat.x86",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876078",
+            "dateadded": "2026-06-25 19:09:28",
+            "url": "http://51.158.248.122/meerkat.arm5",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876079",
+            "dateadded": "2026-06-25 19:09:28",
+            "url": "http://51.158.248.122/meerkat.arm",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876080",
+            "dateadded": "2026-06-25 19:09:28",
+            "url": "http://51.158.248.122/meerkat.spc",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876081",
+            "dateadded": "2026-06-25 19:09:28",
+            "url": "http://51.158.248.122/meerkat.sh4",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876082",
+            "dateadded": "2026-06-25 19:09:28",
+            "url": "http://51.158.248.122/meerkat.arm6",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876073",
+            "dateadded": "2026-06-25 19:08:24",
+            "url": "http://110.36.18.60:53963/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876072",
+            "dateadded": "2026-06-25 19:07:29",
+            "url": "http://45.5.138.3:59844/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3876071",
+            "dateadded": "2026-06-25 19:03:10",
+            "url": "http://110.36.18.60:53963/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876070",
+            "dateadded": "2026-06-25 19:02:14",
+            "url": "http://46.236.65.39:41753/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876069",
+            "dateadded": "2026-06-25 19:02:08",
+            "url": "http://123.10.140.18:42318/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876068",
+            "dateadded": "2026-06-25 19:00:12",
+            "url": "https://hdb1qm8y.shartcart.xyz/?ublib=e59453c8-4280-4f44-8070-b6fc1c5788ae",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClearFake"
+          },
+          {
+            "id": "3876067",
+            "dateadded": "2026-06-25 18:55:13",
+            "url": "http://91.92.242.236/files-129312398/files/file_a807958c8808a7df.msi",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3876066",
+            "dateadded": "2026-06-25 18:55:12",
+            "url": "http://91.92.242.236/files-129312398/files/file_96500d1cd646a6d8.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3876065",
+            "dateadded": "2026-06-25 18:55:08",
+            "url": "http://51.158.248.122:8517/bins.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3876062",
+            "dateadded": "2026-06-25 18:55:06",
+            "url": "http://91.92.242.236/files-129312398/files/file_ec8c5bd33d915201.exe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3876063",
+            "dateadded": "2026-06-25 18:55:06",
+            "url": "http://51.158.248.122/dl.sh",
             "url_status": "offline",
             "threat": "malware_download",
             "tags": "None"
+          },
+          {
+            "id": "3876064",
+            "dateadded": "2026-06-25 18:55:06",
+            "url": "http://51.158.248.122:8517/dropper.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3876061",
+            "dateadded": "2026-06-25 18:54:14",
+            "url": "http://182.116.21.107:60485/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876060",
+            "dateadded": "2026-06-25 18:52:14",
+            "url": "http://182.116.21.107:60485/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876059",
+            "dateadded": "2026-06-25 18:43:22",
+            "url": "http://59.42.89.142:56735/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3876058",
+            "dateadded": "2026-06-25 18:43:21",
+            "url": "http://45.5.138.3:59844/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3876057",
+            "dateadded": "2026-06-25 18:36:08",
+            "url": "http://123.10.140.18:42318/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876056",
+            "dateadded": "2026-06-25 18:31:09",
+            "url": "http://45.123.9.78:44285/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876055",
+            "dateadded": "2026-06-25 18:31:08",
+            "url": "http://103.164.128.184:48430/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876054",
+            "dateadded": "2026-06-25 18:30:31",
+            "url": "http://42.55.12.197:57882/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876053",
+            "dateadded": "2026-06-25 18:20:31",
+            "url": "http://46.236.65.39:41753/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876052",
+            "dateadded": "2026-06-25 18:08:12",
+            "url": "http://110.39.241.60:52053/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876051",
+            "dateadded": "2026-06-25 18:05:27",
+            "url": "http://115.52.70.16:55222/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876050",
+            "dateadded": "2026-06-25 18:05:26",
+            "url": "http://190.109.227.30:55441/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3876049",
+            "dateadded": "2026-06-25 17:59:06",
+            "url": "https://t1x1vby3.ahkam.xyz/?ublib=df01d0ba-2a5b-4f55-8fb3-0b5ec3fa9e29",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClearFake"
+          },
+          {
+            "id": "3876048",
+            "dateadded": "2026-06-25 17:53:31",
+            "url": "http://server-830796.thatserver.com/Q24I",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3876047",
+            "dateadded": "2026-06-25 17:48:10",
+            "url": "http://1.171.42.227:54191/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3876046",
+            "dateadded": "2026-06-25 17:44:27",
+            "url": "http://222.134.163.254:32834/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876045",
+            "dateadded": "2026-06-25 17:43:24",
+            "url": "http://180.108.24.111:3588/i",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876044",
+            "dateadded": "2026-06-25 17:40:28",
+            "url": "http://190.109.227.30:55441/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3876043",
+            "dateadded": "2026-06-25 17:37:22",
+            "url": "http://115.52.70.16:55222/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876042",
+            "dateadded": "2026-06-25 17:33:22",
+            "url": "http://27.44.147.109:37765/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876041",
+            "dateadded": "2026-06-25 17:31:25",
+            "url": "http://42.86.60.130:33410/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876040",
+            "dateadded": "2026-06-25 17:22:23",
+            "url": "http://110.36.65.9:57347/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876037",
+            "dateadded": "2026-06-25 17:22:22",
+            "url": "http://87.121.79.223/cnc",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876038",
+            "dateadded": "2026-06-25 17:22:22",
+            "url": "http://91.189.183.211:56325/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876039",
+            "dateadded": "2026-06-25 17:22:22",
+            "url": "http://62.60.159.184/bins/ppc",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3876036",
+            "dateadded": "2026-06-25 17:17:20",
+            "url": "http://91.189.183.211:56325/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876035",
+            "dateadded": "2026-06-25 17:16:15",
+            "url": "http://115.57.253.202:48042/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876034",
+            "dateadded": "2026-06-25 17:15:22",
+            "url": "http://115.50.230.103:48927/i",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876033",
+            "dateadded": "2026-06-25 17:12:08",
+            "url": "http://42.238.240.251:53200/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876032",
+            "dateadded": "2026-06-25 17:07:28",
+            "url": "http://138.252.69.11:41457/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3876031",
+            "dateadded": "2026-06-25 17:01:09",
+            "url": "http://110.36.65.9:57347/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876030",
+            "dateadded": "2026-06-25 17:00:14",
+            "url": "http://125.44.209.191:45940/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3876029",
+            "dateadded": "2026-06-25 17:00:08",
+            "url": "https://cd6ts3mz.blackjackonlineplay83.com/?ublib=74bb95fe-85d1-4247-b674-b8c0a461ae25",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClearFake"
+          },
+          {
+            "id": "3876028",
+            "dateadded": "2026-06-25 16:56:08",
+            "url": "http://115.57.253.202:48042/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876027",
+            "dateadded": "2026-06-25 16:54:18",
+            "url": "http://60.21.174.251:45619/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876026",
+            "dateadded": "2026-06-25 16:46:29",
+            "url": "http://115.50.230.103:48927/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876025",
+            "dateadded": "2026-06-25 16:44:23",
+            "url": "http://222.141.105.181:46192/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876024",
+            "dateadded": "2026-06-25 16:35:16",
+            "url": "http://60.21.174.251:45619/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876023",
+            "dateadded": "2026-06-25 16:35:15",
+            "url": "http://125.44.209.191:45940/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3876022",
+            "dateadded": "2026-06-25 16:12:23",
+            "url": "http://115.62.151.50:55151/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876021",
+            "dateadded": "2026-06-25 16:02:06",
+            "url": "http://103.190.23.91:37213/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876020",
+            "dateadded": "2026-06-25 15:56:26",
+            "url": "http://125.44.198.88:40453/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3876019",
+            "dateadded": "2026-06-25 15:47:08",
+            "url": "https://tv2gs2t9.1xfa.bio/?ublib=e938818a-fef6-4d3f-8bf3-3ee13aa5c65e",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClearFake"
+          },
+          {
+            "id": "3876017",
+            "dateadded": "2026-06-25 15:37:07",
+            "url": "http://110.36.2.23:46652/i",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876016",
+            "dateadded": "2026-06-25 15:31:08",
+            "url": "http://103.190.23.91:37213/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876015",
+            "dateadded": "2026-06-25 15:28:08",
+            "url": "https://etaczb1.jetbetapk.online/script.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClickFix"
+          },
+          {
+            "id": "3876014",
+            "dateadded": "2026-06-25 15:19:05",
+            "url": "http://proviewhomeinspections.com/dynamic?txd=2dfc3df264e5fdd440df3a7466922a7228001af837832252e15bfd17b5343c68",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClickFix"
+          },
+          {
+            "id": "3876009",
+            "dateadded": "2026-06-25 15:15:39",
+            "url": "http://176.65.139.35/d/xd.arm7",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876010",
+            "dateadded": "2026-06-25 15:15:39",
+            "url": "http://176.65.139.35/d/xd.arm5",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876011",
+            "dateadded": "2026-06-25 15:15:39",
+            "url": "http://176.65.139.35/d/xd.arm6",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876012",
+            "dateadded": "2026-06-25 15:15:39",
+            "url": "http://176.65.139.35/d/xd.ppc",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876013",
+            "dateadded": "2026-06-25 15:15:39",
+            "url": "http://176.65.139.35/d/xd.m68k",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876005",
+            "dateadded": "2026-06-25 15:15:38",
+            "url": "http://176.65.139.35/d/xd.x86",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876006",
+            "dateadded": "2026-06-25 15:15:38",
+            "url": "http://176.65.139.35/d/xd.arm4",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876007",
+            "dateadded": "2026-06-25 15:15:38",
+            "url": "http://176.65.139.35/d/xd.sh4",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876008",
+            "dateadded": "2026-06-25 15:15:38",
+            "url": "http://176.65.139.35/d/xd.mips",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876004",
+            "dateadded": "2026-06-25 15:15:37",
+            "url": "http://176.65.139.35/d/xd.mpsl",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3876003",
+            "dateadded": "2026-06-25 15:15:33",
+            "url": "http://129.121.114.124/gq2",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3876002",
+            "dateadded": "2026-06-25 15:15:32",
+            "url": "http://129.121.114.124/1AB",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3876001",
+            "dateadded": "2026-06-25 15:07:08",
+            "url": "http://110.36.2.23:46652/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3876000",
+            "dateadded": "2026-06-25 15:06:23",
+            "url": "http://112.140.190.1:39376/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3875999",
+            "dateadded": "2026-06-25 15:04:20",
+            "url": "http://129.121.114.124/yqFn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mips,mirai,ua-wget"
+          },
+          {
+            "id": "3875997",
+            "dateadded": "2026-06-25 15:03:29",
+            "url": "http://129.121.114.124/LyUL",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "arm,elf,mirai,ua-wget"
+          },
+          {
+            "id": "3875998",
+            "dateadded": "2026-06-25 15:03:29",
+            "url": "http://129.121.114.124/G7VG",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "arm,elf,mirai,ua-wget"
+          },
+          {
+            "id": "3875996",
+            "dateadded": "2026-06-25 15:00:08",
+            "url": "https://www.mediafire.com/file/bdaec2a4aop0iqi/Cheat.rar/file",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3875995",
+            "dateadded": "2026-06-25 14:58:20",
+            "url": "http://125.44.198.88:40453/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3875994",
+            "dateadded": "2026-06-25 14:45:17",
+            "url": "http://110.37.106.220:37406/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf"
           },
           {
             "id": "3875992",
@@ -277,7 +1005,7 @@
             "id": "3875990",
             "dateadded": "2026-06-25 14:09:28",
             "url": "http://27.44.145.123:55028/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -333,7 +1061,7 @@
             "id": "3875983",
             "dateadded": "2026-06-25 13:53:24",
             "url": "http://59.97.248.82:49709/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -381,7 +1109,7 @@
             "id": "3875977",
             "dateadded": "2026-06-25 13:31:30",
             "url": "http://59.97.248.82:49709/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -389,7 +1117,7 @@
             "id": "3875976",
             "dateadded": "2026-06-25 13:27:26",
             "url": "http://121.202.142.137:30891/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -437,7 +1165,7 @@
             "id": "3875970",
             "dateadded": "2026-06-25 12:48:27",
             "url": "http://163.142.93.21:47311/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -837,7 +1565,7 @@
             "id": "3875920",
             "dateadded": "2026-06-25 12:27:07",
             "url": "http://60.17.27.182:46434/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "None"
           },
@@ -861,7 +1589,7 @@
             "id": "3875917",
             "dateadded": "2026-06-25 12:11:18",
             "url": "https://blue-paper-f69f.acrypters.workers.dev/J0YH-KEUX-J9ID-2I7M/img_ozliwt.png",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "PureLogsStealer"
           },
@@ -877,7 +1605,7 @@
             "id": "3875915",
             "dateadded": "2026-06-25 11:59:24",
             "url": "http://105.224.194.101:34315/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -917,7 +1645,7 @@
             "id": "3875910",
             "dateadded": "2026-06-25 11:39:21",
             "url": "http://112.238.131.58:35194/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -949,7 +1677,7 @@
             "id": "3875906",
             "dateadded": "2026-06-25 11:24:13",
             "url": "http://182.122.253.193:54758/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -965,7 +1693,7 @@
             "id": "3875904",
             "dateadded": "2026-06-25 11:16:18",
             "url": "http://115.201.126.83:50558/bin.sh",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -989,7 +1717,7 @@
             "id": "3875901",
             "dateadded": "2026-06-25 10:45:09",
             "url": "http://91.92.242.236/files-129312398/files/file_09db6a78e39c7ec7.exe",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "c2-monitor-auto,dropped-by-amadey"
           },
@@ -1029,7 +1757,7 @@
             "id": "3875896",
             "dateadded": "2026-06-25 10:26:23",
             "url": "http://163.142.94.6:46327/i",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1093,7 +1821,7 @@
             "id": "3875888",
             "dateadded": "2026-06-25 10:01:25",
             "url": "http://110.36.15.71:54553/bin.sh",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1101,7 +1829,7 @@
             "id": "3875886",
             "dateadded": "2026-06-25 09:55:21",
             "url": "http://84.22.219.155:9130/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1109,7 +1837,7 @@
             "id": "3875887",
             "dateadded": "2026-06-25 09:55:21",
             "url": "http://110.36.15.130:46434/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1229,7 +1957,7 @@
             "id": "3875872",
             "dateadded": "2026-06-25 09:31:20",
             "url": "http://61.52.159.69:34853/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1237,7 +1965,7 @@
             "id": "3875870",
             "dateadded": "2026-06-25 09:26:17",
             "url": "http://200.112.129.172:46939/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1261,7 +1989,7 @@
             "id": "3875867",
             "dateadded": "2026-06-25 09:13:21",
             "url": "http://123.189.137.234:35549/i",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1285,7 +2013,7 @@
             "id": "3875864",
             "dateadded": "2026-06-25 09:08:16",
             "url": "http://61.52.159.69:34853/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1429,17 +2157,17 @@
             "id": "3875846",
             "dateadded": "2026-06-25 08:15:21",
             "url": "http://51.158.248.122:8517/sh4",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,mirai,ua-wget"
           },
           {
             "id": "3875847",
             "dateadded": "2026-06-25 08:15:21",
             "url": "http://51.158.248.122:8517/i586",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,mirai,ua-wget"
           },
           {
             "id": "3875848",
@@ -1453,7 +2181,7 @@
             "id": "3875849",
             "dateadded": "2026-06-25 08:15:21",
             "url": "http://51.158.248.122:8517/x86_64",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "elf,ua-wget"
           },
@@ -1469,17 +2197,17 @@
             "id": "3875840",
             "dateadded": "2026-06-25 08:09:06",
             "url": "http://51.158.248.122:8517/powerpc",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "wraith"
+            "tags": "mirai,wraith"
           },
           {
             "id": "3875841",
             "dateadded": "2026-06-25 08:09:06",
             "url": "http://51.158.248.122:8517/i686",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "wraith"
+            "tags": "mirai,wraith"
           },
           {
             "id": "3875837",
@@ -1501,9 +2229,9 @@
             "id": "3875839",
             "dateadded": "2026-06-25 08:09:05",
             "url": "http://51.158.248.122:8517/mips",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "wraith"
+            "tags": "mirai,wraith"
           },
           {
             "id": "3875836",
@@ -1525,7 +2253,7 @@
             "id": "3875834",
             "dateadded": "2026-06-25 07:53:31",
             "url": "http://163.142.93.217:59660/i",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1554,18 +2282,10 @@
             "tags": "32-bit,elf,mips,Mozi"
           },
           {
-            "id": "3875830",
-            "dateadded": "2026-06-25 07:26:41",
-            "url": "http://server-830796.thatserver.com/QIC",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
             "id": "3875829",
             "dateadded": "2026-06-25 07:26:27",
             "url": "http://123.132.166.255:41245/i",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -1717,7 +2437,7 @@
             "id": "3875810",
             "dateadded": "2026-06-25 07:11:18",
             "url": "http://27.44.145.146:52583/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1837,7 +2557,7 @@
             "id": "3875795",
             "dateadded": "2026-06-25 06:33:27",
             "url": "http://123.132.166.255:41245/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -1848,14 +2568,6 @@
             "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-63-94-71,elf"
-          },
-          {
-            "id": "3875793",
-            "dateadded": "2026-06-25 06:19:40",
-            "url": "http://server-830796.thatserver.com/JtO",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
           },
           {
             "id": "3875791",
@@ -1936,722 +2648,10 @@
             "url_status": "offline",
             "threat": "malware_download",
             "tags": "c2-monitor-auto,dropped-by-amadey"
-          },
-          {
-            "id": "3875781",
-            "dateadded": "2026-06-25 05:06:30",
-            "url": "http://105.224.74.53:59465/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3875780",
-            "dateadded": "2026-06-25 05:02:08",
-            "url": "http://77.236.74.65:42804/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3875778",
-            "dateadded": "2026-06-25 05:01:18",
-            "url": "http://5.165.231.98:27250/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875779",
-            "dateadded": "2026-06-25 05:01:18",
-            "url": "http://115.55.187.194:37069/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875777",
-            "dateadded": "2026-06-25 04:55:25",
-            "url": "http://115.63.187.254:49894/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875776",
-            "dateadded": "2026-06-25 04:28:32",
-            "url": "http://105.224.74.53:59465/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3875775",
-            "dateadded": "2026-06-25 04:06:23",
-            "url": "http://178.80.14.41:34924/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875774",
-            "dateadded": "2026-06-25 04:04:09",
-            "url": "https://ygbl3eg2.vip1xbet.org/?ublib=0e0abe39-4e05-40ea-a663-04b2e1f0feb1",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake"
-          },
-          {
-            "id": "3875773",
-            "dateadded": "2026-06-25 03:54:30",
-            "url": "http://110.37.84.200:46837/Mozi.m",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "elf,iot,Mozi"
-          },
-          {
-            "id": "3875772",
-            "dateadded": "2026-06-25 03:54:05",
-            "url": "http://91.92.242.236/files-129312398/files/file_770ba08c32f49311.exe",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "c2-monitor-auto,dropped-by-amadey"
-          },
-          {
-            "id": "3875771",
-            "dateadded": "2026-06-25 03:53:24",
-            "url": "http://111.164.238.73:57439/Mozi.m",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "elf,iot,mirai,Mozi"
-          },
-          {
-            "id": "3875770",
-            "dateadded": "2026-06-25 03:53:23",
-            "url": "http://45.225.135.18/deploy_softwaretech.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "CoinMiner,elf,iot"
-          },
-          {
-            "id": "3875769",
-            "dateadded": "2026-06-25 03:53:21",
-            "url": "http://176.65.139.158/ghost.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "elf,iot"
-          },
-          {
-            "id": "3875768",
-            "dateadded": "2026-06-25 03:53:10",
-            "url": "https://fdg.jetbet1.xyz/072d9420-f4da-402d-ab74-9195bee8d427/pf.ch",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": " target-aware delivery,dll,webdav"
-          },
-          {
-            "id": "3875767",
-            "dateadded": "2026-06-25 03:53:06",
-            "url": "http://91.92.242.236/files-129312398/files/file_7d35d73729c60ac7.exe",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "c2-monitor-auto,dropped-by-amadey"
-          },
-          {
-            "id": "3875766",
-            "dateadded": "2026-06-25 03:51:28",
-            "url": "http://222.137.181.113:47641/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875765",
-            "dateadded": "2026-06-25 03:50:46",
-            "url": "http://61.53.119.150:40389/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875764",
-            "dateadded": "2026-06-25 03:49:15",
-            "url": "http://178.80.14.41:34924/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875763",
-            "dateadded": "2026-06-25 03:44:11",
-            "url": "https://pa9xqikq.1000shart.xyz/?ublib=b7cd8121-586a-47e6-8acc-07ae169647bd",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake"
-          },
-          {
-            "id": "3875762",
-            "dateadded": "2026-06-25 03:17:33",
-            "url": "http://27.193.203.65:42468/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875761",
-            "dateadded": "2026-06-25 03:10:30",
-            "url": "http://115.50.0.132:53093/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875760",
-            "dateadded": "2026-06-25 03:09:30",
-            "url": "http://213.66.64.21:45679/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3875759",
-            "dateadded": "2026-06-25 03:07:07",
-            "url": "http://27.193.203.65:42468/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875758",
-            "dateadded": "2026-06-25 03:07:06",
-            "url": "http://79.106.225.176:37046/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3875757",
-            "dateadded": "2026-06-25 03:06:09",
-            "url": "http://42.230.191.151:57553/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875756",
-            "dateadded": "2026-06-25 03:01:28",
-            "url": "http://61.52.85.193:41001/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875755",
-            "dateadded": "2026-06-25 02:57:21",
-            "url": "http://58.212.37.115:56807/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3875754",
-            "dateadded": "2026-06-25 02:57:09",
-            "url": "https://g3byemsx.xbetone.com/?ublib=361a0d0e-e4e4-4b68-afe9-3ecaa2dd28e3",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake"
-          },
-          {
-            "id": "3875753",
-            "dateadded": "2026-06-25 02:47:07",
-            "url": "http://79.106.225.176:37046/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3875752",
-            "dateadded": "2026-06-25 02:40:21",
-            "url": "http://115.50.0.132:53093/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875751",
-            "dateadded": "2026-06-25 02:38:26",
-            "url": "http://42.230.191.151:57553/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875750",
-            "dateadded": "2026-06-25 02:22:35",
-            "url": "http://115.51.122.221:39172/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875748",
-            "dateadded": "2026-06-25 02:10:32",
-            "url": "http://110.38.221.182:58818/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875747",
-            "dateadded": "2026-06-25 02:05:46",
-            "url": "http://115.51.122.221:39172/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875746",
-            "dateadded": "2026-06-25 01:58:22",
-            "url": "http://123.8.41.156:59400/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875745",
-            "dateadded": "2026-06-25 01:54:30",
-            "url": "http://123.8.41.156:59400/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875744",
-            "dateadded": "2026-06-25 01:49:26",
-            "url": "http://115.56.155.139:43277/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875743",
-            "dateadded": "2026-06-25 01:44:22",
-            "url": "http://46.45.14.114:35496/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875742",
-            "dateadded": "2026-06-25 01:43:06",
-            "url": "https://5qsj6shb.rigel1poker.com/?ublib=7fdf217b-76cd-49a9-945e-1ddc06f9cfb5",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake"
-          },
-          {
-            "id": "3875741",
-            "dateadded": "2026-06-25 01:42:06",
-            "url": "http://61.52.85.193:41001/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875740",
-            "dateadded": "2026-06-25 01:32:10",
-            "url": "http://115.62.34.107:59910/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875739",
-            "dateadded": "2026-06-25 01:17:25",
-            "url": "http://46.45.14.114:35496/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875738",
-            "dateadded": "2026-06-25 01:01:16",
-            "url": "http://123.14.249.42:45249/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875737",
-            "dateadded": "2026-06-25 00:59:27",
-            "url": "http://115.56.155.139:43277/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875736",
-            "dateadded": "2026-06-25 00:41:57",
-            "url": "http://27.207.188.87:37374/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875735",
-            "dateadded": "2026-06-25 00:41:46",
-            "url": "http://27.207.188.87:37374/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875734",
-            "dateadded": "2026-06-25 00:40:16",
-            "url": "http://42.231.67.209:43298/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875733",
-            "dateadded": "2026-06-25 00:33:34",
-            "url": "http://175.107.12.59:41122/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875732",
-            "dateadded": "2026-06-25 00:31:18",
-            "url": "http://110.36.70.189:58366/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875731",
-            "dateadded": "2026-06-25 00:29:29",
-            "url": "http://182.127.104.181:54877/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875730",
-            "dateadded": "2026-06-25 00:27:25",
-            "url": "http://116.140.1.130:57686/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875729",
-            "dateadded": "2026-06-25 00:26:11",
-            "url": "http://222.139.95.226:34217/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3875727",
-            "dateadded": "2026-06-25 00:25:31",
-            "url": "http://27.207.111.238:42233/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875728",
-            "dateadded": "2026-06-25 00:25:31",
-            "url": "http://116.140.1.130:57686/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875726",
-            "dateadded": "2026-06-25 00:14:21",
-            "url": "http://42.231.67.209:43298/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875725",
-            "dateadded": "2026-06-24 23:57:14",
-            "url": "http://222.139.95.226:34217/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3875724",
-            "dateadded": "2026-06-24 23:46:18",
-            "url": "http://115.55.243.85:40557/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875723",
-            "dateadded": "2026-06-24 23:45:26",
-            "url": "http://220.202.65.50:45178/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875722",
-            "dateadded": "2026-06-24 23:44:23",
-            "url": "http://182.127.26.219:59962/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875721",
-            "dateadded": "2026-06-24 23:43:06",
-            "url": "https://glbr7plk.parsballl.com/?ublib=d3ece653-6dcf-43a3-87cb-1409b785d187",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ClearFake"
-          },
-          {
-            "id": "3875720",
-            "dateadded": "2026-06-24 23:37:23",
-            "url": "http://27.207.111.238:42233/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875719",
-            "dateadded": "2026-06-24 23:36:09",
-            "url": "http://58.255.42.74:60470/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3875717",
-            "dateadded": "2026-06-24 23:36:08",
-            "url": "http://114.233.77.23:44485/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3875718",
-            "dateadded": "2026-06-24 23:36:08",
-            "url": "http://163.142.93.15:54947/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3875716",
-            "dateadded": "2026-06-24 23:27:08",
-            "url": "http://222.137.42.212:53770/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875715",
-            "dateadded": "2026-06-24 23:19:33",
-            "url": "http://220.202.65.50:45178/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875714",
-            "dateadded": "2026-06-24 23:17:07",
-            "url": "http://114.233.77.23:44485/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3875713",
-            "dateadded": "2026-06-24 23:12:07",
-            "url": "http://163.142.93.15:54947/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3875712",
-            "dateadded": "2026-06-24 23:06:09",
-            "url": "http://222.141.131.59:44008/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875710",
-            "dateadded": "2026-06-24 23:05:24",
-            "url": "http://115.57.215.144:53831/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875711",
-            "dateadded": "2026-06-24 23:05:24",
-            "url": "http://42.231.74.219:58632/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875709",
-            "dateadded": "2026-06-24 23:01:19",
-            "url": "http://213.66.64.21:45679/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3875708",
-            "dateadded": "2026-06-24 22:58:23",
-            "url": "http://115.57.215.144:53831/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875707",
-            "dateadded": "2026-06-24 22:51:08",
-            "url": "http://221.15.14.72:40035/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3875705",
-            "dateadded": "2026-06-24 22:41:07",
-            "url": "http://125.43.80.225:49743/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875706",
-            "dateadded": "2026-06-24 22:41:07",
-            "url": "http://27.44.144.208:57621/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3875704",
-            "dateadded": "2026-06-24 22:28:24",
-            "url": "http://105.224.228.37:38033/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3875703",
-            "dateadded": "2026-06-24 22:27:24",
-            "url": "http://110.39.253.204:50758/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875701",
-            "dateadded": "2026-06-24 22:22:08",
-            "url": "http://222.137.42.212:53770/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875702",
-            "dateadded": "2026-06-24 22:22:08",
-            "url": "http://125.43.80.225:49743/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875700",
-            "dateadded": "2026-06-24 22:22:07",
-            "url": "http://182.126.87.101:36983/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875699",
-            "dateadded": "2026-06-24 22:18:26",
-            "url": "http://153.117.6.29:33485/Mozi.m",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ua-wget"
-          },
-          {
-            "id": "3875687",
-            "dateadded": "2026-06-24 22:17:06",
-            "url": "http://27.44.144.208:57621/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3875686",
-            "dateadded": "2026-06-24 22:07:26",
-            "url": "http://51.81.96.73/n2/tbk",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "sh,ua-wget"
-          },
-          {
-            "id": "3875685",
-            "dateadded": "2026-06-24 22:06:08",
-            "url": "http://221.15.14.72:40035/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3875684",
-            "dateadded": "2026-06-24 22:02:09",
-            "url": "http://182.126.87.101:36983/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3875683",
-            "dateadded": "2026-06-24 22:00:32",
-            "url": "http://59.97.251.215:50487/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3875673",
-            "dateadded": "2026-06-24 22:00:31",
-            "url": "http://51.81.96.73/n2/ppc",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "elf,mirai,ua-wget"
-          },
-          {
-            "id": "3875674",
-            "dateadded": "2026-06-24 22:00:31",
-            "url": "http://51.81.96.73/n2/x86",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "elf,mirai,ua-wget"
           }
         ],
         "total_count": 300,
-        "last_fetch": "2026-06-25T14:45:48.108694+00:00"
+        "last_fetch": "2026-06-25T20:11:16.034106+00:00"
       }
     },
     {
@@ -2662,7 +2662,7 @@
         "description": "abuse.ch ThreatFox recent indicators of compromise (domains, IPs, URLs, hashes)",
         "entries": [],
         "total_count": 0,
-        "last_fetch": "2026-06-25T14:45:48.223930+00:00"
+        "last_fetch": "2026-06-25T20:11:16.265106+00:00"
       }
     },
     {
@@ -2719,7 +2719,7 @@
           }
         ],
         "total_count": 5,
-        "last_fetch": "2026-06-25T14:45:48.337052+00:00"
+        "last_fetch": "2026-06-25T20:11:16.350380+00:00"
       }
     }
   ]
