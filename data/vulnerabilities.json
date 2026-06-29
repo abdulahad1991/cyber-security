@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-06-29T15:59:16.909328+00:00",
+  "last_updated": "2026-06-29T20:12:01.269695+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-48558",
+            "vendor": "SimpleHelp ",
+            "product": "SimpleHelp",
+            "name": "SimpleHelp Authentication Bypass Vulnerability",
+            "date_added": "2026-06-29",
+            "due_date": "2026-07-02",
+            "description": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication."
+          },
           {
             "cve_id": "CVE-2026-12569",
             "vendor": "PTC",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-07-15",
             "due_date": "2024-08-05",
             "description": "OSGeo GeoServer GeoTools contains an improper neutralization of directives in dynamically evaluated code vulnerability due to unsafely evaluating property names as XPath expressions. This allows unauthenticated attackers to conduct remote code execution via specially crafted input."
-          },
-          {
-            "cve_id": "CVE-2024-23692",
-            "vendor": "Rejetto",
-            "product": "HTTP File Server",
-            "name": "Rejetto HTTP File Server Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
-            "date_added": "2024-07-09",
-            "due_date": "2024-07-30",
-            "description": "Rejetto HTTP File Server contains an improper neutralization of special elements used in a template engine vulnerability. This allows a remote, unauthenticated attacker to execute commands on the affected system by sending a specially crafted HTTP request."
           }
         ],
-        "total_count": 1629,
-        "last_fetch": "2026-06-29T15:59:17.047788+00:00"
+        "total_count": 1630,
+        "last_fetch": "2026-06-29T20:12:01.366434+00:00"
       }
     }
   ]
