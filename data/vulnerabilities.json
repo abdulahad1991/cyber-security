@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-07-01T14:49:56.213689+00:00",
+  "last_updated": "2026-07-01T20:03:58.989731+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-45659",
+            "vendor": "Microsoft",
+            "product": "SharePoint Server",
+            "name": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+            "date_added": "2026-07-01",
+            "due_date": "2026-07-04",
+            "description": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network."
+          },
           {
             "cve_id": "CVE-2026-48558",
             "vendor": "SimpleHelp ",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-07-17",
             "due_date": "2024-08-07",
             "description": "Adobe Commerce and Magento Open Source contain an improper restriction of XML external entity reference (XXE) vulnerability that allows for remote code execution."
-          },
-          {
-            "cve_id": "CVE-2024-36401",
-            "vendor": "OSGeo",
-            "product": "GeoServer",
-            "name": "OSGeo GeoServer GeoTools Eval Injection Vulnerability",
-            "date_added": "2024-07-15",
-            "due_date": "2024-08-05",
-            "description": "OSGeo GeoServer GeoTools contains an improper neutralization of directives in dynamically evaluated code vulnerability due to unsafely evaluating property names as XPath expressions. This allows unauthenticated attackers to conduct remote code execution via specially crafted input."
           }
         ],
-        "total_count": 1630,
-        "last_fetch": "2026-07-01T14:49:56.341364+00:00"
+        "total_count": 1631,
+        "last_fetch": "2026-07-01T20:03:59.308359+00:00"
       }
     }
   ]
