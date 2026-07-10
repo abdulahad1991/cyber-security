@@ -1,6 +1,6 @@
 {
   "category": "threat_intel",
-  "last_updated": "2026-07-10T03:56:32.501884+00:00",
+  "last_updated": "2026-07-10T09:47:19.732202+00:00",
   "sources": [
     {
       "name": "OpenPhish Community Feed",
@@ -211,7 +211,7 @@
           "https://cas-univ-lyon1.framer.website/"
         ],
         "total_count": 300,
-        "last_fetch": "2026-07-10T03:56:33.216432+00:00"
+        "last_fetch": "2026-07-10T09:47:20.410613+00:00"
       }
     },
     {
@@ -239,7 +239,7 @@
           }
         ],
         "summary": "APWG Report Smishing Text About APWG Report Phishing Emails © 2026 Anti-Phishing Working Group, Inc © 2026 Anti-Phishing Working Group, Inc Resources Phishing Activity Trends Reports The APWG Phishing Activity Trends Report analyzes phishing attacks reported to the APWG by its member companies, its Global Research Partners, through the organization’s website at http://wp.apwg.org, and by e-mail submissions to reportphishing@antiphishing.org. APWG also measures the evolution, proliferation, and propagation of crimeware by drawing from the research of our member companies. VIEW REPORTS eCrime Research Papers The Symposium on Electronic Crime Research is an annual event hosted by the APWG. The event’s continuing goal is to promote cybercrime research by providing a means for researchers to publish their work. The program has published over 120 papers specifically focused on fraud and crime in the cyber world. VIEW PAPERS ON OUR RESEARCH SITE Global Phishing Survey Phishers are criminal, but they do make rational decisions about how to go about their work. They’re in it for the money, and they work to make their schemes as productive as possible while evading detection. To combat phishing we need to know what the phishers are doing, and how. Where is the phishing taking place? What companies are most vulnerable? Were the slew of new top-level domains a bonanza for phishers? By analyzing the phishing the authors have some answers, and those answers may surprise you. This report seeks to understand trends and their significance by quantifying the scope of the global phishing problem. Specifically, these reports examines all the phishing attacks detected over specific time intervals. VIEW REPORTS",
-        "last_fetch": "2026-07-10T03:56:37.574688+00:00"
+        "last_fetch": "2026-07-10T09:47:20.831463+00:00"
       }
     },
     {
@@ -249,6 +249,22 @@
       "data": {
         "description": "abuse.ch URLhaus feed of recently reported malware distribution URLs",
         "entries": [
+          {
+            "id": "3884495",
+            "dateadded": "2026-07-10 09:02:17",
+            "url": "http://125.160.131.186:42169/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3884494",
+            "dateadded": "2026-07-10 06:04:10",
+            "url": "http://45.5.138.3:59029/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,Mozi"
+          },
           {
             "id": "3884493",
             "dateadded": "2026-07-09 22:08:10",
@@ -2632,26 +2648,10 @@
             "url_status": "offline",
             "threat": "malware_download",
             "tags": "ClearFake,win-0x4679,windows"
-          },
-          {
-            "id": "3884195",
-            "dateadded": "2026-07-09 06:37:08",
-            "url": "http://42.232.87.186:35730/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3884194",
-            "dateadded": "2026-07-09 06:37:07",
-            "url": "http://110.36.2.23:39355/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Mozi"
           }
         ],
         "total_count": 300,
-        "last_fetch": "2026-07-10T03:56:37.903327+00:00"
+        "last_fetch": "2026-07-10T09:47:21.155817+00:00"
       }
     },
     {
@@ -2662,7 +2662,7 @@
         "description": "abuse.ch ThreatFox recent indicators of compromise (domains, IPs, URLs, hashes)",
         "entries": [],
         "total_count": 0,
-        "last_fetch": "2026-07-10T03:56:38.039583+00:00"
+        "last_fetch": "2026-07-10T09:47:21.470138+00:00"
       }
     },
     {
@@ -2719,7 +2719,7 @@
           }
         ],
         "total_count": 5,
-        "last_fetch": "2026-07-10T03:56:38.150143+00:00"
+        "last_fetch": "2026-07-10T09:47:21.567688+00:00"
       }
     }
   ]
