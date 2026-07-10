@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-07-10T14:42:47.086670+00:00",
+  "last_updated": "2026-07-10T19:42:33.068327+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-56291",
+            "vendor": "Balbooa",
+            "product": "Forms",
+            "name": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "date_added": "2026-07-10",
+            "due_date": "2026-07-13",
+            "description": "Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to full RCE."
+          },
+          {
+            "cve_id": "CVE-2026-48939",
+            "vendor": "iCagenda",
+            "product": "iCagenda",
+            "name": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "date_added": "2026-07-10",
+            "due_date": "2026-07-13",
+            "description": "iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution."
+          },
           {
             "cve_id": "CVE-2026-48908",
             "vendor": "JoomShaper",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-07-29",
             "due_date": "2024-08-19",
             "description": "ServiceNow Washington DC, Vancouver, and earlier Now Platform releases contain an incomplete list of disallowed inputs vulnerability in the GlideExpression script. An unauthenticated user could exploit this vulnerability to execute code remotely."
-          },
-          {
-            "cve_id": "CVE-2024-4879",
-            "vendor": "ServiceNow",
-            "product": "Utah, Vancouver, and Washington DC Now Platform",
-            "name": "ServiceNow Improper Input Validation Vulnerability",
-            "date_added": "2024-07-29",
-            "due_date": "2024-08-19",
-            "description": "ServiceNow Utah, Vancouver, and Washington DC Now Platform releases contain a jelly template injection vulnerability in UI macros. An unauthenticated user could exploit this vulnerability to execute code remotely. "
-          },
-          {
-            "cve_id": "CVE-2024-39891",
-            "vendor": "Twilio",
-            "product": "Authy",
-            "name": "Twilio Authy Information Disclosure Vulnerability",
-            "date_added": "2024-07-23",
-            "due_date": "2024-08-13",
-            "description": "Twilio Authy contains an information disclosure vulnerability in its API that allows an unauthenticated endpoint to accept a request containing a phone number and respond with information about whether the phone number was registered with Authy."
           }
         ],
-        "total_count": 1635,
-        "last_fetch": "2026-07-10T14:42:47.167613+00:00"
+        "total_count": 1637,
+        "last_fetch": "2026-07-10T19:42:33.382019+00:00"
       }
     }
   ]
