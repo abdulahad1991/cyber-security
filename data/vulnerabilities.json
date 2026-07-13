@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-07-13T14:49:53.605908+00:00",
+  "last_updated": "2026-07-13T19:38:27.054760+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2008-4128",
+            "vendor": "Cisco",
+            "product": "IOS",
+            "name": "Cisco IOS Cross-Site Request Forgery Vulnerability",
+            "date_added": "2026-07-13",
+            "due_date": "2026-07-16",
+            "description": "Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, and (2) a certain \"alias exec\" command to the /level/15/exec/-/configure/http URI."
+          },
           {
             "cve_id": "CVE-2026-56291",
             "vendor": "Balbooa",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-07-29",
             "due_date": "2024-08-19",
             "description": "Acronis Cyber Infrastructure (ACI) allows an unauthenticated user to execute commands remotely due to the use of default passwords."
-          },
-          {
-            "cve_id": "CVE-2024-5217",
-            "vendor": "ServiceNow",
-            "product": "Utah, Vancouver, and Washington DC Now Platform",
-            "name": "ServiceNow Incomplete List of Disallowed Inputs Vulnerability",
-            "date_added": "2024-07-29",
-            "due_date": "2024-08-19",
-            "description": "ServiceNow Washington DC, Vancouver, and earlier Now Platform releases contain an incomplete list of disallowed inputs vulnerability in the GlideExpression script. An unauthenticated user could exploit this vulnerability to execute code remotely."
           }
         ],
-        "total_count": 1637,
-        "last_fetch": "2026-07-13T14:49:53.776355+00:00"
+        "total_count": 1638,
+        "last_fetch": "2026-07-13T19:38:27.162471+00:00"
       }
     }
   ]
