@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-07-15T13:56:57.279712+00:00",
+  "last_updated": "2026-07-15T19:21:39.282722+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-46817",
+            "vendor": "Oracle",
+            "product": "E-Business Suite",
+            "name": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
+            "date_added": "2026-07-15",
+            "due_date": "2026-07-18",
+            "description": "Oracle E-Business Suite contains an improper privilege management vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Payments. Successful attacks of this vulnerability can result in takeover of Oracle Payments."
+          },
+          {
+            "cve_id": "CVE-2023-4346",
+            "vendor": "KNX Association",
+            "product": "KNX Protocol Connection Authorization Option 1",
+            "name": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
+            "date_added": "2026-07-15",
+            "due_date": "2026-07-29",
+            "description": "KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without additional security options enabled and set a BCU key to lock the device. "
+          },
           {
             "cve_id": "CVE-2026-56155",
             "vendor": "Microsoft",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-08-13",
             "due_date": "2024-09-03",
             "description": "Microsoft Windows Scripting Engine contains a memory corruption vulnerability that allows unauthenticated attacker to initiate remote code execution via a specially crafted URL."
-          },
-          {
-            "cve_id": "CVE-2024-38189",
-            "vendor": "Microsoft",
-            "product": "Project",
-            "name": "Microsoft Project Remote Code Execution Vulnerability ",
-            "date_added": "2024-08-13",
-            "due_date": "2024-09-03",
-            "description": "Microsoft Project contains an unspecified vulnerability that allows for remote code execution via a malicious file."
-          },
-          {
-            "cve_id": "CVE-2024-32113",
-            "vendor": "Apache",
-            "product": "OFBiz",
-            "name": "Apache OFBiz Path Traversal Vulnerability",
-            "date_added": "2024-08-07",
-            "due_date": "2024-08-28",
-            "description": "Apache OFBiz contains a path traversal vulnerability that could allow for remote code execution."
           }
         ],
-        "total_count": 1642,
-        "last_fetch": "2026-07-15T13:56:57.445318+00:00"
+        "total_count": 1644,
+        "last_fetch": "2026-07-15T19:21:39.392621+00:00"
       }
     }
   ]
