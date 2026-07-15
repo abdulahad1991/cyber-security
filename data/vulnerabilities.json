@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-07-14T19:35:36.733166+00:00",
+  "last_updated": "2026-07-15T02:56:47.804783+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -26,6 +26,24 @@
             "date_added": "2026-07-14",
             "due_date": "2026-07-17",
             "description": "Microsoft SharePoint contains a missing authentication for critical function vulnerability that allows an unauthorized attacker to elevate privileges over a network."
+          },
+          {
+            "cve_id": "CVE-2026-15409",
+            "vendor": "SonicWall",
+            "product": "SMA1000 Appliances",
+            "name": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+            "date_added": "2026-07-14",
+            "due_date": "2026-07-17",
+            "description": "SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended location."
+          },
+          {
+            "cve_id": "CVE-2026-15410",
+            "vendor": "SonicWall",
+            "product": "SMA1000 Appliances",
+            "name": "SonicWall SMA1000 Appliances Code Injection Vulnerability",
+            "date_added": "2026-07-14",
+            "due_date": "2026-07-17",
+            "description": "SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands."
           },
           {
             "cve_id": "CVE-2008-4128",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-08-07",
             "due_date": "2024-08-28",
             "description": "Apache OFBiz contains a path traversal vulnerability that could allow for remote code execution."
-          },
-          {
-            "cve_id": "CVE-2024-36971",
-            "vendor": "Android",
-            "product": "Kernel",
-            "name": "Android Kernel Remote Code Execution Vulnerability",
-            "date_added": "2024-08-07",
-            "due_date": "2024-08-28",
-            "description": "Android contains an unspecified vulnerability in the kernel that allows for remote code execution. This vulnerability resides in Linux Kernel and could impact other products, including but not limited to Android OS."
-          },
-          {
-            "cve_id": "CVE-2018-0824",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft COM for Windows Deserialization of Untrusted Data Vulnerability",
-            "date_added": "2024-08-05",
-            "due_date": "2024-08-26",
-            "description": "Microsoft COM for Windows contains a deserialization of untrusted data vulnerability that allows for privilege escalation and remote code execution via a specially crafted file or script."
           }
         ],
-        "total_count": 1640,
-        "last_fetch": "2026-07-14T19:35:36.977853+00:00"
+        "total_count": 1642,
+        "last_fetch": "2026-07-15T02:56:47.926655+00:00"
       }
     }
   ]
