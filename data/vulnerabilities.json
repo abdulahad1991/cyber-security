@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-07-16T14:08:37.207353+00:00",
+  "last_updated": "2026-07-16T19:21:51.427860+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,33 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-58644",
+            "vendor": "Microsoft",
+            "product": "SharePoint",
+            "name": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
+            "date_added": "2026-07-16",
+            "due_date": "2026-07-19",
+            "description": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network."
+          },
+          {
+            "cve_id": "CVE-2026-25089",
+            "vendor": "Fortinet",
+            "product": "FortiSandbox",
+            "name": "Fortinet FortiSandbox OS Command Injection Vulnerability",
+            "date_added": "2026-07-16",
+            "due_date": "2026-07-19",
+            "description": "Fortinet FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS contain an OS command injection vulnerability that allows an unauthenticated attacker to execute unauthorized commands via specifically crafted HTTP requests."
+          },
+          {
+            "cve_id": "CVE-2026-39808",
+            "vendor": "Fortinet",
+            "product": "FortiSandbox",
+            "name": "Fortinet FortiSandbox OS Command Injection Vulnerability",
+            "date_added": "2026-07-16",
+            "due_date": "2026-07-19",
+            "description": "Fortinet FortiSandbox contains an OS command injection vulnerability that could allow an unauthenticated attacker to execute unauthorized code or commands via crafted HTTP requests."
+          },
           {
             "cve_id": "CVE-2026-46817",
             "vendor": "Oracle",
@@ -4481,37 +4508,10 @@
             "date_added": "2024-08-13",
             "due_date": "2024-09-03",
             "description": "Microsoft Windows Kernel contains an unspecified vulnerability that allows for privilege escalation, enabling a local attacker to gain SYSTEM privileges. Successful exploitation of this vulnerability requires an attacker to win a race condition."
-          },
-          {
-            "cve_id": "CVE-2024-38193",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Ancillary Function Driver for WinSock Privilege Escalation Vulnerability",
-            "date_added": "2024-08-13",
-            "due_date": "2024-09-03",
-            "description": "Microsoft Windows Ancillary Function Driver for WinSock contains an unspecified vulnerability that allows for privilege escalation, enabling a local attacker to gain SYSTEM privileges."
-          },
-          {
-            "cve_id": "CVE-2024-38213",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows SmartScreen Security Feature Bypass Vulnerability",
-            "date_added": "2024-08-13",
-            "due_date": "2024-09-03",
-            "description": "Microsoft Windows SmartScreen contains a security feature bypass vulnerability that allows an attacker to bypass the SmartScreen user experience via a malicious file."
-          },
-          {
-            "cve_id": "CVE-2024-38178",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Scripting Engine Memory Corruption Vulnerability",
-            "date_added": "2024-08-13",
-            "due_date": "2024-09-03",
-            "description": "Microsoft Windows Scripting Engine contains a memory corruption vulnerability that allows unauthenticated attacker to initiate remote code execution via a specially crafted URL."
           }
         ],
-        "total_count": 1644,
-        "last_fetch": "2026-07-16T14:08:37.539917+00:00"
+        "total_count": 1647,
+        "last_fetch": "2026-07-16T19:21:51.592978+00:00"
       }
     }
   ]
