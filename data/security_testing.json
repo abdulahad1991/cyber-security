@@ -1,6 +1,6 @@
 {
   "category": "security_testing",
-  "last_updated": "2026-07-12T05:26:04.934834+00:00",
+  "last_updated": "2026-07-19T05:20:11.487814+00:00",
   "sources": [
     {
       "name": "Qualys SSL Labs API Docs",
@@ -47,7 +47,7 @@
           }
         ],
         "summary": "ssllabs-scan/ssllabs-api-docs.md at master · ssllabs/ssllabs-scan · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert Uh oh! There was an error while loading. Please reload this page . ssllabs / ssllabs-scan Public Notifications You must be signed in to change notification settings Fork 250 Star 1.8k Files Expand file tree master / ssllabs-api-docs.md Copy path Blame More file actions Blame More file actions Latest commit History History History 4 lines (2 loc) · 126 Bytes master / ssllabs-api-docs.md Copy path Top File metadata and controls Preview Code Blame 4 lines (2 loc) · 126 Bytes Raw Copy raw file Download raw file Edit and raw actions The documentation for the SSL Labs API v4: https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v4.md You can’t perform that action at this time.",
-        "last_fetch": "2026-07-12T05:26:05.359732+00:00"
+        "last_fetch": "2026-07-19T05:20:11.996818+00:00"
       }
     },
     {
@@ -62,8 +62,8 @@
             "content": "Hide results Follow redirects"
           }
         ],
-        "summary": "Analyse your HTTP response headers Grand Totals A+ 8,832,398 A 41,281,735 B 19,326,548 C 18,752,729 D 52,794,015 E 9,651,041 F 167,848,340 R 61,358,194 Total 379,845,000 Recent Scans blog-0568217349.il... A lankakonect.slbfe.... F szsus.prbly.win F takes.homes F knows.sbs F securelynx.it A+ qlh.uk.com F www.digwow.net F wants.cfd F Hall of Fame blog-0568217349.il... A securelynx.it A+ blog-0295738164.il... A sumopod.com A lodash.com A blog-0479681352.il... A rakitcv.com A blog-7498532106.il... A www.iliiili.com A Hall of Shame szsus.prbly.win F knows.sbs F takes.sbs F qlh.uk.com F wants.cfd F takes.homes F mmcon.sakura.ne.jp F www.digwow.net F lankakonect.slbfe.... F A snyk.io project - CC-BY-SA 4.0 Powered by Snyk Twitter Facebook Email",
-        "last_fetch": "2026-07-12T05:26:05.676364+00:00"
+        "summary": "Analyse your HTTP response headers Grand Totals A+ 8,858,717 A 41,443,052 B 19,361,219 C 18,776,124 D 52,901,753 E 9,653,283 F 168,388,383 R 61,440,315 Total 380,822,846 Recent Scans sarlherve56.fr A+ knows.monster F seomonthlypackage.... F xoso686.com D seo-tip.com F ok365tm.org D takes.homes F ios123vip.com F theplatesmusic.com F Hall of Fame sarlherve56.fr A+ www.ivpn.net A www.iliiili.com A fated.org A+ sixjourneys.com A blog-0435921678.il... A www.portfo.dev A blog-4735910628.il... A securityheaders.co... A+ Hall of Shame knows.monster F seomonthlypackage.... F takes.homes F ios123vip.com F theplatesmusic.com F tamanin.web.id F trimox.madpath.com F seo-tip.com F knows.sbs F A snyk.io project - CC-BY-SA 4.0 Powered by Snyk Twitter Facebook Email",
+        "last_fetch": "2026-07-19T05:20:12.619762+00:00"
       }
     },
     {
@@ -127,7 +127,7 @@
           }
         ],
         "summary": "HSTS Preload List Submission On GitHub HTTP Strict Transport Security (HSTS) HTTP Strict Transport Security (HSTS) is a mechanism for websites to instruct web browsers that the site should only be accessed over HTTPS. This mechanism works by sites sending a Strict-Transport-Security HTTP response header containing the site's policy. HSTS is supported by most major browsers . For more details on HSTS, see RFC 6797 . Benefits of HSTS When a web browser enforces a domain's HSTS policy, it will upgrade all http:// URLs for that domain to HTTPS. If the policy also sets includeSubDomains , it will do this for all subdomains as well. A site that enables HSTS helps protect its users from the following attacks done by an on-path attacker: Browsing history leaks : If a user clicks on an HTTP link to a site, an on-path network observer can see that URL. If the site has an HSTS policy that is enforced, the browser upgrades that URL to HTTPS and the path is not visible to the network observer. Protocol downgrades : If a site redirects from HTTP to HTTPS, an on-path network attacker can intercept and re-write the redirect to keep the browser using plaintext HTTP. Cookie hijacking : On HTTP requests, an on-path network attacker can see and modify cookies. Even if the site redirects to HTTPS, the on-path attacker can inject cookies into the redirect response. Deployment Recommendations If your site is committed to HTTPS and you want browsers to enforce that your page is loaded only over HTTPS, we suggest the following steps to enable HSTS: Examine all subdomains (and nested subdomains) of your site and make sure that they work properly over HTTPS. Note: This also includes internal subdomains that are not publicly accessible. Add the Strict-Transport-Security header to all HTTPS responses and ramp up the max-age in stages, using the following header values: 5 minutes: max-age=300; includeSubDomains 1 week: max-age=604800; includeSubDomains 1 month: max-age=2592000; includeSubDomains During each stage, check for broken pages and monitor your site's metrics (e.g. traffic, revenue). Fix any problems that come up and then wait the full max-age of the stage before you move on. For example, wait a month in the last stage. If you have a group of employees or users who can beta test the deployment, consider trying the first few ramp-up stages on those users. Then make sure to go through all stages for all users, starting over from the beginning. Consult the Mozilla Web Security guidelines and the Google Web Fundamentals pages on security for more concrete advice about HTTPS deployment. Preloading HSTS Since sites tell the browser that they support HSTS when the browser visits, the browser cannot know a site's HSTS policy before the user has visited the site for the first time. As a result, the browser can not require HTTPS until after the first time it has connected to the site, possibly leaving the user unprotected. After this first load, the web browser has the site's ",
-        "last_fetch": "2026-07-12T05:26:05.963123+00:00"
+        "last_fetch": "2026-07-19T05:20:12.972479+00:00"
       }
     }
   ]
