@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-07-21T14:08:12.483922+00:00",
+  "last_updated": "2026-07-21T19:41:02.249001+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,42 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-60137",
+            "vendor": "WordPress",
+            "product": "Core",
+            "name": "WordPress Core SQL Injection Vulnerability",
+            "date_added": "2026-07-21",
+            "due_date": "2026-08-04",
+            "description": "WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated attacker to gain remote code execution on default WordPress installations."
+          },
+          {
+            "cve_id": "CVE-2026-63030",
+            "vendor": "WordPress",
+            "product": "Core",
+            "name": "WordPress Core Interpretation Conflict Vulnerability",
+            "date_added": "2026-07-21",
+            "due_date": "2026-07-24",
+            "description": "WordPress Core contains an interpretation conflict vulnerability that could allow an attacker to perform SQL Injection and achieve Remote Code Execution. This vulnerability can be chained with CVE-2026-60137."
+          },
+          {
+            "cve_id": "CVE-2026-0770",
+            "vendor": "Langflow",
+            "product": "Langflow",
+            "name": "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
+            "date_added": "2026-07-21",
+            "due_date": "2026-07-24",
+            "description": "Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations. "
+          },
+          {
+            "cve_id": "CVE-2021-27137",
+            "vendor": "DD-WRT",
+            "product": "DD-WRT",
+            "name": "DD-WRT Stack-Based Buffer Overflow Vulnerability",
+            "date_added": "2026-07-21",
+            "due_date": "2026-07-24",
+            "description": "DD-WRT contains a stack-based buffer overflow vulnerability that could allow an unauthenticated attacker to overflow an internal buffer used by UPnP and trigger a code execution vulnerability."
+          },
           {
             "cve_id": "CVE-2026-58644",
             "vendor": "Microsoft",
@@ -4472,46 +4508,10 @@
             "date_added": "2024-08-21",
             "due_date": "2024-09-11",
             "description": "Dahua IP cameras and related products contain an authentication bypass vulnerability when the NetKeyboard type argument is specified by the client during authentication."
-          },
-          {
-            "cve_id": "CVE-2024-23897",
-            "vendor": "Jenkins",
-            "product": "Jenkins Command Line Interface (CLI)",
-            "name": "Jenkins Command Line Interface (CLI) Path Traversal Vulnerability",
-            "date_added": "2024-08-19",
-            "due_date": "2024-09-09",
-            "description": "Jenkins Command Line Interface (CLI) contains a path traversal vulnerability that allows attackers limited read access to certain files, which can lead to code execution."
-          },
-          {
-            "cve_id": "CVE-2024-28986",
-            "vendor": "SolarWinds",
-            "product": "Web Help Desk",
-            "name": "SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability",
-            "date_added": "2024-08-15",
-            "due_date": "2024-09-05",
-            "description": "SolarWinds Web Help Desk contains a deserialization of untrusted data vulnerability that could allow for remote code execution."
-          },
-          {
-            "cve_id": "CVE-2024-38107",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Power Dependency Coordinator Privilege Escalation Vulnerability",
-            "date_added": "2024-08-13",
-            "due_date": "2024-09-03",
-            "description": "Microsoft Windows Power Dependency Coordinator contains an unspecified vulnerability that allows for privilege escalation, enabling a local attacker to obtain SYSTEM privileges."
-          },
-          {
-            "cve_id": "CVE-2024-38106",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Kernel Privilege Escalation Vulnerability",
-            "date_added": "2024-08-13",
-            "due_date": "2024-09-03",
-            "description": "Microsoft Windows Kernel contains an unspecified vulnerability that allows for privilege escalation, enabling a local attacker to gain SYSTEM privileges. Successful exploitation of this vulnerability requires an attacker to win a race condition."
           }
         ],
-        "total_count": 1647,
-        "last_fetch": "2026-07-21T14:08:12.824094+00:00"
+        "total_count": 1651,
+        "last_fetch": "2026-07-21T19:41:02.392024+00:00"
       }
     }
   ]
