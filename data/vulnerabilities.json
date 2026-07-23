@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-07-22T19:35:51.819227+00:00",
+  "last_updated": "2026-07-23T03:29:44.553838+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-16232",
+            "vendor": "Check Point",
+            "product": "SmartConsole",
+            "name": "Check Point SmartConsole Improper Authentication Vulnerability",
+            "date_added": "2026-07-22",
+            "due_date": "2026-07-25",
+            "description": "Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges."
+          },
+          {
+            "cve_id": "CVE-2026-50522",
+            "vendor": "Microsoft",
+            "product": "SharePoint",
+            "name": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability ",
+            "date_added": "2026-07-22",
+            "due_date": "2026-07-25",
+            "description": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network."
+          },
           {
             "cve_id": "CVE-2026-60137",
             "vendor": "WordPress",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-08-21",
             "due_date": "2024-09-11",
             "description": "Linux kernel contains a heap-based buffer overflow vulnerability in the legacy_parse_param function in the Filesystem Context functionality. This allows an attacker to open a filesystem that does not support the Filesystem Context API and ultimately escalate privileges."
-          },
-          {
-            "cve_id": "CVE-2021-33045",
-            "vendor": "Dahua",
-            "product": "IP Camera Firmware",
-            "name": "Dahua IP Camera Authentication Bypass Vulnerability",
-            "date_added": "2024-08-21",
-            "due_date": "2024-09-11",
-            "description": "Dahua IP cameras and related products contain an authentication bypass vulnerability when the loopback device is specified by the client during authentication."
-          },
-          {
-            "cve_id": "CVE-2021-33044",
-            "vendor": "Dahua",
-            "product": "IP Camera Firmware",
-            "name": "Dahua IP Camera Authentication Bypass Vulnerability",
-            "date_added": "2024-08-21",
-            "due_date": "2024-09-11",
-            "description": "Dahua IP cameras and related products contain an authentication bypass vulnerability when the NetKeyboard type argument is specified by the client during authentication."
           }
         ],
-        "total_count": 1651,
-        "last_fetch": "2026-07-22T19:35:52.017857+00:00"
+        "total_count": 1653,
+        "last_fetch": "2026-07-23T03:29:44.706285+00:00"
       }
     }
   ]
