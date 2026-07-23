@@ -1,6 +1,6 @@
 {
   "category": "threat_intel",
-  "last_updated": "2026-07-23T14:20:54.648682+00:00",
+  "last_updated": "2026-07-23T19:35:07.564444+00:00",
   "sources": [
     {
       "name": "OpenPhish Community Feed",
@@ -211,7 +211,7 @@
           "http://whatsappverificp.webcindario.com/"
         ],
         "total_count": 300,
-        "last_fetch": "2026-07-23T14:20:55.145242+00:00"
+        "last_fetch": "2026-07-23T19:35:08.386312+00:00"
       }
     },
     {
@@ -239,7 +239,7 @@
           }
         ],
         "summary": "APWG Report Smishing Text About APWG Report Phishing Emails © 2026 Anti-Phishing Working Group, Inc © 2026 Anti-Phishing Working Group, Inc Resources Phishing Activity Trends Reports The APWG Phishing Activity Trends Report analyzes phishing attacks reported to the APWG by its member companies, its Global Research Partners, through the organization’s website at http://wp.apwg.org, and by e-mail submissions to reportphishing@antiphishing.org. APWG also measures the evolution, proliferation, and propagation of crimeware by drawing from the research of our member companies. VIEW REPORTS eCrime Research Papers The Symposium on Electronic Crime Research is an annual event hosted by the APWG. The event’s continuing goal is to promote cybercrime research by providing a means for researchers to publish their work. The program has published over 120 papers specifically focused on fraud and crime in the cyber world. VIEW PAPERS ON OUR RESEARCH SITE Global Phishing Survey Phishers are criminal, but they do make rational decisions about how to go about their work. They’re in it for the money, and they work to make their schemes as productive as possible while evading detection. To combat phishing we need to know what the phishers are doing, and how. Where is the phishing taking place? What companies are most vulnerable? Were the slew of new top-level domains a bonanza for phishers? By analyzing the phishing the authors have some answers, and those answers may surprise you. This report seeks to understand trends and their significance by quantifying the scope of the global phishing problem. Specifically, these reports examines all the phishing attacks detected over specific time intervals. VIEW REPORTS",
-        "last_fetch": "2026-07-23T14:20:56.101660+00:00"
+        "last_fetch": "2026-07-23T19:35:08.887103+00:00"
       }
     },
     {
@@ -249,6 +249,694 @@
       "data": {
         "description": "abuse.ch URLhaus feed of recently reported malware distribution URLs",
         "entries": [
+          {
+            "id": "3890882",
+            "dateadded": "2026-07-23 19:26:20",
+            "url": "http://183.151.4.238:48247/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3890881",
+            "dateadded": "2026-07-23 19:25:34",
+            "url": "http://111.35.78.2:26702/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890880",
+            "dateadded": "2026-07-23 19:22:59",
+            "url": "http://117.251.6.63:49901/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890879",
+            "dateadded": "2026-07-23 19:21:24",
+            "url": "http://115.63.50.101:40566/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3890878",
+            "dateadded": "2026-07-23 19:07:24",
+            "url": "https://shell-node-7uxe.vercel.app/activator/windows?id=s",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "ClickFix,ua-curl"
+          },
+          {
+            "id": "3890876",
+            "dateadded": "2026-07-23 19:07:23",
+            "url": "https://shell-node-7uxe.vercel.app/activator/windows?id=e",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "ClickFix,ua-curl"
+          },
+          {
+            "id": "3890877",
+            "dateadded": "2026-07-23 19:07:23",
+            "url": "https://shell-node-7uxe.vercel.app/task/parser/windows?token=912",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "ClickFix,ua-curl"
+          },
+          {
+            "id": "3890875",
+            "dateadded": "2026-07-23 19:06:21",
+            "url": "http://42.85.135.109:46174/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3890874",
+            "dateadded": "2026-07-23 19:05:43",
+            "url": "http://105.225.107.53:52335/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3890873",
+            "dateadded": "2026-07-23 19:05:18",
+            "url": "https://api.recapcha.space/task/windows?token=912",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ascii,bat"
+          },
+          {
+            "id": "3890872",
+            "dateadded": "2026-07-23 19:04:39",
+            "url": "http://43.228.157.47/bot.mips",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips"
+          },
+          {
+            "id": "3890871",
+            "dateadded": "2026-07-23 18:57:20",
+            "url": "http://183.151.4.238:48247/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3890870",
+            "dateadded": "2026-07-23 18:54:38",
+            "url": "http://42.227.128.250:40404/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890869",
+            "dateadded": "2026-07-23 18:52:29",
+            "url": "https://tue-orange-01.cfd/JblSound.exe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "exe"
+          },
+          {
+            "id": "3890868",
+            "dateadded": "2026-07-23 18:48:36",
+            "url": "http://41.216.189.236/bins/o.xml",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "opendir,sh,ua-wget,xml"
+          },
+          {
+            "id": "3890867",
+            "dateadded": "2026-07-23 18:40:30",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxnpowerpcxnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3890861",
+            "dateadded": "2026-07-23 18:39:39",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxnor1kxnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3890862",
+            "dateadded": "2026-07-23 18:39:39",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxnsh4xnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3890863",
+            "dateadded": "2026-07-23 18:39:39",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxnmipsxnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3890864",
+            "dateadded": "2026-07-23 18:39:39",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxnriscv32xnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3890865",
+            "dateadded": "2026-07-23 18:39:39",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxnsh2xnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3890866",
+            "dateadded": "2026-07-23 18:39:39",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxnmicroblazexnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3890859",
+            "dateadded": "2026-07-23 18:38:27",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxnriscv64xnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3890860",
+            "dateadded": "2026-07-23 18:38:27",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxnx86_64xnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,gafgyt,ua-wget"
+          },
+          {
+            "id": "3890858",
+            "dateadded": "2026-07-23 18:36:34",
+            "url": "http://123.7.236.222:55776/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890857",
+            "dateadded": "2026-07-23 18:34:31",
+            "url": "http://125.44.221.211:37637/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890856",
+            "dateadded": "2026-07-23 18:28:34",
+            "url": "https://pub-cc9d5dea66b0416b9dea589e3bdd8f2e.r2.dev/Safe-1.zip",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "zip"
+          },
+          {
+            "id": "3890855",
+            "dateadded": "2026-07-23 18:16:24",
+            "url": "http://91.92.242.236/files-129312398/files/file_38c8a1eeb2a6a97e.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3890852",
+            "dateadded": "2026-07-23 18:16:23",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxnloongarch64xnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3890853",
+            "dateadded": "2026-07-23 18:16:23",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxni386xnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3890854",
+            "dateadded": "2026-07-23 18:16:23",
+            "url": "http://110.36.16.143:35116/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3890849",
+            "dateadded": "2026-07-23 18:16:22",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxnm68kxnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3890850",
+            "dateadded": "2026-07-23 18:16:22",
+            "url": "http://91.92.242.236/files-129312398/files/file_dcd6503e21b6e736.exe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3890851",
+            "dateadded": "2026-07-23 18:16:22",
+            "url": "http://41.216.189.236/bins/xnxnxnxnxnxnxnxnaarch64xnxn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3890848",
+            "dateadded": "2026-07-23 18:01:07",
+            "url": "https://pub-7080e0c20a0e47ca95a476869c532367.r2.dev/libEGL.zip",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3890847",
+            "dateadded": "2026-07-23 18:00:46",
+            "url": "http://110.36.109.57:35387/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890846",
+            "dateadded": "2026-07-23 17:58:48",
+            "url": "http://182.113.36.146:42173/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890845",
+            "dateadded": "2026-07-23 17:37:09",
+            "url": "http://110.36.109.57:35387/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890844",
+            "dateadded": "2026-07-23 17:26:08",
+            "url": "http://196.189.35.172:38422/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3890843",
+            "dateadded": "2026-07-23 17:22:08",
+            "url": "http://124.29.223.148:41988/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3890842",
+            "dateadded": "2026-07-23 17:15:18",
+            "url": "http://110.36.25.58:41114/Mozi.a",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mips,Mozi,ua-wget"
+          },
+          {
+            "id": "3890841",
+            "dateadded": "2026-07-23 17:12:20",
+            "url": "http://85.120.255.252:8000/csharp.exe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "exe,powershell,windows"
+          },
+          {
+            "id": "3890840",
+            "dateadded": "2026-07-23 17:12:15",
+            "url": "http://bore.pub:6668/deploy.zip",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ascii"
+          },
+          {
+            "id": "3890839",
+            "dateadded": "2026-07-23 17:12:11",
+            "url": "http://91.92.242.236/files-129312398/files/file_e8a7336a520decb5.exe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3890838",
+            "dateadded": "2026-07-23 17:12:09",
+            "url": "http://91.92.242.236/files-129312398/files/file_f309f8496f916deb.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3890835",
+            "dateadded": "2026-07-23 17:12:05",
+            "url": "http://91.92.242.236/files-129312398/files/file_c4864984d6828180.exe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3890836",
+            "dateadded": "2026-07-23 17:12:05",
+            "url": "http://91.92.242.236/files-129312398/files/file_c9d9a4d389cc4c0e.exe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3890837",
+            "dateadded": "2026-07-23 17:12:05",
+            "url": "http://91.92.242.236/files-129312398/files/file_6503c668037248da.exe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3890834",
+            "dateadded": "2026-07-23 17:02:08",
+            "url": "http://196.189.35.172:38422/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3890833",
+            "dateadded": "2026-07-23 16:51:08",
+            "url": "http://123.13.0.125:49649/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3890832",
+            "dateadded": "2026-07-23 16:31:22",
+            "url": "http://110.37.12.8:50702/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890831",
+            "dateadded": "2026-07-23 16:03:30",
+            "url": "http://27.207.227.95:37522/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890830",
+            "dateadded": "2026-07-23 16:03:29",
+            "url": "http://110.36.70.189:37746/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890829",
+            "dateadded": "2026-07-23 16:02:23",
+            "url": "http://110.37.12.8:50702/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890828",
+            "dateadded": "2026-07-23 16:01:35",
+            "url": "http://59.42.89.228:56735/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3890827",
+            "dateadded": "2026-07-23 15:56:24",
+            "url": "http://182.119.221.36:37593/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890826",
+            "dateadded": "2026-07-23 15:48:39",
+            "url": "http://110.36.70.189:37746/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890825",
+            "dateadded": "2026-07-23 15:41:33",
+            "url": "http://105.184.236.200:57839/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3890824",
+            "dateadded": "2026-07-23 15:30:24",
+            "url": "http://115.57.232.101:49435/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890823",
+            "dateadded": "2026-07-23 15:22:17",
+            "url": "http://115.63.50.113:53912/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3890822",
+            "dateadded": "2026-07-23 15:22:16",
+            "url": "http://105.224.253.142:53571/i",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3890821",
+            "dateadded": "2026-07-23 15:21:29",
+            "url": "http://105.184.236.200:57839/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3890820",
+            "dateadded": "2026-07-23 15:19:30",
+            "url": "http://60.19.223.48:41000/i",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890819",
+            "dateadded": "2026-07-23 15:14:25",
+            "url": "http://94.154.43.191:8080/mips",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "DDoSAgent,elf,mips,ua-wget"
+          },
+          {
+            "id": "3890818",
+            "dateadded": "2026-07-23 14:58:30",
+            "url": "http://45.233.94.135:47604/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3890817",
+            "dateadded": "2026-07-23 14:55:19",
+            "url": "http://115.50.73.98:51034/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3890816",
+            "dateadded": "2026-07-23 14:51:35",
+            "url": "http://60.19.223.48:41000/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890815",
+            "dateadded": "2026-07-23 14:49:33",
+            "url": "http://115.57.232.101:49435/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890813",
+            "dateadded": "2026-07-23 14:49:31",
+            "url": "http://115.55.234.59:45952/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890814",
+            "dateadded": "2026-07-23 14:49:31",
+            "url": "http://115.57.195.152:35283/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890812",
+            "dateadded": "2026-07-23 14:40:29",
+            "url": "https://panel.munchyyyyyscpann.live/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "connectwise,msi,rmm,screenconnect"
+          },
+          {
+            "id": "3890811",
+            "dateadded": "2026-07-23 14:37:24",
+            "url": "http://105.224.253.142:53571/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3890810",
+            "dateadded": "2026-07-23 14:35:20",
+            "url": "https://kgbhost.digital/kingboss/uploads/bin.exe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "exe,Formbook"
+          },
+          {
+            "id": "3890809",
+            "dateadded": "2026-07-23 14:34:21",
+            "url": "https://cryptefilea.infy.click/img_064021.png",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "xworm"
+          },
+          {
+            "id": "3890808",
+            "dateadded": "2026-07-23 14:34:16",
+            "url": "https://misty-cherry-cea3.uploadsimg.workers.dev/MczSa",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "xworm"
+          },
+          {
+            "id": "3890807",
+            "dateadded": "2026-07-23 14:33:24",
+            "url": "http://182.113.43.32:32781/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890806",
+            "dateadded": "2026-07-23 14:32:18",
+            "url": "https://pub-705a8e07fa6b46089d8811cabeb44a89.r2.dev/water-night.zip",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "RemusStealer"
+          },
+          {
+            "id": "3890804",
+            "dateadded": "2026-07-23 14:31:18",
+            "url": "https://pub-b066744732514fe6974e5655a609b606.r2.dev/xitoviskiskunitz.zip",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "RemusStealer"
+          },
+          {
+            "id": "3890805",
+            "dateadded": "2026-07-23 14:31:18",
+            "url": "http://115.50.73.98:51034/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3890803",
+            "dateadded": "2026-07-23 14:30:27",
+            "url": "http://45.8.118.17:54149/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3890802",
+            "dateadded": "2026-07-23 14:29:26",
+            "url": "https://vjy888.com/zwev1nb/hamscid/yqagovc/MSI_PRODJ5TH.png",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3890801",
+            "dateadded": "2026-07-23 14:29:16",
+            "url": "https://vjy888.com/zwev1nb/hamscid/yqagovc/sdy.png",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3890800",
+            "dateadded": "2026-07-23 14:28:14",
+            "url": "https://cripter.xo.je/img_070139.png",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "xworm"
+          },
+          {
+            "id": "3890799",
+            "dateadded": "2026-07-23 14:28:13",
+            "url": "https://misty-cherry-cea3.uploadsimg.workers.dev/lOYxX",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "xworm"
+          },
+          {
+            "id": "3890798",
+            "dateadded": "2026-07-23 14:22:11",
+            "url": "https://res.cloudinary.com/rgvdjkao/image/upload/v1784793516/img_005516_pfiaw8.jpg",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "PhantomStealer"
+          },
+          {
+            "id": "3890797",
+            "dateadded": "2026-07-23 14:20:25",
+            "url": "http://45.233.94.135:47604/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
           {
             "id": "3890796",
             "dateadded": "2026-07-23 14:19:27",
@@ -261,7 +949,7 @@
             "id": "3890795",
             "dateadded": "2026-07-23 14:15:19",
             "url": "http://113.228.134.22:50099/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -285,7 +973,7 @@
             "id": "3890792",
             "dateadded": "2026-07-23 13:51:08",
             "url": "http://110.36.89.246:52906/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "mirai"
           },
@@ -317,7 +1005,7 @@
             "id": "3890788",
             "dateadded": "2026-07-23 13:19:21",
             "url": "http://221.1.141.26:55302/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -413,7 +1101,7 @@
             "id": "3890776",
             "dateadded": "2026-07-23 11:46:15",
             "url": "http://113.205.175.109:40459/i",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "mirai"
           },
@@ -429,7 +1117,7 @@
             "id": "3890774",
             "dateadded": "2026-07-23 11:30:19",
             "url": "http://125.40.39.31:55959/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "Mozi"
           },
@@ -453,7 +1141,7 @@
             "id": "3890771",
             "dateadded": "2026-07-23 11:21:16",
             "url": "http://125.40.39.31:55959/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "Mozi"
           },
@@ -479,7 +1167,7 @@
             "url": "http://160.22.106.17/bins.sh",
             "url_status": "online",
             "threat": "malware_download",
-            "tags": "script"
+            "tags": "mirai,script"
           },
           {
             "id": "3890767",
@@ -517,7 +1205,7 @@
             "id": "3890763",
             "dateadded": "2026-07-23 10:49:32",
             "url": "http://180.107.162.176:3588/i",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -533,7 +1221,7 @@
             "id": "3890761",
             "dateadded": "2026-07-23 10:32:18",
             "url": "http://59.180.142.187:52846/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -767,7 +1455,7 @@
             "url": "http://129.121.114.124/GD8",
             "url_status": "online",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,mirai,ua-wget"
           },
           {
             "id": "3890734",
@@ -775,7 +1463,7 @@
             "url": "http://129.121.114.124/QRV",
             "url_status": "online",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,mirai,ua-wget"
           },
           {
             "id": "3890730",
@@ -783,13 +1471,13 @@
             "url": "http://129.121.114.124/iZ5O",
             "url_status": "online",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,mirai,ua-wget"
           },
           {
             "id": "3890729",
             "dateadded": "2026-07-23 08:14:34",
             "url": "http://58.242.23.224:33747/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -885,7 +1573,7 @@
             "id": "3890717",
             "dateadded": "2026-07-23 08:07:31",
             "url": "http://42.52.207.199:34276/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1960,698 +2648,10 @@
             "url_status": "offline",
             "threat": "malware_download",
             "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890576",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://wean-bredfact.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890577",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://ropestem-math.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890578",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://turniron-mound.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890579",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://infocrabcob.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890580",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://stopplay-rich.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890581",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://over-clapmolt.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890582",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://swaycladstop.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890583",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://hatchfoe-flung.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890584",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://seenlamegnat.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890585",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://card-slip-pier.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890586",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://dove-void-pave.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890587",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://out-duct-till.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890588",
-            "dateadded": "2026-07-23 07:06:14",
-            "url": "http://idea-nickdoor.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890559",
-            "dateadded": "2026-07-23 07:06:13",
-            "url": "http://next-jazz-iron.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890560",
-            "dateadded": "2026-07-23 07:06:13",
-            "url": "http://soonmuff-cob.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890561",
-            "dateadded": "2026-07-23 07:06:13",
-            "url": "http://heal-jazz-shop.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890562",
-            "dateadded": "2026-07-23 07:06:13",
-            "url": "http://wolfbill-rope.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890563",
-            "dateadded": "2026-07-23 07:06:13",
-            "url": "http://sellnotlife.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890564",
-            "dateadded": "2026-07-23 07:06:13",
-            "url": "http://mazeduskloud.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890565",
-            "dateadded": "2026-07-23 07:06:13",
-            "url": "http://tuck-hoaxwade.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890566",
-            "dateadded": "2026-07-23 07:06:13",
-            "url": "http://keptpilekeep.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890567",
-            "dateadded": "2026-07-23 07:06:13",
-            "url": "http://slimsidehero.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890568",
-            "dateadded": "2026-07-23 07:06:13",
-            "url": "http://open-teem-test.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890569",
-            "dateadded": "2026-07-23 07:06:13",
-            "url": "http://sand-lure-noon.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890530",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://swayoralnear.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890531",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://holdpogohaul.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890532",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://ugly-arcs-lyre.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890533",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://gladloanwhat.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890534",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://ends-fork-ores.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890535",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://rugsrudeculm.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890536",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://sill-flog-aunt.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890537",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://slimnice-brow.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890538",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://harmlick-mode.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890539",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://earlnotgray.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890540",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://luckfort-grim.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890541",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://grid-brisk-lard.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890542",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://tilt-wear-weak.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890543",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://losspreyshot.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890544",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://rant-heel-perk.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890545",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://push-seeksash.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890546",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://cozysigh-nick.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890547",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://said-site-luck.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890548",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://bind-mice-glow.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890549",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://suitgive-jerk.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890550",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://mere-tosspush.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890551",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://hoop-chad-gust.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890552",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://surf-life-sank.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890553",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://lordcozytrap.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890554",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://lull-islebrew.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890555",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://lace-wise-crop.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890556",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://nice-poolback.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890557",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://slamlacetube.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890558",
-            "dateadded": "2026-07-23 07:06:12",
-            "url": "http://glow-once-four.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890495",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://manyhaste-seat.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890496",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://sail-sham-step.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890497",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://bred-mornidea.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890498",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://examclaparmy.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890499",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://move-dram-film.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890500",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://dramdare-shop.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890501",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://open-pact-fore.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890502",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://pile-thinuse.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890503",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://ugly-oursold.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890504",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://earltoll-snap.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890505",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://rout-draw-roll.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890506",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://disk-bask-rusk.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890507",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://part-doselawn.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890508",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://pine-bathbear.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890509",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://briskpair-rode.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890510",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://smug-lend-gray.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890511",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://gridgrimmorn.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890512",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://char-avid-verb.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890513",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://duck-fondmoan.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890514",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://claylikepilot.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890515",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://soilleafmain.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890516",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://mottl-dirtnine.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890517",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://peer-tend-urge.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890518",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://king-culmdown.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890519",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://plug-halo-flip.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890520",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://prey-body-word.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890521",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://flux-heldsham.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890522",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://math-buoy-seen.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890523",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://foe-flawmire.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890524",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://alsofillsoar.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890525",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://fordsoupward.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890526",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://live-fled-slam.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
-          },
-          {
-            "id": "3890527",
-            "dateadded": "2026-07-23 07:06:11",
-            "url": "http://harm-mint-veto.xyz/avast_update",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "Loader,potemkin"
           }
         ],
         "total_count": 300,
-        "last_fetch": "2026-07-23T14:20:56.507756+00:00"
+        "last_fetch": "2026-07-23T19:35:09.022349+00:00"
       }
     },
     {
@@ -2662,7 +2662,7 @@
         "description": "abuse.ch ThreatFox recent indicators of compromise (domains, IPs, URLs, hashes)",
         "entries": [],
         "total_count": 0,
-        "last_fetch": "2026-07-23T14:20:56.630218+00:00"
+        "last_fetch": "2026-07-23T19:35:09.145650+00:00"
       }
     },
     {
@@ -2719,7 +2719,7 @@
           }
         ],
         "total_count": 5,
-        "last_fetch": "2026-07-23T14:20:56.769758+00:00"
+        "last_fetch": "2026-07-23T19:35:09.226474+00:00"
       }
     }
   ]
