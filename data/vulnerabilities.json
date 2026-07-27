@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-07-27T14:50:40.690698+00:00",
+  "last_updated": "2026-07-27T19:44:08.060670+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2025-68686",
+            "vendor": "Fortinet",
+            "product": "FortiOS",
+            "name": "Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
+            "date_added": "2026-07-27",
+            "due_date": "2026-08-10",
+            "description": "Fortinet FortiOS contains an exposure of sensitive information to an unauthorized actor vulnerability. This may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic link persistency mechanism observed in some post-exploit cases, via crafted HTTP requests. An attacker would need first to have compromised the product via another vulnerability, at filesystem level."
+          },
           {
             "cve_id": "CVE-2026-16232",
             "vendor": "Check Point",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-08-21",
             "due_date": "2024-09-11",
             "description": "Microsoft Exchange Server contains an information disclosure vulnerability that allows for remote code execution."
-          },
-          {
-            "cve_id": "CVE-2022-0185",
-            "vendor": "Linux",
-            "product": "Kernel",
-            "name": "Linux Kernel Heap-Based Buffer Overflow Vulnerability",
-            "date_added": "2024-08-21",
-            "due_date": "2024-09-11",
-            "description": "Linux kernel contains a heap-based buffer overflow vulnerability in the legacy_parse_param function in the Filesystem Context functionality. This allows an attacker to open a filesystem that does not support the Filesystem Context API and ultimately escalate privileges."
           }
         ],
-        "total_count": 1653,
-        "last_fetch": "2026-07-27T14:50:40.810885+00:00"
+        "total_count": 1654,
+        "last_fetch": "2026-07-27T19:44:08.154769+00:00"
       }
     }
   ]
