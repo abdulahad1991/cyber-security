@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-07-29T14:23:33.506731+00:00",
+  "last_updated": "2026-07-29T19:26:26.380524+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-20316",
+            "vendor": "Cisco",
+            "product": "Secure Firewall Management Center (FMC)",
+            "name": "Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
+            "date_added": "2026-07-29",
+            "due_date": "2026-08-01",
+            "description": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the impacted systems."
+          },
           {
             "cve_id": "CVE-2025-68686",
             "vendor": "Fortinet",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-08-26",
             "due_date": "2024-09-16",
             "description": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to exploit heap corruption via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
-          },
-          {
-            "cve_id": "CVE-2024-39717",
-            "vendor": "Versa",
-            "product": "Director",
-            "name": "Versa Director Dangerous File Type Upload Vulnerability",
-            "date_added": "2024-08-23",
-            "due_date": "2024-09-13",
-            "description": "The Versa Director GUI contains an unrestricted upload of file with dangerous type vulnerability that allows administrators with Provider-Data-Center-Admin or Provider-Data-Center-System-Admin privileges to customize the user interface. The “Change Favicon” (Favorite Icon) enables the upload of a .png file, which can be exploited to upload a malicious file with a .png extension disguised as an image."
           }
         ],
-        "total_count": 1655,
-        "last_fetch": "2026-07-29T14:23:33.709818+00:00"
+        "total_count": 1656,
+        "last_fetch": "2026-07-29T19:26:26.490040+00:00"
       }
     }
   ]
