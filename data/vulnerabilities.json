@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-03T14:54:29.950104+00:00",
+  "last_updated": "2026-08-03T19:46:01.227540+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-18577",
+            "vendor": "N-able",
+            "product": "N-central",
+            "name": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+            "date_added": "2026-08-03",
+            "due_date": "2026-08-06",
+            "description": "N-able N-central contains an authentication bypass using an alternate path or channel allows for authentication bypass and account takeover in N-central. This vulnerability is the result of an incomplete patch for CVE-2026-18556."
+          },
           {
             "cve_id": "CVE-2026-20316",
             "vendor": "Cisco",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-08-27",
             "due_date": "2024-09-17",
             "description": "Apache OFBiz contains an incorrect authorization vulnerability that could allow remote code execution via a Groovy payload in the context of the OFBiz user process by an unauthenticated attacker."
-          },
-          {
-            "cve_id": "CVE-2024-7971",
-            "vendor": "Google",
-            "product": "Chromium V8",
-            "name": "Google Chromium V8 Type Confusion Vulnerability",
-            "date_added": "2024-08-26",
-            "due_date": "2024-09-16",
-            "description": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to exploit heap corruption via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
           }
         ],
-        "total_count": 1656,
-        "last_fetch": "2026-08-03T14:54:30.079960+00:00"
+        "total_count": 1657,
+        "last_fetch": "2026-08-03T19:46:01.374658+00:00"
       }
     }
   ]
