@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-04T14:30:32.178527+00:00",
+  "last_updated": "2026-08-04T19:44:59.418955+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,33 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-18556",
+            "vendor": "N-able",
+            "product": "N-central",
+            "name": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+            "date_added": "2026-08-04",
+            "due_date": "2026-08-07",
+            "description": "N-able N-central contains an authentication bypass using an alternate path or channel that allows for authentication bypass."
+          },
+          {
+            "cve_id": "CVE-2026-34486",
+            "vendor": "Apache",
+            "product": "Tomcat",
+            "name": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
+            "date_added": "2026-08-04",
+            "due_date": "2026-08-07",
+            "description": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor."
+          },
+          {
+            "cve_id": "CVE-2026-9198",
+            "vendor": "IBM",
+            "product": "Langflow",
+            "name": "IBM Langflow Code Injection Vulnerability",
+            "date_added": "2026-08-04",
+            "due_date": "2026-08-07",
+            "description": "Langflow contains a code injection vulnerability that allows unauthenticated attackers to achieve full remote code execution on default Langflow deployments."
+          },
           {
             "cve_id": "CVE-2026-18577",
             "vendor": "N-able",
@@ -4481,37 +4508,10 @@
             "date_added": "2024-09-03",
             "due_date": "2024-09-24",
             "description": "Draytek VigorConnect contains a path traversal vulnerability in the file download functionality of the WebServlet endpoint. An unauthenticated attacker could leverage this vulnerability to download arbitrary files from the underlying operating system with root privileges."
-          },
-          {
-            "cve_id": "CVE-2021-20123",
-            "vendor": "DrayTek",
-            "product": "VigorConnect",
-            "name": "Draytek VigorConnect Path Traversal Vulnerability ",
-            "date_added": "2024-09-03",
-            "due_date": "2024-09-24",
-            "description": "Draytek VigorConnect contains a path traversal vulnerability in the DownloadFileServlet endpoint. An unauthenticated attacker could leverage this vulnerability to download arbitrary files from the underlying operating system with root privileges. "
-          },
-          {
-            "cve_id": "CVE-2024-7965",
-            "vendor": "Google",
-            "product": "Chromium V8",
-            "name": "Google Chromium V8 Inappropriate Implementation Vulnerability",
-            "date_added": "2024-08-28",
-            "due_date": "2024-09-18",
-            "description": "Google Chromium V8 contains an inappropriate implementation vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
-          },
-          {
-            "cve_id": "CVE-2024-38856",
-            "vendor": "Apache",
-            "product": "OFBiz",
-            "name": "Apache OFBiz Incorrect Authorization Vulnerability",
-            "date_added": "2024-08-27",
-            "due_date": "2024-09-17",
-            "description": "Apache OFBiz contains an incorrect authorization vulnerability that could allow remote code execution via a Groovy payload in the context of the OFBiz user process by an unauthenticated attacker."
           }
         ],
-        "total_count": 1657,
-        "last_fetch": "2026-08-04T14:30:32.409415+00:00"
+        "total_count": 1660,
+        "last_fetch": "2026-08-04T19:44:59.589282+00:00"
       }
     }
   ]
