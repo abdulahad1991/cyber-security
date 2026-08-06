@@ -1,6 +1,6 @@
 {
   "category": "threat_intel",
-  "last_updated": "2026-08-06T03:17:49.600663+00:00",
+  "last_updated": "2026-08-06T08:47:04.339848+00:00",
   "sources": [
     {
       "name": "OpenPhish Community Feed",
@@ -211,7 +211,7 @@
           "http://fortcheck.club/id/login"
         ],
         "total_count": 300,
-        "last_fetch": "2026-08-06T03:17:50.193129+00:00"
+        "last_fetch": "2026-08-06T08:47:05.048749+00:00"
       }
     },
     {
@@ -239,7 +239,7 @@
           }
         ],
         "summary": "APWG Report Smishing Text About APWG Report Phishing Emails © 2026 Anti-Phishing Working Group, Inc © 2026 Anti-Phishing Working Group, Inc Resources Phishing Activity Trends Reports The APWG Phishing Activity Trends Report analyzes phishing attacks reported to the APWG by its member companies, its Global Research Partners, through the organization’s website at http://wp.apwg.org, and by e-mail submissions to reportphishing@antiphishing.org. APWG also measures the evolution, proliferation, and propagation of crimeware by drawing from the research of our member companies. VIEW REPORTS eCrime Research Papers The Symposium on Electronic Crime Research is an annual event hosted by the APWG. The event’s continuing goal is to promote cybercrime research by providing a means for researchers to publish their work. The program has published over 120 papers specifically focused on fraud and crime in the cyber world. VIEW PAPERS ON OUR RESEARCH SITE Global Phishing Survey Phishers are criminal, but they do make rational decisions about how to go about their work. They’re in it for the money, and they work to make their schemes as productive as possible while evading detection. To combat phishing we need to know what the phishers are doing, and how. Where is the phishing taking place? What companies are most vulnerable? Were the slew of new top-level domains a bonanza for phishers? By analyzing the phishing the authors have some answers, and those answers may surprise you. This report seeks to understand trends and their significance by quantifying the scope of the global phishing problem. Specifically, these reports examines all the phishing attacks detected over specific time intervals. VIEW REPORTS",
-        "last_fetch": "2026-08-06T03:17:52.762323+00:00"
+        "last_fetch": "2026-08-06T08:47:05.543113+00:00"
       }
     },
     {
@@ -249,6 +249,998 @@
       "data": {
         "description": "abuse.ch URLhaus feed of recently reported malware distribution URLs",
         "entries": [
+          {
+            "id": "3897688",
+            "dateadded": "2026-08-06 08:24:24",
+            "url": "https://www.mediafire.com/file/8cn8u1bn3jb5gep/file",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "iso"
+          },
+          {
+            "id": "3897687",
+            "dateadded": "2026-08-06 08:21:17",
+            "url": "http://210.208.110.221:58109/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3897686",
+            "dateadded": "2026-08-06 08:20:33",
+            "url": "http://45.194.25.221:51620/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897685",
+            "dateadded": "2026-08-06 08:13:31",
+            "url": "http://5.182.210.174/b5a50f",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897680",
+            "dateadded": "2026-08-06 08:12:26",
+            "url": "http://5.182.210.174/ef4188",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897681",
+            "dateadded": "2026-08-06 08:12:26",
+            "url": "http://5.182.210.174/efaa9e",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897682",
+            "dateadded": "2026-08-06 08:12:26",
+            "url": "http://5.182.210.174/bb4476",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897683",
+            "dateadded": "2026-08-06 08:12:26",
+            "url": "http://5.182.210.174/126b61",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897684",
+            "dateadded": "2026-08-06 08:12:26",
+            "url": "http://5.182.210.174/c61c40",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897676",
+            "dateadded": "2026-08-06 08:12:22",
+            "url": "http://5.182.210.174/911f2d",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897677",
+            "dateadded": "2026-08-06 08:12:22",
+            "url": "http://5.182.210.174/90a07f",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897678",
+            "dateadded": "2026-08-06 08:12:22",
+            "url": "http://5.182.210.174/d237c8",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897679",
+            "dateadded": "2026-08-06 08:12:22",
+            "url": "http://5.182.210.174/1cbba3",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897674",
+            "dateadded": "2026-08-06 08:12:21",
+            "url": "http://5.182.210.174/ca05d7",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897675",
+            "dateadded": "2026-08-06 08:12:21",
+            "url": "http://5.182.210.174/1de3f3",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897673",
+            "dateadded": "2026-08-06 08:11:46",
+            "url": "http://146.168.191.176:60415/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3897672",
+            "dateadded": "2026-08-06 08:09:33",
+            "url": "http://220.201.146.147:35079/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897671",
+            "dateadded": "2026-08-06 08:07:15",
+            "url": "http://5.182.210.174/ok",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "ascii,mirai,sh,ua-wget"
+          },
+          {
+            "id": "3897670",
+            "dateadded": "2026-08-06 07:57:17",
+            "url": "http://210.208.110.221:58109/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3897669",
+            "dateadded": "2026-08-06 07:57:16",
+            "url": "http://213.114.99.82:39913/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3897668",
+            "dateadded": "2026-08-06 07:53:35",
+            "url": "http://122.231.69.248:51043/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3897667",
+            "dateadded": "2026-08-06 07:46:35",
+            "url": "http://220.201.146.147:35079/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897666",
+            "dateadded": "2026-08-06 07:40:30",
+            "url": "http://111.127.232.94:58633/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3897665",
+            "dateadded": "2026-08-06 07:29:36",
+            "url": "http://122.231.69.248:51043/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3897664",
+            "dateadded": "2026-08-06 07:27:13",
+            "url": "http://115.49.41.63:34168/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3897663",
+            "dateadded": "2026-08-06 07:14:40",
+            "url": "http://182.112.2.95:47198/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897662",
+            "dateadded": "2026-08-06 07:11:41",
+            "url": "http://123.4.248.52:50966/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897661",
+            "dateadded": "2026-08-06 07:11:31",
+            "url": "http://110.36.65.9:42127/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897660",
+            "dateadded": "2026-08-06 07:08:38",
+            "url": "http://78.165.192.47:50272/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897659",
+            "dateadded": "2026-08-06 07:05:18",
+            "url": "http://213.114.99.82:39913/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3897658",
+            "dateadded": "2026-08-06 07:02:18",
+            "url": "http://155.103.69.239/img/img_210844.png",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "rat,RemcosRAT"
+          },
+          {
+            "id": "3897657",
+            "dateadded": "2026-08-06 07:02:17",
+            "url": "http://115.49.41.63:34168/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3897656",
+            "dateadded": "2026-08-06 07:02:16",
+            "url": "http://155.103.69.239/45/wearebestforeverythingfrommegood.hta",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "rat,RemcosRAT"
+          },
+          {
+            "id": "3897655",
+            "dateadded": "2026-08-06 07:01:37",
+            "url": "http://111.127.232.94:58633/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3897654",
+            "dateadded": "2026-08-06 06:47:45",
+            "url": "http://78.165.192.47:50272/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897653",
+            "dateadded": "2026-08-06 06:47:26",
+            "url": "http://182.112.2.95:47198/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897652",
+            "dateadded": "2026-08-06 06:45:23",
+            "url": "http://110.36.65.9:42127/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897645",
+            "dateadded": "2026-08-06 06:44:24",
+            "url": "http://191.96.11.84/n2/x86",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3897646",
+            "dateadded": "2026-08-06 06:44:24",
+            "url": "http://191.96.11.84/n2/armv5l",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3897647",
+            "dateadded": "2026-08-06 06:44:24",
+            "url": "http://191.96.11.84/n2/ppc",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3897648",
+            "dateadded": "2026-08-06 06:44:24",
+            "url": "http://191.96.11.84/n2/x86_64",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3897649",
+            "dateadded": "2026-08-06 06:44:24",
+            "url": "http://191.96.11.84/n2/m68k",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897650",
+            "dateadded": "2026-08-06 06:44:24",
+            "url": "http://191.96.11.84/n2/armv4l",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3897651",
+            "dateadded": "2026-08-06 06:44:24",
+            "url": "http://191.96.11.84/n2/sparc",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3897642",
+            "dateadded": "2026-08-06 06:44:23",
+            "url": "http://191.96.11.84/n2/aarch64",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,ua-wget"
+          },
+          {
+            "id": "3897643",
+            "dateadded": "2026-08-06 06:44:23",
+            "url": "http://191.96.11.84/n2/armv6l",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897644",
+            "dateadded": "2026-08-06 06:44:23",
+            "url": "http://191.96.11.84/n2/sh4",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897641",
+            "dateadded": "2026-08-06 06:44:19",
+            "url": "http://191.96.11.84/n2/armv7l",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897640",
+            "dateadded": "2026-08-06 06:43:13",
+            "url": "http://192.255.159.254/70/img_202115.png",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "AgentTesla"
+          },
+          {
+            "id": "3897639",
+            "dateadded": "2026-08-06 06:43:11",
+            "url": "http://192.255.159.254/70/goodthingswithbestsupportforme.hta",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "AgentTesla"
+          },
+          {
+            "id": "3897637",
+            "dateadded": "2026-08-06 06:38:22",
+            "url": "http://191.96.11.84/n2/mpsl",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,mips,mirai,ua-wget"
+          },
+          {
+            "id": "3897638",
+            "dateadded": "2026-08-06 06:38:22",
+            "url": "http://191.96.11.84/n2/lterouter",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "mirai,sh,ua-wget"
+          },
+          {
+            "id": "3897636",
+            "dateadded": "2026-08-06 06:38:16",
+            "url": "http://191.96.11.84/n2/mips",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mips,mirai,ua-wget"
+          },
+          {
+            "id": "3897635",
+            "dateadded": "2026-08-06 06:36:32",
+            "url": "http://183.63.8.194:44654/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3897634",
+            "dateadded": "2026-08-06 06:34:17",
+            "url": "http://196.189.98.77:43480/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3897633",
+            "dateadded": "2026-08-06 06:28:32",
+            "url": "http://123.11.180.236:57536/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897632",
+            "dateadded": "2026-08-06 06:27:05",
+            "url": "http://216.9.224.73/33/img_190847.png",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "rat,RemcosRAT"
+          },
+          {
+            "id": "3897631",
+            "dateadded": "2026-08-06 06:26:17",
+            "url": "http://216.9.224.73/33/weneedbestmagicalapproachforbesthings.hta",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "rat,RemcosRAT"
+          },
+          {
+            "id": "3897630",
+            "dateadded": "2026-08-06 06:25:17",
+            "url": "http://216.225.206.31/56/goodthingswforbestfeelingsfromtheheartsesion.hta",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "rat,RemcosRAT"
+          },
+          {
+            "id": "3897629",
+            "dateadded": "2026-08-06 06:25:16",
+            "url": "http://57.129.23.24/8089/crypted.ps1",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "rat,RemcosRAT"
+          },
+          {
+            "id": "3897628",
+            "dateadded": "2026-08-06 06:25:15",
+            "url": "http://216.225.206.31/56/nn/bestgood.vbe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "rat,RemcosRAT"
+          },
+          {
+            "id": "3897627",
+            "dateadded": "2026-08-06 06:24:18",
+            "url": "http://204.44.93.92/70/img_182439.png",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "rat,RemcosRAT"
+          },
+          {
+            "id": "3897626",
+            "dateadded": "2026-08-06 06:24:16",
+            "url": "http://204.44.93.92/70/weneedbestthingsfromtheheartformeebest.hta",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "rat,RemcosRAT"
+          },
+          {
+            "id": "3897625",
+            "dateadded": "2026-08-06 06:22:14",
+            "url": "http://107.173.47.10/27/blackmagicprotectiononthisfilewhathaving.hta",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "hta,rat,RemcosRAT"
+          },
+          {
+            "id": "3897624",
+            "dateadded": "2026-08-06 06:21:16",
+            "url": "http://107.173.47.10/img/img_180754.png",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "rat,RemcosRAT"
+          },
+          {
+            "id": "3897623",
+            "dateadded": "2026-08-06 06:21:15",
+            "url": "https://plain-wnam-prod-public.komododecks.com/202608/05/JJEEAVpl6Blk3mkgEj7i/image.png",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "rat,RemcosRAT"
+          },
+          {
+            "id": "3897622",
+            "dateadded": "2026-08-06 06:20:22",
+            "url": "https://comumvidros.com.br/city/rcx1.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "exe,rat,RemcosRAT"
+          },
+          {
+            "id": "3897621",
+            "dateadded": "2026-08-06 06:17:35",
+            "url": "http://219.154.174.185:43822/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897620",
+            "dateadded": "2026-08-06 06:16:18",
+            "url": "http://42.234.72.115:36909/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3897618",
+            "dateadded": "2026-08-06 05:59:28",
+            "url": "http://94.154.43.158/disconnectraw.arm7",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897619",
+            "dateadded": "2026-08-06 05:59:28",
+            "url": "http://94.154.43.158/disconnectraw.mipsel",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897613",
+            "dateadded": "2026-08-06 05:59:15",
+            "url": "http://129.121.110.105/Nnn",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai,ua-wget"
+          },
+          {
+            "id": "3897614",
+            "dateadded": "2026-08-06 05:59:15",
+            "url": "http://129.121.110.105/H8u",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai,ua-wget"
+          },
+          {
+            "id": "3897615",
+            "dateadded": "2026-08-06 05:59:15",
+            "url": "http://129.121.110.105/Av0",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai,ua-wget"
+          },
+          {
+            "id": "3897616",
+            "dateadded": "2026-08-06 05:59:15",
+            "url": "http://129.121.110.105/6wH",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai,ua-wget"
+          },
+          {
+            "id": "3897617",
+            "dateadded": "2026-08-06 05:59:15",
+            "url": "http://129.121.110.105/F9f",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai,ua-wget"
+          },
+          {
+            "id": "3897612",
+            "dateadded": "2026-08-06 05:58:40",
+            "url": "http://120.84.215.224:44702/i",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897607",
+            "dateadded": "2026-08-06 05:58:32",
+            "url": "http://94.154.43.158/disconnectraw.x86",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897608",
+            "dateadded": "2026-08-06 05:58:32",
+            "url": "http://94.154.43.158/disconnectraw.arm4",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897609",
+            "dateadded": "2026-08-06 05:58:32",
+            "url": "http://94.154.43.158/disconnectraw.mips",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897610",
+            "dateadded": "2026-08-06 05:58:32",
+            "url": "http://94.154.43.158/disconnectraw.aarch64",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897611",
+            "dateadded": "2026-08-06 05:58:32",
+            "url": "http://94.154.43.158/disconnectraw.x86_64",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897606",
+            "dateadded": "2026-08-06 05:56:31",
+            "url": "http://196.189.98.77:43480/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3897605",
+            "dateadded": "2026-08-06 05:52:15",
+            "url": "http://42.234.72.115:36909/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3897604",
+            "dateadded": "2026-08-06 05:45:30",
+            "url": "http://59.58.190.111:40109/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3897603",
+            "dateadded": "2026-08-06 05:41:45",
+            "url": "http://120.84.215.224:44702/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897602",
+            "dateadded": "2026-08-06 05:36:25",
+            "url": "http://192.162.199.186/discrete_69.7868.8_INSTALL.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "exe"
+          },
+          {
+            "id": "3897601",
+            "dateadded": "2026-08-06 05:36:24",
+            "url": "http://192.162.199.186/xx.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "exe"
+          },
+          {
+            "id": "3897600",
+            "dateadded": "2026-08-06 05:36:17",
+            "url": "http://192.162.199.186/stlr.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "exe,Stealc"
+          },
+          {
+            "id": "3897599",
+            "dateadded": "2026-08-06 05:36:16",
+            "url": "http://192.162.199.186/dcVylmIq.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "exe"
+          },
+          {
+            "id": "3897598",
+            "dateadded": "2026-08-06 05:34:27",
+            "url": "http://94.154.43.214/phantom_bins/phantom.mips",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "DDoSAgent,elf,mips,ua-wget"
+          },
+          {
+            "id": "3897597",
+            "dateadded": "2026-08-06 05:33:30",
+            "url": "http://192.210.186.206/img/2.jpg",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3897594",
+            "dateadded": "2026-08-06 05:33:29",
+            "url": "http://94.154.43.214/phantom_bins/phantom.arm",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "arm,elf,ua-wget"
+          },
+          {
+            "id": "3897595",
+            "dateadded": "2026-08-06 05:33:29",
+            "url": "http://94.154.43.214/phantom_bash.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "DDoSAgent,mirai,sh,ua-wget"
+          },
+          {
+            "id": "3897596",
+            "dateadded": "2026-08-06 05:33:29",
+            "url": "http://94.154.43.214/phantom_bins/phantom.x86_64",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "DDoSAgent,elf,ua-wget,x86"
+          },
+          {
+            "id": "3897593",
+            "dateadded": "2026-08-06 05:33:21",
+            "url": "http://107.173.9.104/img/2.jpg",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3897592",
+            "dateadded": "2026-08-06 05:33:16",
+            "url": "http://192.236.217.81/img/2.jpg",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3897590",
+            "dateadded": "2026-08-06 05:31:26",
+            "url": "http://2.26.136.128/lul.mpsl",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mips,ua-wget"
+          },
+          {
+            "id": "3897591",
+            "dateadded": "2026-08-06 05:31:26",
+            "url": "http://2.26.136.128/lul.arm6",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "arm,elf,mirai,ua-wget"
+          },
+          {
+            "id": "3897589",
+            "dateadded": "2026-08-06 05:30:27",
+            "url": "http://2.26.136.128/lul.mips",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mips,ua-wget"
+          },
+          {
+            "id": "3897588",
+            "dateadded": "2026-08-06 05:27:20",
+            "url": "http://115.50.89.147:43414/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897587",
+            "dateadded": "2026-08-06 05:17:39",
+            "url": "http://59.58.190.111:40109/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3897586",
+            "dateadded": "2026-08-06 05:15:24",
+            "url": "http://185.199.197.216/sex.bin",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "QatarRAT,rat"
+          },
+          {
+            "id": "3897585",
+            "dateadded": "2026-08-06 05:13:16",
+            "url": "http://123.11.216.24:35458/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897584",
+            "dateadded": "2026-08-06 05:11:21",
+            "url": "http://91.92.242.236/files-129312398/files/file_e958e6cb554d1c91.exe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey,RemoteX"
+          },
+          {
+            "id": "3897582",
+            "dateadded": "2026-08-06 05:11:18",
+            "url": "http://65.108.103.151:25958/arm7",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,iot"
+          },
+          {
+            "id": "3897583",
+            "dateadded": "2026-08-06 05:11:18",
+            "url": "http://65.108.103.151:25958/arm",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "elf,iot"
+          },
+          {
+            "id": "3897581",
+            "dateadded": "2026-08-06 05:11:15",
+            "url": "http://42.229.94.150:34545/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3897579",
+            "dateadded": "2026-08-06 05:11:12",
+            "url": "http://91.92.242.236/files-129312398/files/file_44bcabde68f83fab.exe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3897580",
+            "dateadded": "2026-08-06 05:11:12",
+            "url": "http://91.92.242.236/files-129312398/files/file_6b7797e28badd65a.exe",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "c2-monitor-auto,dropped-by-amadey"
+          },
+          {
+            "id": "3897578",
+            "dateadded": "2026-08-06 05:02:11",
+            "url": "http://115.55.199.30:50658/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3897577",
+            "dateadded": "2026-08-06 04:56:09",
+            "url": "http://42.227.206.1:48024/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3897576",
+            "dateadded": "2026-08-06 04:43:19",
+            "url": "http://182.127.179.45:34684/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897575",
+            "dateadded": "2026-08-06 04:34:35",
+            "url": "http://184.174.97.162:1337/payload/386/pikachu",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf,mirai,ua-wget,x86"
+          },
+          {
+            "id": "3897574",
+            "dateadded": "2026-08-06 04:34:24",
+            "url": "http://94.154.43.118:8000/ipmiv2.xml",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "opendir,sh,ua-wget,xml"
+          },
+          {
+            "id": "3897573",
+            "dateadded": "2026-08-06 04:31:16",
+            "url": "http://42.229.94.150:34545/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3897572",
+            "dateadded": "2026-08-06 04:20:18",
+            "url": "http://115.55.199.30:50658/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3897571",
+            "dateadded": "2026-08-06 04:14:34",
+            "url": "http://222.139.196.205:39493/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3897570",
+            "dateadded": "2026-08-06 04:12:18",
+            "url": "http://115.63.54.54:51962/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "Mozi"
+          },
+          {
+            "id": "3897569",
+            "dateadded": "2026-08-06 03:56:24",
+            "url": "http://42.224.170.242:39192/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897568",
+            "dateadded": "2026-08-06 03:50:25",
+            "url": "http://115.199.243.13:36155/bin.sh",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3897567",
+            "dateadded": "2026-08-06 03:31:22",
+            "url": "http://27.202.25.231:36878/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897566",
+            "dateadded": "2026-08-06 03:27:30",
+            "url": "http://42.224.170.242:39192/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3897565",
+            "dateadded": "2026-08-06 03:16:18",
+            "url": "http://80.67.33.209:56810/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
           {
             "id": "3897564",
             "dateadded": "2026-08-06 02:32:09",
@@ -269,7 +1261,7 @@
             "id": "3897562",
             "dateadded": "2026-08-06 02:30:27",
             "url": "http://115.230.18.121:41849/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -301,7 +1293,7 @@
             "id": "3897558",
             "dateadded": "2026-08-06 01:58:17",
             "url": "http://182.119.182.189:38181/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -325,7 +1317,7 @@
             "id": "3897555",
             "dateadded": "2026-08-06 01:41:22",
             "url": "http://60.23.78.208:40485/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -333,7 +1325,7 @@
             "id": "3897554",
             "dateadded": "2026-08-06 01:39:20",
             "url": "http://105.186.85.41:52445/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -381,7 +1373,7 @@
             "id": "3897548",
             "dateadded": "2026-08-06 00:57:06",
             "url": "http://115.48.145.53:41733/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "None"
           },
@@ -405,7 +1397,7 @@
             "id": "3897545",
             "dateadded": "2026-08-06 00:12:22",
             "url": "http://123.11.4.82:60850/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -421,7 +1413,7 @@
             "id": "3897543",
             "dateadded": "2026-08-05 23:46:23",
             "url": "http://123.11.4.82:60850/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -437,7 +1429,7 @@
             "id": "3897541",
             "dateadded": "2026-08-05 23:32:24",
             "url": "http://123.9.23.173:39002/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -445,7 +1437,7 @@
             "id": "3897540",
             "dateadded": "2026-08-05 23:25:23",
             "url": "http://115.49.240.130:34325/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -461,7 +1453,7 @@
             "id": "3897538",
             "dateadded": "2026-08-05 23:02:08",
             "url": "http://42.234.163.149:48020/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "Mozi"
           },
@@ -485,7 +1477,7 @@
             "id": "3897535",
             "dateadded": "2026-08-05 22:33:21",
             "url": "http://182.113.250.40:55617/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -541,7 +1533,7 @@
             "id": "3897528",
             "dateadded": "2026-08-05 21:01:23",
             "url": "http://125.44.60.121:45542/i",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -557,7 +1549,7 @@
             "id": "3897527",
             "dateadded": "2026-08-05 20:57:17",
             "url": "http://115.49.131.148:60155/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -565,7 +1557,7 @@
             "id": "3897525",
             "dateadded": "2026-08-05 20:57:07",
             "url": "http://105.186.85.41:52445/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "mirai"
           },
@@ -589,7 +1581,7 @@
             "id": "3897522",
             "dateadded": "2026-08-05 20:30:30",
             "url": "http://125.44.60.121:45542/bin.sh",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -653,7 +1645,7 @@
             "id": "3897514",
             "dateadded": "2026-08-05 19:54:28",
             "url": "http://175.9.132.112:50484/bin.sh",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -1157,7 +2149,7 @@
             "id": "3897451",
             "dateadded": "2026-08-05 18:20:14",
             "url": "http://31.77.227.128/bins/parm5",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "arm,elf,mirai,opendir,ua-wget"
           },
@@ -1181,7 +2173,7 @@
             "id": "3897448",
             "dateadded": "2026-08-05 18:19:25",
             "url": "http://31.77.227.128/bins/pspc",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "elf,mirai,opendir,sparc,ua-wget"
           },
@@ -1189,7 +2181,7 @@
             "id": "3897449",
             "dateadded": "2026-08-05 18:19:25",
             "url": "http://31.77.227.128/bins/psh4",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "elf,mirai,opendir,SuperH,ua-wget"
           },
@@ -1221,7 +2213,7 @@
             "id": "3897441",
             "dateadded": "2026-08-05 18:18:14",
             "url": "http://31.77.227.128/bins/pppc",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "elf,mirai,opendir,PowerPC,ua-wget"
           },
@@ -1229,7 +2221,7 @@
             "id": "3897442",
             "dateadded": "2026-08-05 18:18:14",
             "url": "http://31.77.227.128/bins/px86",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "elf,mirai,opendir,ua-wget,x86"
           },
@@ -1237,7 +2229,7 @@
             "id": "3897443",
             "dateadded": "2026-08-05 18:18:14",
             "url": "http://31.77.227.128/bins/parm7",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "arm,elf,mirai,opendir,ua-wget"
           },
@@ -1245,7 +2237,7 @@
             "id": "3897444",
             "dateadded": "2026-08-05 18:18:14",
             "url": "http://31.77.227.128/bins/x86_64",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "elf,mirai,opendir,ua-wget,x86"
           },
@@ -1301,7 +2293,7 @@
             "id": "3897433",
             "dateadded": "2026-08-05 17:40:22",
             "url": "http://39.74.245.69:59336/bin.sh",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1349,7 +2341,7 @@
             "id": "3897428",
             "dateadded": "2026-08-05 16:26:09",
             "url": "http://42.233.93.100:45005/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "Mozi"
           },
@@ -1421,7 +2413,7 @@
             "id": "3897418",
             "dateadded": "2026-08-05 16:01:07",
             "url": "http://42.233.93.100:45005/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "Mozi"
           },
@@ -1437,7 +2429,7 @@
             "id": "3897416",
             "dateadded": "2026-08-05 15:59:23",
             "url": "http://221.14.170.88:40588/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1453,7 +2445,7 @@
             "id": "3897414",
             "dateadded": "2026-08-05 15:41:18",
             "url": "http://27.156.139.58:40746/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -1461,7 +2453,7 @@
             "id": "3897413",
             "dateadded": "2026-08-05 15:29:21",
             "url": "http://110.37.16.86:35054/i",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -1493,7 +2485,7 @@
             "id": "3897409",
             "dateadded": "2026-08-05 14:56:26",
             "url": "http://27.156.139.58:40746/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -1501,7 +2493,7 @@
             "id": "3897407",
             "dateadded": "2026-08-05 14:51:45",
             "url": "http://123.189.109.47:46175/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1525,7 +2517,7 @@
             "id": "3897405",
             "dateadded": "2026-08-05 14:18:25",
             "url": "http://182.116.113.103:50232/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1549,7 +2541,7 @@
             "id": "3897402",
             "dateadded": "2026-08-05 13:52:08",
             "url": "http://61.53.239.58:40970/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "Mozi"
           },
@@ -1557,7 +2549,7 @@
             "id": "3897401",
             "dateadded": "2026-08-05 13:48:26",
             "url": "http://182.126.112.44:49876/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1613,7 +2605,7 @@
             "id": "3897394",
             "dateadded": "2026-08-05 13:16:11",
             "url": "https://deliverymailreport.co.za/img_010650.png",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "None"
           },
@@ -1656,1002 +2648,10 @@
             "url_status": "offline",
             "threat": "malware_download",
             "tags": "mirai"
-          },
-          {
-            "id": "3897388",
-            "dateadded": "2026-08-05 13:04:17",
-            "url": "http://5.175.140.250:5001/armv7l",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3897385",
-            "dateadded": "2026-08-05 13:04:15",
-            "url": "http://5.175.140.250:5001/x86",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3897386",
-            "dateadded": "2026-08-05 13:04:15",
-            "url": "http://5.175.140.250:5001/arm64",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3897387",
-            "dateadded": "2026-08-05 13:04:15",
-            "url": "http://5.175.140.250:5001/i386",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3897383",
-            "dateadded": "2026-08-05 13:04:12",
-            "url": "http://5.175.140.250:5001/arm5",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3897384",
-            "dateadded": "2026-08-05 13:04:12",
-            "url": "http://5.175.140.250:5001/android_arm64",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3897382",
-            "dateadded": "2026-08-05 13:04:11",
-            "url": "http://5.175.140.250:5001/bot.exe",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897380",
-            "dateadded": "2026-08-05 13:04:10",
-            "url": "http://5.175.140.250:5001/android_arm",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3897381",
-            "dateadded": "2026-08-05 13:04:10",
-            "url": "http://5.175.140.250:5001/amd64",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3897379",
-            "dateadded": "2026-08-05 13:02:08",
-            "url": "http://125.44.59.25:45671/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3897378",
-            "dateadded": "2026-08-05 12:50:33",
-            "url": "http://38.180.221.132/GMT/img_152749.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897377",
-            "dateadded": "2026-08-05 12:50:28",
-            "url": "https://sweet-snowflake-8a7e.uploadesclintesss.workers.dev/vxmGp",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897376",
-            "dateadded": "2026-08-05 12:49:29",
-            "url": "http://140.237.38.149:34302/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3897375",
-            "dateadded": "2026-08-05 12:49:07",
-            "url": "https://cqylt.net/?e=v",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "ua-ps"
-          },
-          {
-            "id": "3897374",
-            "dateadded": "2026-08-05 12:48:11",
-            "url": "https://download.ubua.online/agenthype.exe",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "exe"
-          },
-          {
-            "id": "3897373",
-            "dateadded": "2026-08-05 12:47:11",
-            "url": "http://155.254.98.133/45/img_193442.png",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897372",
-            "dateadded": "2026-08-05 12:47:08",
-            "url": "https://plain-wnam-prod-public.komododecks.com/202608/05/kk9ihQ9ebT47mHmrYHEr/image.png",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897371",
-            "dateadded": "2026-08-05 12:46:07",
-            "url": "https://www.propertiesofcayman.com/crypted.ps1",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "ascii,powershell,ps1"
-          },
-          {
-            "id": "3897370",
-            "dateadded": "2026-08-05 12:44:41",
-            "url": "http://216.9.224.48/xz/genera-raw-fileupload.txt",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "PhantomStealer,rev-base64-loader"
-          },
-          {
-            "id": "3897369",
-            "dateadded": "2026-08-05 12:44:40",
-            "url": "http://192.255.195.158/img/1.jpg",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "PhantomStealer"
-          },
-          {
-            "id": "3897368",
-            "dateadded": "2026-08-05 12:38:36",
-            "url": "http://wp.ameyiando.com:8888/web/updated-phantom.dat",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "PhantomStealer"
-          },
-          {
-            "id": "3897367",
-            "dateadded": "2026-08-05 12:38:25",
-            "url": "http://182.116.11.171:56328/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897366",
-            "dateadded": "2026-08-05 12:37:18",
-            "url": "https://lion44.net/wp-includes/theme-compat/gvewiny/wnfgzub/pzowjyv/MSId_PRO.png",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "AgentTesla"
-          },
-          {
-            "id": "3897365",
-            "dateadded": "2026-08-05 12:36:51",
-            "url": "https://lion44.net/wp-includes/theme-compat/gvewiny/wnfgzub/pzowjyv/img_152245.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "AgentTesla"
-          },
-          {
-            "id": "3897364",
-            "dateadded": "2026-08-05 12:34:40",
-            "url": "https://cla.stingold.com/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "connectwise,msi,ScreenConnct"
-          },
-          {
-            "id": "3897363",
-            "dateadded": "2026-08-05 12:32:09",
-            "url": "http://5.175.140.250:5001/bins.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "elf,iot,mirai"
-          },
-          {
-            "id": "3897362",
-            "dateadded": "2026-08-05 12:32:08",
-            "url": "http://196.251.121.185/systemd",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "elf,iot"
-          },
-          {
-            "id": "3897361",
-            "dateadded": "2026-08-05 12:30:17",
-            "url": "https://hwykplqn.xyz/merry/64bit-remcos_a.bin",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "encrypted,GuLoader,opendir,rat,RemcosRAT"
-          },
-          {
-            "id": "3897360",
-            "dateadded": "2026-08-05 12:30:15",
-            "url": "http://mrsweaterltd.com/o85pdfv8yi.png",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "rat,RemcosRAT"
-          },
-          {
-            "id": "3897359",
-            "dateadded": "2026-08-05 12:29:28",
-            "url": "https://lenotecadiarqua.it/eGuqAVa104.bin",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "AgentTesla,encrypted,GuLoader"
-          },
-          {
-            "id": "3897358",
-            "dateadded": "2026-08-05 12:29:25",
-            "url": "https://lenotecadiarqua.it/Lbskesl.u32",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "AgentTesla,ascii,Encoded,GuLoader"
-          },
-          {
-            "id": "3897357",
-            "dateadded": "2026-08-05 12:25:31",
-            "url": "http://110.37.104.0:49946/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897356",
-            "dateadded": "2026-08-05 12:25:11",
-            "url": "https://grupohenry1.com/astillerohenry.com/imglt_105404.png",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "AgentTesla"
-          },
-          {
-            "id": "3897355",
-            "dateadded": "2026-08-05 12:24:27",
-            "url": "http://182.116.11.171:56328/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897354",
-            "dateadded": "2026-08-05 12:23:22",
-            "url": "https://lenotecadiarqua.it/Unselec.pfm",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "ascii,Encoded,GuLoader"
-          },
-          {
-            "id": "3897353",
-            "dateadded": "2026-08-05 12:22:09",
-            "url": "https://sweet-snowflake-8a7e.uploadesclintesss.workers.dev/TirIc",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "AgentTesla"
-          },
-          {
-            "id": "3897352",
-            "dateadded": "2026-08-05 12:22:08",
-            "url": "https://lenotecadiarqua.it/Phyllo.lzh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "AgentTesla,ascii,Encoded,GuLoader"
-          },
-          {
-            "id": "3897351",
-            "dateadded": "2026-08-05 12:22:07",
-            "url": "https://pub-45a83f302a1943ed8d62418c2af947ef.r2.dev/kiii.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "AgentTesla"
-          },
-          {
-            "id": "3897350",
-            "dateadded": "2026-08-05 12:21:37",
-            "url": "https://lenotecadiarqua.it/CHvWdTBpYyjtaVvoRehzda105.bin",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "AgentTesla,encrypted,GuLoader"
-          },
-          {
-            "id": "3897349",
-            "dateadded": "2026-08-05 12:18:11",
-            "url": "https://pocopaco.co.za/img_144534.png",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "rat,RemcosRAT"
-          },
-          {
-            "id": "3897348",
-            "dateadded": "2026-08-05 12:18:07",
-            "url": "https://sweet-snowflake-8a7e.uploadesclintesss.workers.dev/Vpceb",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "rat,RemcosRAT"
-          },
-          {
-            "id": "3897347",
-            "dateadded": "2026-08-05 12:16:13",
-            "url": "https://dl.dropboxusercontent.com/scl/fi/fokz7nq2fsq5eno3me0kr/update.bin?rlkey=ew1j6qqw9bpl5i99yesrvya3o&dl=1",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "connectwise,rmm,screenconnect"
-          },
-          {
-            "id": "3897346",
-            "dateadded": "2026-08-05 12:14:21",
-            "url": "http://112.231.63.224:50509/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897345",
-            "dateadded": "2026-08-05 12:14:09",
-            "url": "https://crypter00.gt.tc/img_172016.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "xworm"
-          },
-          {
-            "id": "3897342",
-            "dateadded": "2026-08-05 12:13:10",
-            "url": "https://sweet-snowflake-8a7e.uploadesclintesss.workers.dev/kcBrc",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "xworm"
-          },
-          {
-            "id": "3897343",
-            "dateadded": "2026-08-05 12:13:10",
-            "url": "https://sweet-snowflake-8a7e.uploadesclintesss.workers.dev/NQYsh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "xworm"
-          },
-          {
-            "id": "3897344",
-            "dateadded": "2026-08-05 12:13:10",
-            "url": "https://pub-45a83f302a1943ed8d62418c2af947ef.r2.dev/nima.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "xworm"
-          },
-          {
-            "id": "3897340",
-            "dateadded": "2026-08-05 12:13:09",
-            "url": "https://pub-a06eb79f0ebe4a6999bcc71a2227d8e3.r2.dev/770779.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "xworm"
-          },
-          {
-            "id": "3897341",
-            "dateadded": "2026-08-05 12:13:09",
-            "url": "https://sweet-snowflake-8a7e.uploadesclintesss.workers.dev/cWgKw",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "xworm"
-          },
-          {
-            "id": "3897338",
-            "dateadded": "2026-08-05 12:09:08",
-            "url": "https://sweet-snowflake-8a7e.uploadesclintesss.workers.dev/TpUDp",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "xworm"
-          },
-          {
-            "id": "3897339",
-            "dateadded": "2026-08-05 12:09:08",
-            "url": "https://pub-45a83f302a1943ed8d62418c2af947ef.r2.dev/hoop.png",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "xworm"
-          },
-          {
-            "id": "3897335",
-            "dateadded": "2026-08-05 12:08:08",
-            "url": "https://grupohenry1.com/astillerohenry.com/MSI_PRO.png",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "xworm"
-          },
-          {
-            "id": "3897336",
-            "dateadded": "2026-08-05 12:08:08",
-            "url": "https://sweet-snowflake-8a7e.uploadesclintesss.workers.dev/YaDZs",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "xworm"
-          },
-          {
-            "id": "3897337",
-            "dateadded": "2026-08-05 12:08:08",
-            "url": "https://pub-a06eb79f0ebe4a6999bcc71a2227d8e3.r2.dev/202.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "xworm"
-          },
-          {
-            "id": "3897334",
-            "dateadded": "2026-08-05 12:06:07",
-            "url": "https://amazom.my/yyyy.bat",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "bat,opendir"
-          },
-          {
-            "id": "3897333",
-            "dateadded": "2026-08-05 12:02:11",
-            "url": "https://www.mediafire.com/file/ffr9scbddq76bjv/file",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "iso,MEX"
-          },
-          {
-            "id": "3897332",
-            "dateadded": "2026-08-05 12:01:22",
-            "url": "http://182.115.70.109:57373/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897330",
-            "dateadded": "2026-08-05 12:00:24",
-            "url": "http://115.63.186.127:35252/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897331",
-            "dateadded": "2026-08-05 12:00:24",
-            "url": "http://177.125.169.218:3729/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897329",
-            "dateadded": "2026-08-05 12:00:07",
-            "url": "https://mediafire.com/file/ffr9scbddq76bjv/file",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "iso,MEX"
-          },
-          {
-            "id": "3897328",
-            "dateadded": "2026-08-05 11:50:27",
-            "url": "http://116.139.55.148:54765/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897327",
-            "dateadded": "2026-08-05 11:49:31",
-            "url": "http://112.231.63.224:50509/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897326",
-            "dateadded": "2026-08-05 11:41:24",
-            "url": "http://103.164.199.105:36118/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897325",
-            "dateadded": "2026-08-05 11:35:21",
-            "url": "http://42.226.78.16:54382/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897324",
-            "dateadded": "2026-08-05 11:29:16",
-            "url": "http://94.27.153.78:37216/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3897323",
-            "dateadded": "2026-08-05 11:25:23",
-            "url": "http://103.164.199.105:36118/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897322",
-            "dateadded": "2026-08-05 11:24:24",
-            "url": "http://94.27.153.78:37216/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3897321",
-            "dateadded": "2026-08-05 11:22:07",
-            "url": "http://115.55.148.89:51339/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3897320",
-            "dateadded": "2026-08-05 11:20:25",
-            "url": "http://183.162.112.69:4370/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897319",
-            "dateadded": "2026-08-05 10:59:17",
-            "url": "http://42.237.52.104:39139/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897318",
-            "dateadded": "2026-08-05 10:51:25",
-            "url": "http://179.108.89.220:54262/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3897317",
-            "dateadded": "2026-08-05 10:38:17",
-            "url": "http://115.48.145.53:41733/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897316",
-            "dateadded": "2026-08-05 10:33:20",
-            "url": "http://182.123.178.25:50097/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3897315",
-            "dateadded": "2026-08-05 10:33:19",
-            "url": "http://110.36.25.33:47305/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897314",
-            "dateadded": "2026-08-05 10:29:24",
-            "url": "http://115.55.246.67:45978/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897313",
-            "dateadded": "2026-08-05 10:28:30",
-            "url": "http://182.121.181.242:39984/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897312",
-            "dateadded": "2026-08-05 10:22:19",
-            "url": "http://179.108.89.220:54262/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3897311",
-            "dateadded": "2026-08-05 10:21:21",
-            "url": "http://115.50.177.63:41991/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3897310",
-            "dateadded": "2026-08-05 10:17:20",
-            "url": "https://rcf.co.mz/Phantomx.exe",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "exe,PureLogsStealer"
-          },
-          {
-            "id": "3897309",
-            "dateadded": "2026-08-05 10:16:07",
-            "url": "http://42.231.89.93:40071/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3897308",
-            "dateadded": "2026-08-05 10:11:09",
-            "url": "https://www.hqsblog.com/wordpress/wp-content/plugins/zxzxzx/stego_p0ci0zln28.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "rat,RemcosRAT"
-          },
-          {
-            "id": "3897307",
-            "dateadded": "2026-08-05 10:03:28",
-            "url": "http://120.84.214.187:35959/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897306",
-            "dateadded": "2026-08-05 10:03:23",
-            "url": "http://182.123.178.25:50097/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3897305",
-            "dateadded": "2026-08-05 09:57:07",
-            "url": "http://105.186.99.94:41467/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3897304",
-            "dateadded": "2026-08-05 09:52:25",
-            "url": "http://60.243.172.161:40069/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897303",
-            "dateadded": "2026-08-05 09:52:08",
-            "url": "http://42.231.89.93:40071/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "Mozi"
-          },
-          {
-            "id": "3897302",
-            "dateadded": "2026-08-05 09:51:18",
-            "url": "http://42.229.222.90:48601/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897301",
-            "dateadded": "2026-08-05 09:49:22",
-            "url": "http://218.252.224.196:43882/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897300",
-            "dateadded": "2026-08-05 09:46:20",
-            "url": "http://124.131.154.251:35768/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897299",
-            "dateadded": "2026-08-05 09:40:23",
-            "url": "http://115.50.177.63:41991/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3897298",
-            "dateadded": "2026-08-05 09:33:22",
-            "url": "http://125.45.65.140:47978/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897297",
-            "dateadded": "2026-08-05 09:31:09",
-            "url": "http://105.186.99.94:41467/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3897296",
-            "dateadded": "2026-08-05 09:30:14",
-            "url": "http://125.45.65.140:47978/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897295",
-            "dateadded": "2026-08-05 09:28:25",
-            "url": "http://124.131.149.235:46860/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897293",
-            "dateadded": "2026-08-05 09:27:19",
-            "url": "http://114.227.225.67:57509/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3897294",
-            "dateadded": "2026-08-05 09:27:19",
-            "url": "http://218.252.224.196:43882/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897292",
-            "dateadded": "2026-08-05 09:16:32",
-            "url": "http://42.233.136.200:33865/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897291",
-            "dateadded": "2026-08-05 09:15:20",
-            "url": "http://42.233.136.200:33865/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897290",
-            "dateadded": "2026-08-05 08:45:49",
-            "url": "http://182.126.93.226:48102/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897289",
-            "dateadded": "2026-08-05 08:43:29",
-            "url": "https://94.26.3.211:7443/hype/ws",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897288",
-            "dateadded": "2026-08-05 08:43:23",
-            "url": "http://192.109.139.93/jackin.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897287",
-            "dateadded": "2026-08-05 08:42:29",
-            "url": "http://123.157.169.5:34135/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3897286",
-            "dateadded": "2026-08-05 08:40:30",
-            "url": "http://42.235.143.143:40181/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897285",
-            "dateadded": "2026-08-05 08:19:26",
-            "url": "http://42.235.143.143:40181/bin.sh",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,elf,mips,Mozi"
-          },
-          {
-            "id": "3897284",
-            "dateadded": "2026-08-05 08:15:11",
-            "url": "http://45.9.168.230/MSI_PRO3RD.PNG",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897282",
-            "dateadded": "2026-08-05 08:14:12",
-            "url": "http://45.9.168.230/rump31st.png",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897283",
-            "dateadded": "2026-08-05 08:14:12",
-            "url": "http://45.9.168.230/yuyufresh.png",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897281",
-            "dateadded": "2026-08-05 08:10:34",
-            "url": "http://103.75.189.141/DWSR.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897280",
-            "dateadded": "2026-08-05 08:10:31",
-            "url": "http://94.26.3.76/holding.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897277",
-            "dateadded": "2026-08-05 08:10:27",
-            "url": "http://103.75.189.141/img_173002.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897278",
-            "dateadded": "2026-08-05 08:10:27",
-            "url": "http://103.75.189.141/MSI_AS.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897279",
-            "dateadded": "2026-08-05 08:10:27",
-            "url": "http://103.75.189.141/sirusjuly.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897276",
-            "dateadded": "2026-08-05 08:10:22",
-            "url": "http://103.75.189.141/sirusjulymsi.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897275",
-            "dateadded": "2026-08-05 08:10:19",
-            "url": "http://103.75.189.141/spaxworm.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897274",
-            "dateadded": "2026-08-05 08:10:17",
-            "url": "http://103.75.189.141/ksir.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897273",
-            "dateadded": "2026-08-05 08:10:16",
-            "url": "http://103.75.189.141/johnsmith.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897271",
-            "dateadded": "2026-08-05 08:10:15",
-            "url": "http://103.75.189.141/MSI_DW.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897272",
-            "dateadded": "2026-08-05 08:10:15",
-            "url": "http://103.75.189.141/DXW.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897270",
-            "dateadded": "2026-08-05 08:10:13",
-            "url": "http://103.75.189.141/xking.png",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3897269",
-            "dateadded": "2026-08-05 08:02:07",
-            "url": "http://190.109.227.12:52418/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "mirai"
-          },
-          {
-            "id": "3897268",
-            "dateadded": "2026-08-05 07:43:10",
-            "url": "http://153.80.249.35/pg.exe",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "exe,OverlordRAT"
-          },
-          {
-            "id": "3897266",
-            "dateadded": "2026-08-05 07:39:10",
-            "url": "http://89.208.97.134/conhost.exe",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "89-208-97-134,exe"
-          },
-          {
-            "id": "3897267",
-            "dateadded": "2026-08-05 07:39:10",
-            "url": "http://89.208.97.134/WindowsAudioGraph.exe",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "89-208-97-134,exe,OverlordRAT"
-          },
-          {
-            "id": "3897265",
-            "dateadded": "2026-08-05 07:39:05",
-            "url": "http://89.208.97.134/index.ps1",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "89-208-97-134,powershell"
           }
         ],
         "total_count": 300,
-        "last_fetch": "2026-08-06T03:17:52.981114+00:00"
+        "last_fetch": "2026-08-06T08:47:05.851619+00:00"
       }
     },
     {
@@ -2662,7 +2662,7 @@
         "description": "abuse.ch ThreatFox recent indicators of compromise (domains, IPs, URLs, hashes)",
         "entries": [],
         "total_count": 0,
-        "last_fetch": "2026-08-06T03:17:53.079632+00:00"
+        "last_fetch": "2026-08-06T08:47:06.129065+00:00"
       }
     },
     {
@@ -2719,7 +2719,7 @@
           }
         ],
         "total_count": 5,
-        "last_fetch": "2026-08-06T03:17:53.154251+00:00"
+        "last_fetch": "2026-08-06T08:47:06.249209+00:00"
       }
     }
   ]
