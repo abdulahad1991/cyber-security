@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-06T14:26:41.554108+00:00",
+  "last_updated": "2026-08-07T00:07:55.892845+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -34,7 +34,7 @@
             "name": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
             "date_added": "2026-08-04",
             "due_date": "2026-08-07",
-            "description": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor."
+            "description": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor. This vulnerability can be chained with CVE‑2025‑24813."
           },
           {
             "cve_id": "CVE-2026-9198",
@@ -3148,7 +3148,7 @@
             "name": "Apache Tomcat Path Equivalence Vulnerability",
             "date_added": "2025-04-01",
             "due_date": "2025-04-22",
-            "description": "Apache Tomcat contains a path equivalence vulnerability that allows a remote attacker to execute code, disclose information, or inject malicious content via a partial PUT request."
+            "description": "Apache Tomcat contains a path equivalence vulnerability that allows a remote attacker to execute code, disclose information, or inject malicious content via a partial PUT request. This vulnerability can be chained with CVE‑2026‑34486."
           },
           {
             "cve_id": "CVE-2024-20439",
@@ -4511,7 +4511,7 @@
           }
         ],
         "total_count": 1661,
-        "last_fetch": "2026-08-06T14:26:41.691442+00:00"
+        "last_fetch": "2026-08-07T00:07:56.180905+00:00"
       }
     }
   ]
