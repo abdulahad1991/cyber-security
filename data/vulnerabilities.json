@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-07T13:17:22.327078+00:00",
+  "last_updated": "2026-08-07T19:05:17.134442+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-8037",
+            "vendor": "Progress",
+            "product": "LoadMaster",
+            "name": "Progress LoadMaster Command Injection Vulnerability",
+            "date_added": "2026-08-07",
+            "due_date": "2026-08-10",
+            "description": "Progress LoadMaster contains a command injection vulnerability that allows an un-authenticated attacker to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input in multiple command endpoints."
+          },
           {
             "cve_id": "CVE-2026-63077",
             "vendor": "JetBrains",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-09-09",
             "due_date": "2024-09-30",
             "description": "ImageMagick contains an improper input validation vulnerability that affects the EPHEMERAL, HTTPS, MVG, MSL, TEXT, SHOW, WIN, and PLT coders. This allows a remote attacker to execute arbitrary code via shell metacharacters in a crafted image."
-          },
-          {
-            "cve_id": "CVE-2024-7262",
-            "vendor": "Kingsoft",
-            "product": "WPS Office",
-            "name": "Kingsoft WPS Office Path Traversal Vulnerability",
-            "date_added": "2024-09-03",
-            "due_date": "2024-09-24",
-            "description": "Kingsoft WPS Office contains a path traversal vulnerability in promecefpluginhost.exe on Windows that allows an attacker to load an arbitrary Windows library."
           }
         ],
-        "total_count": 1661,
-        "last_fetch": "2026-08-07T13:17:22.414360+00:00"
+        "total_count": 1662,
+        "last_fetch": "2026-08-07T19:05:17.427656+00:00"
       }
     }
   ]
