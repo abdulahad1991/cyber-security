@@ -1,6 +1,6 @@
 {
   "category": "threat_intel",
-  "last_updated": "2026-08-07T00:07:56.188515+00:00",
+  "last_updated": "2026-08-07T07:25:52.894037+00:00",
   "sources": [
     {
       "name": "OpenPhish Community Feed",
@@ -211,7 +211,7 @@
           "http://a1000-06sg08v10-837e515f.surge.sh/"
         ],
         "total_count": 300,
-        "last_fetch": "2026-08-07T00:07:56.838112+00:00"
+        "last_fetch": "2026-08-07T07:25:53.445040+00:00"
       }
     },
     {
@@ -239,7 +239,7 @@
           }
         ],
         "summary": "APWG Report Smishing Text About APWG Report Phishing Emails © 2026 Anti-Phishing Working Group, Inc © 2026 Anti-Phishing Working Group, Inc Resources Phishing Activity Trends Reports The APWG Phishing Activity Trends Report analyzes phishing attacks reported to the APWG by its member companies, its Global Research Partners, through the organization’s website at http://wp.apwg.org, and by e-mail submissions to reportphishing@antiphishing.org. APWG also measures the evolution, proliferation, and propagation of crimeware by drawing from the research of our member companies. VIEW REPORTS eCrime Research Papers The Symposium on Electronic Crime Research is an annual event hosted by the APWG. The event’s continuing goal is to promote cybercrime research by providing a means for researchers to publish their work. The program has published over 120 papers specifically focused on fraud and crime in the cyber world. VIEW PAPERS ON OUR RESEARCH SITE Global Phishing Survey Phishers are criminal, but they do make rational decisions about how to go about their work. They’re in it for the money, and they work to make their schemes as productive as possible while evading detection. To combat phishing we need to know what the phishers are doing, and how. Where is the phishing taking place? What companies are most vulnerable? Were the slew of new top-level domains a bonanza for phishers? By analyzing the phishing the authors have some answers, and those answers may surprise you. This report seeks to understand trends and their significance by quantifying the scope of the global phishing problem. Specifically, these reports examines all the phishing attacks detected over specific time intervals. VIEW REPORTS",
-        "last_fetch": "2026-08-07T00:07:59.193088+00:00"
+        "last_fetch": "2026-08-07T07:25:54.225738+00:00"
       }
     },
     {
@@ -249,6 +249,86 @@
       "data": {
         "description": "abuse.ch URLhaus feed of recently reported malware distribution URLs",
         "entries": [
+          {
+            "id": "3898359",
+            "dateadded": "2026-08-07 07:15:11",
+            "url": "https://www.mediafire.com/file/yl2g3svth10bgzd/file",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "iso"
+          },
+          {
+            "id": "3898357",
+            "dateadded": "2026-08-07 06:47:08",
+            "url": "https://195.177.94.245/bin/support.client.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "195-177-94-245,connectwise,exe"
+          },
+          {
+            "id": "3898358",
+            "dateadded": "2026-08-07 06:47:08",
+            "url": "https://195.177.94.245/Bin/ScreenConnect.ClientSetup.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "195-177-94-245,connectwise,exe"
+          },
+          {
+            "id": "3898356",
+            "dateadded": "2026-08-07 06:43:09",
+            "url": "https://217.217.97.36/Bin/ScreenConnect.ClientSetup.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "217-217-97-36,connectwise,exe"
+          },
+          {
+            "id": "3898355",
+            "dateadded": "2026-08-07 06:43:07",
+            "url": "https://217.217.97.36/bin/support.client.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "217-217-97-36,connectwise,exe"
+          },
+          {
+            "id": "3898352",
+            "dateadded": "2026-08-07 05:55:08",
+            "url": "http://156.246.95.231/sys/A/EC_puller.vbs",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "156-246-95-231,vbs"
+          },
+          {
+            "id": "3898353",
+            "dateadded": "2026-08-07 05:55:08",
+            "url": "http://156.246.95.231/sys/A/test.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "156-246-95-231,exe"
+          },
+          {
+            "id": "3898354",
+            "dateadded": "2026-08-07 05:55:08",
+            "url": "http://156.246.95.231/sys/A/34534.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "156-246-95-231,exe"
+          },
+          {
+            "id": "3898351",
+            "dateadded": "2026-08-07 05:55:07",
+            "url": "http://156.246.95.231/sys/A/white_notepad_rcdata.vbs",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "156-246-95-231,vbs"
+          },
+          {
+            "id": "3898350",
+            "dateadded": "2026-08-07 01:13:07",
+            "url": "https://hindustanagency.com/666.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "197b1ec4b9644da7b43669fd4f0ed73f,dropped-by-remus"
+          },
           {
             "id": "3898349",
             "dateadded": "2026-08-06 21:45:24",
@@ -349,7 +429,7 @@
             "id": "3898342",
             "dateadded": "2026-08-06 21:10:35",
             "url": "http://94.154.43.44/bins/bin.m68k",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "94-154-43-44,DEU,elf,geofenced,mirai"
           },
@@ -397,7 +477,7 @@
             "id": "3898331",
             "dateadded": "2026-08-06 21:10:34",
             "url": "http://94.154.43.44/bins/bin.powerpc-440fp",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "94-154-43-44,DEU,elf,geofenced,mirai"
           },
@@ -501,7 +581,7 @@
             "id": "3898316",
             "dateadded": "2026-08-06 20:53:07",
             "url": "http://194.26.192.131/Bin/ScreenConnect.ClientSetup.exe",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "194-26-192-131,exe"
           },
@@ -509,7 +589,7 @@
             "id": "3898317",
             "dateadded": "2026-08-06 20:53:07",
             "url": "https://192.159.99.153/Bin/ScreenConnect.ClientSetup.exe",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "192-159-99-153,exe"
           },
@@ -517,7 +597,7 @@
             "id": "3898318",
             "dateadded": "2026-08-06 20:53:07",
             "url": "https://45.88.186.14/Bin/ScreenConnect.ClientSetup.exe",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-88-186-14,connectwise,exe"
           },
@@ -525,7 +605,7 @@
             "id": "3898313",
             "dateadded": "2026-08-06 20:53:03",
             "url": "https://45.88.186.14/bin/support.client.exe",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-88-186-14,connectwise,exe"
           },
@@ -533,7 +613,7 @@
             "id": "3898314",
             "dateadded": "2026-08-06 20:53:03",
             "url": "http://194.26.192.131/bin/support.client.exe",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "194-26-192-131,connectwise,exe"
           },
@@ -541,7 +621,7 @@
             "id": "3898315",
             "dateadded": "2026-08-06 20:53:03",
             "url": "https://192.159.99.153/bin/support.client.exe",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "192-159-99-153,connectwise,exe"
           },
@@ -581,7 +661,7 @@
             "id": "3898295",
             "dateadded": "2026-08-06 20:43:33",
             "url": "http://45.135.194.47/bins/xnxnxnxnxnxnxnxnor1kxnxn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-135-194-47,DEU,elf,geofenced,mirai"
           },
@@ -597,7 +677,7 @@
             "id": "3898297",
             "dateadded": "2026-08-06 20:43:33",
             "url": "http://45.135.194.47/bins/xnxnxnxnxnxnxnxnpowerpcxnxn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-135-194-47,DEU,elf,geofenced,mirai"
           },
@@ -613,7 +693,7 @@
             "id": "3898299",
             "dateadded": "2026-08-06 20:43:33",
             "url": "http://45.135.194.47/bins/xnxnxnxnxnxnxnxnriscv32xnxn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-135-194-47,DEU,elf,geofenced,mirai"
           },
@@ -621,7 +701,7 @@
             "id": "3898300",
             "dateadded": "2026-08-06 20:43:33",
             "url": "http://45.135.194.47/bins/xnxnxnxnxnxnxnxnx86_64xnxn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-135-194-47,DEU,elf,gafgyt,geofenced"
           },
@@ -629,7 +709,7 @@
             "id": "3898301",
             "dateadded": "2026-08-06 20:43:33",
             "url": "http://45.135.194.47/bins/xnxnxnxnxnxnxnxnsh4xnxn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-135-194-47,DEU,elf,geofenced,mirai"
           },
@@ -637,7 +717,7 @@
             "id": "3898302",
             "dateadded": "2026-08-06 20:43:33",
             "url": "http://45.135.194.47/bins/xnxnxnxnxnxnxnxnm68kxnxn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-135-194-47,DEU,elf,geofenced,mirai"
           },
@@ -645,7 +725,7 @@
             "id": "3898303",
             "dateadded": "2026-08-06 20:43:33",
             "url": "http://45.135.194.47/bins/xnxnxnxnxnxnxnxni386xnxn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-135-194-47,DEU,elf,gafgyt,geofenced"
           },
@@ -653,7 +733,7 @@
             "id": "3898304",
             "dateadded": "2026-08-06 20:43:33",
             "url": "http://45.135.194.47/bins/xnxnxnxnxnxnxnxnmicroblazexnxn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-135-194-47,DEU,elf,geofenced,mirai"
           },
@@ -661,7 +741,7 @@
             "id": "3898305",
             "dateadded": "2026-08-06 20:43:33",
             "url": "http://45.135.194.47/bins/xnxnxnxnxnxnxnxnloongarch64xnxn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-135-194-47,DEU,elf,geofenced,mirai"
           },
@@ -669,7 +749,7 @@
             "id": "3898306",
             "dateadded": "2026-08-06 20:43:33",
             "url": "http://45.135.194.47/bins/xnxnxnxnxnxnxnxnsh2xnxn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-135-194-47,DEU,elf,geofenced,mirai"
           },
@@ -677,7 +757,7 @@
             "id": "3898307",
             "dateadded": "2026-08-06 20:43:33",
             "url": "http://45.135.194.47/bins/xnxnxnxnxnxnxnxnriscv64xnxn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-135-194-47,DEU,elf,geofenced,mirai"
           },
@@ -685,7 +765,7 @@
             "id": "3898308",
             "dateadded": "2026-08-06 20:43:33",
             "url": "http://45.135.194.47/bins/xnxnxnxnxnxnxnxnmipsxnxn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "45-135-194-47,DEU,elf,geofenced,mirai"
           },
@@ -701,9 +781,9 @@
             "id": "3898279",
             "dateadded": "2026-08-06 20:34:35",
             "url": "http://94.154.43.91/iran.armv7l",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "94-154-43-91,DEU,elf,geofenced"
+            "tags": "94-154-43-91,DEU,elf,geofenced,mirai"
           },
           {
             "id": "3898280",
@@ -735,7 +815,7 @@
             "url": "http://94.154.43.91/cat.sh",
             "url_status": "online",
             "threat": "malware_download",
-            "tags": "94-154-43-91,DEU,geofenced,sh"
+            "tags": "94-154-43-91,DEU,geofenced,mirai,sh"
           },
           {
             "id": "3898284",
@@ -749,7 +829,7 @@
             "id": "3898285",
             "dateadded": "2026-08-06 20:34:35",
             "url": "http://94.154.43.91/iran.armv4l",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "94-154-43-91,DEU,elf,geofenced,mirai"
           },
@@ -765,7 +845,7 @@
             "id": "3898287",
             "dateadded": "2026-08-06 20:34:35",
             "url": "http://94.154.43.91/iran.mipsel",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "94-154-43-91,DEU,elf,geofenced,mirai"
           },
@@ -791,7 +871,7 @@
             "url": "http://94.154.43.91/iran.x86_64",
             "url_status": "online",
             "threat": "malware_download",
-            "tags": "94-154-43-91,DEU,elf,geofenced"
+            "tags": "94-154-43-91,DEU,elf,geofenced,mirai"
           },
           {
             "id": "3898291",
@@ -805,9 +885,9 @@
             "id": "3898292",
             "dateadded": "2026-08-06 20:34:35",
             "url": "http://94.154.43.91/telnet.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
-            "tags": "94-154-43-91,DEU,geofenced,sh"
+            "tags": "94-154-43-91,DEU,geofenced,mirai,sh"
           },
           {
             "id": "3898293",
@@ -925,7 +1005,7 @@
             "id": "3898251",
             "dateadded": "2026-08-06 20:19:21",
             "url": "http://94.154.43.10/arm5",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "94-154-43-10,DEU,elf,geofenced,mirai"
           },
@@ -975,7 +1055,7 @@
             "url": "http://94.154.43.10/bins/mips",
             "url_status": "offline",
             "threat": "malware_download",
-            "tags": "94-154-43-10,DEU,elf,geofenced"
+            "tags": "94-154-43-10,DEU,elf,geofenced,mirai"
           },
           {
             "id": "3898258",
@@ -991,13 +1071,13 @@
             "url": "http://94.154.43.10/parm7",
             "url_status": "online",
             "threat": "malware_download",
-            "tags": "94-154-43-10,DEU,elf,geofenced"
+            "tags": "94-154-43-10,DEU,elf,geofenced,mirai"
           },
           {
             "id": "3898260",
             "dateadded": "2026-08-06 20:19:21",
             "url": "http://94.154.43.10/parm5",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "94-154-43-10,DEU,elf,geofenced,mirai"
           },
@@ -1061,7 +1141,7 @@
             "id": "3898268",
             "dateadded": "2026-08-06 20:19:21",
             "url": "http://94.154.43.10/bins/x86",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "94-154-43-10,DEU,elf,geofenced,mirai"
           },
@@ -1125,9 +1205,9 @@
             "id": "3898238",
             "dateadded": "2026-08-06 20:08:20",
             "url": "http://94.154.43.180/telnet.sh",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "94-154-43-180,DEU,geofenced,sh"
+            "tags": "94-154-43-180,DEU,geofenced,mirai,sh"
           },
           {
             "id": "3898239",
@@ -1151,7 +1231,7 @@
             "url": "http://94.154.43.180/cat.sh",
             "url_status": "online",
             "threat": "malware_download",
-            "tags": "94-154-43-180,DEU,geofenced,sh"
+            "tags": "94-154-43-180,DEU,geofenced,mirai,sh"
           },
           {
             "id": "3898236",
@@ -1181,7 +1261,7 @@
             "id": "3898231",
             "dateadded": "2026-08-06 20:02:21",
             "url": "http://94.154.43.189/mips64",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "94-154-43-189,DEU,elf,geofenced,mirai,QuirkBotnet"
           },
@@ -1237,7 +1317,7 @@
             "id": "3898220",
             "dateadded": "2026-08-06 20:00:24",
             "url": "http://94.154.43.101/bins/parm",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "94-154-43-101,DEU,elf,geofenced,mirai"
           },
@@ -1277,7 +1357,7 @@
             "id": "3898225",
             "dateadded": "2026-08-06 20:00:24",
             "url": "http://94.154.43.101/bins/parm6",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "94-154-43-101,DEU,elf,geofenced,mirai"
           },
@@ -1301,7 +1381,7 @@
             "id": "3898228",
             "dateadded": "2026-08-06 20:00:24",
             "url": "http://94.154.43.101/bins/pmips",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "94-154-43-101,DEU,elf,geofenced,mirai"
           },
@@ -1765,7 +1845,7 @@
             "id": "3898149",
             "dateadded": "2026-08-06 19:47:20",
             "url": "http://185.95.156.75/bins/bot.mpsl",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "185-95-156-75,DEU,elf,geofenced,mirai"
           },
@@ -1773,7 +1853,7 @@
             "id": "3898150",
             "dateadded": "2026-08-06 19:47:20",
             "url": "http://185.95.156.75/bins/bot.sh4",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "185-95-156-75,DEU,elf,geofenced,mirai"
           },
@@ -1781,7 +1861,7 @@
             "id": "3898151",
             "dateadded": "2026-08-06 19:47:20",
             "url": "http://185.95.156.75/bins/bot.m68k",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "185-95-156-75,DEU,elf,geofenced,mirai"
           },
@@ -1789,7 +1869,7 @@
             "id": "3898152",
             "dateadded": "2026-08-06 19:47:20",
             "url": "http://185.95.156.75/bins/bot.arm7",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "185-95-156-75,DEU,elf,geofenced,mirai"
           },
@@ -1797,7 +1877,7 @@
             "id": "3898153",
             "dateadded": "2026-08-06 19:47:20",
             "url": "http://185.95.156.75/bins/bot.x86_64",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "185-95-156-75,DEU,elf,geofenced,mirai"
           },
@@ -1805,7 +1885,7 @@
             "id": "3898154",
             "dateadded": "2026-08-06 19:47:20",
             "url": "http://185.95.156.75/bins/bot.spc",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "185-95-156-75,DEU,elf,geofenced,mirai"
           },
@@ -1813,7 +1893,7 @@
             "id": "3898155",
             "dateadded": "2026-08-06 19:47:20",
             "url": "http://185.95.156.75/bins/bot.arm6",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "185-95-156-75,DEU,elf,geofenced,mirai"
           },
@@ -1821,7 +1901,7 @@
             "id": "3898156",
             "dateadded": "2026-08-06 19:47:20",
             "url": "http://185.95.156.75/bins/bot.x86",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "185-95-156-75,DEU,elf,geofenced,mirai"
           },
@@ -1829,7 +1909,7 @@
             "id": "3898157",
             "dateadded": "2026-08-06 19:47:20",
             "url": "http://185.95.156.75/bins/bot.mips",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "185-95-156-75,DEU,elf,geofenced,mirai"
           },
@@ -1837,7 +1917,7 @@
             "id": "3898158",
             "dateadded": "2026-08-06 19:47:20",
             "url": "http://185.95.156.75/bins/bot.i686",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "185-95-156-75,DEU,elf,geofenced,mirai"
           },
@@ -1845,7 +1925,7 @@
             "id": "3898159",
             "dateadded": "2026-08-06 19:47:20",
             "url": "http://185.95.156.75/bins/bot.ppc",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "185-95-156-75,DEU,elf,geofenced,mirai"
           },
@@ -1853,7 +1933,7 @@
             "id": "3898160",
             "dateadded": "2026-08-06 19:47:20",
             "url": "http://185.95.156.75/bins/bot.arm5",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "185-95-156-75,DEU,elf,geofenced,mirai"
           },
@@ -2029,7 +2109,7 @@
             "id": "3898147",
             "dateadded": "2026-08-06 19:38:21",
             "url": "http://94.154.43.103/log",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "94-154-43-103,DEU,elf,geofenced,mirai"
           },
@@ -2061,7 +2141,7 @@
             "id": "3898123",
             "dateadded": "2026-08-06 19:36:09",
             "url": "https://pub-ce02802067934e0eb072f69bf6427bf6.r2.dev/tools2.png",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "xworm"
           },
@@ -2069,7 +2149,7 @@
             "id": "3898122",
             "dateadded": "2026-08-06 19:35:15",
             "url": "https://pub-ce02802067934e0eb072f69bf6427bf6.r2.dev/jjpe.png",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "xworm"
           },
@@ -2077,7 +2157,7 @@
             "id": "3898120",
             "dateadded": "2026-08-06 19:35:13",
             "url": "https://muddy-sound-e0cd.nodetectonn.workers.dev/bPvux",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "xworm"
           },
@@ -2093,7 +2173,7 @@
             "id": "3898119",
             "dateadded": "2026-08-06 19:33:11",
             "url": "https://pub-45a83f302a1943ed8d62418c2af947ef.r2.dev/hairlin.png",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "xworm"
           },
@@ -2101,7 +2181,7 @@
             "id": "3898117",
             "dateadded": "2026-08-06 19:33:09",
             "url": "https://ifeanyioluwatobi.wuaze.com/img_011230.png",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "xworm"
           },
@@ -2109,7 +2189,7 @@
             "id": "3898118",
             "dateadded": "2026-08-06 19:33:09",
             "url": "https://muddy-sound-e0cd.nodetectonn.workers.dev/UcoSn",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "xworm"
           },
@@ -2117,7 +2197,7 @@
             "id": "3898116",
             "dateadded": "2026-08-06 19:32:09",
             "url": "https://muddy-sound-e0cd.nodetectonn.workers.dev/KbXaa",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "xworm"
           },
@@ -2125,7 +2205,7 @@
             "id": "3898114",
             "dateadded": "2026-08-06 19:31:09",
             "url": "https://muddy-sound-e0cd.nodetectonn.workers.dev/Ljwev",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "xworm"
           },
@@ -2133,7 +2213,7 @@
             "id": "3898115",
             "dateadded": "2026-08-06 19:31:09",
             "url": "https://ifeanyioluwatobi.wuaze.com/img_022151.png",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "xworm"
           },
@@ -2279,15 +2359,15 @@
             "url": "http://103.83.86.215/n2/x86_64",
             "url_status": "offline",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,geofenced,ua-wget,USA"
           },
           {
             "id": "3898089",
             "dateadded": "2026-08-06 18:15:31",
             "url": "http://103.83.86.215/n2/armv6l",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,geofenced,mirai,ua-wget,USA"
           },
           {
             "id": "3898090",
@@ -2295,15 +2375,15 @@
             "url": "http://103.83.86.215/n2/armv7l",
             "url_status": "offline",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,geofenced,mirai,ua-wget,USA"
           },
           {
             "id": "3898091",
             "dateadded": "2026-08-06 18:15:31",
             "url": "http://103.83.86.215/n2/ppc",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,geofenced,ua-wget,USA"
           },
           {
             "id": "3898092",
@@ -2311,31 +2391,31 @@
             "url": "http://103.83.86.215/n2/sparc",
             "url_status": "offline",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,geofenced,mirai,ua-wget,USA"
           },
           {
             "id": "3898093",
             "dateadded": "2026-08-06 18:15:31",
             "url": "http://103.83.86.215/n2/sh4",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,geofenced,mirai,ua-wget,USA"
           },
           {
             "id": "3898094",
             "dateadded": "2026-08-06 18:15:31",
             "url": "http://103.83.86.215/n2/armv4l",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,geofenced,ua-wget,USA"
           },
           {
             "id": "3898095",
             "dateadded": "2026-08-06 18:15:31",
             "url": "http://103.83.86.215/n2/aarch64",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,geofenced,ua-wget,USA"
           },
           {
             "id": "3898096",
@@ -2343,7 +2423,7 @@
             "url": "http://103.83.86.215/n2/m68k",
             "url_status": "offline",
             "threat": "malware_download",
-            "tags": "elf,ua-wget"
+            "tags": "elf,geofenced,mirai,ua-wget,USA"
           },
           {
             "id": "3898087",
@@ -2445,7 +2525,7 @@
             "id": "3898075",
             "dateadded": "2026-08-06 18:13:27",
             "url": "http://37.49.227.136/pope.i686",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "elf,gafgyt,geofenced,ua-wget,USA"
           },
@@ -2469,7 +2549,7 @@
             "id": "3898078",
             "dateadded": "2026-08-06 18:13:27",
             "url": "http://37.49.227.136/pope.i486",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "elf,geofenced,mirai,ua-wget,USA"
           },
@@ -2485,7 +2565,7 @@
             "id": "3898080",
             "dateadded": "2026-08-06 18:13:27",
             "url": "http://37.49.227.136/pope.sparc",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "elf,gafgyt,geofenced,ua-wget,USA"
           },
@@ -2501,7 +2581,7 @@
             "id": "3898068",
             "dateadded": "2026-08-06 18:13:23",
             "url": "http://37.49.227.136/pope.ppc",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "elf,geofenced,mirai,ua-wget,USA"
           },
@@ -2509,7 +2589,7 @@
             "id": "3898067",
             "dateadded": "2026-08-06 18:13:22",
             "url": "http://37.49.227.136/pope.mipsel",
-            "url_status": "offline",
+            "url_status": "online",
             "threat": "malware_download",
             "tags": "elf,geofenced,mirai,ua-wget,USA"
           },
@@ -2557,7 +2637,7 @@
             "id": "3898060",
             "dateadded": "2026-08-06 18:05:24",
             "url": "http://172.245.195.208/70/img_014109.png",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "rat,RemcosRAT"
           },
@@ -2568,90 +2648,10 @@
             "url_status": "offline",
             "threat": "malware_download",
             "tags": "rat,RemcosRAT"
-          },
-          {
-            "id": "3898058",
-            "dateadded": "2026-08-06 18:04:31",
-            "url": "http://37.49.227.136/pope.mips",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "elf,geofenced,mips,mirai,ua-wget,USA"
-          },
-          {
-            "id": "3898057",
-            "dateadded": "2026-08-06 17:50:33",
-            "url": "http://193.26.115.231:8001/agent.bin",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "193-26-115-231-8001,elf,opendir"
-          },
-          {
-            "id": "3898056",
-            "dateadded": "2026-08-06 17:50:19",
-            "url": "http://193.26.115.231:8001/1.py",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "193-26-115-231-8001,opendir,python"
-          },
-          {
-            "id": "3898055",
-            "dateadded": "2026-08-06 17:10:36",
-            "url": "http://182.121.136.139:55917/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3898054",
-            "dateadded": "2026-08-06 17:07:30",
-            "url": "http://110.37.116.78:42532/bin.sh",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3898053",
-            "dateadded": "2026-08-06 17:06:31",
-            "url": "http://163.142.92.225:60512/i",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "None"
-          },
-          {
-            "id": "3898052",
-            "dateadded": "2026-08-06 16:58:19",
-            "url": "http://91.92.242.236/files-129312398/files/file_3be3fa630977796a.exe",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "9d2ca3,dropped-by-amadey"
-          },
-          {
-            "id": "3898050",
-            "dateadded": "2026-08-06 16:47:18",
-            "url": "http://45.83.31.27/main/x.bat",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "45-83-31-27,bat"
-          },
-          {
-            "id": "3898051",
-            "dateadded": "2026-08-06 16:47:18",
-            "url": "http://45.83.31.27/purev2.bat",
-            "url_status": "offline",
-            "threat": "malware_download",
-            "tags": "45-83-31-27,bat"
-          },
-          {
-            "id": "3898049",
-            "dateadded": "2026-08-06 16:46:17",
-            "url": "http://91.108.27.91:45906/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "mirai"
           }
         ],
         "total_count": 300,
-        "last_fetch": "2026-08-07T00:07:59.434930+00:00"
+        "last_fetch": "2026-08-07T07:25:54.325347+00:00"
       }
     },
     {
@@ -2662,7 +2662,7 @@
         "description": "abuse.ch ThreatFox recent indicators of compromise (domains, IPs, URLs, hashes)",
         "entries": [],
         "total_count": 0,
-        "last_fetch": "2026-08-07T00:07:59.930928+00:00"
+        "last_fetch": "2026-08-07T07:25:54.504599+00:00"
       }
     },
     {
@@ -2719,7 +2719,7 @@
           }
         ],
         "total_count": 5,
-        "last_fetch": "2026-08-07T00:08:00.211981+00:00"
+        "last_fetch": "2026-08-07T07:25:54.778918+00:00"
       }
     }
   ]
