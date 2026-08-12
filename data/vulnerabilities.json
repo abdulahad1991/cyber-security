@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-11T19:10:34.594726+00:00",
+  "last_updated": "2026-08-12T02:27:45.036302+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,33 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-20349",
+            "vendor": "Cisco",
+            "product": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ",
+            "name": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
+            "date_added": "2026-08-11",
+            "due_date": "2026-08-14",
+            "description": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) contain a heap inspection vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition."
+          },
+          {
+            "cve_id": "CVE-2026-68820",
+            "vendor": "Microsoft",
+            "product": "Windows Ancillary Function Driver for WinSock ",
+            "name": "Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
+            "date_added": "2026-08-11",
+            "due_date": "2026-08-25",
+            "description": "Microsoft Windows Ancillary Function Driver for WinSock contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally."
+          },
+          {
+            "cve_id": "CVE-2026-72898",
+            "vendor": "Metabase",
+            "product": "Metabase",
+            "name": "Metabase SQL Injection Vulnerability",
+            "date_added": "2026-08-11",
+            "due_date": "2026-08-14",
+            "description": "Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance. From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data."
+          },
           {
             "cve_id": "CVE-2026-8037",
             "vendor": "Progress",
@@ -4481,37 +4508,10 @@
             "date_added": "2024-09-10",
             "due_date": "2024-10-01",
             "description": "Microsoft Publisher contains a protection mechanism failure vulnerability that allows attacker to bypass Office macro policies used to block untrusted or malicious files."
-          },
-          {
-            "cve_id": "CVE-2024-40766",
-            "vendor": "SonicWall",
-            "product": "SonicOS",
-            "name": "SonicWall SonicOS Improper Access Control Vulnerability",
-            "date_added": "2024-09-09",
-            "due_date": "2024-09-30",
-            "description": "SonicWall SonicOS contains an improper access control vulnerability that could lead to unauthorized resource access and, under certain conditions, may cause the firewall to crash."
-          },
-          {
-            "cve_id": "CVE-2017-1000253",
-            "vendor": "Linux",
-            "product": "Kernel",
-            "name": "Linux Kernel PIE Stack Buffer Corruption Vulnerability ",
-            "date_added": "2024-09-09",
-            "due_date": "2024-09-30",
-            "description": "Linux kernel contains a position-independent executable (PIE) stack buffer corruption vulnerability in load_elf_ binary() that allows a local attacker to escalate privileges. "
-          },
-          {
-            "cve_id": "CVE-2016-3714",
-            "vendor": "ImageMagick",
-            "product": "ImageMagick",
-            "name": "ImageMagick Improper Input Validation Vulnerability",
-            "date_added": "2024-09-09",
-            "due_date": "2024-09-30",
-            "description": "ImageMagick contains an improper input validation vulnerability that affects the EPHEMERAL, HTTPS, MVG, MSL, TEXT, SHOW, WIN, and PLT coders. This allows a remote attacker to execute arbitrary code via shell metacharacters in a crafted image."
           }
         ],
-        "total_count": 1662,
-        "last_fetch": "2026-08-11T19:10:34.842787+00:00"
+        "total_count": 1665,
+        "last_fetch": "2026-08-12T02:27:45.220889+00:00"
       }
     }
   ]
