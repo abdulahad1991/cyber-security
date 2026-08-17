@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-17T12:55:49.780176+00:00",
+  "last_updated": "2026-08-17T18:48:44.104465+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2025-62593",
+            "vendor": "Ray-Project",
+            "product": "Ray",
+            "name": "Ray-Project Ray Code Injection Vulnerability",
+            "date_added": "2026-08-17",
+            "due_date": "2026-08-20",
+            "description": "Ray-Project Ray contains a code injection vulnerability that could allow remote code execution. Developers using Ray as a development tool may be exposed to this vulnerability exploitable through Firefox and Safari."
+          },
           {
             "cve_id": "CVE-2026-20349",
             "vendor": "Cisco",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-09-10",
             "due_date": "2024-10-01",
             "description": "Microsoft Windows Installer contains an improper privilege management vulnerability that could allow an attacker to gain SYSTEM privileges."
-          },
-          {
-            "cve_id": "CVE-2024-38226",
-            "vendor": "Microsoft",
-            "product": "Publisher",
-            "name": "Microsoft Publisher Protection Mechanism Failure Vulnerability",
-            "date_added": "2024-09-10",
-            "due_date": "2024-10-01",
-            "description": "Microsoft Publisher contains a protection mechanism failure vulnerability that allows attacker to bypass Office macro policies used to block untrusted or malicious files."
           }
         ],
-        "total_count": 1665,
-        "last_fetch": "2026-08-17T12:55:49.969426+00:00"
+        "total_count": 1666,
+        "last_fetch": "2026-08-17T18:48:44.200196+00:00"
       }
     }
   ]
