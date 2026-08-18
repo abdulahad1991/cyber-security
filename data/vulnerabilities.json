@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-18T12:57:24.207824+00:00",
+  "last_updated": "2026-08-18T18:47:15.909775+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,42 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-33824",
+            "vendor": "Microsoft",
+            "product": "Internet Key Exchange (IKE) Service Extensions",
+            "name": "Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
+            "date_added": "2026-08-18",
+            "due_date": "2026-08-21",
+            "description": "Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution."
+          },
+          {
+            "cve_id": "CVE-2026-59310",
+            "vendor": "Broadcom",
+            "product": "VMware vCenter",
+            "name": "Broadcom VMware vCenter Path Traversal Vulnerability",
+            "date_added": "2026-08-18",
+            "due_date": "2026-08-21",
+            "description": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code."
+          },
+          {
+            "cve_id": "CVE-2026-55040",
+            "vendor": "Microsoft",
+            "product": "SharePoint",
+            "name": "Microsoft SharePoint Weak Authentication Vulnerability",
+            "date_added": "2026-08-18",
+            "due_date": "2026-08-21",
+            "description": "Microsoft SharePoint contains a weak authentication vulnerability which allows an unauthorized attacker to bypass a security feature over a network."
+          },
+          {
+            "cve_id": "CVE-2026-65400",
+            "vendor": "Apple",
+            "product": "macOS",
+            "name": "Apple macOS Improper Authentication Vulnerability",
+            "date_added": "2026-08-18",
+            "due_date": "2026-08-21",
+            "description": "Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials."
+          },
           {
             "cve_id": "CVE-2025-62593",
             "vendor": "Ray-Project",
@@ -4472,46 +4508,10 @@
             "date_added": "2024-09-16",
             "due_date": "2024-10-07",
             "description": "Progress WhatsUp Gold contains a SQL injection vulnerability that allows an unauthenticated attacker to retrieve the user's encrypted password if the application is configured with only a single user."
-          },
-          {
-            "cve_id": "CVE-2024-43461",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows MSHTML Platform Spoofing Vulnerability",
-            "date_added": "2024-09-16",
-            "due_date": "2024-10-07",
-            "description": "Microsoft Windows MSHTML Platform contains a user interface (UI) misrepresentation of critical information vulnerability that allows an attacker to spoof a web page. This vulnerability was exploited in conjunction with CVE-2024-38112."
-          },
-          {
-            "cve_id": "CVE-2024-8190",
-            "vendor": "Ivanti",
-            "product": "Cloud Services Appliance",
-            "name": "Ivanti Cloud Services Appliance OS Command Injection Vulnerability",
-            "date_added": "2024-09-13",
-            "due_date": "2024-10-04",
-            "description": "Ivanti Cloud Services Appliance (CSA) contains an OS command injection vulnerability in the administrative console which can allow an authenticated attacker with application admin privileges to pass commands to the underlying OS."
-          },
-          {
-            "cve_id": "CVE-2024-38217",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Mark of the Web (MOTW) Protection Mechanism Failure Vulnerability",
-            "date_added": "2024-09-10",
-            "due_date": "2024-10-01",
-            "description": "Microsoft Windows Mark of the Web (MOTW) contains a protection mechanism failure vulnerability that allows an attacker to bypass MOTW-based defenses. This can result in a limited loss of integrity and availability of security features such as Protected View in Microsoft Office, which rely on MOTW tagging."
-          },
-          {
-            "cve_id": "CVE-2024-38014",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Installer Improper Privilege Management Vulnerability",
-            "date_added": "2024-09-10",
-            "due_date": "2024-10-01",
-            "description": "Microsoft Windows Installer contains an improper privilege management vulnerability that could allow an attacker to gain SYSTEM privileges."
           }
         ],
-        "total_count": 1666,
-        "last_fetch": "2026-08-18T12:57:24.346374+00:00"
+        "total_count": 1670,
+        "last_fetch": "2026-08-18T18:47:16.022177+00:00"
       }
     }
   ]
