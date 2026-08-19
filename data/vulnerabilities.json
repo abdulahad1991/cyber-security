@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-19T12:58:13.899345+00:00",
+  "last_updated": "2026-08-19T18:42:55.413263+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-64849",
+            "vendor": "MLflow",
+            "product": "MLflow",
+            "name": "MLflow Server-Side Request Forgery Vulnerability",
+            "date_added": "2026-08-19",
+            "due_date": "2026-09-02",
+            "description": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body."
+          },
           {
             "cve_id": "CVE-2026-33824",
             "vendor": "Microsoft",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-09-17",
             "due_date": "2024-10-08",
             "description": "Adobe Flash Player contains an integer underflow vulnerability that allows a remote attacker to execute arbitrary code."
-          },
-          {
-            "cve_id": "CVE-2024-6670",
-            "vendor": "Progress",
-            "product": "WhatsUp Gold",
-            "name": "Progress WhatsUp Gold SQL Injection Vulnerability",
-            "date_added": "2024-09-16",
-            "due_date": "2024-10-07",
-            "description": "Progress WhatsUp Gold contains a SQL injection vulnerability that allows an unauthenticated attacker to retrieve the user's encrypted password if the application is configured with only a single user."
           }
         ],
-        "total_count": 1670,
-        "last_fetch": "2026-08-19T12:58:14.098578+00:00"
+        "total_count": 1671,
+        "last_fetch": "2026-08-19T18:42:55.603167+00:00"
       }
     }
   ]
