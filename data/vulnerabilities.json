@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-20T13:00:34.768071+00:00",
+  "last_updated": "2026-08-20T18:49:19.190175+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-72530",
+            "vendor": "TrueConf",
+            "product": "Server",
+            "name": "TrueConf Server Code Injection Vulnerability",
+            "date_added": "2026-08-20",
+            "due_date": "2026-09-03",
+            "description": "TrueConf Server contains a code injection vulnerability that could allow an unauthorized remote attacker with network access via port 4307/TCP to use a specially crafted script to break out of the isolated environment and execute arbitrary code on the host system."
+          },
+          {
+            "cve_id": "CVE-2026-72529",
+            "vendor": "TrueConf",
+            "product": "Server",
+            "name": "TrueConf Server Missing Authentication for Critical Function Vulnerability",
+            "date_added": "2026-08-20",
+            "due_date": "2026-08-23",
+            "description": "TrueConf Server contains a missing authentication for critical function vulnerability which could allow a remote unauthorized attacker with network access via port 4307/TCP to execute an arbitrary script."
+          },
           {
             "cve_id": "CVE-2026-64849",
             "vendor": "MLflow",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-09-17",
             "due_date": "2024-10-08",
             "description": "Adobe Flash Player contains an unspecified vulnerability in the ExternalInterface ActionScript functionality that allows a remote attacker to execute arbitrary code via crafted SWF content."
-          },
-          {
-            "cve_id": "CVE-2013-0643",
-            "vendor": "Adobe",
-            "product": "Flash Player",
-            "name": "Adobe Flash Player Incorrect Default Permissions Vulnerability",
-            "date_added": "2024-09-17",
-            "due_date": "2024-10-08",
-            "description": "Adobe Flash Player contains an incorrect default permissions vulnerability in the Firefox sandbox that allows a remote attacker to execute arbitrary code via crafted SWF content. "
-          },
-          {
-            "cve_id": "CVE-2014-0497",
-            "vendor": "Adobe",
-            "product": "Flash Player",
-            "name": "Adobe Flash Player Integer Underflow Vulnerablity",
-            "date_added": "2024-09-17",
-            "due_date": "2024-10-08",
-            "description": "Adobe Flash Player contains an integer underflow vulnerability that allows a remote attacker to execute arbitrary code."
           }
         ],
-        "total_count": 1671,
-        "last_fetch": "2026-08-20T13:00:34.949716+00:00"
+        "total_count": 1673,
+        "last_fetch": "2026-08-20T18:49:19.299449+00:00"
       }
     }
   ]
