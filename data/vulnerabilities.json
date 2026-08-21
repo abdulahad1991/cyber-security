@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-21T12:59:29.762464+00:00",
+  "last_updated": "2026-08-21T18:45:32.669228+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-73570",
+            "vendor": "Synacor",
+            "product": "Zimbra Collaboration Suite (ZCS)",
+            "name": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
+            "date_added": "2026-08-21",
+            "due_date": "2026-08-24",
+            "description": "Zimbra Collaboration Suite (ZCS) contains an OS command injection vulnerability which could allow an unauthenticated attacker to send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra user."
+          },
           {
             "cve_id": "CVE-2026-72530",
             "vendor": "TrueConf",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-09-17",
             "due_date": "2024-10-08",
             "description": "Adobe Flash Player contains a double free vulnerability that allows a remote attacker to execute arbitrary code."
-          },
-          {
-            "cve_id": "CVE-2013-0648",
-            "vendor": "Adobe",
-            "product": "Flash Player",
-            "name": "Adobe Flash Player Code Execution Vulnerability",
-            "date_added": "2024-09-17",
-            "due_date": "2024-10-08",
-            "description": "Adobe Flash Player contains an unspecified vulnerability in the ExternalInterface ActionScript functionality that allows a remote attacker to execute arbitrary code via crafted SWF content."
           }
         ],
-        "total_count": 1673,
-        "last_fetch": "2026-08-21T12:59:30.072669+00:00"
+        "total_count": 1674,
+        "last_fetch": "2026-08-21T18:45:32.870249+00:00"
       }
     }
   ]
