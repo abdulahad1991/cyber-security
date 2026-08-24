@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-24T13:02:22.761725+00:00",
+  "last_updated": "2026-08-24T18:49:25.624700+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-21962",
+            "vendor": "Oracle",
+            "product": "HTTP Server and Oracle Weblogic Server Proxy Plug-in",
+            "name": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
+            "date_added": "2026-08-24",
+            "due_date": "2026-08-27",
+            "description": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data as well as unauthorized access to critical data or complete access to all Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in accessible data."
+          },
           {
             "cve_id": "CVE-2026-73570",
             "vendor": "Synacor",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-09-18",
             "due_date": "2024-10-09",
             "description": "Apache HugeGraph-Server contains an improper access control vulnerability that could allow a remote attacker to execute arbitrary code."
-          },
-          {
-            "cve_id": "CVE-2014-0502",
-            "vendor": "Adobe",
-            "product": "Flash Player",
-            "name": "Adobe Flash Player Double Free Vulnerablity",
-            "date_added": "2024-09-17",
-            "due_date": "2024-10-08",
-            "description": "Adobe Flash Player contains a double free vulnerability that allows a remote attacker to execute arbitrary code."
           }
         ],
-        "total_count": 1674,
-        "last_fetch": "2026-08-24T13:02:23.041197+00:00"
+        "total_count": 1675,
+        "last_fetch": "2026-08-24T18:49:25.732041+00:00"
       }
     }
   ]
