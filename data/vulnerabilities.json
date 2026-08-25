@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-25T12:58:12.463156+00:00",
+  "last_updated": "2026-08-25T18:47:44.129788+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-60004",
+            "vendor": "Gitea",
+            "product": "Gitea",
+            "name": "Gitea Code Injection Vulnerability",
+            "date_added": "2026-08-25",
+            "due_date": "2026-08-28",
+            "description": "Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell commands as the Gitea service account."
+          },
           {
             "cve_id": "CVE-2026-21962",
             "vendor": "Oracle",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-09-18",
             "due_date": "2024-10-09",
             "description": "Microsoft SQL Server Reporting Services contains a deserialization vulnerability when handling page requests incorrectly. An authenticated attacker can exploit this vulnerability to execute code in the context of the Report Server service account."
-          },
-          {
-            "cve_id": "CVE-2024-27348",
-            "vendor": "Apache",
-            "product": "HugeGraph-Server",
-            "name": "Apache HugeGraph-Server Improper Access Control Vulnerability",
-            "date_added": "2024-09-18",
-            "due_date": "2024-10-09",
-            "description": "Apache HugeGraph-Server contains an improper access control vulnerability that could allow a remote attacker to execute arbitrary code."
           }
         ],
-        "total_count": 1675,
-        "last_fetch": "2026-08-25T12:58:12.580320+00:00"
+        "total_count": 1676,
+        "last_fetch": "2026-08-25T18:47:44.217838+00:00"
       }
     }
   ]
