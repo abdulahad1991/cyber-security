@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-26T13:03:56.450601+00:00",
+  "last_updated": "2026-08-26T19:54:57.640518+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,60 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2021-23758",
+            "vendor": "Ajax.NET Professional",
+            "product": "Ajax.NET Professional",
+            "name": "Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
+            "date_added": "2026-08-26",
+            "due_date": "2026-09-09",
+            "description": "Ajax.NET Professional (AjaxPro) contains a deserialization of untrusted data vulnerability that could allow for remote code execution via arbitrary .NET classes. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version."
+          },
+          {
+            "cve_id": "CVE-2015-3246",
+            "vendor": "Red Hat",
+            "product": "Libuser",
+            "name": "Red Hat Libuser Race Condition Vulnerability",
+            "date_added": "2026-08-26",
+            "due_date": "2026-09-09",
+            "description": "Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation. "
+          },
+          {
+            "cve_id": "CVE-2015-5287",
+            "vendor": "Red Hat",
+            "product": "Automatic Bug Reporting Tool",
+            "name": "Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
+            "date_added": "2026-08-26",
+            "due_date": "2026-09-09",
+            "description": "Red Hat Automatic Bug Reporting Tool (ABRT) contains a privilege escalation vulnerability that could allow local users with certain permissions to gain privileges via a symlink attack on a file with a predictable name. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version."
+          },
+          {
+            "cve_id": "CVE-2022-0995",
+            "vendor": "Linux",
+            "product": "Kernel",
+            "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
+            "date_added": "2026-08-26",
+            "due_date": "2026-09-09",
+            "description": "Linux Kernel contains an out-of-bounds memory write vulnerability which could allow a local user to gain privileged access or cause a denial of service on the system."
+          },
+          {
+            "cve_id": "CVE-2026-8452",
+            "vendor": "Citrix",
+            "product": "NetScaler ADC and NetScaler Gateway",
+            "name": "Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+            "date_added": "2026-08-26",
+            "due_date": "2026-08-29",
+            "description": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability which could lead to denial of service. "
+          },
+          {
+            "cve_id": "CVE-2019-1068",
+            "vendor": "Microsoft",
+            "product": "SQL Server",
+            "name": "Microsoft SQL Server Remote Code Execution Vulnerability",
+            "date_added": "2026-08-26",
+            "due_date": "2026-08-29",
+            "description": "Microsoft SQL Server contains a remote code execution vulnerability that could allow an attacker to execute code in the context of the SQL Server Database Engine service account."
+          },
           {
             "cve_id": "CVE-2026-60004",
             "vendor": "Gitea",
@@ -4454,64 +4508,10 @@
             "date_added": "2024-09-30",
             "due_date": "2024-10-21",
             "description": "DrayTek Vigor3900, Vigor2960, and Vigor300B devices contain an OS command injection vulnerability in cgi-bin/mainfunction.cgi/cvmcfgupload that allows for remote code execution via shell metacharacters in a filename when the text/x-python-script content type is used."
-          },
-          {
-            "cve_id": "CVE-2023-25280",
-            "vendor": "D-Link",
-            "product": "DIR-820 Router",
-            "name": "D-Link DIR-820 Router OS Command Injection Vulnerability",
-            "date_added": "2024-09-30",
-            "due_date": "2024-10-21",
-            "description": "D-Link DIR-820 routers contain an OS command injection vulnerability that allows a remote, unauthenticated attacker to escalate privileges to root via a crafted payload with the ping_addr parameter to ping.ccp."
-          },
-          {
-            "cve_id": "CVE-2024-7593",
-            "vendor": "Ivanti",
-            "product": "Virtual Traffic Manager",
-            "name": "Ivanti Virtual Traffic Manager Authentication Bypass Vulnerability",
-            "date_added": "2024-09-24",
-            "due_date": "2024-10-15",
-            "description": "Ivanti Virtual Traffic Manager contains an authentication bypass vulnerability that allows a remote, unauthenticated attacker to create a chosen administrator account."
-          },
-          {
-            "cve_id": "CVE-2024-8963",
-            "vendor": "Ivanti",
-            "product": "Cloud Services Appliance (CSA)",
-            "name": "Ivanti Cloud Services Appliance (CSA) Path Traversal Vulnerability",
-            "date_added": "2024-09-19",
-            "due_date": "2024-10-10",
-            "description": "Ivanti Cloud Services Appliance (CSA) contains a path traversal vulnerability that could allow a remote, unauthenticated attacker to access restricted functionality. If CVE-2024-8963 is used in conjunction with CVE-2024-8190, an attacker could bypass admin authentication and execute arbitrary commands on the appliance."
-          },
-          {
-            "cve_id": "CVE-2020-14644",
-            "vendor": "Oracle",
-            "product": "WebLogic Server",
-            "name": "Oracle WebLogic Server Remote Code Execution Vulnerability",
-            "date_added": "2024-09-18",
-            "due_date": "2024-10-09",
-            "description": "Oracle WebLogic Server, a product within the Fusion Middleware suite, contains a deserialization vulnerability. Unauthenticated attackers with network access via T3 or IIOP can exploit this vulnerability to achieve remote code execution."
-          },
-          {
-            "cve_id": "CVE-2022-21445",
-            "vendor": "Oracle",
-            "product": "ADF Faces",
-            "name": "Oracle ADF Faces Deserialization of Untrusted Data Vulnerability",
-            "date_added": "2024-09-18",
-            "due_date": "2024-10-09",
-            "description": "Oracle ADF Faces library, included with Oracle JDeveloper Distribution, contains a deserialization of untrusted data vulnerability leading to unauthenticated remote code execution."
-          },
-          {
-            "cve_id": "CVE-2020-0618",
-            "vendor": "Microsoft",
-            "product": "SQL Server",
-            "name": "Microsoft SQL Server Reporting Services Remote Code Execution Vulnerability",
-            "date_added": "2024-09-18",
-            "due_date": "2024-10-09",
-            "description": "Microsoft SQL Server Reporting Services contains a deserialization vulnerability when handling page requests incorrectly. An authenticated attacker can exploit this vulnerability to execute code in the context of the Report Server service account."
           }
         ],
-        "total_count": 1676,
-        "last_fetch": "2026-08-26T13:03:56.659466+00:00"
+        "total_count": 1682,
+        "last_fetch": "2026-08-26T19:54:57.785924+00:00"
       }
     }
   ]
