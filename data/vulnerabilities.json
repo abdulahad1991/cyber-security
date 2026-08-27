@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-08-27T08:46:32.067237+00:00",
+  "last_updated": "2026-08-27T22:07:38.430771+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,33 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2023-49105",
+            "vendor": "ownCloud",
+            "product": "ownCloud",
+            "name": "ownCloud Improper Authentication Vulnerability",
+            "date_added": "2026-08-27",
+            "due_date": "2026-08-30",
+            "description": "ownCloud contains an improper authentication vulnerability that allows an attacker to access, modify, or delete any file without authentication if the username of a victim is known, and the victim has no signing-key configured."
+          },
+          {
+            "cve_id": "CVE-2026-53362",
+            "vendor": "Linux",
+            "product": "Kernel",
+            "name": "Linux Kernel Unspecified Vulnerability",
+            "date_added": "2026-08-27",
+            "due_date": "2026-08-30",
+            "description": "Linux Kernel contains an unspecified vulnerability that can allow for privilege escalation via IPv6 networking subsystem. This vulnerability can impact multiple products, including but not limited to Suse, Red Hat, and other products using Linux. "
+          },
+          {
+            "cve_id": "CVE-2026-66384",
+            "vendor": "JFrog",
+            "product": "Artifactory",
+            "name": "JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
+            "date_added": "2026-08-27",
+            "due_date": "2026-09-10",
+            "description": "JFrog Artifactory contains an improper limitation of a pathname to a restricted directory vulnerability. This can allow an authenticated user to write data outside the intended Docker cache path under specific remote-repository conditions."
+          },
           {
             "cve_id": "CVE-2021-23758",
             "vendor": "Ajax.NET Professional",
@@ -4481,37 +4508,10 @@
             "date_added": "2024-10-03",
             "due_date": "2024-10-24",
             "description": "Synacor Zimbra Collaboration Suite (ZCS) contains an unspecified vulnerability in the postjournal service that may allow an unauthenticated user to execute commands."
-          },
-          {
-            "cve_id": "CVE-2024-29824",
-            "vendor": "Ivanti",
-            "product": "Endpoint Manager (EPM)",
-            "name": "Ivanti Endpoint Manager (EPM) SQL Injection Vulnerability",
-            "date_added": "2024-10-02",
-            "due_date": "2024-10-23",
-            "description": "Ivanti Endpoint Manager (EPM) contains a SQL injection vulnerability in Core server that allows an unauthenticated attacker within the same network to execute arbitrary code. "
-          },
-          {
-            "cve_id": "CVE-2019-0344",
-            "vendor": "SAP",
-            "product": "Commerce Cloud",
-            "name": "SAP Commerce Cloud Deserialization of Untrusted Data Vulnerability",
-            "date_added": "2024-09-30",
-            "due_date": "2024-10-21",
-            "description": "SAP Commerce Cloud (formerly known as Hybris) contains a deserialization of untrusted data vulnerability within the mediaconversion and virtualjdbc extension that allows for code injection."
-          },
-          {
-            "cve_id": "CVE-2020-15415",
-            "vendor": "DrayTek",
-            "product": "Multiple Vigor Routers",
-            "name": "DrayTek Multiple Vigor Routers OS Command Injection Vulnerability",
-            "date_added": "2024-09-30",
-            "due_date": "2024-10-21",
-            "description": "DrayTek Vigor3900, Vigor2960, and Vigor300B devices contain an OS command injection vulnerability in cgi-bin/mainfunction.cgi/cvmcfgupload that allows for remote code execution via shell metacharacters in a filename when the text/x-python-script content type is used."
           }
         ],
-        "total_count": 1682,
-        "last_fetch": "2026-08-27T08:46:32.208507+00:00"
+        "total_count": 1685,
+        "last_fetch": "2026-08-27T22:07:38.516037+00:00"
       }
     }
   ]
