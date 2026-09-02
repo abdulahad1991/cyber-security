@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-02T16:23:47.228757+00:00",
+  "last_updated": "2026-09-02T20:53:48.399647+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,69 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-59822",
+            "vendor": "BerriAI",
+            "product": "LiteLLM",
+            "name": "BerriAI LiteLLM Improper Authentication Vulnerability",
+            "date_added": "2026-09-02",
+            "due_date": "2026-09-16",
+            "description": "BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token."
+          },
+          {
+            "cve_id": "CVE-2026-48710",
+            "vendor": "Kludex",
+            "product": "Starlette",
+            "name": "Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
+            "date_added": "2026-09-02",
+            "due_date": "2026-09-16",
+            "description": "Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depends on the reconstructed URL’s path. This vulnerability could be chaned with CVE-2026-42271."
+          },
+          {
+            "cve_id": "CVE-2026-49869",
+            "vendor": "Kestra",
+            "product": "Kestra OSS",
+            "name": "Kestra OSS OS Command Injection Vulnerability",
+            "date_added": "2026-09-02",
+            "due_date": "2026-09-05",
+            "description": "Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials."
+          },
+          {
+            "cve_id": "CVE-2026-82329",
+            "vendor": "JFrog",
+            "product": "Artifactory",
+            "name": "JFrog Artifactory Improper Authentication Vulnerability",
+            "date_added": "2026-09-02",
+            "due_date": "2026-09-05",
+            "description": "JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges. "
+          },
+          {
+            "cve_id": "CVE-2026-9586",
+            "vendor": "Sangoma",
+            "product": "Switchvox",
+            "name": "Sangoma Switchvox SQL Injection Vulnerability",
+            "date_added": "2026-09-02",
+            "due_date": "2026-09-05",
+            "description": "Sangoma Switchvox contains a SQL injection vulnerability which allows an unauthenticated remote attacker to execute arbitrary SQL statements against the backend PostgreSQL database using a single crafted request, including database operations and remote code execution."
+          },
+          {
+            "cve_id": "CVE-2026-83548",
+            "vendor": "SonicWall",
+            "product": "SMA1000 Appliances",
+            "name": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+            "date_added": "2026-09-02",
+            "due_date": "2026-09-05",
+            "description": "SonicWall SMA1000 Appliances contains a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform unauthorized operations."
+          },
+          {
+            "cve_id": "CVE-2026-83549",
+            "vendor": "SonicWall",
+            "product": "SMA1000 Appliances",
+            "name": "SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
+            "date_added": "2026-09-02",
+            "due_date": "2026-09-05",
+            "description": "SonicWall SMA1000 Appliances contains an OS command injection vulnerability that could enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote code execution."
+          },
           {
             "cve_id": "CVE-2026-82078",
             "vendor": "PaperCut",
@@ -4445,73 +4508,10 @@
             "date_added": "2024-10-15",
             "due_date": "2024-11-05",
             "description": "SolarWinds Web Help Desk contains a hardcoded credential vulnerability that could allow a remote, unauthenticated user to access internal functionality and modify data."
-          },
-          {
-            "cve_id": "CVE-2024-9680",
-            "vendor": "Mozilla",
-            "product": "Firefox",
-            "name": "Mozilla Firefox Use-After-Free Vulnerability",
-            "date_added": "2024-10-15",
-            "due_date": "2024-11-05",
-            "description": "Mozilla Firefox and Firefox ESR contain a use-after-free vulnerability in Animation timelines that allows for code execution in the content process."
-          },
-          {
-            "cve_id": "CVE-2024-30088",
-            "vendor": "Microsoft",
-            "product": "Windows ",
-            "name": "Microsoft Windows Kernel TOCTOU Race Condition Vulnerability",
-            "date_added": "2024-10-15",
-            "due_date": "2024-11-05",
-            "description": "Microsoft Windows Kernel contains a time-of-check to time-of-use (TOCTOU) race condition vulnerability that could allow for privilege escalation. "
-          },
-          {
-            "cve_id": "CVE-2024-9380",
-            "vendor": "Ivanti",
-            "product": "Cloud Services Appliance (CSA)",
-            "name": "Ivanti Cloud Services Appliance (CSA) OS Command Injection Vulnerability",
-            "date_added": "2024-10-09",
-            "due_date": "2024-10-30",
-            "description": "Ivanti Cloud Services Appliance (CSA) contains an OS command injection vulnerability in the administrative console which can allow an authenticated attacker with application admin privileges to pass commands to the underlying OS."
-          },
-          {
-            "cve_id": "CVE-2024-9379",
-            "vendor": "Ivanti",
-            "product": "Cloud Services Appliance (CSA)",
-            "name": "Ivanti Cloud Services Appliance (CSA) SQL Injection Vulnerability",
-            "date_added": "2024-10-09",
-            "due_date": "2024-10-30",
-            "description": "Ivanti Cloud Services Appliance (CSA) contains a SQL injection vulnerability in the admin web console in versions prior to 5.0.2, which can allow a remote attacker authenticated as administrator to run arbitrary SQL statements."
-          },
-          {
-            "cve_id": "CVE-2024-23113",
-            "vendor": "Fortinet",
-            "product": "Multiple Products",
-            "name": "Fortinet Multiple Products Format String Vulnerability",
-            "date_added": "2024-10-09",
-            "due_date": "2024-10-30",
-            "description": "Fortinet FortiOS, FortiPAM, FortiProxy, and FortiWeb contain a format string vulnerability that allows a remote, unauthenticated attacker to execute arbitrary code or commands via specially crafted requests."
-          },
-          {
-            "cve_id": "CVE-2024-43573",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows MSHTML Platform Spoofing Vulnerability",
-            "date_added": "2024-10-08",
-            "due_date": "2024-10-29",
-            "description": "Microsoft Windows MSHTML Platform contains an unspecified spoofing vulnerability which can lead to a loss of confidentiality."
-          },
-          {
-            "cve_id": "CVE-2024-43572",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Management Console Remote Code Execution Vulnerability",
-            "date_added": "2024-10-08",
-            "due_date": "2024-10-29",
-            "description": "Microsoft Windows Management Console contains unspecified vulnerability that allows for remote code execution."
           }
         ],
-        "total_count": 1687,
-        "last_fetch": "2026-09-02T16:23:47.346572+00:00"
+        "total_count": 1694,
+        "last_fetch": "2026-09-02T20:53:48.530363+00:00"
       }
     }
   ]
