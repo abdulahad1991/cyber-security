@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-04T16:09:13.327914+00:00",
+  "last_updated": "2026-09-04T20:38:18.216484+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-85046",
+            "vendor": "Google",
+            "product": "Chromium V8",
+            "name": "Google Chromium V8 Type Confusion Vulnerability",
+            "date_added": "2026-09-04",
+            "due_date": "2026-09-18",
+            "description": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
+          },
           {
             "cve_id": "CVE-2026-59822",
             "vendor": "BerriAI",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-10-17",
             "due_date": "2024-11-07",
             "description": "Veeam Backup and Replication contains a deserialization vulnerability allowing an unauthenticated user to perform remote code execution."
-          },
-          {
-            "cve_id": "CVE-2024-28987",
-            "vendor": "SolarWinds",
-            "product": "Web Help Desk",
-            "name": "SolarWinds Web Help Desk Hardcoded Credential Vulnerability",
-            "date_added": "2024-10-15",
-            "due_date": "2024-11-05",
-            "description": "SolarWinds Web Help Desk contains a hardcoded credential vulnerability that could allow a remote, unauthenticated user to access internal functionality and modify data."
           }
         ],
-        "total_count": 1694,
-        "last_fetch": "2026-09-04T16:09:13.495756+00:00"
+        "total_count": 1695,
+        "last_fetch": "2026-09-04T20:38:18.381861+00:00"
       }
     }
   ]
