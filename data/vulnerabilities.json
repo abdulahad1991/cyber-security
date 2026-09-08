@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-08T16:26:36.201168+00:00",
+  "last_updated": "2026-09-08T20:59:46.661302+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,42 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-75650",
+            "vendor": "Adobe",
+            "product": "Commerce and Magento",
+            "name": "Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
+            "date_added": "2026-09-08",
+            "due_date": "2026-09-11",
+            "description": "Adobe Commerce and Magento Open Source contain an improper neutralization of special elements used in a template engine vulnerability that could allow an attacker to execute arbitrary code."
+          },
+          {
+            "cve_id": "CVE-2026-81963",
+            "vendor": "Microsoft",
+            "product": "Windows",
+            "name": "Microsoft Windows Link Following Vulnerability",
+            "date_added": "2026-09-08",
+            "due_date": "2026-09-22",
+            "description": "Microsoft Windows Update Stack contains a link following vulnerability that allows a local attacker to escalate privileges locally up to SYSTEM."
+          },
+          {
+            "cve_id": "CVE-2026-86218",
+            "vendor": "N-able",
+            "product": "N-central",
+            "name": "N-able N-central Static Code Injection Vulnerability",
+            "date_added": "2026-09-08",
+            "due_date": "2026-09-11",
+            "description": "N-able N-central contains a static code injection vulnerability that could allow for pre-authentication remote code execution."
+          },
+          {
+            "cve_id": "CVE-2026-85880",
+            "vendor": "Microsoft",
+            "product": "Windows",
+            "name": "Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
+            "date_added": "2026-09-08",
+            "due_date": "2026-09-22",
+            "description": "Microsoft Windows Advanced Local Procedure Call contains a heap-based buffer overflow vulnerability that allows an attacker to elevate privileges locally."
+          },
           {
             "cve_id": "CVE-2026-85046",
             "vendor": "Google",
@@ -4472,46 +4508,10 @@
             "date_added": "2024-10-24",
             "due_date": "2024-11-14",
             "description": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain a missing release of resource after effective lifetime vulnerability that could allow an unauthenticated, remote attacker to cause a denial-of-service (DoS) of the RAVPN service."
-          },
-          {
-            "cve_id": "CVE-2024-47575",
-            "vendor": "Fortinet",
-            "product": "FortiManager",
-            "name": "Fortinet FortiManager Missing Authentication Vulnerability",
-            "date_added": "2024-10-23",
-            "due_date": "2024-11-13",
-            "description": "Fortinet FortiManager contains a missing authentication vulnerability in the fgfmd daemon that allows a remote, unauthenticated attacker to execute arbitrary code or commands via specially crafted requests."
-          },
-          {
-            "cve_id": "CVE-2024-38094",
-            "vendor": "Microsoft",
-            "product": "SharePoint",
-            "name": "Microsoft SharePoint Deserialization Vulnerability",
-            "date_added": "2024-10-22",
-            "due_date": "2024-11-12",
-            "description": "Microsoft SharePoint contains a deserialization vulnerability that allows for remote code execution."
-          },
-          {
-            "cve_id": "CVE-2024-9537",
-            "vendor": "ScienceLogic",
-            "product": "SL1",
-            "name": "ScienceLogic SL1 Unspecified Vulnerability",
-            "date_added": "2024-10-21",
-            "due_date": "2024-11-11",
-            "description": "ScienceLogic SL1 (formerly EM7) is affected by an unspecified vulnerability involving an unspecified third-party component."
-          },
-          {
-            "cve_id": "CVE-2024-40711",
-            "vendor": "Veeam",
-            "product": "Backup & Replication",
-            "name": "Veeam Backup and Replication Deserialization Vulnerability",
-            "date_added": "2024-10-17",
-            "due_date": "2024-11-07",
-            "description": "Veeam Backup and Replication contains a deserialization vulnerability allowing an unauthenticated user to perform remote code execution."
           }
         ],
-        "total_count": 1695,
-        "last_fetch": "2026-09-08T16:26:36.476941+00:00"
+        "total_count": 1699,
+        "last_fetch": "2026-09-08T20:59:46.804420+00:00"
       }
     }
   ]
