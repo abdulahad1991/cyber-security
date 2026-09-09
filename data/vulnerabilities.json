@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-09T16:23:23.419319+00:00",
+  "last_updated": "2026-09-09T20:48:25.819699+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,42 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-19490",
+            "vendor": "Citrix",
+            "product": "NetScaler",
+            "name": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+            "date_added": "2026-09-09",
+            "due_date": "2026-09-12",
+            "description": "Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel. When the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, or RDP Proxy), an unauthenticated remote threat actor may be able to bypass authentication."
+          },
+          {
+            "cve_id": "CVE-2025-25249",
+            "vendor": "Fortinet",
+            "product": "Multiple Products",
+            "name": "Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
+            "date_added": "2026-09-09",
+            "due_date": "2026-09-12",
+            "description": "Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets."
+          },
+          {
+            "cve_id": "CVE-2026-87491",
+            "vendor": "Google",
+            "product": "Chromium V8",
+            "name": "Google Chromium V8 Out of Bounds Write Vulnerability",
+            "date_added": "2026-09-09",
+            "due_date": "2026-09-23",
+            "description": "Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
+          },
+          {
+            "cve_id": "CVE-2026-20079",
+            "vendor": "Cisco",
+            "product": "Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
+            "name": "Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+            "date_added": "2026-09-09",
+            "due_date": "2026-09-12",
+            "description": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system."
+          },
           {
             "cve_id": "CVE-2026-75650",
             "vendor": "Adobe",
@@ -4472,46 +4508,10 @@
             "date_added": "2024-11-07",
             "due_date": "2024-11-28",
             "description": "Palo Alto Networks Expedition contains a missing authentication vulnerability that allows an attacker with network access to takeover an Expedition admin account and potentially access configuration secrets, credentials, and other data."
-          },
-          {
-            "cve_id": "CVE-2024-8956",
-            "vendor": "PTZOptics",
-            "product": "PT30X-SDI/NDI Cameras",
-            "name": "PTZOptics PT30X-SDI/NDI Cameras Authentication Bypass Vulnerability",
-            "date_added": "2024-11-04",
-            "due_date": "2024-11-25",
-            "description": "PTZOptics PT30X-SDI/NDI cameras contain an insecure direct object reference (IDOR) vulnerability that allows a remote, attacker to bypass authentication for the /cgi-bin/param.cgi CGI script. If combined with CVE-2024-8957, this can lead to remote code execution as root."
-          },
-          {
-            "cve_id": "CVE-2024-8957",
-            "vendor": "PTZOptics",
-            "product": "PT30X-SDI/NDI Cameras",
-            "name": "PTZOptics PT30X-SDI/NDI Cameras OS Command Injection Vulnerability",
-            "date_added": "2024-11-04",
-            "due_date": "2024-11-25",
-            "description": "PTZOptics PT30X-SDI/NDI cameras contain an OS command injection vulnerability that allows a remote, authenticated attacker to escalate privileges to root via a crafted payload with the ntp_addr parameter of the /cgi-bin/param.cgi CGI script. "
-          },
-          {
-            "cve_id": "CVE-2024-37383",
-            "vendor": "Roundcube",
-            "product": "Webmail",
-            "name": "RoundCube Webmail Cross-Site Scripting (XSS) Vulnerability",
-            "date_added": "2024-10-24",
-            "due_date": "2024-11-14",
-            "description": "RoundCube Webmail contains a cross-site scripting (XSS) vulnerability in the handling of SVG animate attributes that allows a remote attacker to run malicious JavaScript code."
-          },
-          {
-            "cve_id": "CVE-2024-20481",
-            "vendor": "Cisco",
-            "product": "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)",
-            "name": "Cisco ASA and FTD Denial-of-Service Vulnerability",
-            "date_added": "2024-10-24",
-            "due_date": "2024-11-14",
-            "description": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain a missing release of resource after effective lifetime vulnerability that could allow an unauthenticated, remote attacker to cause a denial-of-service (DoS) of the RAVPN service."
           }
         ],
-        "total_count": 1699,
-        "last_fetch": "2026-09-09T16:23:23.551222+00:00"
+        "total_count": 1703,
+        "last_fetch": "2026-09-09T20:48:25.950868+00:00"
       }
     }
   ]
