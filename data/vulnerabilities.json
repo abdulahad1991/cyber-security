@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-10T16:13:05.171137+00:00",
+  "last_updated": "2026-09-10T20:43:05.318179+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-86060",
+            "vendor": "MikroTik",
+            "product": "RouterOS",
+            "name": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
+            "date_added": "2026-09-10",
+            "due_date": "2026-09-13",
+            "description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escalation."
+          },
+          {
+            "cve_id": "CVE-2026-67277",
+            "vendor": "MikroTik",
+            "product": "RouterOS",
+            "name": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
+            "date_added": "2026-09-10",
+            "due_date": "2026-09-13",
+            "description": "MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service."
+          },
           {
             "cve_id": "CVE-2026-19490",
             "vendor": "Citrix",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-11-07",
             "due_date": "2024-11-28",
             "description": "CyberPanel contains an incorrect default permissions vulnerability that allows a remote, unauthenticated attacker to execute commands as root."
-          },
-          {
-            "cve_id": "CVE-2024-43093",
-            "vendor": "Android",
-            "product": "Framework",
-            "name": "Android Framework Privilege Escalation Vulnerability",
-            "date_added": "2024-11-07",
-            "due_date": "2024-11-28",
-            "description": "Android Framework contains an unspecified vulnerability that allows for privilege escalation."
-          },
-          {
-            "cve_id": "CVE-2024-5910",
-            "vendor": "Palo Alto Networks",
-            "product": "Expedition",
-            "name": "Palo Alto Networks Expedition Missing Authentication Vulnerability",
-            "date_added": "2024-11-07",
-            "due_date": "2024-11-28",
-            "description": "Palo Alto Networks Expedition contains a missing authentication vulnerability that allows an attacker with network access to takeover an Expedition admin account and potentially access configuration secrets, credentials, and other data."
           }
         ],
-        "total_count": 1703,
-        "last_fetch": "2026-09-10T16:13:05.384335+00:00"
+        "total_count": 1705,
+        "last_fetch": "2026-09-10T20:43:05.397084+00:00"
       }
     }
   ]
