@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-11T16:16:44.888864+00:00",
+  "last_updated": "2026-09-11T20:48:51.341081+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,42 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-84869",
+            "vendor": "ConnectWise",
+            "product": "ScreenConnect",
+            "name": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
+            "date_added": "2026-09-11",
+            "due_date": "2026-09-14",
+            "description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to file transfer and execution through an active remote sessions without authorization or host confirmation."
+          },
+          {
+            "cve_id": "CVE-2026-42016",
+            "vendor": "JFrog",
+            "product": "Artifactory",
+            "name": "JFrog Artifactory Incorrect Authorization Vulnerability",
+            "date_added": "2026-09-11",
+            "due_date": "2026-09-25",
+            "description": "JFrog Artifactory contains an incorrect authorization vulnerability that allows leads to privilege escalation attack due to a validation check of the token signature/issuer and not the token’s scope."
+          },
+          {
+            "cve_id": "CVE-2026-42018",
+            "vendor": "JFrog",
+            "product": "Artifactory",
+            "name": "JFrog Artifactory Improper Authentication Vulnerability",
+            "date_added": "2026-09-11",
+            "due_date": "2026-09-25",
+            "description": "JFrog Artifactory contains an improper authentication vulnerability that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially exposing sensitive resources."
+          },
+          {
+            "cve_id": "CVE-2026-85706",
+            "vendor": "GitLab",
+            "product": "Community Edition and Enterprise Edition",
+            "name": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
+            "date_added": "2026-09-11",
+            "due_date": "2026-09-14",
+            "description": "GitLab Community Edition and Enterprise Edition contains a path traversal vulnerability that allows an unauthenticated user to read arbitrary files due to an improper path confinement and missing authentication enforcement in the repository commits API."
+          },
           {
             "cve_id": "CVE-2026-86060",
             "vendor": "MikroTik",
@@ -4472,46 +4508,10 @@
             "date_added": "2024-11-12",
             "due_date": "2024-12-03",
             "description": "Metabase contains a local file inclusion vulnerability in the custom map support in the API to read GeoJSON formatted data."
-          },
-          {
-            "cve_id": "CVE-2024-43451",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows NTLMv2 Hash Disclosure Spoofing Vulnerability",
-            "date_added": "2024-11-12",
-            "due_date": "2024-12-03",
-            "description": "Microsoft Windows contains an NTLMv2 hash spoofing vulnerability that could result in disclosing a user's NTLMv2 hash to an attacker via a file open operation. The attacker could then leverage this hash to impersonate that user."
-          },
-          {
-            "cve_id": "CVE-2024-49039",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Task Scheduler Privilege Escalation Vulnerability",
-            "date_added": "2024-11-12",
-            "due_date": "2024-12-03",
-            "description": "Microsoft Windows Task Scheduler contains a privilege escalation vulnerability that can allow an attacker-provided, local application to escalate privileges outside of its AppContainer, and access privileged RPC functions."
-          },
-          {
-            "cve_id": "CVE-2019-16278",
-            "vendor": "Nostromo",
-            "product": "nhttpd",
-            "name": "Nostromo nhttpd Directory Traversal Vulnerability",
-            "date_added": "2024-11-07",
-            "due_date": "2024-11-28",
-            "description": "Nostromo nhttpd contains a directory traversal vulnerability in the http_verify() function in a non-chrooted nhttpd server allowing for remote code execution."
-          },
-          {
-            "cve_id": "CVE-2024-51567",
-            "vendor": "CyberPersons",
-            "product": "CyberPanel",
-            "name": "CyberPanel Incorrect Default Permissions Vulnerability",
-            "date_added": "2024-11-07",
-            "due_date": "2024-11-28",
-            "description": "CyberPanel contains an incorrect default permissions vulnerability that allows a remote, unauthenticated attacker to execute commands as root."
           }
         ],
-        "total_count": 1705,
-        "last_fetch": "2026-09-11T16:16:45.239676+00:00"
+        "total_count": 1709,
+        "last_fetch": "2026-09-11T20:48:51.443028+00:00"
       }
     }
   ]
