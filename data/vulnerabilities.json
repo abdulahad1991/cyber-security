@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-14T12:26:29.302376+00:00",
+  "last_updated": "2026-09-14T21:42:32.113755+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-76461",
+            "vendor": "Cisco",
+            "product": "Secure Email Gateway",
+            "name": "Cisco Secure Email Gateway SQL Injection Vulnerability",
+            "date_added": "2026-09-14",
+            "due_date": "2026-09-17",
+            "description": "Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system."
+          },
           {
             "cve_id": "CVE-2026-84869",
             "vendor": "ConnectWise",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-11-12",
             "due_date": "2024-12-03",
             "description": "Cisco Adaptive Security Appliance (ASA) contains a cross-site scripting (XSS) vulnerability in the WebVPN login page. This vulnerability allows remote attackers to inject arbitrary web script or HTML via an unspecified parameter."
-          },
-          {
-            "cve_id": "CVE-2021-41277",
-            "vendor": "Metabase",
-            "product": "Metabase",
-            "name": "Metabase GeoJSON API Local File Inclusion Vulnerability",
-            "date_added": "2024-11-12",
-            "due_date": "2024-12-03",
-            "description": "Metabase contains a local file inclusion vulnerability in the custom map support in the API to read GeoJSON formatted data."
           }
         ],
-        "total_count": 1709,
-        "last_fetch": "2026-09-14T12:26:29.399613+00:00"
+        "total_count": 1710,
+        "last_fetch": "2026-09-14T21:42:32.251261+00:00"
       }
     }
   ]
