@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-16T11:17:17.028967+00:00",
+  "last_updated": "2026-09-16T16:37:10.561410+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-58704",
+            "vendor": "Google",
+            "product": "Pixel",
+            "name": "Google Pixel Improper Authorization Vulnerability",
+            "date_added": "2026-09-16",
+            "due_date": "2026-09-19",
+            "description": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges."
+          },
           {
             "cve_id": "CVE-2026-76461",
             "vendor": "Cisco",
@@ -25,7 +34,7 @@
             "name": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
             "date_added": "2026-09-11",
             "due_date": "2026-09-14",
-            "description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to file transfer and execution through an active remote sessions without authorization or host confirmation."
+            "description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to transfer and execute files through an active remote session without authorization or host confirmation."
           },
           {
             "cve_id": "CVE-2026-42016",
@@ -34,7 +43,7 @@
             "name": "JFrog Artifactory Incorrect Authorization Vulnerability",
             "date_added": "2026-09-11",
             "due_date": "2026-09-25",
-            "description": "JFrog Artifactory contains an incorrect authorization vulnerability that allows leads to privilege escalation attack due to a validation check of the token signature/issuer and not the token’s scope."
+            "description": "JFrog Artifactory contains an incorrect authorization vulnerability that leads to a privilege escalation attack due to a validation check of the token signature/issuer and not the token’s scope."
           },
           {
             "cve_id": "CVE-2026-42018",
@@ -61,7 +70,7 @@
             "name": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
             "date_added": "2026-09-10",
             "due_date": "2026-09-13",
-            "description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escalation."
+            "description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation."
           },
           {
             "cve_id": "CVE-2026-67277",
@@ -70,7 +79,7 @@
             "name": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
             "date_added": "2026-09-10",
             "due_date": "2026-09-13",
-            "description": "MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service."
+            "description": "MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service."
           },
           {
             "cve_id": "CVE-2026-19490",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-11-12",
             "due_date": "2024-12-03",
             "description": "Atlassian Jira Server and Data Center contain a path traversal vulnerability that allows a remote attacker to read particular files in the /WEB-INF/web.xml endpoint."
-          },
-          {
-            "cve_id": "CVE-2014-2120",
-            "vendor": "Cisco",
-            "product": "Adaptive Security Appliance (ASA)",
-            "name": "Cisco Adaptive Security Appliance (ASA) Cross-Site Scripting (XSS) Vulnerability",
-            "date_added": "2024-11-12",
-            "due_date": "2024-12-03",
-            "description": "Cisco Adaptive Security Appliance (ASA) contains a cross-site scripting (XSS) vulnerability in the WebVPN login page. This vulnerability allows remote attackers to inject arbitrary web script or HTML via an unspecified parameter."
           }
         ],
-        "total_count": 1710,
-        "last_fetch": "2026-09-16T11:17:17.232947+00:00"
+        "total_count": 1711,
+        "last_fetch": "2026-09-16T16:37:10.712306+00:00"
       }
     }
   ]
