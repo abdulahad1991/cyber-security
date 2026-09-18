@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-18T10:58:41.707201+00:00",
+  "last_updated": "2026-09-18T16:13:13.183406+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2025-39964",
+            "vendor": "Linux",
+            "product": "Kernel",
+            "name": "Linux Kernel Race Condition Vulnerability",
+            "date_added": "2026-09-18",
+            "due_date": "2026-09-21",
+            "description": "Linux Kernel contains a race condition vulnerability which allows concurrent writes to the same AF_ALG socket causing data to be unpredictably interleaved and creating inconsistencies in the socket's internal state."
+          },
+          {
+            "cve_id": "CVE-2026-53266",
+            "vendor": "Linux",
+            "product": "Kernel",
+            "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
+            "date_added": "2026-09-18",
+            "due_date": "2026-09-21",
+            "description": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version."
+          },
           {
             "cve_id": "CVE-2026-58704",
             "vendor": "Google",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-11-18",
             "due_date": "2024-12-09",
             "description": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability in the web-based management interface for several PAN-OS products, including firewalls and VPN concentrators."
-          },
-          {
-            "cve_id": "CVE-2024-1212",
-            "vendor": "Progress",
-            "product": "Kemp LoadMaster",
-            "name": "Progress Kemp LoadMaster OS Command Injection Vulnerability",
-            "date_added": "2024-11-18",
-            "due_date": "2024-12-09",
-            "description": "Progress Kemp LoadMaster contains an OS command injection vulnerability that allows an unauthenticated, remote attacker to access the system through the LoadMaster management interface, enabling arbitrary system command execution."
-          },
-          {
-            "cve_id": "CVE-2024-9465",
-            "vendor": "Palo Alto Networks",
-            "product": "Expedition",
-            "name": "Palo Alto Networks Expedition SQL Injection Vulnerability",
-            "date_added": "2024-11-14",
-            "due_date": "2024-12-05",
-            "description": "Palo Alto Networks Expedition contains a SQL injection vulnerability that allows an unauthenticated attacker to reveal Expedition database contents, such as password hashes, usernames, device configurations, and device API keys. With this, attackers can also create and read arbitrary files on the Expedition system."
           }
         ],
-        "total_count": 1713,
-        "last_fetch": "2026-09-18T10:58:41.798955+00:00"
+        "total_count": 1715,
+        "last_fetch": "2026-09-18T16:13:13.329044+00:00"
       }
     }
   ]
