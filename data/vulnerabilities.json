@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-18T16:13:13.183406+00:00",
+  "last_updated": "2026-09-18T20:44:44.373484+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -26,6 +26,15 @@
             "date_added": "2026-09-18",
             "due_date": "2026-09-21",
             "description": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version."
+          },
+          {
+            "cve_id": "CVE-2025-39682",
+            "vendor": "Linux",
+            "product": "Kernel",
+            "name": "Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
+            "date_added": "2026-09-18",
+            "due_date": "2026-09-21",
+            "description": "Linux Kernel contains an improper check for unusual or exceptional conditions vulnerability in the TLS receive path which allows a zero-length record retrieved from the rx_list to bypass the intended recvmsg() record-type handling, potentially causing subsequent TLS records to be processed using incorrect zero-copy and queuing assumptions. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version."
           },
           {
             "cve_id": "CVE-2026-58704",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-11-18",
             "due_date": "2024-12-09",
             "description": "Palo Alto Networks PAN-OS contains an OS command injection vulnerability that allows for privilege escalation through the web-based management interface for several PAN products, including firewalls and VPN concentrators."
-          },
-          {
-            "cve_id": "CVE-2024-0012",
-            "vendor": "Palo Alto Networks",
-            "product": "PAN-OS",
-            "name": "Palo Alto Networks PAN-OS Management Interface Authentication Bypass Vulnerability",
-            "date_added": "2024-11-18",
-            "due_date": "2024-12-09",
-            "description": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability in the web-based management interface for several PAN-OS products, including firewalls and VPN concentrators."
           }
         ],
-        "total_count": 1715,
-        "last_fetch": "2026-09-18T16:13:13.329044+00:00"
+        "total_count": 1716,
+        "last_fetch": "2026-09-18T20:44:44.556054+00:00"
       }
     }
   ]
