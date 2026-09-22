@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-22T16:43:11.898956+00:00",
+  "last_updated": "2026-09-22T21:08:27.359077+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,42 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-93952",
+            "vendor": "Arista",
+            "product": "VeloCloud Orchestrator",
+            "name": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
+            "date_added": "2026-09-22",
+            "due_date": "2026-09-25",
+            "description": "Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator."
+          },
+          {
+            "cve_id": "CVE-2026-94127",
+            "vendor": "F5",
+            "product": "BIG-IP APM",
+            "name": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
+            "date_added": "2026-09-22",
+            "due_date": "2026-09-25",
+            "description": "F5 BIG-IP APM contains a heap-based buffer overflow vulnerability when access policy and an OAuth profile are configured on a virtual server. This vulnerability could allow an unauthenticated attacker to perform remote code execution."
+          },
+          {
+            "cve_id": "CVE-2026-93616",
+            "vendor": "Check Point",
+            "product": "Multiple Products",
+            "name": "Check Point Multiple Products Path Traversal Vulnerability",
+            "date_added": "2026-09-22",
+            "due_date": "2026-09-25",
+            "description": "Check Point Security Management Server, Multi-Domain Security Management Server, Log Server, Multi-Domain Log Server, and SmartEvent contain a path traversal vulnerability that allows an unauthenticated attacker to upload and execute arbitrary scripts."
+          },
+          {
+            "cve_id": "CVE-2026-85102",
+            "vendor": "Check Point",
+            "product": "Multiple Products",
+            "name": "Check Point Multiple Products Improper Certificate Validation Vulnerability",
+            "date_added": "2026-09-22",
+            "due_date": "2026-09-25",
+            "description": "Check Point Security Gateway and Check Point Spark Firewall using Site to Site VPN or Remote Access VPN contain an improper certificate validation vulnerability which could allow an unauthenticated remote attacker to execute arbitrary code on the Gateway."
+          },
           {
             "cve_id": "CVE-2026-7273",
             "vendor": "Zyxel",
@@ -4472,46 +4508,10 @@
             "date_added": "2024-11-21",
             "due_date": "2024-12-12",
             "description": "Oracle Agile Product Lifecycle Management (PLM) contains an incorrect authorization vulnerability in the Process Extension component of the Software Development Kit. Successful exploitation of this vulnerability may result in unauthenticated file disclosure."
-          },
-          {
-            "cve_id": "CVE-2024-44309",
-            "vendor": "Apple",
-            "product": "Multiple Products",
-            "name": "Apple Multiple Products Cross-Site Scripting (XSS) Vulnerability",
-            "date_added": "2024-11-21",
-            "due_date": "2024-12-12",
-            "description": "Apple iOS, macOS, and other Apple products contain an unspecified vulnerability when processing maliciously crafted web content that may lead to a cross-site scripting (XSS) attack."
-          },
-          {
-            "cve_id": "CVE-2024-44308",
-            "vendor": "Apple",
-            "product": "Multiple Products",
-            "name": "Apple Multiple Products Code Execution Vulnerability",
-            "date_added": "2024-11-21",
-            "due_date": "2024-12-12",
-            "description": "Apple iOS, macOS, and other Apple products contain an unspecified vulnerability when processing maliciously crafted web content that may lead to arbitrary code execution."
-          },
-          {
-            "cve_id": "CVE-2024-38813",
-            "vendor": "VMware",
-            "product": "vCenter Server",
-            "name": "VMware vCenter Server Privilege Escalation Vulnerability",
-            "date_added": "2024-11-20",
-            "due_date": "2024-12-11",
-            "description": "VMware vCenter contains an improper check for dropped privileges vulnerability. This vulnerability could allow an attacker with network access to the vCenter Server to escalate privileges to root by sending a specially crafted packet."
-          },
-          {
-            "cve_id": "CVE-2024-38812",
-            "vendor": "VMware",
-            "product": "vCenter Server",
-            "name": "VMware vCenter Server Heap-Based Buffer Overflow Vulnerability",
-            "date_added": "2024-11-20",
-            "due_date": "2024-12-11",
-            "description": "VMware vCenter Server contains a heap-based buffer overflow vulnerability in the implementation of the DCERPC protocol. This vulnerability could allow an attacker with network access to the vCenter Server to execute remote code by sending a specially crafted packet."
           }
         ],
-        "total_count": 1717,
-        "last_fetch": "2026-09-22T16:43:12.045236+00:00"
+        "total_count": 1721,
+        "last_fetch": "2026-09-22T21:08:27.538271+00:00"
       }
     }
   ]
