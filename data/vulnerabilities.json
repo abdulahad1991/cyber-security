@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-24T16:56:57.016036+00:00",
+  "last_updated": "2026-09-24T21:23:39.068004+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-5430",
+            "vendor": "WSO2",
+            "product": "Multiple Products",
+            "name": "WSO2 Multiple Products Path Traversal Vulnerability ",
+            "date_added": "2026-09-24",
+            "due_date": "2026-09-27",
+            "description": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution. "
+          },
+          {
+            "cve_id": "CVE-2026-71362",
+            "vendor": "Adobe",
+            "product": "Commerce and Magento ",
+            "name": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+            "date_added": "2026-09-24",
+            "due_date": "2026-09-27",
+            "description": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. "
+          },
           {
             "cve_id": "CVE-2026-93952",
             "vendor": "Arista",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-12-03",
             "due_date": "2024-12-24",
             "description": "North Grid Proself Enterprise/Standard, Gateway, and Mail Sanitize contain an improper restriction of XML External Entity (XXE) reference vulnerability, which could allow a remote, unauthenticated attacker to conduct an XXE attack."
-          },
-          {
-            "cve_id": "CVE-2023-28461",
-            "vendor": "Array Networks ",
-            "product": "AG/vxAG ArrayOS",
-            "name": "Array Networks AG and vxAG ArrayOS Missing Authentication for Critical Function Vulnerability",
-            "date_added": "2024-11-25",
-            "due_date": "2024-12-16",
-            "description": "Array Networks AG and vxAG ArrayOS contain a missing authentication for critical function vulnerability that allows an attacker to read local files and execute code on the SSL VPN gateway."
-          },
-          {
-            "cve_id": "CVE-2024-21287",
-            "vendor": "Oracle",
-            "product": "Agile Product Lifecycle Management (PLM)",
-            "name": "Oracle Agile Product Lifecycle Management (PLM) Incorrect Authorization Vulnerability",
-            "date_added": "2024-11-21",
-            "due_date": "2024-12-12",
-            "description": "Oracle Agile Product Lifecycle Management (PLM) contains an incorrect authorization vulnerability in the Process Extension component of the Software Development Kit. Successful exploitation of this vulnerability may result in unauthenticated file disclosure."
           }
         ],
-        "total_count": 1721,
-        "last_fetch": "2026-09-24T16:56:57.171222+00:00"
+        "total_count": 1723,
+        "last_fetch": "2026-09-24T21:23:39.223118+00:00"
       }
     }
   ]
