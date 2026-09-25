@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-25T11:36:16.155790+00:00",
+  "last_updated": "2026-09-25T16:59:08.524880+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-67279",
+            "vendor": "MikroTik",
+            "product": "RouterOS",
+            "name": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
+            "date_added": "2026-09-25",
+            "due_date": "2026-09-28",
+            "description": "Mikrotik RouterOS contains an improper enforcement of behavioral workflow vulnerability that could allow an unauthenticated client to open a session channel and send an exec request. This vulnerability can be chained to achieve unauthenticated exploitation of CVE-2026-86060."
+          },
+          {
+            "cve_id": "CVE-2026-65660",
+            "vendor": "Microsoft",
+            "product": "SharePoint",
+            "name": "Microsoft SharePoint Code Injection Vulnerability",
+            "date_added": "2026-09-25",
+            "due_date": "2026-09-28",
+            "description": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network."
+          },
           {
             "cve_id": "CVE-2026-5430",
             "vendor": "WSO2",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-12-03",
             "due_date": "2024-12-24",
             "description": "Multiple Zyxel firewalls contain a path traversal vulnerability in the web management interface that could allow an attacker to download or upload files via a crafted URL."
-          },
-          {
-            "cve_id": "CVE-2024-11680",
-            "vendor": "ProjectSend",
-            "product": "ProjectSend",
-            "name": "ProjectSend Improper Authentication Vulnerability",
-            "date_added": "2024-12-03",
-            "due_date": "2024-12-24",
-            "description": "ProjectSend contains an improper authentication vulnerability that allows a remote, unauthenticated attacker to enable unauthorized modification of the application's configuration via crafted HTTP requests to options.php. Successful exploitation allows attackers to create accounts, upload webshells, and embed malicious JavaScript."
-          },
-          {
-            "cve_id": "CVE-2023-45727",
-            "vendor": "North Grid",
-            "product": "Proself",
-            "name": "North Grid Proself Improper Restriction of XML External Entity (XXE) Reference Vulnerability",
-            "date_added": "2024-12-03",
-            "due_date": "2024-12-24",
-            "description": "North Grid Proself Enterprise/Standard, Gateway, and Mail Sanitize contain an improper restriction of XML External Entity (XXE) reference vulnerability, which could allow a remote, unauthenticated attacker to conduct an XXE attack."
           }
         ],
-        "total_count": 1723,
-        "last_fetch": "2026-09-25T11:36:16.412079+00:00"
+        "total_count": 1725,
+        "last_fetch": "2026-09-25T16:59:08.630254+00:00"
       }
     }
   ]
