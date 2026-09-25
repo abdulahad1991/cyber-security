@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-25T16:59:08.524880+00:00",
+  "last_updated": "2026-09-25T21:23:48.109179+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -26,6 +26,15 @@
             "date_added": "2026-09-25",
             "due_date": "2026-09-28",
             "description": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network."
+          },
+          {
+            "cve_id": "CVE-2026-87902",
+            "vendor": "WordPress",
+            "product": "Core",
+            "name": "WordPress Core Remote File Inclusion Vulnerability",
+            "date_added": "2026-09-25",
+            "due_date": "2026-09-28",
+            "description": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code execution."
           },
           {
             "cve_id": "CVE-2026-5430",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-12-04",
             "due_date": "2024-12-25",
             "description": "CyberPanel contains an incorrect default permissions vulnerability that allows for authentication bypass and the execution of arbitrary commands using shell metacharacters in the statusfile property."
-          },
-          {
-            "cve_id": "CVE-2024-11667",
-            "vendor": "Zyxel",
-            "product": "Multiple Firewalls",
-            "name": "Zyxel Multiple Firewalls Path Traversal Vulnerability",
-            "date_added": "2024-12-03",
-            "due_date": "2024-12-24",
-            "description": "Multiple Zyxel firewalls contain a path traversal vulnerability in the web management interface that could allow an attacker to download or upload files via a crafted URL."
           }
         ],
-        "total_count": 1725,
-        "last_fetch": "2026-09-25T16:59:08.630254+00:00"
+        "total_count": 1726,
+        "last_fetch": "2026-09-25T21:23:48.399077+00:00"
       }
     }
   ]
