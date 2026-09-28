@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-27T21:11:57.719763+00:00",
+  "last_updated": "2026-09-28T04:55:56.872620+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-88772",
+            "vendor": "Citrix",
+            "product": "NetScaler",
+            "name": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+            "date_added": "2026-09-27",
+            "due_date": "2026-09-30",
+            "description": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial of service"
+          },
+          {
+            "cve_id": "CVE-2026-88771",
+            "vendor": "Citrix",
+            "product": "NetScaler",
+            "name": "Citrix NetScaler Improper Input Validation Vulnerability",
+            "date_added": "2026-09-27",
+            "due_date": "2026-09-30",
+            "description": "Citrix NetScaler ADC and NetScaler Gateway contain an improper input validation vulnerability that could allow an unauthenticated attacker to execute arbitrary commands."
+          },
           {
             "cve_id": "CVE-2026-67279",
             "vendor": "MikroTik",
@@ -4490,28 +4508,10 @@
             "date_added": "2024-12-13",
             "due_date": "2025-01-03",
             "description": "Cleo Harmony, VLTrader, and LexiCom, which are managed file transfer products, contain an unrestricted file upload and download vulnerability that can lead to remote code execution with elevated privileges."
-          },
-          {
-            "cve_id": "CVE-2024-49138",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Common Log File System (CLFS) Driver Heap-Based Buffer Overflow Vulnerability",
-            "date_added": "2024-12-10",
-            "due_date": "2024-12-31",
-            "description": "Microsoft Windows Common Log File System (CLFS) driver contains a heap-based buffer overflow vulnerability that allows a local attacker to escalate privileges."
-          },
-          {
-            "cve_id": "CVE-2024-51378",
-            "vendor": "CyberPersons",
-            "product": "CyberPanel",
-            "name": "CyberPanel Incorrect Default Permissions Vulnerability",
-            "date_added": "2024-12-04",
-            "due_date": "2024-12-25",
-            "description": "CyberPanel contains an incorrect default permissions vulnerability that allows for authentication bypass and the execution of arbitrary commands using shell metacharacters in the statusfile property."
           }
         ],
-        "total_count": 1726,
-        "last_fetch": "2026-09-27T21:11:57.989699+00:00"
+        "total_count": 1728,
+        "last_fetch": "2026-09-28T04:55:56.988667+00:00"
       }
     }
   ]
