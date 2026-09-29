@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-29T12:33:52.322689+00:00",
+  "last_updated": "2026-09-29T22:06:44.733560+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-86950",
+            "vendor": "Apple",
+            "product": "Multiple Products",
+            "name": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
+            "date_added": "2026-09-29",
+            "due_date": "2026-10-02",
+            "description": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution."
+          },
           {
             "cve_id": "CVE-2026-88772",
             "vendor": "Citrix",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-12-16",
             "due_date": "2025-01-06",
             "description": "Adobe ColdFusion contains an improper access control vulnerability that could allow an attacker to access or modify restricted files via an internet-exposed admin panel."
-          },
-          {
-            "cve_id": "CVE-2024-50623",
-            "vendor": "Cleo",
-            "product": "Multiple Products",
-            "name": "Cleo Multiple Products Unrestricted File Upload Vulnerability",
-            "date_added": "2024-12-13",
-            "due_date": "2025-01-03",
-            "description": "Cleo Harmony, VLTrader, and LexiCom, which are managed file transfer products, contain an unrestricted file upload and download vulnerability that can lead to remote code execution with elevated privileges."
           }
         ],
-        "total_count": 1728,
-        "last_fetch": "2026-09-29T12:33:52.517662+00:00"
+        "total_count": 1729,
+        "last_fetch": "2026-09-29T22:06:44.875807+00:00"
       }
     }
   ]
