@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-09-30T12:19:50.430515+00:00",
+  "last_updated": "2026-09-30T22:06:17.094941+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-76504",
+            "vendor": "Cisco",
+            "product": "Catalyst SD-WAN Manager",
+            "name": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
+            "date_added": "2026-09-30",
+            "due_date": "2026-10-03",
+            "description": "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request."
+          },
           {
             "cve_id": "CVE-2026-86950",
             "vendor": "Apple",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-12-16",
             "due_date": "2025-01-06",
             "description": "Microsoft Windows Kernel-Mode Driver contains an untrusted pointer dereference vulnerability that allows a local attacker to escalate privileges."
-          },
-          {
-            "cve_id": "CVE-2024-20767",
-            "vendor": "Adobe",
-            "product": "ColdFusion",
-            "name": "Adobe ColdFusion Improper Access Control Vulnerability",
-            "date_added": "2024-12-16",
-            "due_date": "2025-01-06",
-            "description": "Adobe ColdFusion contains an improper access control vulnerability that could allow an attacker to access or modify restricted files via an internet-exposed admin panel."
           }
         ],
-        "total_count": 1729,
-        "last_fetch": "2026-09-30T12:19:50.550182+00:00"
+        "total_count": 1730,
+        "last_fetch": "2026-09-30T22:06:17.273540+00:00"
       }
     }
   ]
