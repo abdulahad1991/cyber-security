@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-10-04T12:09:00.960339+00:00",
+  "last_updated": "2026-10-04T21:09:55.870224+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-88779",
+            "vendor": "Citrix",
+            "product": "NetScaler",
+            "name": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+            "date_added": "2026-10-04",
+            "due_date": "2026-10-07",
+            "description": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service."
+          },
           {
             "cve_id": "CVE-2026-102490",
             "vendor": "Zammad GmbH",
@@ -4499,19 +4508,10 @@
             "date_added": "2024-12-18",
             "due_date": "2025-01-08",
             "description": "Reolink RLC-410W, C1 Pro, C2 Pro, RLC-422W, and RLC-511W IP cameras contain an authenticated OS command injection vulnerability. This vulnerability allows an authenticated admin to use the \"TestEmail\" functionality to inject and run OS commands as root."
-          },
-          {
-            "cve_id": "CVE-2022-23227",
-            "vendor": "NUUO",
-            "product": "NVRmini2 Devices",
-            "name": "NUUO NVRmini2 Devices Missing Authentication Vulnerability ",
-            "date_added": "2024-12-18",
-            "due_date": "2025-01-08",
-            "description": "NUUO NVRmini2 devices contain a missing authentication vulnerability that allows an unauthenticated attacker to upload an encrypted TAR archive, which can be abused to add arbitrary users. "
           }
         ],
-        "total_count": 1733,
-        "last_fetch": "2026-10-04T12:09:01.101205+00:00"
+        "total_count": 1734,
+        "last_fetch": "2026-10-04T21:09:55.964987+00:00"
       }
     }
   ]
