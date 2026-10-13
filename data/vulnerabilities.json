@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-10-13T13:58:16.153241+00:00",
+  "last_updated": "2026-10-13T22:31:45.092129+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-104935",
+            "vendor": "Ivanti",
+            "product": "Connect Secure",
+            "name": "Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+            "date_added": "2026-10-13",
+            "due_date": "2026-10-16",
+            "description": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands."
+          },
+          {
+            "cve_id": "CVE-2026-96951",
+            "vendor": "Microsoft",
+            "product": "Windows",
+            "name": "Microsoft Windows Command Injection Vulnerability",
+            "date_added": "2026-10-13",
+            "due_date": "2026-10-16",
+            "description": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network."
+          },
           {
             "cve_id": "CVE-2015-5477",
             "vendor": "ISC",
@@ -4490,28 +4508,10 @@
             "date_added": "2025-01-07",
             "due_date": "2025-01-28",
             "description": "Oracle WebLogic Server, a product within the Fusion Middleware suite, contains an unspecified vulnerability exploitable by an unauthenticated attacker with network access via IIOP or T3."
-          },
-          {
-            "cve_id": "CVE-2024-55550",
-            "vendor": "Mitel",
-            "product": "MiCollab",
-            "name": "Mitel MiCollab Path Traversal Vulnerability",
-            "date_added": "2025-01-07",
-            "due_date": "2025-01-28",
-            "description": "Mitel MiCollab contains a path traversal vulnerability that could allow an authenticated attacker with administrative privileges to read local files within the system due to insufficient input sanitization. This vulnerability can be chained with CVE-2024-41713, which allows an unauthenticated, remote attacker to read arbitrary files on the server."
-          },
-          {
-            "cve_id": "CVE-2024-41713",
-            "vendor": "Mitel",
-            "product": "MiCollab",
-            "name": "Mitel MiCollab Path Traversal Vulnerability",
-            "date_added": "2025-01-07",
-            "due_date": "2025-01-28",
-            "description": "Mitel MiCollab contains a path traversal vulnerability that could allow an attacker to gain unauthorized and unauthenticated access. This vulnerability can be chained with CVE-2024-55550, which allows an unauthenticated, remote attacker to read arbitrary files on the server."
           }
         ],
-        "total_count": 1739,
-        "last_fetch": "2026-10-13T13:58:16.260370+00:00"
+        "total_count": 1741,
+        "last_fetch": "2026-10-13T22:31:45.235500+00:00"
       }
     }
   ]
