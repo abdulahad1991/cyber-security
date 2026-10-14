@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-10-14T16:57:38.017778+00:00",
+  "last_updated": "2026-10-14T21:30:36.288659+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,42 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-105134",
+            "vendor": "Ahsay",
+            "product": "AhsayCBS",
+            "name": "Ahsay AhsayCBS Command Injection Vulnerability",
+            "date_added": "2026-10-14",
+            "due_date": "2026-10-17",
+            "description": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133."
+          },
+          {
+            "cve_id": "CVE-2026-76519",
+            "vendor": "Cisco",
+            "product": "Secure Email Gateway",
+            "name": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+            "date_added": "2026-10-14",
+            "due_date": "2026-10-17",
+            "description": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system."
+          },
+          {
+            "cve_id": "CVE-2026-105133",
+            "vendor": "Ahsay",
+            "product": "AhsayCBS",
+            "name": "Ahsay AhsayCBS Improper Authentication Vulnerability",
+            "date_added": "2026-10-14",
+            "due_date": "2026-10-17",
+            "description": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134."
+          },
+          {
+            "cve_id": "CVE-2026-0322",
+            "vendor": "Palo Alto Networks",
+            "product": "PAN-OS",
+            "name": "Palo Alto Networks PAN-OS Code Injection Vulnerability",
+            "date_added": "2026-10-14",
+            "due_date": "2026-10-17",
+            "description": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall."
+          },
           {
             "cve_id": "CVE-2026-104935",
             "vendor": "Ivanti",
@@ -4472,46 +4508,10 @@
             "date_added": "2025-01-14",
             "due_date": "2025-01-21",
             "description": "Fortinet FortiOS and FortiProxy contain an authentication bypass vulnerability that may allow an unauthenticated, remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module."
-          },
-          {
-            "cve_id": "CVE-2023-48365",
-            "vendor": "Qlik",
-            "product": "Sense",
-            "name": "Qlik Sense HTTP Tunneling Vulnerability",
-            "date_added": "2025-01-13",
-            "due_date": "2025-02-03",
-            "description": "Qlik Sense contains an HTTP tunneling vulnerability that allows an attacker to escalate privileges and execute HTTP requests on the backend server hosting the software."
-          },
-          {
-            "cve_id": "CVE-2024-12686",
-            "vendor": "BeyondTrust",
-            "product": "Privileged Remote Access (PRA) and Remote Support (RS)",
-            "name": "BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) OS Command Injection Vulnerability",
-            "date_added": "2025-01-13",
-            "due_date": "2025-02-03",
-            "description": "BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) contain an OS command injection vulnerability that can be exploited by an attacker with existing administrative privileges to upload a malicious file. Successful exploitation of this vulnerability can allow a remote attacker to execute underlying operating system commands within the context of the site user."
-          },
-          {
-            "cve_id": "CVE-2025-0282",
-            "vendor": "Ivanti",
-            "product": "Connect Secure, Policy Secure, and ZTA Gateways",
-            "name": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability",
-            "date_added": "2025-01-08",
-            "due_date": "2025-01-15",
-            "description": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways contain a stack-based buffer overflow which can lead to unauthenticated remote code execution."
-          },
-          {
-            "cve_id": "CVE-2020-2883",
-            "vendor": "Oracle",
-            "product": "WebLogic Server",
-            "name": "Oracle WebLogic Server Unspecified Vulnerability",
-            "date_added": "2025-01-07",
-            "due_date": "2025-01-28",
-            "description": "Oracle WebLogic Server, a product within the Fusion Middleware suite, contains an unspecified vulnerability exploitable by an unauthenticated attacker with network access via IIOP or T3."
           }
         ],
-        "total_count": 1741,
-        "last_fetch": "2026-10-14T16:57:38.185166+00:00"
+        "total_count": 1745,
+        "last_fetch": "2026-10-14T21:30:36.499114+00:00"
       }
     }
   ]
