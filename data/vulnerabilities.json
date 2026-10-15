@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-10-15T16:44:42.133259+00:00",
+  "last_updated": "2026-10-15T21:11:48.749215+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-21589",
+            "vendor": "Atlassian",
+            "product": "Multiple Products",
+            "name": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+            "date_added": "2026-10-15",
+            "due_date": "2026-10-18",
+            "description": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions."
+          },
           {
             "cve_id": "CVE-2026-105134",
             "vendor": "Ahsay",
@@ -4499,19 +4508,10 @@
             "date_added": "2025-01-14",
             "due_date": "2025-02-04",
             "description": "Microsoft Windows Hyper-V NT Kernel Integration VSP contains a heap-based buffer overflow vulnerability that allows a local attacker to gain SYSTEM privileges."
-          },
-          {
-            "cve_id": "CVE-2024-55591",
-            "vendor": "Fortinet",
-            "product": "FortiOS and FortiProxy",
-            "name": "Fortinet FortiOS and FortiProxy Authentication Bypass Vulnerability",
-            "date_added": "2025-01-14",
-            "due_date": "2025-01-21",
-            "description": "Fortinet FortiOS and FortiProxy contain an authentication bypass vulnerability that may allow an unauthenticated, remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module."
           }
         ],
-        "total_count": 1745,
-        "last_fetch": "2026-10-15T16:44:42.292056+00:00"
+        "total_count": 1746,
+        "last_fetch": "2026-10-15T21:11:48.857471+00:00"
       }
     }
   ]
