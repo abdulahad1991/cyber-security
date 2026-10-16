@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-10-16T16:27:00.222016+00:00",
+  "last_updated": "2026-10-16T20:50:09.222324+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-102764",
+            "vendor": "BeyondTrust",
+            "product": "Remote Support",
+            "name": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+            "date_added": "2026-10-16",
+            "due_date": "2026-10-19",
+            "description": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance."
+          },
+          {
+            "cve_id": "CVE-2025-61624",
+            "vendor": "Fortinet",
+            "product": "Multiple Products",
+            "name": "Fortinet Multiple Products Path Traversal Vulnerability",
+            "date_added": "2026-10-16",
+            "due_date": "2026-10-19",
+            "description": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands."
+          },
           {
             "cve_id": "CVE-2026-21589",
             "vendor": "Atlassian",
@@ -4490,28 +4508,10 @@
             "date_added": "2025-01-14",
             "due_date": "2025-02-04",
             "description": "Microsoft Windows Hyper-V NT Kernel Integration VSP contains a use-after-free vulnerability that allows a local attacker to gain SYSTEM privileges."
-          },
-          {
-            "cve_id": "CVE-2025-21334",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Hyper-V NT Kernel Integration VSP Use-After-Free Vulnerability",
-            "date_added": "2025-01-14",
-            "due_date": "2025-02-04",
-            "description": "Microsoft Windows Hyper-V NT Kernel Integration VSP contains a use-after-free vulnerability that allows a local attacker to gain SYSTEM privileges."
-          },
-          {
-            "cve_id": "CVE-2025-21333",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Hyper-V NT Kernel Integration VSP Heap-based Buffer Overflow Vulnerability",
-            "date_added": "2025-01-14",
-            "due_date": "2025-02-04",
-            "description": "Microsoft Windows Hyper-V NT Kernel Integration VSP contains a heap-based buffer overflow vulnerability that allows a local attacker to gain SYSTEM privileges."
           }
         ],
-        "total_count": 1746,
-        "last_fetch": "2026-10-16T16:27:00.340792+00:00"
+        "total_count": 1748,
+        "last_fetch": "2026-10-16T20:50:09.330315+00:00"
       }
     }
   ]
