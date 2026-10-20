@@ -1,6 +1,6 @@
 {
   "category": "threat_intel",
-  "last_updated": "2026-10-20T16:42:14.172680+00:00",
+  "last_updated": "2026-10-20T21:27:38.936157+00:00",
   "sources": [
     {
       "name": "OpenPhish Community Feed",
@@ -211,7 +211,7 @@
           "http://kvtrm420kf-fscdhpdr-3p2h9c-jpx32n.pages.dev/"
         ],
         "total_count": 300,
-        "last_fetch": "2026-10-20T16:42:14.626668+00:00"
+        "last_fetch": "2026-10-20T21:27:39.383923+00:00"
       }
     },
     {
@@ -239,7 +239,7 @@
           }
         ],
         "summary": "APWG Report Smishing Text About APWG Report Phishing Emails © 2026 Anti-Phishing Working Group, Inc © 2026 Anti-Phishing Working Group, Inc Resources Phishing Activity Trends Reports The APWG Phishing Activity Trends Report analyzes phishing attacks reported to the APWG by its member companies, its Global Research Partners, through the organization’s website at http://wp.apwg.org, and by e-mail submissions to reportphishing@antiphishing.org. APWG also measures the evolution, proliferation, and propagation of crimeware by drawing from the research of our member companies. VIEW REPORTS eCrime Research Papers The Symposium on Electronic Crime Research is an annual event hosted by the APWG. The event’s continuing goal is to promote cybercrime research by providing a means for researchers to publish their work. The program has published over 120 papers specifically focused on fraud and crime in the cyber world. VIEW PAPERS ON OUR RESEARCH SITE Global Phishing Survey Phishers are criminal, but they do make rational decisions about how to go about their work. They’re in it for the money, and they work to make their schemes as productive as possible while evading detection. To combat phishing we need to know what the phishers are doing, and how. Where is the phishing taking place? What companies are most vulnerable? Were the slew of new top-level domains a bonanza for phishers? By analyzing the phishing the authors have some answers, and those answers may surprise you. This report seeks to understand trends and their significance by quantifying the scope of the global phishing problem. Specifically, these reports examines all the phishing attacks detected over specific time intervals. VIEW REPORTS",
-        "last_fetch": "2026-10-20T16:42:16.409143+00:00"
+        "last_fetch": "2026-10-20T21:27:40.339058+00:00"
       }
     },
     {
@@ -249,6 +249,342 @@
       "data": {
         "description": "abuse.ch URLhaus feed of recently reported malware distribution URLs",
         "entries": [
+          {
+            "id": "3953082",
+            "dateadded": "2026-10-20 21:14:23",
+            "url": "http://115.48.146.56:37418/i",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953081",
+            "dateadded": "2026-10-20 21:09:17",
+            "url": "http://175.174.105.195:51017/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953080",
+            "dateadded": "2026-10-20 21:00:09",
+            "url": "http://115.55.197.99:59631/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953079",
+            "dateadded": "2026-10-20 20:59:06",
+            "url": "http://193.178.158.57/bin/020c81a68a0e4e71_hwbp_syst_fgSLSMEz.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "579cd0,dropped-by-amadey,RemusStealer"
+          },
+          {
+            "id": "3953078",
+            "dateadded": "2026-10-20 20:58:06",
+            "url": "http://193.178.158.57/bin/55ccee311adc547a_thread_hijacking_x7ajq5O4.exe",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "579cd0,dropped-by-amadey"
+          },
+          {
+            "id": "3953077",
+            "dateadded": "2026-10-20 20:52:19",
+            "url": "http://115.48.146.56:37418/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953076",
+            "dateadded": "2026-10-20 20:50:31",
+            "url": "http://210.208.116.107:55799/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3953075",
+            "dateadded": "2026-10-20 20:49:10",
+            "url": "http://175.174.105.195:51017/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953074",
+            "dateadded": "2026-10-20 20:31:17",
+            "url": "http://36.70.137.62:39410/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3953073",
+            "dateadded": "2026-10-20 20:21:19",
+            "url": "http://cloud-browse.codes/debb44e1d0c0d4804e94a5deb80f28f1df840bffbbc6159803d405dad7a792c7",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClickFix,ErrTraffic"
+          },
+          {
+            "id": "3953072",
+            "dateadded": "2026-10-20 20:14:15",
+            "url": "http://115.48.163.254:44939/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953071",
+            "dateadded": "2026-10-20 20:13:20",
+            "url": "http://cloud-browse.codes/da818b78bb0e2cd537b04faad9c8e6d856098b07b796580c65aefdde077c7290",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClickFix,ErrTraffic"
+          },
+          {
+            "id": "3953070",
+            "dateadded": "2026-10-20 20:12:25",
+            "url": "http://cloud-browse.codes/2b82bf898d6ecf3fd6e2fd2a8021357b610e97c74f976bf87750c01711c1473b",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClickFix,ErrTraffic"
+          },
+          {
+            "id": "3953069",
+            "dateadded": "2026-10-20 20:04:20",
+            "url": "http://cloud-browse.codes/d2d088e9a00ad3833e20ddb20cb1f850938683ec7200187893a5ff8d48deb068",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClickFix,ErrTraffic"
+          },
+          {
+            "id": "3953068",
+            "dateadded": "2026-10-20 19:28:16",
+            "url": "http://42.6.201.210:34289/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf"
+          },
+          {
+            "id": "3953067",
+            "dateadded": "2026-10-20 19:13:21",
+            "url": "http://cloud-browse.codes/9de40b36c2a8aaaad7e727a14d4f68f24afd8b3c311d92ecbcc7ac171368b0d8",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClickFix,ErrTraffic"
+          },
+          {
+            "id": "3953066",
+            "dateadded": "2026-10-20 19:12:21",
+            "url": "http://cloud-browse.codes/5c078b74c600e17cc635a453359d1d6292e0d502c21c5e95f813c11cad6e871b",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClickFix,ErrTraffic"
+          },
+          {
+            "id": "3953065",
+            "dateadded": "2026-10-20 19:01:14",
+            "url": "http://182.127.167.206:45709/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953064",
+            "dateadded": "2026-10-20 18:48:06",
+            "url": "http://105.224.36.188:34011/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3953063",
+            "dateadded": "2026-10-20 18:47:08",
+            "url": "http://105.224.36.188:34011/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3953062",
+            "dateadded": "2026-10-20 18:31:19",
+            "url": "http://182.127.167.206:45709/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953061",
+            "dateadded": "2026-10-20 18:28:12",
+            "url": "http://115.48.152.72:43412/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "cowrie,elf,honeypot,mips,Mozi"
+          },
+          {
+            "id": "3953060",
+            "dateadded": "2026-10-20 18:26:15",
+            "url": "http://180.190.240.131:47367/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "arm,cowrie,elf,honeypot,mirai,Mozi"
+          },
+          {
+            "id": "3953059",
+            "dateadded": "2026-10-20 18:20:17",
+            "url": "http://45.168.132.19:50083/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3953058",
+            "dateadded": "2026-10-20 18:17:14",
+            "url": "http://115.55.254.41:57926/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953057",
+            "dateadded": "2026-10-20 18:14:17",
+            "url": "http://182.123.162.80:60888/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953056",
+            "dateadded": "2026-10-20 18:10:08",
+            "url": "http://203.177.251.31:48728/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3953055",
+            "dateadded": "2026-10-20 18:06:20",
+            "url": "http://123.190.3.5:46860/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "elf"
+          },
+          {
+            "id": "3953054",
+            "dateadded": "2026-10-20 18:01:19",
+            "url": "http://182.123.162.80:60888/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953053",
+            "dateadded": "2026-10-20 17:58:24",
+            "url": "http://42.55.18.77:53324/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953052",
+            "dateadded": "2026-10-20 17:50:18",
+            "url": "http://45.168.132.19:50083/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3953051",
+            "dateadded": "2026-10-20 17:46:12",
+            "url": "http://203.177.251.31:48728/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,arm,elf,mirai,Mozi"
+          },
+          {
+            "id": "3953050",
+            "dateadded": "2026-10-20 17:41:12",
+            "url": "http://115.55.254.41:57926/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953049",
+            "dateadded": "2026-10-20 17:23:15",
+            "url": "http://115.51.81.108:40435/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953048",
+            "dateadded": "2026-10-20 17:20:10",
+            "url": "http://42.233.105.249:33463/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953047",
+            "dateadded": "2026-10-20 17:18:22",
+            "url": "http://cloud-browse.codes/851844c47194afd49d0846f27cd6f00231907663cdaf5d4783381b2b5b73db00",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClickFix,ErrTraffic"
+          },
+          {
+            "id": "3953046",
+            "dateadded": "2026-10-20 17:17:09",
+            "url": "http://106.111.127.181:54735/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "mirai"
+          },
+          {
+            "id": "3953045",
+            "dateadded": "2026-10-20 17:17:06",
+            "url": "http://108.170.136.155:58704/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "None"
+          },
+          {
+            "id": "3953044",
+            "dateadded": "2026-10-20 17:14:07",
+            "url": "http://cloud-browse.codes/051e50a909d8978af21907599364a72dd1b6b4b5bcbea073ae8fc6acc0a3072d",
+            "url_status": "offline",
+            "threat": "malware_download",
+            "tags": "ClickFix,ErrTraffic"
+          },
+          {
+            "id": "3953043",
+            "dateadded": "2026-10-20 16:57:09",
+            "url": "http://115.51.81.108:40435/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953042",
+            "dateadded": "2026-10-20 16:54:12",
+            "url": "http://42.233.105.249:33463/bin.sh",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
+          {
+            "id": "3953041",
+            "dateadded": "2026-10-20 16:43:12",
+            "url": "http://113.238.161.233:58714/i",
+            "url_status": "online",
+            "threat": "malware_download",
+            "tags": "32-bit,elf,mips,Mozi"
+          },
           {
             "id": "3953040",
             "dateadded": "2026-10-20 16:30:12",
@@ -279,7 +615,7 @@
             "url": "https://github.com/sjsnb20-tech/arka/raw/refs/heads/main/Wave%20Checker.exe",
             "url_status": "online",
             "threat": "malware_download",
-            "tags": "SheetRAT"
+            "tags": "sh,SheetRAT"
           },
           {
             "id": "3953036",
@@ -477,7 +813,7 @@
             "id": "3953012",
             "dateadded": "2026-10-20 15:56:03",
             "url": "https://download.vertex-software.digital/DX_Update_Core.rar",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "None"
           },
@@ -693,7 +1029,7 @@
             "id": "3952985",
             "dateadded": "2026-10-20 14:57:17",
             "url": "http://176.65.132.23/arm",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "elf,ua-wget"
           },
@@ -709,7 +1045,7 @@
             "id": "3952979",
             "dateadded": "2026-10-20 14:57:16",
             "url": "http://176.65.132.23/arm6",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "elf,mirai,ua-wget"
           },
@@ -717,7 +1053,7 @@
             "id": "3952980",
             "dateadded": "2026-10-20 14:57:16",
             "url": "http://176.65.132.23/arm7",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "elf,mirai,ua-wget"
           },
@@ -725,7 +1061,7 @@
             "id": "3952981",
             "dateadded": "2026-10-20 14:57:16",
             "url": "http://176.65.132.23/spc",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "elf,mirai,ua-wget"
           },
@@ -741,7 +1077,7 @@
             "id": "3952983",
             "dateadded": "2026-10-20 14:57:16",
             "url": "http://176.65.132.23/arm/",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "elf,ua-wget"
           },
@@ -765,7 +1101,7 @@
             "id": "3952976",
             "dateadded": "2026-10-20 14:57:15",
             "url": "http://176.65.132.23/mips",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "elf,mirai,ua-wget"
           },
@@ -773,7 +1109,7 @@
             "id": "3952977",
             "dateadded": "2026-10-20 14:57:15",
             "url": "http://176.65.132.23/x86",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "elf,mirai,ua-wget"
           },
@@ -805,7 +1141,7 @@
             "id": "3952971",
             "dateadded": "2026-10-20 14:27:15",
             "url": "http://123.129.155.110:48836/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,elf,mips,Mozi"
           },
@@ -1117,7 +1453,7 @@
             "id": "3952932",
             "dateadded": "2026-10-20 07:49:16",
             "url": "http://183.35.50.224:38590/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -1133,7 +1469,7 @@
             "id": "3952930",
             "dateadded": "2026-10-20 07:31:19",
             "url": "http://118.251.13.202:40966/bin.sh",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "32-bit,arm,elf,mirai,Mozi"
           },
@@ -1149,7 +1485,7 @@
             "id": "3952928",
             "dateadded": "2026-10-20 07:26:49",
             "url": "http://112.248.81.145:57433/i",
-            "url_status": "online",
+            "url_status": "offline",
             "threat": "malware_download",
             "tags": "cowrie,elf,honeypot,mips,Mozi"
           },
@@ -2312,346 +2648,10 @@
             "url_status": "online",
             "threat": "malware_download",
             "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952782",
-            "dateadded": "2026-10-20 05:54:49",
-            "url": "https://github.com/NebulaMonitorKiln/DiscordObhod/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952783",
-            "dateadded": "2026-10-20 05:54:49",
-            "url": "https://github.com/LockedDeliverer/zapretdiscord/releases/download/1.9.9c/zapret-discord-youtube-1.9.9c.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952779",
-            "dateadded": "2026-10-20 05:54:48",
-            "url": "https://github.com/Plankvublaze/DiscordFix/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952780",
-            "dateadded": "2026-10-20 05:54:48",
-            "url": "https://github.com/LionReproduce/DiscordObhod/releases/download/1.10.2/zapret-discord-youtube-1.10.2.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,zapret"
-          },
-          {
-            "id": "3952777",
-            "dateadded": "2026-10-20 05:54:47",
-            "url": "https://github.com/MaxiSaviorHex/ZapretDiscord/releases/download/3.33.3/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,zapret"
-          },
-          {
-            "id": "3952778",
-            "dateadded": "2026-10-20 05:54:47",
-            "url": "https://github.com/Desirebrupier/DiscordObhod/releases/download/1.10.2/zapret-discord-youtube-1.10.2.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,zapret"
-          },
-          {
-            "id": "3952775",
-            "dateadded": "2026-10-20 05:54:46",
-            "url": "https://github.com/Restrictionergrid/DiscordFix-2026/releases/download/1.11.1-New/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,zapret"
-          },
-          {
-            "id": "3952776",
-            "dateadded": "2026-10-20 05:54:46",
-            "url": "https://github.com/Magmathroughcabin/DiscordZapret/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952774",
-            "dateadded": "2026-10-20 05:54:45",
-            "url": "https://github.com/PursuerIguanaPurge/DiscordObhod/releases/download/1.10.2/zapret-discord-youtube-1.10.2.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,zapret,zip"
-          },
-          {
-            "id": "3952772",
-            "dateadded": "2026-10-20 05:54:44",
-            "url": "https://github.com/floorbutlerenergy/DiscordZapret/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952773",
-            "dateadded": "2026-10-20 05:54:44",
-            "url": "https://github.com/Roadiechopper/DiscordZapret/releases/download/2.22.2/zapret-discord-youtube-1.10.3.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,zapret,zip"
-          },
-          {
-            "id": "3952769",
-            "dateadded": "2026-10-20 05:54:39",
-            "url": "https://github.com/BlockChief49/DiscordObhod/releases/download/1.10.2/zapret-discord-youtube-1.10.2.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,zapret"
-          },
-          {
-            "id": "3952770",
-            "dateadded": "2026-10-20 05:54:39",
-            "url": "https://github.com/SmashNetworkSqueeze/DiscordFix/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,SalatStealer,zapret"
-          },
-          {
-            "id": "3952771",
-            "dateadded": "2026-10-20 05:54:39",
-            "url": "https://github.com/tagdictatorvilla/discordzapret/releases/download/1.9.9c/zapret-discord-youtube-1.9.9c.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,zapret"
-          },
-          {
-            "id": "3952767",
-            "dateadded": "2026-10-20 05:54:38",
-            "url": "https://github.com/BottomDaggerJourney/ZapretDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952768",
-            "dateadded": "2026-10-20 05:54:38",
-            "url": "https://github.com/WarblerSurmount/DiscordFix/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,SalatStealer,zapret"
-          },
-          {
-            "id": "3952764",
-            "dateadded": "2026-10-20 05:54:37",
-            "url": "https://github.com/SentryMonarchRob/ZapretDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,SalatStealer,zapret"
-          },
-          {
-            "id": "3952765",
-            "dateadded": "2026-10-20 05:54:37",
-            "url": "https://github.com/Exteriordraravage88/zAPret_DISCoRD/releases/download/1.9.9c/zapret-discord-youtube-1.9.9c.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952766",
-            "dateadded": "2026-10-20 05:54:37",
-            "url": "https://github.com/ParrotVilla71/DiscordObhod/releases/download/1.10.2/zapret-discord-youtube-1.10.2.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,zapret"
-          },
-          {
-            "id": "3952761",
-            "dateadded": "2026-10-20 05:54:36",
-            "url": "http://110.136.97.168:60898/i",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "32-bit,arm,elf,mirai,Mozi"
-          },
-          {
-            "id": "3952762",
-            "dateadded": "2026-10-20 05:54:36",
-            "url": "https://github.com/mailassistantwatt/FixDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952763",
-            "dateadded": "2026-10-20 05:54:36",
-            "url": "https://github.com/RainBeatCitadel/DiscordFix-Windows/releases/download/1.11.1-New/zapret-discord-youtube-1.10.3.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952757",
-            "dateadded": "2026-10-20 05:54:35",
-            "url": "https://github.com/ParrotVilla71/DiScOrDZapRet/releases/download/zapret-discord-youtube-1.10.2/zapret-discord-youtube-1.10.2.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,zapret"
-          },
-          {
-            "id": "3952758",
-            "dateadded": "2026-10-20 05:54:35",
-            "url": "https://github.com/LengthTyrantImprove/DiscordFix/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,SalatStealer,zapret"
-          },
-          {
-            "id": "3952759",
-            "dateadded": "2026-10-20 05:54:35",
-            "url": "https://github.com/Maxivuovercome/ZapreT-DiscORd/releases/download/1.9.9c/zapret-discord-youtube-1.9.9c.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952760",
-            "dateadded": "2026-10-20 05:54:35",
-            "url": "https://github.com/Shogunwithsee/FixDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952756",
-            "dateadded": "2026-10-20 05:54:30",
-            "url": "https://github.com/HunterAutocrat/DiscordZapret/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952754",
-            "dateadded": "2026-10-20 05:54:28",
-            "url": "https://github.com/peltofficialhub/FixDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,SalatStealer,zapret"
-          },
-          {
-            "id": "3952755",
-            "dateadded": "2026-10-20 05:54:28",
-            "url": "https://github.com/NebulaMonitorKiln/DiscordObhod/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,SalatStealer,zapret"
-          },
-          {
-            "id": "3952751",
-            "dateadded": "2026-10-20 05:54:27",
-            "url": "https://github.com/Speedsocultivate/DiscordZapret/releases/download/2.22.2/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,zapret"
-          },
-          {
-            "id": "3952752",
-            "dateadded": "2026-10-20 05:54:27",
-            "url": "https://github.com/Shogunwithsee/DiscordObhod/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,SalatStealer,zapret"
-          },
-          {
-            "id": "3952753",
-            "dateadded": "2026-10-20 05:54:27",
-            "url": "https://github.com/DockRepairInverter/DiscordFix/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,SalatStealer,zapret"
-          },
-          {
-            "id": "3952749",
-            "dateadded": "2026-10-20 05:54:26",
-            "url": "https://github.com/Inertiashecelebrate/ZAPrEtdIScorD/releases/download/1.9.9c/zapret-discord-youtube-1.9.9c.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952750",
-            "dateadded": "2026-10-20 05:54:26",
-            "url": "https://github.com/Magmathroughcabin/DiscordZapret/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,SalatStealer,zapret"
-          },
-          {
-            "id": "3952747",
-            "dateadded": "2026-10-20 05:54:25",
-            "url": "https://github.com/Desirebrupier/DiscordObhod/releases/download/1.10.2/zapret-discord-youtube-1.10.2.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,zapret,zip"
-          },
-          {
-            "id": "3952748",
-            "dateadded": "2026-10-20 05:54:25",
-            "url": "https://github.com/cosmicbursartuck/discordzapret/releases/download/1.9.9c/zapret-discord-youtube-1.9.9c.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,zapret"
-          },
-          {
-            "id": "3952745",
-            "dateadded": "2026-10-20 05:54:24",
-            "url": "https://github.com/postspinnervitalize/DiscordFix-1.12.1/releases/download/1.11.1-New/zapret-discord-youtube-1.10.3.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952746",
-            "dateadded": "2026-10-20 05:54:24",
-            "url": "https://github.com/Fangtidemultiplexer/zApret-DISCORd/releases/download/1.9.9c/zapret-discord-youtube-1.9.9c.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952743",
-            "dateadded": "2026-10-20 05:54:23",
-            "url": "https://github.com/SeparateLegendFlow/DiscordObhod/releases/download/1.10.2/zapret-discord-youtube-1.10.2.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,zapret"
-          },
-          {
-            "id": "3952744",
-            "dateadded": "2026-10-20 05:54:23",
-            "url": "https://github.com/hiddencobraknife/DiscordObhod/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,SalatStealer,zapret,zip"
-          },
-          {
-            "id": "3952741",
-            "dateadded": "2026-10-20 05:54:22",
-            "url": "https://github.com/ComponentCorporal/ZapretDiscord-2026/releases/download/v1.1.1/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,zapret"
-          },
-          {
-            "id": "3952742",
-            "dateadded": "2026-10-20 05:54:22",
-            "url": "https://github.com/ByteGiraffeFunicular/FixDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-            "url_status": "online",
-            "threat": "malware_download",
-            "tags": "github,rar,SalatStealer,zapret"
           }
         ],
         "total_count": 300,
-        "last_fetch": "2026-10-20T16:42:16.663825+00:00"
+        "last_fetch": "2026-10-20T21:27:40.504384+00:00"
       }
     },
     {
@@ -2662,7 +2662,7 @@
         "description": "abuse.ch ThreatFox recent indicators of compromise (domains, IPs, URLs, hashes)",
         "entries": [],
         "total_count": 0,
-        "last_fetch": "2026-10-20T16:42:16.909971+00:00"
+        "last_fetch": "2026-10-20T21:27:40.638780+00:00"
       }
     },
     {
@@ -2719,7 +2719,7 @@
           }
         ],
         "total_count": 5,
-        "last_fetch": "2026-10-20T16:42:17.263153+00:00"
+        "last_fetch": "2026-10-20T21:27:40.737013+00:00"
       }
     }
   ]

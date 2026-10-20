@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-10-20T16:42:14.017323+00:00",
+  "last_updated": "2026-10-20T21:27:38.807380+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,60 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-106931",
+            "vendor": "EG Secure Solutions",
+            "product": "SiteGuard Server Edition",
+            "name": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+            "date_added": "2026-10-20",
+            "due_date": "2026-10-23",
+            "description": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product."
+          },
+          {
+            "cve_id": "CVE-2026-96656",
+            "vendor": "Plex",
+            "product": "Media Server",
+            "name": "Plex Media Server External Control of File Name or Path Vulnerability",
+            "date_added": "2026-10-20",
+            "due_date": "2026-10-23",
+            "description": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655."
+          },
+          {
+            "cve_id": "CVE-2026-96655",
+            "vendor": "Plex",
+            "product": "Media Server",
+            "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+            "date_added": "2026-10-20",
+            "due_date": "2026-11-03",
+            "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656."
+          },
+          {
+            "cve_id": "CVE-2026-96654",
+            "vendor": "Plex",
+            "product": "Media Server",
+            "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+            "date_added": "2026-10-20",
+            "due_date": "2026-10-23",
+            "description": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656."
+          },
+          {
+            "cve_id": "CVE-2026-96652",
+            "vendor": "Plex",
+            "product": "Media Server",
+            "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+            "date_added": "2026-10-20",
+            "due_date": "2026-11-03",
+            "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656. "
+          },
+          {
+            "cve_id": "CVE-2026-110936",
+            "vendor": "Siemens",
+            "product": "Software Center",
+            "name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+            "date_added": "2026-10-20",
+            "due_date": "2026-11-03",
+            "description": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application."
+          },
           {
             "cve_id": "CVE-2026-102764",
             "vendor": "BeyondTrust",
@@ -4454,64 +4508,10 @@
             "date_added": "2025-02-04",
             "due_date": "2025-02-25",
             "description": "Microsoft .NET Framework contains an information disclosure vulnerability that exposes the ObjRef URI to an attacker, ultimately enabling remote code execution."
-          },
-          {
-            "cve_id": "CVE-2024-45195",
-            "vendor": "Apache",
-            "product": "OFBiz",
-            "name": "Apache OFBiz Forced Browsing Vulnerability",
-            "date_added": "2025-02-04",
-            "due_date": "2025-02-25",
-            "description": "Apache OFBiz contains a forced browsing vulnerability that allows a remote attacker to obtain unauthorized access."
-          },
-          {
-            "cve_id": "CVE-2025-24085",
-            "vendor": "Apple",
-            "product": "Multiple Products",
-            "name": "Apple Multiple Products Use-After-Free Vulnerability",
-            "date_added": "2025-01-29",
-            "due_date": "2025-02-19",
-            "description": "Apple iOS, macOS, and other Apple products contain a user-after-free vulnerability that could allow a malicious application to elevate privileges."
-          },
-          {
-            "cve_id": "CVE-2025-23006",
-            "vendor": "SonicWall",
-            "product": "SMA1000 Appliances",
-            "name": "SonicWall SMA1000 Appliances Deserialization Vulnerability",
-            "date_added": "2025-01-24",
-            "due_date": "2025-02-14",
-            "description": "SonicWall SMA1000 Appliance Management Console (AMC) and Central Management Console (CMC) contain a deserialization of untrusted data vulnerability, which can enable a remote, unauthenticated attacker to execute arbitrary OS commands."
-          },
-          {
-            "cve_id": "CVE-2020-11023",
-            "vendor": "JQuery",
-            "product": "JQuery",
-            "name": "JQuery Cross-Site Scripting (XSS) Vulnerability",
-            "date_added": "2025-01-23",
-            "due_date": "2025-02-13",
-            "description": "JQuery contains a persistent cross-site scripting (XSS) vulnerability. When passing maliciously formed, untrusted input enclosed in HTML tags, JQuery's DOM manipulators can execute untrusted code in the context of the user's browser."
-          },
-          {
-            "cve_id": "CVE-2024-50603",
-            "vendor": "Aviatrix",
-            "product": "Controllers",
-            "name": "Aviatrix Controllers OS Command Injection Vulnerability",
-            "date_added": "2025-01-16",
-            "due_date": "2025-02-06",
-            "description": "Aviatrix Controllers contain an OS command injection vulnerability that could allow an unauthenticated attacker to execute arbitrary code. Shell metacharacters can be sent to /v1/api in cloud_type for list_flightpath_destination_instances, or src_cloud_type for flightpath_connection_test."
-          },
-          {
-            "cve_id": "CVE-2025-21335",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Hyper-V NT Kernel Integration VSP Use-After-Free Vulnerability",
-            "date_added": "2025-01-14",
-            "due_date": "2025-02-04",
-            "description": "Microsoft Windows Hyper-V NT Kernel Integration VSP contains a use-after-free vulnerability that allows a local attacker to gain SYSTEM privileges."
           }
         ],
-        "total_count": 1748,
-        "last_fetch": "2026-10-20T16:42:14.164644+00:00"
+        "total_count": 1754,
+        "last_fetch": "2026-10-20T21:27:38.927841+00:00"
       }
     }
   ]
