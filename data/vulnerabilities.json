@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-10-23T16:51:23.033932+00:00",
+  "last_updated": "2026-10-23T21:15:45.659849+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-114625",
+            "vendor": "Arista",
+            "product": "VeloCloud Orchestrator",
+            "name": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+            "date_added": "2026-10-23",
+            "due_date": "2026-10-26",
+            "description": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator."
+          },
+          {
+            "cve_id": "CVE-2026-110447",
+            "vendor": "Collabora",
+            "product": "Collabora Online – Built-in CODE Server",
+            "name": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
+            "date_added": "2026-10-23",
+            "due_date": "2026-10-26",
+            "description": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running."
+          },
           {
             "cve_id": "CVE-2026-106931",
             "vendor": "EG Secure Solutions",
@@ -4490,28 +4508,10 @@
             "date_added": "2025-02-04",
             "due_date": "2025-02-25",
             "description": "Paessler PRTG Network Monitor contains a local file inclusion vulnerability that allows a remote, unauthenticated attacker to create users with read-write privileges (including administrator)."
-          },
-          {
-            "cve_id": "CVE-2018-9276",
-            "vendor": "Paessler",
-            "product": "PRTG Network Monitor",
-            "name": "Paessler PRTG Network Monitor OS Command Injection Vulnerability",
-            "date_added": "2025-02-04",
-            "due_date": "2025-02-25",
-            "description": "Paessler PRTG Network Monitor contains an OS command injection vulnerability that allows an attacker with administrative privileges to execute commands via the PRTG System Administrator web console."
-          },
-          {
-            "cve_id": "CVE-2024-29059",
-            "vendor": "Microsoft",
-            "product": ".NET Framework",
-            "name": "Microsoft .NET Framework Information Disclosure Vulnerability",
-            "date_added": "2025-02-04",
-            "due_date": "2025-02-25",
-            "description": "Microsoft .NET Framework contains an information disclosure vulnerability that exposes the ObjRef URI to an attacker, ultimately enabling remote code execution."
           }
         ],
-        "total_count": 1754,
-        "last_fetch": "2026-10-23T16:51:23.192378+00:00"
+        "total_count": 1756,
+        "last_fetch": "2026-10-23T21:15:45.839848+00:00"
       }
     }
   ]
