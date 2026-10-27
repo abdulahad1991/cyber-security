@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-10-26T22:32:03.559922+00:00",
+  "last_updated": "2026-10-27T04:37:14.292003+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-109618",
+            "vendor": "PHP Group",
+            "product": "PHP",
+            "name": "PHP Memory Corruption Vulnerability",
+            "date_added": "2026-10-26",
+            "due_date": "2026-10-29",
+            "description": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution."
+          },
+          {
+            "cve_id": "CVE-2026-109619",
+            "vendor": "PHP Group",
+            "product": "PHP",
+            "name": "PHP Stale Internal Request-State Vulnerability",
+            "date_added": "2026-10-26",
+            "due_date": "2026-10-29",
+            "description": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution."
+          },
           {
             "cve_id": "CVE-2026-114625",
             "vendor": "Arista",
@@ -4490,28 +4508,10 @@
             "date_added": "2025-02-06",
             "due_date": "2025-02-27",
             "description": "7-Zip contains a protection mechanism failure vulnerability that allows remote attackers to bypass the Mark-of-the-Web security feature to execute arbitrary code in the context of the current user."
-          },
-          {
-            "cve_id": "CVE-2024-53104",
-            "vendor": "Linux",
-            "product": "Kernel",
-            "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
-            "date_added": "2025-02-05",
-            "due_date": "2025-02-26",
-            "description": "Linux kernel contains an out-of-bounds write vulnerability in the uvc_parse_streaming component of the USB Video Class (UVC) driver that could allow for physical escalation of privilege."
-          },
-          {
-            "cve_id": "CVE-2018-19410",
-            "vendor": "Paessler",
-            "product": "PRTG Network Monitor",
-            "name": "Paessler PRTG Network Monitor Local File Inclusion Vulnerability",
-            "date_added": "2025-02-04",
-            "due_date": "2025-02-25",
-            "description": "Paessler PRTG Network Monitor contains a local file inclusion vulnerability that allows a remote, unauthenticated attacker to create users with read-write privileges (including administrator)."
           }
         ],
-        "total_count": 1756,
-        "last_fetch": "2026-10-26T22:32:03.722859+00:00"
+        "total_count": 1758,
+        "last_fetch": "2026-10-27T04:37:14.836913+00:00"
       }
     }
   ]
