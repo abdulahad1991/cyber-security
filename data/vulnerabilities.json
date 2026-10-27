@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-10-27T17:52:22.427073+00:00",
+  "last_updated": "2026-10-27T22:01:28.763611+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-48356",
+            "vendor": "Adobe",
+            "product": "Commerce and Magento",
+            "name": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "date_added": "2026-10-27",
+            "due_date": "2026-11-10",
+            "description": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session."
+          },
+          {
+            "cve_id": "CVE-2026-111497",
+            "vendor": "Google",
+            "product": "Brotli",
+            "name": "Google Brotli Unchecked Return Value Vulnerability",
+            "date_added": "2026-10-27",
+            "due_date": "2026-11-10",
+            "description": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream."
+          },
           {
             "cve_id": "CVE-2026-109618",
             "vendor": "PHP Group",
@@ -4490,28 +4508,10 @@
             "date_added": "2025-02-06",
             "due_date": "2025-02-27",
             "description": "Microsoft Outlook contains an improper input validation vulnerability that allows for remote code execution. Successful exploitation of this vulnerability would allow an attacker to bypass the Office Protected View and open in editing mode rather than protected mode."
-          },
-          {
-            "cve_id": "CVE-2022-23748",
-            "vendor": "Audinate",
-            "product": "Dante Discovery",
-            "name": "Dante Discovery Process Control Vulnerability",
-            "date_added": "2025-02-06",
-            "due_date": "2025-02-27",
-            "description": "Dante Discovery contains a process control vulnerability in mDNSResponder.exe that all allows for a DLL sideloading attack. A local attacker can leverage this vulnerability in the Dante Application Library to execute arbitrary code."
-          },
-          {
-            "cve_id": "CVE-2025-0411",
-            "vendor": "7-Zip",
-            "product": "7-Zip",
-            "name": "7-Zip Mark of the Web Bypass Vulnerability",
-            "date_added": "2025-02-06",
-            "due_date": "2025-02-27",
-            "description": "7-Zip contains a protection mechanism failure vulnerability that allows remote attackers to bypass the Mark-of-the-Web security feature to execute arbitrary code in the context of the current user."
           }
         ],
-        "total_count": 1758,
-        "last_fetch": "2026-10-27T17:52:22.553580+00:00"
+        "total_count": 1760,
+        "last_fetch": "2026-10-27T22:01:28.971595+00:00"
       }
     }
   ]
