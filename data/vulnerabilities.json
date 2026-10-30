@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-10-30T12:35:18.753808+00:00",
+  "last_updated": "2026-10-30T22:09:04.936457+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-118527",
+            "vendor": "Ivanti",
+            "product": "Connect Secure",
+            "name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+            "date_added": "2026-10-30",
+            "due_date": "2026-11-13",
+            "description": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357."
+          },
+          {
+            "cve_id": "CVE-2026-111357",
+            "vendor": "Ivanti",
+            "product": "Connect Secure",
+            "name": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+            "date_added": "2026-10-30",
+            "due_date": "2026-11-02",
+            "description": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527."
+          },
           {
             "cve_id": "CVE-2026-97229",
             "vendor": "GitLab",
@@ -4490,28 +4508,10 @@
             "date_added": "2025-02-11",
             "due_date": "2025-03-04",
             "description": "Multiple Zyxel DSL CPE devices contain a post-authentication command injection vulnerability in the CGI program that could allow an authenticated attacker to execute OS commands via a crafted HTTP request."
-          },
-          {
-            "cve_id": "CVE-2025-21418",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Ancillary Function Driver for WinSock Heap-Based Buffer Overflow Vulnerability",
-            "date_added": "2025-02-11",
-            "due_date": "2025-03-04",
-            "description": "Microsoft Windows Ancillary Function Driver for WinSock contains a heap-based buffer overflow vulnerability that allows for privilege escalation, enabling a local attacker to gain SYSTEM privileges."
-          },
-          {
-            "cve_id": "CVE-2025-21391",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Storage Link Following Vulnerability",
-            "date_added": "2025-02-11",
-            "due_date": "2025-03-04",
-            "description": "Microsoft Windows Storage contains a link following vulnerability that could allow for privilege escalation. This vulnerability could allow an attacker to delete data including data that results in the service being unavailable."
           }
         ],
-        "total_count": 1764,
-        "last_fetch": "2026-10-30T12:35:19.024564+00:00"
+        "total_count": 1766,
+        "last_fetch": "2026-10-30T22:09:05.072964+00:00"
       }
     }
   ]
