@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-11-03T13:57:11.405828+00:00",
+  "last_updated": "2026-11-03T23:06:30.917144+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-119977",
+            "vendor": "WordPress",
+            "product": "WordPress Core",
+            "name": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+            "date_added": "2026-11-03",
+            "due_date": "2026-11-06",
+            "description": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades."
+          },
           {
             "cve_id": "CVE-2026-118527",
             "vendor": "Ivanti",
@@ -4499,19 +4508,10 @@
             "date_added": "2025-02-11",
             "due_date": "2025-03-04",
             "description": "Multiple Zyxel DSL CPE devices contain a post-authentication command injection vulnerability in the management commands that could allow an authenticated attacker to execute OS commands via Telnet."
-          },
-          {
-            "cve_id": "CVE-2024-40890",
-            "vendor": "Zyxel",
-            "product": "DSL CPE Devices",
-            "name": "Zyxel DSL CPE OS Command Injection Vulnerability",
-            "date_added": "2025-02-11",
-            "due_date": "2025-03-04",
-            "description": "Multiple Zyxel DSL CPE devices contain a post-authentication command injection vulnerability in the CGI program that could allow an authenticated attacker to execute OS commands via a crafted HTTP request."
           }
         ],
-        "total_count": 1766,
-        "last_fetch": "2026-11-03T13:57:11.584510+00:00"
+        "total_count": 1767,
+        "last_fetch": "2026-11-03T23:06:31.041558+00:00"
       }
     }
   ]
