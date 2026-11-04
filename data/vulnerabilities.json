@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-11-04T14:11:24.448706+00:00",
+  "last_updated": "2026-11-04T23:28:56.211699+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2024-27834",
+            "vendor": "Apple",
+            "product": "Multiple Products",
+            "name": "Apple Multiple Products Improper Authentication Vulnerability",
+            "date_added": "2026-11-04",
+            "due_date": "2026-11-18",
+            "description": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication."
+          },
           {
             "cve_id": "CVE-2026-119977",
             "vendor": "WordPress",
@@ -4499,19 +4508,10 @@
             "date_added": "2025-02-12",
             "due_date": "2025-03-05",
             "description": "Mitel 6800 Series, 6900 Series, and 6900w Series SIP Phones, including the 6970 Conference Unit, contain an argument injection vulnerability due to insufficient parameter sanitization during the boot process. Successful exploitation may allow an attacker to execute arbitrary commands within the context of the system."
-          },
-          {
-            "cve_id": "CVE-2024-40891",
-            "vendor": "Zyxel",
-            "product": "DSL CPE Devices",
-            "name": "Zyxel DSL CPE OS Command Injection Vulnerability",
-            "date_added": "2025-02-11",
-            "due_date": "2025-03-04",
-            "description": "Multiple Zyxel DSL CPE devices contain a post-authentication command injection vulnerability in the management commands that could allow an authenticated attacker to execute OS commands via Telnet."
           }
         ],
-        "total_count": 1767,
-        "last_fetch": "2026-11-04T14:11:24.729400+00:00"
+        "total_count": 1768,
+        "last_fetch": "2026-11-04T23:28:56.330675+00:00"
       }
     }
   ]
