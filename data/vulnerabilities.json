@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-11-06T19:11:26.962970+00:00",
+  "last_updated": "2026-11-07T05:36:32.817353+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-19868",
+            "vendor": "SonicWall",
+            "product": "SonicOS SSLVPN",
+            "name": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+            "date_added": "2026-11-06",
+            "due_date": "2026-11-20",
+            "description": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA)."
+          },
           {
             "cve_id": "CVE-2024-27834",
             "vendor": "Apple",
@@ -4499,19 +4508,10 @@
             "date_added": "2025-02-12",
             "due_date": "2025-03-05",
             "description": "Apple iOS and iPadOS contains an incorrect authorization vulnerability that allows a physical attacker to disable USB Restricted Mode on a locked device."
-          },
-          {
-            "cve_id": "CVE-2024-41710",
-            "vendor": "Mitel",
-            "product": "SIP Phones",
-            "name": "Mitel SIP Phones Argument Injection Vulnerability",
-            "date_added": "2025-02-12",
-            "due_date": "2025-03-05",
-            "description": "Mitel 6800 Series, 6900 Series, and 6900w Series SIP Phones, including the 6970 Conference Unit, contain an argument injection vulnerability due to insufficient parameter sanitization during the boot process. Successful exploitation may allow an attacker to execute arbitrary commands within the context of the system."
           }
         ],
-        "total_count": 1768,
-        "last_fetch": "2026-11-06T19:11:27.216325+00:00"
+        "total_count": 1769,
+        "last_fetch": "2026-11-07T05:36:32.980484+00:00"
       }
     }
   ]
