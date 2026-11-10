@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-11-10T14:40:49.799907+00:00",
+  "last_updated": "2026-11-10T23:04:55.026001+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,60 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-124194",
+            "vendor": "Microsoft",
+            "product": "Office",
+            "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+            "date_added": "2026-11-10",
+            "due_date": "2026-11-24",
+            "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network."
+          },
+          {
+            "cve_id": "CVE-2026-111793",
+            "vendor": "Openwave Messaging Limited",
+            "product": "Webtop Media Transcoder",
+            "name": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+            "date_added": "2026-11-10",
+            "due_date": "2026-11-24",
+            "description": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience."
+          },
+          {
+            "cve_id": "CVE-2026-20320",
+            "vendor": "Cisco",
+            "product": "BroadWorks",
+            "name": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+            "date_added": "2026-11-10",
+            "due_date": "2026-11-24",
+            "description": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system."
+          },
+          {
+            "cve_id": "CVE-2026-111560",
+            "vendor": "Barracuda Networks",
+            "product": "Multiple Products",
+            "name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+            "date_added": "2026-11-10",
+            "due_date": "2026-11-13",
+            "description": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606"
+          },
+          {
+            "cve_id": "CVE-2026-116606",
+            "vendor": "Barracuda Networks",
+            "product": "Barracuda Email Security Gateway (ESG)",
+            "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+            "date_added": "2026-11-10",
+            "due_date": "2026-11-13",
+            "description": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. This vulnerability can be chained with CVE-2026-111560."
+          },
+          {
+            "cve_id": "CVE-2026-125350",
+            "vendor": "Google",
+            "product": "Chromium",
+            "name": "Google Chromium Use-After-Free Vulnerability",
+            "date_added": "2026-11-10",
+            "due_date": "2026-11-24",
+            "description": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
+          },
           {
             "cve_id": "CVE-2026-102895",
             "vendor": "GPUStack",
@@ -4454,64 +4508,10 @@
             "date_added": "2025-02-25",
             "due_date": "2025-03-18",
             "description": "Synacor Zimbra Collaboration Suite (ZCS) contains a cross-site scripting (XSS) vulnerability that allows a remote authenticated attacker to execute arbitrary code via a crafted script to the /h/autoSaveDraft function."
-          },
-          {
-            "cve_id": "CVE-2024-49035",
-            "vendor": "Microsoft",
-            "product": "Partner Center",
-            "name": "Microsoft Partner Center Improper Access Control Vulnerability",
-            "date_added": "2025-02-25",
-            "due_date": "2025-03-18",
-            "description": "Microsoft Partner Center contains an improper access control vulnerability that allows an attacker to escalate privileges."
-          },
-          {
-            "cve_id": "CVE-2024-20953",
-            "vendor": "Oracle",
-            "product": "Agile Product Lifecycle Management (PLM)",
-            "name": "Oracle Agile Product Lifecycle Management (PLM) Deserialization Vulnerability",
-            "date_added": "2025-02-24",
-            "due_date": "2025-03-17",
-            "description": "Oracle Agile Product Lifecycle Management (PLM) contains a deserialization vulnerability that allows a low-privileged attacker with network access via HTTP to compromise the system."
-          },
-          {
-            "cve_id": "CVE-2017-3066",
-            "vendor": "Adobe",
-            "product": "ColdFusion",
-            "name": "Adobe ColdFusion Deserialization Vulnerability",
-            "date_added": "2025-02-24",
-            "due_date": "2025-03-17",
-            "description": "Adobe ColdFusion contains a deserialization vulnerability in the Apache BlazeDS library that allows for arbitrary code execution."
-          },
-          {
-            "cve_id": "CVE-2025-24989",
-            "vendor": "Microsoft",
-            "product": "Power Pages",
-            "name": "Microsoft Power Pages Improper Access Control Vulnerability",
-            "date_added": "2025-02-21",
-            "due_date": "2025-03-14",
-            "description": "Microsoft Power Pages contains an improper access control vulnerability that allows an unauthorized attacker to elevate privileges over a network potentially bypassing the user registration control."
-          },
-          {
-            "cve_id": "CVE-2025-0111",
-            "vendor": "Palo Alto Networks",
-            "product": "PAN-OS",
-            "name": "Palo Alto Networks PAN-OS File Read Vulnerability",
-            "date_added": "2025-02-20",
-            "due_date": "2025-03-13",
-            "description": "Palo Alto Networks PAN-OS contains an external control of file name or path vulnerability. Successful exploitation enables an authenticated attacker with network access to the management web interface to read files on the PAN-OS filesystem that are readable by the “nobody” user."
-          },
-          {
-            "cve_id": "CVE-2025-23209",
-            "vendor": "Craft CMS",
-            "product": "Craft CMS",
-            "name": "Craft CMS Code Injection Vulnerability",
-            "date_added": "2025-02-20",
-            "due_date": "2025-03-13",
-            "description": "Craft CMS contains a code injection vulnerability caused by improper validation of the database backup path, ultimately enabling remote code execution."
           }
         ],
-        "total_count": 1773,
-        "last_fetch": "2026-11-10T14:40:49.912675+00:00"
+        "total_count": 1779,
+        "last_fetch": "2026-11-10T23:04:55.190539+00:00"
       }
     }
   ]
