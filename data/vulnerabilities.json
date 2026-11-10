@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-11-09T15:51:47.333013+00:00",
+  "last_updated": "2026-11-10T01:23:45.181106+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,42 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-102895",
+            "vendor": "GPUStack",
+            "product": "GPUStack",
+            "name": "GPUStack Improper Authentication Vulnerability",
+            "date_added": "2026-11-09",
+            "due_date": "2026-11-12",
+            "description": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml."
+          },
+          {
+            "cve_id": "CVE-2026-123158",
+            "vendor": "OpenBSD",
+            "product": "OpenSSH",
+            "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+            "date_added": "2026-11-09",
+            "due_date": "2026-11-12",
+            "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass."
+          },
+          {
+            "cve_id": "CVE-2026-116779",
+            "vendor": "SignalWire",
+            "product": "FreeSwitch",
+            "name": "SignalWire FreeSwitch Code Injection Vulnerability",
+            "date_added": "2026-11-09",
+            "due_date": "2026-11-12",
+            "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution."
+          },
+          {
+            "cve_id": "CVE-2026-123218",
+            "vendor": "IBM",
+            "product": "Aspera Faspex",
+            "name": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+            "date_added": "2026-11-09",
+            "due_date": "2026-11-12",
+            "description": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations."
+          },
           {
             "cve_id": "CVE-2026-19868",
             "vendor": "SonicWall",
@@ -4472,46 +4508,10 @@
             "date_added": "2025-02-20",
             "due_date": "2025-03-13",
             "description": "Craft CMS contains a code injection vulnerability caused by improper validation of the database backup path, ultimately enabling remote code execution."
-          },
-          {
-            "cve_id": "CVE-2025-0108",
-            "vendor": "Palo Alto Networks",
-            "product": "PAN-OS",
-            "name": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
-            "date_added": "2025-02-18",
-            "due_date": "2025-03-11",
-            "description": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability in its management web interface. This vulnerability allows an unauthenticated attacker with network access to the management web interface to bypass the authentication normally required and invoke certain PHP scripts."
-          },
-          {
-            "cve_id": "CVE-2024-53704",
-            "vendor": "SonicWall",
-            "product": "SonicOS",
-            "name": "SonicWall SonicOS SSLVPN Improper Authentication Vulnerability",
-            "date_added": "2025-02-18",
-            "due_date": "2025-03-11",
-            "description": "SonicWall SonicOS contains an improper authentication vulnerability in the SSLVPN authentication mechanism that allows a remote attacker to bypass authentication."
-          },
-          {
-            "cve_id": "CVE-2024-57727",
-            "vendor": "SimpleHelp ",
-            "product": "SimpleHelp",
-            "name": "SimpleHelp Path Traversal Vulnerability",
-            "date_added": "2025-02-13",
-            "due_date": "2025-03-06",
-            "description": "SimpleHelp remote support software contains multiple path traversal vulnerabilities that allow unauthenticated remote attackers to download arbitrary files from the SimpleHelp host via crafted HTTP requests. These files may include server configuration files and hashed user passwords."
-          },
-          {
-            "cve_id": "CVE-2025-24200",
-            "vendor": "Apple",
-            "product": "iOS and iPadOS",
-            "name": "Apple iOS and iPadOS Incorrect Authorization Vulnerability",
-            "date_added": "2025-02-12",
-            "due_date": "2025-03-05",
-            "description": "Apple iOS and iPadOS contains an incorrect authorization vulnerability that allows a physical attacker to disable USB Restricted Mode on a locked device."
           }
         ],
-        "total_count": 1769,
-        "last_fetch": "2026-11-09T15:51:47.442963+00:00"
+        "total_count": 1773,
+        "last_fetch": "2026-11-10T01:23:45.293537+00:00"
       }
     }
   ]
