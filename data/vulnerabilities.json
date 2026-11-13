@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-11-13T06:08:18.681172+00:00",
+  "last_updated": "2026-11-13T19:28:12.690549+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,24 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-114713",
+            "vendor": "UnrealIRCd",
+            "product": "UnrealIRCd",
+            "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+            "date_added": "2026-11-13",
+            "due_date": "2026-11-16",
+            "description": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority."
+          },
+          {
+            "cve_id": "CVE-2026-123039",
+            "vendor": "Check Point",
+            "product": "Multiple Products",
+            "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+            "date_added": "2026-11-13",
+            "due_date": "2026-11-16",
+            "description": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root."
+          },
           {
             "cve_id": "CVE-2026-124194",
             "vendor": "Microsoft",
@@ -4490,28 +4508,10 @@
             "date_added": "2025-03-03",
             "due_date": "2025-03-24",
             "description": "Hitachi Vantara Pentaho BA Server contains a use of non-canonical URL paths for authorization decisions vulnerability that enables an attacker to bypass authorization."
-          },
-          {
-            "cve_id": "CVE-2023-20118",
-            "vendor": "Cisco",
-            "product": "Small Business RV Series Routers",
-            "name": "Cisco Small Business RV Series Routers Command Injection Vulnerability",
-            "date_added": "2025-03-03",
-            "due_date": "2025-03-24",
-            "description": "Multiple Cisco Small Business RV Series Routers contains a command injection vulnerability in the web-based management interface. Successful exploitation could allow an authenticated, remote attacker to gain root-level privileges and access unauthorized data."
-          },
-          {
-            "cve_id": "CVE-2023-34192",
-            "vendor": "Synacor",
-            "product": "Zimbra Collaboration Suite (ZCS)",
-            "name": "Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability",
-            "date_added": "2025-02-25",
-            "due_date": "2025-03-18",
-            "description": "Synacor Zimbra Collaboration Suite (ZCS) contains a cross-site scripting (XSS) vulnerability that allows a remote authenticated attacker to execute arbitrary code via a crafted script to the /h/autoSaveDraft function."
           }
         ],
-        "total_count": 1779,
-        "last_fetch": "2026-11-13T06:08:18.816977+00:00"
+        "total_count": 1781,
+        "last_fetch": "2026-11-13T19:28:12.970626+00:00"
       }
     }
   ]
