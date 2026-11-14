@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-11-13T19:28:12.690549+00:00",
+  "last_updated": "2026-11-14T05:54:23.411720+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -295,7 +295,7 @@
             "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
             "date_added": "2026-10-20",
             "due_date": "2026-11-03",
-            "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656. "
+            "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656."
           },
           {
             "cve_id": "CVE-2026-110936",
@@ -391,7 +391,7 @@
             "cve_id": "CVE-2015-5477",
             "vendor": "ISC",
             "product": "BIND",
-            "name": " ISC BIND Data Processing Errors Vulnerability",
+            "name": "ISC BIND Data Processing Errors Vulnerability",
             "date_added": "2026-10-08",
             "due_date": "2026-10-11",
             "description": "ISC BIND contains a data processing errors vulnerability that could allow remote attackers to cause a denial of service via TKEY queries."
@@ -412,7 +412,7 @@
             "name": "Strapi Cleartext Storage of Sensitive Information Vulnerability",
             "date_added": "2026-10-08",
             "due_date": "2026-10-11",
-            "description": "Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. This vulnerability can be chained with CVE-2023-22621 to achieve remote code execution. "
+            "description": "Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. This vulnerability can be chained with CVE-2023-22621 to achieve remote code execution."
           },
           {
             "cve_id": "CVE-2021-3199",
@@ -535,19 +535,19 @@
             "cve_id": "CVE-2026-5430",
             "vendor": "WSO2",
             "product": "Multiple Products",
-            "name": "WSO2 Multiple Products Path Traversal Vulnerability ",
+            "name": "WSO2 Multiple Products Path Traversal Vulnerability",
             "date_added": "2026-09-24",
             "due_date": "2026-09-27",
-            "description": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution. "
+            "description": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution."
           },
           {
             "cve_id": "CVE-2026-71362",
             "vendor": "Adobe",
-            "product": "Commerce and Magento ",
-            "name": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+            "product": "Commerce and Magento",
+            "name": "Adobe Commerce and Magento Incorrect Authorization Vulnerability",
             "date_added": "2026-09-24",
             "due_date": "2026-09-27",
-            "description": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. "
+            "description": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction."
           },
           {
             "cve_id": "CVE-2026-93952",
@@ -826,7 +826,7 @@
             "name": "JFrog Artifactory Improper Authentication Vulnerability",
             "date_added": "2026-09-02",
             "due_date": "2026-09-05",
-            "description": "JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges. "
+            "description": "JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges."
           },
           {
             "cve_id": "CVE-2026-9586",
@@ -889,7 +889,7 @@
             "name": "Linux Kernel Unspecified Vulnerability",
             "date_added": "2026-08-27",
             "due_date": "2026-08-30",
-            "description": "Linux Kernel contains an unspecified vulnerability that can allow for privilege escalation via IPv6 networking subsystem. This vulnerability can impact multiple products, including but not limited to Suse, Red Hat, and other products using Linux. "
+            "description": "Linux Kernel contains an unspecified vulnerability that can allow for privilege escalation via IPv6 networking subsystem. This vulnerability can impact multiple products, including but not limited to Suse, Red Hat, and other products using Linux."
           },
           {
             "cve_id": "CVE-2026-66384",
@@ -916,7 +916,7 @@
             "name": "Red Hat Libuser Race Condition Vulnerability",
             "date_added": "2026-08-26",
             "due_date": "2026-09-09",
-            "description": "Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation. "
+            "description": "Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation."
           },
           {
             "cve_id": "CVE-2015-5287",
@@ -943,7 +943,7 @@
             "name": "Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
             "date_added": "2026-08-26",
             "due_date": "2026-08-29",
-            "description": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability which could lead to denial of service. "
+            "description": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability which could lead to denial of service."
           },
           {
             "cve_id": "CVE-2019-1068",
@@ -1056,7 +1056,7 @@
           {
             "cve_id": "CVE-2026-20349",
             "vendor": "Cisco",
-            "product": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ",
+            "product": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
             "name": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
             "date_added": "2026-08-11",
             "due_date": "2026-08-14",
@@ -1065,7 +1065,7 @@
           {
             "cve_id": "CVE-2026-68820",
             "vendor": "Microsoft",
-            "product": "Windows Ancillary Function Driver for WinSock ",
+            "product": "Windows Ancillary Function Driver for WinSock",
             "name": "Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
             "date_added": "2026-08-11",
             "due_date": "2026-08-25",
@@ -1174,7 +1174,7 @@
             "cve_id": "CVE-2026-50522",
             "vendor": "Microsoft",
             "product": "SharePoint",
-            "name": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability ",
+            "name": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
             "date_added": "2026-07-22",
             "due_date": "2026-07-25",
             "description": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network."
@@ -1204,7 +1204,7 @@
             "name": "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
             "date_added": "2026-07-21",
             "due_date": "2026-07-24",
-            "description": "Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations. "
+            "description": "Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations."
           },
           {
             "cve_id": "CVE-2021-27137",
@@ -1258,13 +1258,13 @@
             "name": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
             "date_added": "2026-07-15",
             "due_date": "2026-07-29",
-            "description": "KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without additional security options enabled and set a BCU key to lock the device. "
+            "description": "KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without additional security options enabled and set a BCU key to lock the device."
           },
           {
             "cve_id": "CVE-2026-56155",
             "vendor": "Microsoft",
             "product": "Active Directory Federation Services",
-            "name": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+            "name": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability",
             "date_added": "2026-07-14",
             "due_date": "2026-07-28",
             "description": "Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally."
@@ -1443,11 +1443,11 @@
           {
             "cve_id": "CVE-2026-48907",
             "vendor": "Widget Factory",
-            "product": "Joomla Content Editor ",
+            "product": "Joomla Content Editor",
             "name": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
             "date_added": "2026-06-16",
             "due_date": "2026-06-19",
-            "description": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users. "
+            "description": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users."
           },
           {
             "cve_id": "CVE-2026-54420",
@@ -1470,7 +1470,7 @@
           {
             "cve_id": "CVE-2026-35273",
             "vendor": "Oracle",
-            "product": " PeopleSoft Enterprise PeopleTools",
+            "product": "PeopleSoft Enterprise PeopleTools",
             "name": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
             "date_added": "2026-06-12",
             "due_date": "2026-06-15",
@@ -2208,7 +2208,7 @@
           {
             "cve_id": "CVE-2026-1603",
             "vendor": "Ivanti",
-            "product": " Endpoint Manager (EPM)",
+            "product": "Endpoint Manager (EPM)",
             "name": "Ivanti Endpoint Manager (EPM) Authentication Bypass Vulnerability",
             "date_added": "2026-03-09",
             "due_date": "2026-03-23",
@@ -2275,7 +2275,7 @@
             "name": "Qualcomm Multiple Chipsets Memory Corruption Vulnerability",
             "date_added": "2026-03-03",
             "due_date": "2026-03-24",
-            "description": "Multiple Qualcomm chipsets contain a memory corruption vulnerability while using alignments for memory allocation. "
+            "description": "Multiple Qualcomm chipsets contain a memory corruption vulnerability while using alignments for memory allocation."
           },
           {
             "cve_id": "CVE-2022-20775",
@@ -2362,7 +2362,7 @@
             "cve_id": "CVE-2008-0015",
             "vendor": "Microsoft",
             "product": "Windows",
-            "name": " Microsoft Windows Video ActiveX Control Remote Code Execution Vulnerability",
+            "name": "Microsoft Windows Video ActiveX Control Remote Code Execution Vulnerability",
             "date_added": "2026-02-17",
             "due_date": "2026-03-10",
             "description": "Microsoft Windows Video ActiveX Control contains a remote code execution vulnerability. An attacker could exploit the vulnerability by constructing a specially crafted Web page. When a user views the Web page, the vulnerability could allow remote code execution. An attacker who successfully exploited this vulnerability could gain the same user rights as the logged-on user."
@@ -2446,7 +2446,7 @@
             "name": "Microsoft Windows Shell Protection Mechanism Failure Vulnerability",
             "date_added": "2026-02-10",
             "due_date": "2026-03-03",
-            "description": "Microsoft Windows Shell contains a protection mechanism failure vulnerability that could allow an unauthorized attacker to bypass a security feature over a network. "
+            "description": "Microsoft Windows Shell contains a protection mechanism failure vulnerability that could allow an unauthorized attacker to bypass a security feature over a network."
           },
           {
             "cve_id": "CVE-2026-21533",
@@ -2491,7 +2491,7 @@
             "name": "SmarterTools SmarterMail Missing Authentication for Critical Function Vulnerability",
             "date_added": "2026-02-05",
             "due_date": "2026-02-26",
-            "description": "SmarterTools SmarterMail contains a missing authentication for critical function vulnerability in the ConnectToHub API method. This could allow the attacker to point the SmarterMail instance to a malicious HTTP server which serves the malicious OS command and could lead to command execution. "
+            "description": "SmarterTools SmarterMail contains a missing authentication for critical function vulnerability in the ConnectToHub API method. This could allow the attacker to point the SmarterMail instance to a malicious HTTP server which serves the malicious OS command and could lead to command execution."
           },
           {
             "cve_id": "CVE-2021-39935",
@@ -2500,22 +2500,22 @@
             "name": "GitLab Community and Enterprise Editions Server-Side Request Forgery (SSRF) Vulnerability",
             "date_added": "2026-02-03",
             "due_date": "2026-02-24",
-            "description": "GitLab Community and Enterprise Editions contain a server-side request forgery vulnerability which could allow unauthorized external users to perform Server Side Requests via the CI Lint API. "
+            "description": "GitLab Community and Enterprise Editions contain a server-side request forgery vulnerability which could allow unauthorized external users to perform Server Side Requests via the CI Lint API."
           },
           {
             "cve_id": "CVE-2025-64328",
             "vendor": "Sangoma",
-            "product": "FreePBX ",
+            "product": "FreePBX",
             "name": "Sangoma FreePBX OS Command Injection Vulnerability",
             "date_added": "2026-02-03",
             "due_date": "2026-02-24",
-            "description": "Sangoma FreePBX Endpoint Manager contains an OS command injection vulnerability that could allow for a post-authentication command injection by an authenticated known user via the testconnection -> check_ssh_connect() function. An attacker can leverage this vulnerability to potentially obtain remote access to the system as an asterisk user. "
+            "description": "Sangoma FreePBX Endpoint Manager contains an OS command injection vulnerability that could allow for a post-authentication command injection by an authenticated known user via the testconnection -> check_ssh_connect() function. An attacker can leverage this vulnerability to potentially obtain remote access to the system as an asterisk user."
           },
           {
             "cve_id": "CVE-2019-19006",
             "vendor": "Sangoma",
             "product": "FreePBX",
-            "name": " Sangoma FreePBX Improper Authentication Vulnerability",
+            "name": "Sangoma FreePBX Improper Authentication Vulnerability",
             "date_added": "2026-02-03",
             "due_date": "2026-02-24",
             "description": "Sangoma FreePBX contains an improper authentication vulnerability that potentially allows unauthorized users to bypass password authentication and access services provided by the FreePBX admin."
@@ -2604,7 +2604,7 @@
           {
             "cve_id": "CVE-2025-68645",
             "vendor": "Synacor",
-            "product": " Zimbra Collaboration Suite (ZCS)",
+            "product": "Zimbra Collaboration Suite (ZCS)",
             "name": "Synacor Zimbra Collaboration Suite (ZCS) PHP Remote File Inclusion Vulnerability",
             "date_added": "2026-01-22",
             "due_date": "2026-02-12",
@@ -3346,7 +3346,7 @@
             "name": "Sitecore Multiple Products Deserialization of Untrusted Data Vulnerability",
             "date_added": "2025-09-04",
             "due_date": "2025-09-25",
-            "description": "Sitecore Experience Manager (XM), Experience Platform (XP), Experience Commerce (XC), and Managed Cloud contain a deserialization of untrusted data vulnerability involving the use of default machine keys. This flaw allows attackers to exploit exposed ASP.NET machine keys to achieve remote code execution. "
+            "description": "Sitecore Experience Manager (XM), Experience Platform (XP), Experience Commerce (XC), and Managed Cloud contain a deserialization of untrusted data vulnerability involving the use of default machine keys. This flaw allows attackers to exploit exposed ASP.NET machine keys to achieve remote code execution."
           },
           {
             "cve_id": "CVE-2023-50224",
@@ -3526,7 +3526,7 @@
             "name": "PaperCut NG/MF Cross-Site Request Forgery (CSRF) Vulnerability",
             "date_added": "2025-07-28",
             "due_date": "2025-08-18",
-            "description": "PaperCut NG/MF contains a cross-site request forgery (CSRF) vulnerability, which, under specific conditions, could potentially enable an attacker to alter security settings or execute arbitrary code. "
+            "description": "PaperCut NG/MF contains a cross-site request forgery (CSRF) vulnerability, which, under specific conditions, could potentially enable an attacker to alter security settings or execute arbitrary code."
           },
           {
             "cve_id": "CVE-2025-20337",
@@ -3577,7 +3577,7 @@
             "cve_id": "CVE-2025-54309",
             "vendor": "CrushFTP",
             "product": "CrushFTP",
-            "name": " CrushFTP Unprotected Alternate Channel Vulnerability",
+            "name": "CrushFTP Unprotected Alternate Channel Vulnerability",
             "date_added": "2025-07-22",
             "due_date": "2025-08-12",
             "description": "CrushFTP contains an unprotected alternate channel vulnerability. When the DMZ proxy feature is not used, mishandles AS2 validation and consequently allows remote attackers to obtain admin access via HTTPS."
@@ -3715,13 +3715,13 @@
             "name": "Fortinet FortiOS Use of Hard-Coded Credentials Vulnerability",
             "date_added": "2025-06-25",
             "due_date": "2025-07-16",
-            "description": "Fortinet FortiOS contains a use of hard-coded credentials vulnerability that could allow an attacker to cipher sensitive data in FortiOS configuration backup file via knowledge of the hard-coded key. "
+            "description": "Fortinet FortiOS contains a use of hard-coded credentials vulnerability that could allow an attacker to cipher sensitive data in FortiOS configuration backup file via knowledge of the hard-coded key."
           },
           {
             "cve_id": "CVE-2024-0769",
             "vendor": "D-Link",
             "product": "DIR-859 Router",
-            "name": " D-Link DIR-859 Router Path Traversal Vulnerability",
+            "name": "D-Link DIR-859 Router Path Traversal Vulnerability",
             "date_added": "2025-06-25",
             "due_date": "2025-07-16",
             "description": "D-Link DIR-859 routers contain a path traversal vulnerability in the file /hedwig.cgi of the component HTTP POST Request Handler. Manipulation of the argument service with the input ../../../../htdocs/webinc/getcfg/DHCPS6.BRIDGE-1.xml allows for the leakage of session data potentially enabling privilege escalation and unauthorized control of the device. This vulnerability affects legacy D-Link products. All associated hardware revisions have reached their end-of-life (EOL) or end-of-service (EOS) life cycle and should be retired and replaced per vendor instructions."
@@ -3766,7 +3766,7 @@
             "cve_id": "CVE-2025-33053",
             "vendor": "Microsoft",
             "product": "Windows",
-            "name": " Microsoft Windows External Control of File Name or Path Vulnerability",
+            "name": "Microsoft Windows External Control of File Name or Path Vulnerability",
             "date_added": "2025-06-10",
             "due_date": "2025-07-01",
             "description": "Microsoft Windows contains an external control of file name or path vulnerability that could allow an attacker to execute code from a remote WebDAV location specified by the WorkingDirectory attribute of Internet Shortcut files."
@@ -4210,7 +4210,7 @@
             "name": "CrushFTP Authentication Bypass Vulnerability",
             "date_added": "2025-04-07",
             "due_date": "2025-04-28",
-            "description": "CrushFTP contains an authentication bypass vulnerability in the HTTP authorization header that allows a remote unauthenticated attacker to authenticate to any known or guessable user account (e.g., crushadmin), potentially leading to a full compromise. "
+            "description": "CrushFTP contains an authentication bypass vulnerability in the HTTP authorization header that allows a remote unauthenticated attacker to authenticate to any known or guessable user account (e.g., crushadmin), potentially leading to a full compromise."
           },
           {
             "cve_id": "CVE-2025-22457",
@@ -4219,7 +4219,7 @@
             "name": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability",
             "date_added": "2025-04-04",
             "due_date": "2025-04-11",
-            "description": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways contains a stack-based buffer overflow vulnerability that allows a remote unauthenticated attacker to achieve remote code execution. "
+            "description": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways contains a stack-based buffer overflow vulnerability that allows a remote unauthenticated attacker to achieve remote code execution."
           },
           {
             "cve_id": "CVE-2025-24813",
@@ -4318,7 +4318,7 @@
             "name": "Fortinet FortiOS and FortiProxy Authentication Bypass Vulnerability",
             "date_added": "2025-03-18",
             "due_date": "2025-04-08",
-            "description": " Fortinet FortiOS and FortiProxy contain an authentication bypass vulnerability that allows a remote attacker to gain super-admin privileges via crafted CSF proxy requests."
+            "description": "Fortinet FortiOS and FortiProxy contain an authentication bypass vulnerability that allows a remote attacker to gain super-admin privileges via crafted CSF proxy requests."
           },
           {
             "cve_id": "CVE-2025-21590",
@@ -4432,7 +4432,7 @@
             "cve_id": "CVE-2025-25181",
             "vendor": "Advantive",
             "product": "VeraCore",
-            "name": " Advantive VeraCore SQL Injection Vulnerability",
+            "name": "Advantive VeraCore SQL Injection Vulnerability",
             "date_added": "2025-03-10",
             "due_date": "2025-03-31",
             "description": "Advantive VeraCore contains a SQL injection vulnerability in timeoutWarning.asp that allows a remote attacker to execute arbitrary SQL commands via the PmSess1 parameter."
@@ -4511,7 +4511,7 @@
           }
         ],
         "total_count": 1781,
-        "last_fetch": "2026-11-13T19:28:12.970626+00:00"
+        "last_fetch": "2026-11-14T05:54:23.642801+00:00"
       }
     }
   ]
