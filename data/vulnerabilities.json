@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-11-17T15:48:42.197538+00:00",
+  "last_updated": "2026-11-18T00:50:16.433278+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,15 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-115731",
+            "vendor": "Perforce",
+            "product": "Puppet Enterprise",
+            "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+            "date_added": "2026-11-17",
+            "due_date": "2026-12-01",
+            "description": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request. If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and exploit the vulnerability."
+          },
           {
             "cve_id": "CVE-2026-114713",
             "vendor": "UnrealIRCd",
@@ -1370,7 +1379,7 @@
           },
           {
             "cve_id": "CVE-2026-48558",
-            "vendor": "SimpleHelp ",
+            "vendor": "SimpleHelp",
             "product": "SimpleHelp",
             "name": "SimpleHelp Authentication Bypass Vulnerability",
             "date_added": "2026-06-29",
@@ -1811,7 +1820,7 @@
           },
           {
             "cve_id": "CVE-2024-57728",
-            "vendor": "SimpleHelp ",
+            "vendor": "SimpleHelp",
             "product": "SimpleHelp",
             "name": "SimpleHelp Path Traversal Vulnerability",
             "date_added": "2026-04-24",
@@ -1820,7 +1829,7 @@
           },
           {
             "cve_id": "CVE-2024-57726",
-            "vendor": "SimpleHelp ",
+            "vendor": "SimpleHelp",
             "product": "SimpleHelp",
             "name": "SimpleHelp Missing Authorization Vulnerability",
             "date_added": "2026-04-24",
@@ -2819,7 +2828,7 @@
           },
           {
             "cve_id": "CVE-2025-66644",
-            "vendor": "Array Networks ",
+            "vendor": "Array Networks",
             "product": "ArrayOS AG",
             "name": "Array Networks ArrayOS AG OS Command Injection Vulnerability",
             "date_added": "2025-12-08",
@@ -4499,19 +4508,10 @@
             "date_added": "2025-03-03",
             "due_date": "2025-03-24",
             "description": "Hitachi Vantara Pentaho BA Server contains a special element injection vulnerability that allows an attacker to inject Spring templates into properties files, allowing for arbitrary command execution."
-          },
-          {
-            "cve_id": "CVE-2022-43939",
-            "vendor": "Hitachi Vantara",
-            "product": "Pentaho Business Analytics (BA) Server",
-            "name": "Hitachi Vantara Pentaho BA Server Authorization Bypass Vulnerability",
-            "date_added": "2025-03-03",
-            "due_date": "2025-03-24",
-            "description": "Hitachi Vantara Pentaho BA Server contains a use of non-canonical URL paths for authorization decisions vulnerability that enables an attacker to bypass authorization."
           }
         ],
-        "total_count": 1781,
-        "last_fetch": "2026-11-17T15:48:42.385619+00:00"
+        "total_count": 1782,
+        "last_fetch": "2026-11-18T00:50:16.558133+00:00"
       }
     }
   ]
