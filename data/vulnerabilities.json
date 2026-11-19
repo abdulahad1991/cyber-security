@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-11-18T15:27:49.838014+00:00",
+  "last_updated": "2026-11-19T00:08:33.654499+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,42 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2024-10441",
+            "vendor": "Synology",
+            "product": "DiskStation Manager (DSM)",
+            "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+            "date_added": "2026-11-18",
+            "due_date": "2026-11-21",
+            "description": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors."
+          },
+          {
+            "cve_id": "CVE-2026-40217",
+            "vendor": "BerriAI",
+            "product": "LiteLLM",
+            "name": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+            "date_added": "2026-11-18",
+            "due_date": "2026-12-02",
+            "description": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI."
+          },
+          {
+            "cve_id": "CVE-2026-90817",
+            "vendor": "Vanderbilt University",
+            "product": "Research Electronic Data Capture (REDCap)",
+            "name": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+            "date_added": "2026-11-18",
+            "due_date": "2026-11-21",
+            "description": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash."
+          },
+          {
+            "cve_id": "CVE-2026-90436",
+            "vendor": "Apache",
+            "product": "Axis",
+            "name": "Apache Axis Unsafe Reflection Vulnerability",
+            "date_added": "2026-11-18",
+            "due_date": "2026-11-21",
+            "description": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version."
+          },
           {
             "cve_id": "CVE-2026-115731",
             "vendor": "Perforce",
@@ -4472,46 +4508,10 @@
             "date_added": "2025-03-04",
             "due_date": "2025-03-25",
             "description": "VMware ESXi and Workstation contain a time-of-check time-of-use (TOCTOU) race condition vulnerability that leads to an out-of-bounds write. Successful exploitation enables an attacker with local administrative privileges on a virtual machine to execute code as the virtual machine's VMX process running on the host."
-          },
-          {
-            "cve_id": "CVE-2024-50302",
-            "vendor": "Linux",
-            "product": "Kernel",
-            "name": "Linux Kernel Use of Uninitialized Resource Vulnerability",
-            "date_added": "2025-03-04",
-            "due_date": "2025-03-25",
-            "description": "The Linux kernel contains a use of uninitialized resource vulnerability that allows an attacker to leak kernel memory via a specially crafted HID report."
-          },
-          {
-            "cve_id": "CVE-2024-4885",
-            "vendor": "Progress",
-            "product": "WhatsUp Gold",
-            "name": "Progress WhatsUp Gold Path Traversal Vulnerability",
-            "date_added": "2025-03-03",
-            "due_date": "2025-03-24",
-            "description": "Progress WhatsUp Gold contains a path traversal vulnerability that allows an unauthenticated attacker to achieve remote code execution."
-          },
-          {
-            "cve_id": "CVE-2018-8639",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Win32k Improper Resource Shutdown or Release Vulnerability",
-            "date_added": "2025-03-03",
-            "due_date": "2025-03-24",
-            "description": "Microsoft Windows Win32k contains an improper resource shutdown or release vulnerability that allows for local, authenticated privilege escalation. An attacker who successfully exploited this vulnerability could run arbitrary code in kernel mode."
-          },
-          {
-            "cve_id": "CVE-2022-43769",
-            "vendor": "Hitachi Vantara",
-            "product": "Pentaho Business Analytics (BA) Server",
-            "name": "Hitachi Vantara Pentaho BA Server Special Element Injection Vulnerability",
-            "date_added": "2025-03-03",
-            "due_date": "2025-03-24",
-            "description": "Hitachi Vantara Pentaho BA Server contains a special element injection vulnerability that allows an attacker to inject Spring templates into properties files, allowing for arbitrary command execution."
           }
         ],
-        "total_count": 1782,
-        "last_fetch": "2026-11-18T15:27:50.049098+00:00"
+        "total_count": 1786,
+        "last_fetch": "2026-11-19T00:08:33.915221+00:00"
       }
     }
   ]
