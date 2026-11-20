@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-11-20T15:13:24.058056+00:00",
+  "last_updated": "2026-11-20T23:53:19.816572+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,42 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-129448",
+            "vendor": "Apache",
+            "product": "Roller",
+            "name": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+            "date_added": "2026-11-20",
+            "due_date": "2026-11-23",
+            "description": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions."
+          },
+          {
+            "cve_id": "CVE-2026-123890",
+            "vendor": "Broadcom",
+            "product": "VMware vCenter",
+            "name": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+            "date_added": "2026-11-20",
+            "due_date": "2026-11-23",
+            "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system."
+          },
+          {
+            "cve_id": "CVE-2025-42884",
+            "vendor": "SAP",
+            "product": "NetWeaver",
+            "name": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+            "date_added": "2026-11-20",
+            "due_date": "2026-11-23",
+            "description": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations."
+          },
+          {
+            "cve_id": "CVE-2026-76466",
+            "vendor": "Cisco",
+            "product": "Expressway Series",
+            "name": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+            "date_added": "2026-11-20",
+            "due_date": "2026-11-23",
+            "description": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service."
+          },
           {
             "cve_id": "CVE-2024-10441",
             "vendor": "Synology",
@@ -4472,46 +4508,10 @@
             "date_added": "2025-03-10",
             "due_date": "2025-03-31",
             "description": "Advantive VeraCore contains an unrestricted file upload vulnerability that allows a remote unauthenticated attacker to upload files to unintended folders via upload.apsx."
-          },
-          {
-            "cve_id": "CVE-2025-25181",
-            "vendor": "Advantive",
-            "product": "VeraCore",
-            "name": "Advantive VeraCore SQL Injection Vulnerability",
-            "date_added": "2025-03-10",
-            "due_date": "2025-03-31",
-            "description": "Advantive VeraCore contains a SQL injection vulnerability in timeoutWarning.asp that allows a remote attacker to execute arbitrary SQL commands via the PmSess1 parameter."
-          },
-          {
-            "cve_id": "CVE-2025-22226",
-            "vendor": "VMware",
-            "product": "ESXi, Workstation, and Fusion",
-            "name": "VMware ESXi, Workstation, and Fusion Information Disclosure Vulnerability",
-            "date_added": "2025-03-04",
-            "due_date": "2025-03-25",
-            "description": "VMware ESXi, Workstation, and Fusion contain an information disclosure vulnerability due to an out-of-bounds read in HGFS. Successful exploitation allows an attacker with administrative privileges to a virtual machine to leak memory from the vmx process."
-          },
-          {
-            "cve_id": "CVE-2025-22225",
-            "vendor": "VMware",
-            "product": "ESXi",
-            "name": "VMware ESXi Arbitrary Write Vulnerability",
-            "date_added": "2025-03-04",
-            "due_date": "2025-03-25",
-            "description": "VMware ESXi contains an arbitrary write vulnerability. Successful exploitation allows an attacker with privileges within the VMX process to trigger an arbitrary kernel write leading to an escape of the sandbox."
-          },
-          {
-            "cve_id": "CVE-2025-22224",
-            "vendor": "VMware",
-            "product": "ESXi and Workstation",
-            "name": "VMware ESXi and Workstation TOCTOU Race Condition Vulnerability",
-            "date_added": "2025-03-04",
-            "due_date": "2025-03-25",
-            "description": "VMware ESXi and Workstation contain a time-of-check time-of-use (TOCTOU) race condition vulnerability that leads to an out-of-bounds write. Successful exploitation enables an attacker with local administrative privileges on a virtual machine to execute code as the virtual machine's VMX process running on the host."
           }
         ],
-        "total_count": 1786,
-        "last_fetch": "2026-11-20T15:13:24.180864+00:00"
+        "total_count": 1790,
+        "last_fetch": "2026-11-20T23:53:19.928857+00:00"
       }
     }
   ]
