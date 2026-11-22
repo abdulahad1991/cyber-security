@@ -1,6 +1,6 @@
 {
   "category": "security_testing",
-  "last_updated": "2026-11-15T08:48:39.623864+00:00",
+  "last_updated": "2026-11-22T09:20:14.003610+00:00",
   "sources": [
     {
       "name": "Qualys SSL Labs API Docs",
@@ -47,7 +47,7 @@
           }
         ],
         "summary": "ssllabs-scan/ssllabs-api-docs.md at master · ssllabs/ssllabs-scan · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert Files Expand file tree master / ssllabs-api-docs.md Copy path Blame More file actions Blame More file actions Latest commit History History History 4 lines (2 loc) · 126 Bytes master / ssllabs-api-docs.md Copy path Top File metadata and controls Preview Code Blame 4 lines (2 loc) · 126 Bytes Raw Copy raw file Download raw file Edit and raw actions The documentation for the SSL Labs API v4: https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v4.md You can’t perform that action at this time.",
-        "last_fetch": "2026-11-15T08:48:39.954984+00:00"
+        "last_fetch": "2026-11-22T09:20:14.369194+00:00"
       }
     },
     {
@@ -62,8 +62,8 @@
             "content": "Hide results Follow redirects"
           }
         ],
-        "summary": "Analyse your HTTP response headers Grand Totals A+ 9,376,182 A 45,979,648 B 19,898,240 C 19,112,498 D 54,961,071 E 9,985,834 F 191,284,224 R 62,880,891 Total 413,478,588 Recent Scans ervinjarrel.my.id F api.staging.byonyk... A+ www.n8ggi.cc F video-generator.ai D bbs.mofang.com.tw F imlite.com A mcm998th.cc D testnet.tzer0.fun F www.steelformingsy... A Hall of Fame api.staging.byonyk... A+ imlite.com A abhof.kaufen A www.steelformingsy... A onboarding.staging... A scandicknots.co.uk A oilwatch-katangoji... A+ fated.org A+ cdn.instil.co A Hall of Shame ervinjarrel.my.id F www.n8ggi.cc F bbs.mofang.com.tw F testnet.tzer0.fun F en.woniuo.com F movehorn8.bravejou... F boloyangov.ru F www.acteamo.com F noblevoyages.co F A snyk.io project - CC-BY-SA 4.0 Powered by Snyk Twitter Facebook Email",
-        "last_fetch": "2026-11-15T08:48:40.337936+00:00"
+        "summary": "Analyse your HTTP response headers Grand Totals A+ 9,422,950 A 46,107,775 B 19,929,022 C 19,145,698 D 55,066,346 E 9,989,718 F 191,459,920 R 62,972,867 Total 414,094,296 Recent Scans www.shoutout.kr A laptopstore393.blo... E librilabs.com A+ www.z2n9s.cc F theamigo.in A rossema.com A www.yorkrepairs.co... F sextales.org D www.previbank.it F Hall of Fame www.shoutout.kr A librilabs.com A+ theamigo.in A rossema.com A rushready.ecolab.c... A+ www.worldvision.fr A luban.ug.gov.pl A+ massesnearme.com A+ fated.org A+ Hall of Shame www.z2n9s.cc F www.yorkrepairs.co... F m.meirrtkinguncela... F www.previbank.it F western.com.ph F c.kopp-verlag.de F thelimabusinessdir... F www.as4su.cc F www.homeforcash.co... F A snyk.io project - CC-BY-SA 4.0 Powered by Snyk Twitter Facebook Email",
+        "last_fetch": "2026-11-22T09:20:14.548350+00:00"
       }
     },
     {
@@ -127,7 +127,7 @@
           }
         ],
         "summary": "HSTS Preload List Submission On GitHub HTTP Strict Transport Security (HSTS) HTTP Strict Transport Security (HSTS) is a mechanism for websites to instruct web browsers that the site should only be accessed over HTTPS. This mechanism works by sites sending a Strict-Transport-Security HTTP response header containing the site's policy. HSTS is supported by most major browsers . For more details on HSTS, see RFC 6797 . Benefits of HSTS When a web browser enforces a domain's HSTS policy, it will upgrade all http:// URLs for that domain to HTTPS. If the policy also sets includeSubDomains , it will do this for all subdomains as well. A site that enables HSTS helps protect its users from the following attacks done by an on-path attacker: Browsing history leaks : If a user clicks on an HTTP link to a site, an on-path network observer can see that URL. If the site has an HSTS policy that is enforced, the browser upgrades that URL to HTTPS and the path is not visible to the network observer. Protocol downgrades : If a site redirects from HTTP to HTTPS, an on-path network attacker can intercept and re-write the redirect to keep the browser using plaintext HTTP. Cookie hijacking : On HTTP requests, an on-path network attacker can see and modify cookies. Even if the site redirects to HTTPS, the on-path attacker can inject cookies into the redirect response. Deployment Recommendations If your site is committed to HTTPS and you want browsers to enforce that your page is loaded only over HTTPS, we suggest the following steps to enable HSTS: Examine all subdomains (and nested subdomains) of your site and make sure that they work properly over HTTPS. Note: This also includes internal subdomains that are not publicly accessible. Add the Strict-Transport-Security header to all HTTPS responses and ramp up the max-age in stages, using the following header values: 5 minutes: max-age=300; includeSubDomains 1 week: max-age=604800; includeSubDomains 1 month: max-age=2592000; includeSubDomains During each stage, check for broken pages and monitor your site's metrics (e.g. traffic, revenue). Fix any problems that come up and then wait the full max-age of the stage before you move on. For example, wait a month in the last stage. If you have a group of employees or users who can beta test the deployment, consider trying the first few ramp-up stages on those users. Then make sure to go through all stages for all users, starting over from the beginning. Consult the Mozilla Web Security guidelines and the Google Web Fundamentals pages on security for more concrete advice about HTTPS deployment. Preloading HSTS Since sites tell the browser that they support HSTS when the browser visits, the browser cannot know a site's HSTS policy before the user has visited the site for the first time. As a result, the browser can not require HTTPS until after the first time it has connected to the site, possibly leaving the user unprotected. After this first load, the web browser has the site's ",
-        "last_fetch": "2026-11-15T08:48:40.685164+00:00"
+        "last_fetch": "2026-11-22T09:20:14.908522+00:00"
       }
     }
   ]
