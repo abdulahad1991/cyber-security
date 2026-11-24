@@ -1,6 +1,6 @@
 {
   "category": "vulnerabilities",
-  "last_updated": "2026-11-24T09:29:27.058937+00:00",
+  "last_updated": "2026-11-24T22:13:27.027530+00:00",
   "sources": [
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -9,6 +9,33 @@
       "data": {
         "description": "CISA catalog of vulnerabilities actively exploited in the wild",
         "entries": [
+          {
+            "cve_id": "CVE-2026-132224",
+            "vendor": "Optimizely",
+            "product": "Web Experimentation",
+            "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+            "date_added": "2026-11-24",
+            "due_date": "2026-11-27",
+            "description": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being distributed through Optimizely-hosted assets and executed in browsers visiting affected customer websites."
+          },
+          {
+            "cve_id": "CVE-2026-131914",
+            "vendor": "Idunno",
+            "product": "AntiCsrf",
+            "name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+            "date_added": "2026-11-24",
+            "due_date": "2026-11-27",
+            "description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version."
+          },
+          {
+            "cve_id": "CVE-2026-132165",
+            "vendor": "Drupal",
+            "product": "Core",
+            "name": "Drupal Core Remote Code Execution Vulnerability",
+            "date_added": "2026-11-24",
+            "due_date": "2026-11-27",
+            "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site."
+          },
           {
             "cve_id": "CVE-2026-133968",
             "vendor": "Project MONAI",
@@ -4481,37 +4508,10 @@
             "date_added": "2025-03-11",
             "due_date": "2025-04-01",
             "description": "Microsoft Windows Win32 Kernel Subsystem contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally."
-          },
-          {
-            "cve_id": "CVE-2025-26633",
-            "vendor": "Microsoft",
-            "product": "Windows",
-            "name": "Microsoft Windows Management Console (MMC) Improper Neutralization Vulnerability",
-            "date_added": "2025-03-11",
-            "due_date": "2025-04-01",
-            "description": "Microsoft Windows Management Console (MMC) contains an improper neutralization vulnerability that allows an unauthorized attacker to bypass a security feature locally."
-          },
-          {
-            "cve_id": "CVE-2024-13161",
-            "vendor": "Ivanti",
-            "product": "Endpoint Manager (EPM)",
-            "name": "Ivanti Endpoint Manager (EPM) Absolute Path Traversal Vulnerability",
-            "date_added": "2025-03-10",
-            "due_date": "2025-03-31",
-            "description": "Ivanti Endpoint Manager (EPM) contains an absolute path traversal vulnerability that allows a remote unauthenticated attacker to leak sensitive information."
-          },
-          {
-            "cve_id": "CVE-2024-13160",
-            "vendor": "Ivanti",
-            "product": "Endpoint Manager (EPM)",
-            "name": "Ivanti Endpoint Manager (EPM) Absolute Path Traversal Vulnerability",
-            "date_added": "2025-03-10",
-            "due_date": "2025-03-31",
-            "description": "Ivanti Endpoint Manager (EPM) contains an absolute path traversal vulnerability that allows a remote unauthenticated attacker to leak sensitive information."
           }
         ],
-        "total_count": 1792,
-        "last_fetch": "2026-11-24T09:29:27.271485+00:00"
+        "total_count": 1795,
+        "last_fetch": "2026-11-24T22:13:27.185705+00:00"
       }
     }
   ]
